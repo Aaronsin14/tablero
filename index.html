@@ -133,8 +133,9 @@
   .evitem.g{border-left-color:var(--green)} .evitem.a{border-left-color:var(--amber)}
 
   /* ============ MODO TV: 1920x1080 SIN SCROLL ============ */
-  body.tv{overflow:hidden}
-  body.tv .wrap{max-width:1920px;height:100vh;display:flex;flex-direction:column;padding:0;overflow:hidden}
+  body.tv{overflow:hidden;height:100vh}
+  html:has(body.tv){overflow:hidden}
+  body.tv .wrap{max-width:1920px;height:100vh;height:100dvh;display:flex;flex-direction:column;padding:0;overflow:hidden;transform-origin:top center}
   body.tv header.top{padding:8px 20px;flex:0 0 auto}
   body.tv header.top h1{font-size:19px}
   body.tv header.top .sub{font-size:10px;margin-top:1px}
@@ -416,6 +417,9 @@ function render(){
 
   document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=0; saveState(); render(); };
   document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); saveState(); render(); };
+
+  // ajustar al tamano de pantalla despues de pintar
+  requestAnimationFrame(fitToScreen);
 }
 
 // guarda la semana y dia actuales en la URL (sin recargar) para que se recuerden
@@ -514,10 +518,28 @@ function defaultDay(wk){
   return 0;
 }
 
+// Ajusta el tablero para que SIEMPRE quepa en la pantalla sin scroll.
+// Si el contenido se pasa de alto, lo encoge con un scale justo.
+function fitToScreen(){
+  const wrap = document.querySelector(".wrap");
+  if(!wrap || !document.body.classList.contains("tv")) return;
+  // reset previo
+  wrap.style.transform = "";
+  wrap.style.height = "100dvh";
+  const avail = window.innerHeight;
+  const needed = wrap.scrollHeight;
+  if(needed > avail + 1){
+    const scale = avail / needed;
+    wrap.style.transformOrigin = "top center";
+    wrap.style.transform = `scale(${scale})`;
+    wrap.style.height = (avail/scale) + "px"; // compensa para que el fondo llene
+  }
+}
+
 (async function(){
   // Modo TV (1920x1080 sin scroll): auto si pantalla grande, o forzado con ?tv en la URL
   const forceTV = location.search.includes("tv");
-  const bigScreen = window.innerWidth>=1600 && window.innerHeight>=900;
+  const bigScreen = window.innerWidth>=1280 && window.innerHeight>=700;
   if(forceTV || bigScreen) document.body.classList.add("tv");
 
   DATA = await loadData();

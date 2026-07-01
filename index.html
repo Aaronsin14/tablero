@@ -81,12 +81,12 @@
   .chart2 .plot{width:100%;position:relative;display:flex;justify-content:center;align-items:flex-end}
   .chart2 .bar{position:relative;width:100%;max-width:70px;border-radius:7px 7px 0 0;transition:height .5s ease;min-height:3px;display:flex;justify-content:center}
   .chart2 .bar.g{background:var(--green)} .chart2 .bar.a{background:var(--amber)} .chart2 .bar.r{background:var(--red)} .chart2 .bar.z{background:#dfe4ea}
-  .chart2 .bv{position:absolute;top:-24px;font-weight:800;font-size:13px;color:var(--txt);line-height:1;white-space:nowrap;background:rgba(255,255,255,.92);padding:1px 4px;border-radius:4px;z-index:6}
-  .chart2 .bv.high{top:-40px}
-  /* linea de meta: posicionada por 'bottom' dentro del mismo plot, misma base que la barra */
-  .chart2 .mline{position:absolute;left:50%;transform:translateX(-50%);width:100%;max-width:70px;border-top:2px dashed #24406b;z-index:4}
-  .chart2 .mline .mlab{position:absolute;right:100%;top:-9px;margin-right:6px;font-size:11px;font-weight:800;color:#24406b;white-space:nowrap;background:rgba(255,255,255,.9);padding:0 2px;border-radius:3px}
-  .chart2 .mline .mlab.below{top:4px}
+  .chart2 .bv{position:absolute;left:50%;transform:translateX(-50%);font-weight:800;font-size:13px;line-height:1;white-space:nowrap}
+  .chart2 .bv.in{top:7px;color:#fff}
+  .chart2 .bv.out{top:-22px;color:var(--txt)}
+  /* linea de meta: posicionada por 'bottom', misma base que la barra */
+  .chart2 .mline{position:absolute;left:50%;transform:translateX(-50%);width:100%;max-width:72px;border-top:2px dashed #24406b;z-index:4}
+  .chart2 .mline .mlab{position:absolute;right:100%;top:-8px;margin-right:8px;font-size:11px;font-weight:800;color:#24406b;white-space:nowrap}
   .chart2 .mark{font-size:15px;font-weight:800;margin-top:6px;height:18px}
   .chart2 .mark.g{color:var(--green)} .chart2 .mark.a{color:var(--amber)} .chart2 .mark.r{color:var(--red)} .chart2 .mark.z{color:transparent}
   .chart2 .day{font-size:12px;color:var(--grey);font-weight:700;margin-top:4px}
@@ -462,20 +462,18 @@ function buildChart(K){
       h=Math.max(3,(a/maxV)*H);
     }
     const barVal = (a!==null && a>0)? Math.round(a).toLocaleString() : "";
-    // altura de la barra y posicion de la meta comparten la MISMA base (desde abajo)
     const metaBottom = p&&p>0 ? (p/maxV)*H : null;
-    // si el valor real y el plan estan muy cerca en altura, la etiqueta de barra (arriba)
-    // y la de meta (arriba de su linea) chocarian -> mandamos la etiqueta de meta ABAJO
-    const closeInHeight = (a!==null && p&&p>0) ? Math.abs((a-p)/maxV)*H < 34 : false;
-    const mlabCls = closeInHeight ? "mlab below" : "mlab";
     const metaHtml = metaBottom!==null
-      ? `<div class="mline" style="bottom:${metaBottom}px"><span class="${mlabCls}">${Math.round(p).toLocaleString()}</span></div>`
+      ? `<div class="mline" style="bottom:${metaBottom}px"><span class="mlab">${Math.round(p).toLocaleString()}</span></div>`
       : "";
-    const bvCls = closeInHeight ? "bv high" : "bv";
+    // valor de la barra: DENTRO de la barra (arriba, blanco) si hay espacio; si la barra
+    // es muy chica, va afuera arriba en color oscuro.
+    const inside = h >= 34;
+    const bvHtml = barVal ? `<span class="bv ${inside?'in':'out'}">${barVal}</span>` : "";
     cols += `<div class="col">
       <div class="plot" style="height:${H}px">
         ${metaHtml}
-        <div class="bar ${cls}" style="height:${h}px">${barVal?`<span class="${bvCls}">${barVal}</span>`:''}</div>
+        <div class="bar ${cls}" style="height:${h}px">${bvHtml}</div>
       </div>
       <div class="mark ${cls}">${mark}</div>
       <div class="day">Día ${i+1}</div>

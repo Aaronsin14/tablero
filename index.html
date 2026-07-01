@@ -406,8 +406,16 @@ function render(){
     <p>Piensa seguro · Trabaja seguro · Hazlo bien desde la primera vez · Cuida los recursos</p>
   </footer>`;
 
-  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=0; render(); };
-  document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); render(); };
+  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=0; saveState(); render(); };
+  document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); saveState(); render(); };
+}
+
+// guarda la semana y dia actuales en la URL (sin recargar) para que se recuerden
+function saveState(){
+  const p = new URLSearchParams(location.search);
+  p.set("w", CUR_WEEK);
+  p.set("d", CUR_DAY);
+  history.replaceState(null, "", location.pathname + "?" + p.toString());
 }
 
 function kcard(title, status, rowsHtml){
@@ -483,11 +491,21 @@ function defaultDay(wk){
   if(forceTV || bigScreen) document.body.classList.add("tv");
 
   DATA = await loadData();
-  CUR_WEEK = DATA.week_order[0];
-  CUR_DAY = defaultDay(DATA.weeks[CUR_WEEK]);
+
+  // restaurar semana/dia desde la URL (para que no se pierda al recargar o actualizar)
+  const params = new URLSearchParams(location.search);
+  const savedWeek = params.get("w");
+  const savedDay  = params.get("d");
+  if(savedWeek && DATA.weeks[savedWeek]){
+    CUR_WEEK = savedWeek;
+    CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : defaultDay(DATA.weeks[CUR_WEEK]);
+  } else {
+    CUR_WEEK = DATA.week_order[0];
+    CUR_DAY = defaultDay(DATA.weeks[CUR_WEEK]);
+  }
   render();
   // refresco automatico: el data.json lo regenera Python cada hora.
-  // aqui revisamos cada 5 min si cambio.
+  // aqui revisamos cada 5 min si cambio. Mantiene la semana/dia elegidos.
   setInterval(async ()=>{
     const fresh = await loadData();
     if(fresh.generated_at !== DATA.generated_at){

@@ -74,15 +74,15 @@
 
   /* bars chart */
   /* ---- grafico ordenado v2 ---- */
-  .chart2{position:relative;padding-top:24px}
-  .chart2 .bars{display:flex;align-items:flex-end;gap:16px}
-  .chart2 .col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
-  /* plot: contenedor de altura fija; barra y linea de meta miden desde la MISMA base (abajo) */
-  .chart2 .plot{width:100%;position:relative;display:flex;justify-content:center;align-items:flex-end}
+  .chart2{position:relative;padding-top:24px;height:230px}
+  .chart2 .bars{display:flex;align-items:flex-end;gap:16px;height:100%}
+  .chart2 .col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+  /* plot: contenedor; barra y linea de meta miden en % desde la MISMA base (abajo) */
+  .chart2 .plot{width:100%;position:relative;display:flex;justify-content:center;align-items:flex-end;flex:1 1 auto;min-height:0}
   .chart2 .bar{position:relative;width:100%;max-width:70px;border-radius:7px 7px 0 0;transition:height .5s ease;min-height:3px;display:flex;justify-content:center}
   .chart2 .bar.g{background:var(--green)} .chart2 .bar.a{background:var(--amber)} .chart2 .bar.r{background:var(--red)} .chart2 .bar.z{background:#dfe4ea}
   .chart2 .bv{position:absolute;left:50%;transform:translateX(-50%);font-weight:800;font-size:13px;line-height:1;white-space:nowrap}
-  .chart2 .bv.in{top:7px;color:#fff}
+  .chart2 .bv.in{top:11px;color:#fff}
   .chart2 .bv.out{top:-22px;color:var(--txt)}
   /* linea de meta: posicionada por 'bottom', misma base que la barra */
   .chart2 .mline{position:absolute;left:50%;transform:translateX(-50%);width:100%;max-width:72px;border-top:2px dashed #24406b;z-index:4}
@@ -163,7 +163,10 @@
   body.tv .lower .panel .phd{padding:7px 14px;font-size:13px;flex:0 0 auto}
   body.tv .lower .panel .pbody{padding:10px 14px;overflow:hidden;flex:1 1 auto;min-height:0}
   body.tv .hint{font-size:11px;margin:0 0 8px}
-  body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center}
+  body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;min-height:180px}
+  body.tv .chart2 .bars{flex:1 1 auto;min-height:0}
+  body.tv .chart2 .col{height:100%}
+  body.tv .chart2 .plot{height:100%!important}
   body.tv .legend{margin-top:8px;font-size:11px;gap:12px}
   body.tv table{font-size:12px}
   body.tv .kpiname td{padding:6px 6px 2px;font-size:12px}
@@ -443,43 +446,37 @@ function row(lbl, sub, val, dot){
 
 function buildChart(K){
   const outsA=K.daily_outs.actual, outsP=K.daily_outs.planned;
-  const H = 210; // altura del area de barras en px
   const maxV = Math.max(1, ...outsA.map(v=>v||0), ...outsP.map(v=>v||0)) * 1.15; // headroom arriba
 
   let cols="";
   for(let i=0;i<7;i++){
     const a=outsA[i], p=outsP[i];
-    let cls="z", mark="", h=2;
+    let cls="z", mark="", hPct=1;
     if(a!==null && a!==undefined){
-      // ratio real/plan. Regla UNICA para todas las weeks y dias:
-      //   verde  = llego o paso la meta (>=99.5%, medio punto de tolerancia)
-      //   ambar  = cerca (90% a 99.5%)
-      //   rojo   = lejos (<90%)
       const r=(p&&p>0)? a/p : 1;
       if(r>=0.995){ cls="g"; mark="✓"; }
       else if(r>=0.90){ cls="a"; mark="≈"; }
       else { cls="r"; mark="✕"; }
-      h=Math.max(3,(a/maxV)*H);
+      hPct=Math.max(1.5,(a/maxV)*100);
     }
     const barVal = (a!==null && a>0)? Math.round(a).toLocaleString() : "";
-    const metaBottom = p&&p>0 ? (p/maxV)*H : null;
-    const metaHtml = metaBottom!==null
-      ? `<div class="mline" style="bottom:${metaBottom}px"><span class="mlab">${Math.round(p).toLocaleString()}</span></div>`
+    const metaPct = p&&p>0 ? (p/maxV)*100 : null;
+    const metaHtml = metaPct!==null
+      ? `<div class="mline" style="bottom:${metaPct}%"><span class="mlab">${Math.round(p).toLocaleString()}</span></div>`
       : "";
-    // valor de la barra: DENTRO de la barra (arriba, blanco) si hay espacio; si la barra
-    // es muy chica, va afuera arriba en color oscuro.
-    const inside = h >= 34;
+    // valor dentro si la barra es alta (>15% del alto), afuera si es chica
+    const inside = hPct >= 15;
     const bvHtml = barVal ? `<span class="bv ${inside?'in':'out'}">${barVal}</span>` : "";
     cols += `<div class="col">
-      <div class="plot" style="height:${H}px">
+      <div class="plot">
         ${metaHtml}
-        <div class="bar ${cls}" style="height:${h}px">${bvHtml}</div>
+        <div class="bar ${cls}" style="height:${hPct}%">${bvHtml}</div>
       </div>
       <div class="mark ${cls}">${mark}</div>
       <div class="day">Día ${i+1}</div>
     </div>`;
   }
-  return `<div class="chart2" style="--h:${H}px"><div class="bars">${cols}</div></div>`;
+  return `<div class="chart2"><div class="bars">${cols}</div></div>`;
 }
 function detailRows(K, di){
   const order=["safety","quality","daily_ins","daily_outs","yield","scrap","downtime"];
@@ -517,19 +514,29 @@ function defaultDay(wk){
 // Si el contenido se pasa de alto, lo encoge con un scale justo.
 function fitToScreen(){
   const wrap = document.querySelector(".wrap");
-  if(!wrap || !document.body.classList.contains("tv")) return;
-  // reset previo
-  wrap.style.transform = "";
-  wrap.style.height = "100dvh";
+  if(!wrap) return;
+  // primero intentar en modo compacto (tv)
+  document.body.classList.add("tv");
+  wrap.style.height = "";
   const avail = window.innerHeight;
   const needed = wrap.scrollHeight;
-  if(needed > avail + 1){
-    const scale = avail / needed;
-    wrap.style.transformOrigin = "top center";
-    wrap.style.transform = `scale(${scale})`;
-    wrap.style.height = (avail/scale) + "px"; // compensa para que el fondo llene
+  // si en modo compacto todo cabe -> sin scroll. Si no cabe -> scroll natural completo
+  if(needed <= avail + 2){
+    document.body.style.overflowY = "hidden";
+    wrap.style.height = "100vh";
+  } else {
+    document.body.classList.remove("tv");
+    document.body.style.overflowY = "auto";
+    wrap.style.height = "auto";
   }
 }
+
+// re-ajustar cuando cambia el tamano de ventana o el zoom del navegador
+let _fitTimer=null;
+window.addEventListener("resize", ()=>{
+  clearTimeout(_fitTimer);
+  _fitTimer=setTimeout(fitToScreen, 120);
+});
 
 (async function(){
   // Modo TV (1920x1080 sin scroll): auto si pantalla grande, o forzado con ?tv en la URL

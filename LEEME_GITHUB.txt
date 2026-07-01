@@ -1,0 +1,92 @@
+=====================================================================
+ TABLERO TIER 2 - ANGIODYNAMICS   ·   PUBLICAR EN INTERNET (GitHub Pages)
+=====================================================================
+
+RESULTADO FINAL:
+  - Una URL publica: https://TUUSUARIO.github.io/tablero
+  - Las pantallas abren esa URL desde CUALQUIER red (no depende de tu
+    red interna ni del firewall).
+  - Tu compu lee el Excel y sube data.json cada hora, solita.
+
+Solo la compu que tiene el Excel necesita hacer la parte tecnica UNA VEZ.
+Despues es automatico.
+
+=====================================================================
+ PARTE 1 - PREPARACION (una sola vez)
+=====================================================================
+
+1) Crear cuenta en GitHub (gratis):  https://github.com/signup
+
+2) Instalar Git en tu compu:  https://git-scm.com/download/win
+   (instalador normal, siguiente-siguiente-finalizar)
+
+3) Instalar openpyxl (si no lo tienes):
+      pip install openpyxl
+
+=====================================================================
+ PARTE 2 - CREAR EL REPOSITORIO
+=====================================================================
+
+1) En GitHub, arriba a la derecha: "+"  >  "New repository"
+2) Repository name:  tablero
+3) Marca "Public"
+4) Clic en "Create repository"
+5) Copia la URL que te da, se ve asi:
+      https://github.com/TUUSUARIO/tablero.git
+
+=====================================================================
+ PARTE 3 - SUBIR LOS ARCHIVOS (una vez, en PowerShell)
+=====================================================================
+
+Abre PowerShell en la carpeta donde estan estos archivos y corre,
+linea por linea (cambia TUUSUARIO por el tuyo):
+
+   git init
+   git add index.html data.json extract.py actualizar_y_subir.py
+   git commit -m "Tablero inicial"
+   git branch -M main
+   git remote add origin https://github.com/TUUSUARIO/tablero.git
+   git push -u origin main
+
+(La primera vez te pedira iniciar sesion en GitHub: acepta en el
+ navegador que se abre.)
+
+=====================================================================
+ PARTE 4 - ENCENDER GITHUB PAGES (la URL publica)
+=====================================================================
+
+1) En tu repo en GitHub, entra a:  Settings  >  Pages
+2) En "Source" elige:  Deploy from a branch
+3) Branch:  main    Folder:  / (root)    >  Save
+4) Espera 1-2 minutos. Arriba aparecera:
+      "Your site is live at https://TUUSUARIO.github.io/tablero/"
+   Esa es la URL para TODAS las pantallas.
+
+=====================================================================
+ PARTE 5 - ACTUALIZACION AUTOMATICA CADA HORA
+=====================================================================
+
+En tu compu (la del Excel), deja corriendo:
+
+      Doble clic en:  subir_tablero.bat
+      (o en terminal:  python actualizar_y_subir.py --watch)
+
+Esto, cada hora:
+  - lee el Excel
+  - regenera data.json
+  - lo sube a GitHub
+  - GitHub Pages actualiza la URL solo
+
+Las pantallas se refrescan solas (revisan cada 5 min).
+Deja la ventana de subir_tablero.bat abierta.
+
+IMPORTANTE: confirma que extract.py tenga la ruta correcta del Excel
+en EXCEL_PATH (la que ya te funciono localmente).
+
+=====================================================================
+ RESUMEN DEL DIA A DIA (una vez configurado)
+=====================================================================
+  - Tu editas el Excel normal.
+  - subir_tablero.bat corriendo en tu compu sube los datos cada hora.
+  - Las pantallas abren  https://TUUSUARIO.github.io/tablero  y ya.
+  - No tocas nada mas.

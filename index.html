@@ -73,14 +73,23 @@
   .hint{font-size:12px;color:var(--grey);margin:0 0 14px}
 
   /* bars chart */
-  .chart{display:flex;align-items:flex-end;gap:14px;height:185px;padding-top:6px}
-  .col{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;position:relative}
-  .meta-line{position:absolute;left:-4px;right:-4px;border-top:2px dashed #243b5c;}
-  .meta-val{position:absolute;top:-18px;font-size:11px;font-weight:800;color:#243b5c}
-  .bar{width:100%;max-width:62px;border-radius:6px 6px 0 0;display:flex;align-items:flex-start;justify-content:center;color:#fff;font-weight:800;font-size:12px;padding-top:5px;transition:height .5s ease;min-height:3px}
-  .bar.g{background:var(--green)} .bar.a{background:var(--amber)} .bar.r{background:var(--red)} .bar.z{background:#cdd5df}
-  .col .mark{font-size:13px;font-weight:800;margin-top:2px;height:16px}
-  .col .day{font-size:12px;color:var(--grey);font-weight:600;margin-top:5px}
+  /* ---- grafico ordenado v2 ---- */
+  .chart2{position:relative;padding-top:24px}
+  .chart2 .bars{display:flex;align-items:flex-end;gap:16px;height:var(--h);position:relative;z-index:2}
+  .chart2 .col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:var(--h)}
+  .chart2 .barwrap{width:100%;display:flex;justify-content:center;align-items:flex-end;height:var(--h);position:relative}
+  .chart2 .bar{width:100%;max-width:70px;border-radius:7px 7px 0 0;display:flex;align-items:flex-start;justify-content:center;transition:height .5s ease;min-height:3px;position:relative}
+  .chart2 .bar.g{background:var(--green)} .chart2 .bar.a{background:var(--amber)} .chart2 .bar.r{background:var(--red)} .chart2 .bar.z{background:#dfe4ea}
+  .chart2 .bv{color:#fff;font-weight:800;font-size:13px;margin-top:6px}
+  .chart2 .bv.out{position:absolute;top:-20px;color:var(--txt);font-weight:800;font-size:12px}
+  .chart2 .mark{font-size:15px;font-weight:800;margin-top:6px;height:18px}
+  .chart2 .mark.g{color:var(--green)} .chart2 .mark.a{color:var(--amber)} .chart2 .mark.r{color:var(--red)} .chart2 .mark.z{color:transparent}
+  .chart2 .day{font-size:12px;color:var(--grey);font-weight:700;margin-top:4px}
+  /* capa de meta: segmentos alineados por dia, se leen como una linea escalonada limpia */
+  .chart2 .metalayer{position:absolute;left:0;right:0;top:24px;height:var(--h);z-index:3;display:flex;gap:16px;pointer-events:none}
+  .chart2 .mseg{flex:1;position:relative;height:100%}
+  .chart2 .mseg .mline{position:absolute;left:50%;transform:translateX(-50%);width:80%;max-width:76px;border-top:2px dashed #24406b}
+  .chart2 .mseg .mlab{position:absolute;left:50%;transform:translate(-50%,-100%);margin-top:-2px;font-size:11px;font-weight:700;color:#24406b;white-space:nowrap}
   .legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:12px;color:var(--txt)}
   .legend span{display:inline-flex;align-items:center;gap:6px}
   .lg{width:11px;height:11px;border-radius:3px;display:inline-block}
@@ -153,7 +162,7 @@
   body.tv .lower .panel .phd{padding:7px 14px;font-size:13px;flex:0 0 auto}
   body.tv .lower .panel .pbody{padding:10px 14px;overflow:hidden;flex:1 1 auto;min-height:0}
   body.tv .hint{font-size:11px;margin:0 0 8px}
-  body.tv .chart{height:auto;flex:1 1 auto}
+  body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center}
   body.tv .legend{margin-top:8px;font-size:11px;gap:12px}
   body.tv table{font-size:12px}
   body.tv .kpiname td{padding:6px 6px 2px;font-size:12px}
@@ -430,8 +439,12 @@ function row(lbl, sub, val, dot){
 
 function buildChart(K){
   const outsA=K.daily_outs.actual, outsP=K.daily_outs.planned;
-  const maxV=Math.max(1,...outsA.map(v=>v||0), ...outsP.map(v=>v||0));
-  let cols="";
+  const H = 210; // altura del area de barras en px
+  const maxV = Math.max(1, ...outsA.map(v=>v||0), ...outsP.map(v=>v||0)) * 1.15; // headroom arriba
+
+  // segmentos de la linea de meta (una por dia, alineada a su columna) para que se vea continua
+  let bars="";
+  let metaSegs="";
   for(let i=0;i<7;i++){
     const a=outsA[i], p=outsP[i];
     let cls="z", mark="", h=2;
@@ -439,17 +452,30 @@ function buildChart(K){
       const r=(p&&p>0)? a/p : 1;
       cls = r>=1?"g": r>=0.9?"a":"r";
       mark = r>=1?"✔":"✕";
-      h=Math.max(3,(a/maxV)*150);
+      h=Math.max(3,(a/maxV)*H);
     }
-    const metaTop = p&&p>0 ? (1-(p/maxV))*150 : null;
-    cols += `<div class="col">
-      ${metaTop!==null?`<div class="meta-line" style="top:${metaTop}px"></div><div class="meta-val" style="top:${metaTop-18}px">${Math.round(p).toLocaleString()}</div>`:`<div class="meta-val" style="top:0">0</div>`}
-      <div class="bar ${cls}" style="height:${h}px">${a!==null&&a>0?Math.round(a).toLocaleString():""}</div>
-      <div class="mark" style="color:${cls==='g'?'var(--green)':cls==='a'?'var(--amber)':cls==='r'?'var(--red)':'transparent'}">${mark}</div>
+    const barVal = (a!==null && a>0)? Math.round(a).toLocaleString() : "";
+    bars += `<div class="col">
+      <div class="barwrap">
+        <div class="bar ${cls}" style="height:${h}px">${h>26?`<span class="bv">${barVal}</span>`:''}</div>
+        ${h<=26&&barVal?`<span class="bv out">${barVal}</span>`:''}
+      </div>
+      <div class="mark ${cls}">${mark}</div>
       <div class="day">Día ${i+1}</div>
     </div>`;
+
+    // segmento de meta para este dia (posicionado desde abajo)
+    const metaBottom = p&&p>0 ? (p/maxV)*H : null;
+    if(metaBottom!==null){
+      metaSegs += `<div class="mseg"><div class="mline" style="bottom:${metaBottom}px"></div><div class="mlab" style="bottom:${metaBottom}px">${Math.round(p).toLocaleString()}</div></div>`;
+    } else {
+      metaSegs += `<div class="mseg"></div>`;
+    }
   }
-  return `<div class="chart">${cols}</div>`;
+  return `<div class="chart2" style="--h:${H}px">
+    <div class="metalayer">${metaSegs}</div>
+    <div class="bars">${bars}</div>
+  </div>`;
 }
 
 function detailRows(K, di){

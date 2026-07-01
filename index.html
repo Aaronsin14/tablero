@@ -145,7 +145,7 @@ function ratioStatus(real, plan){
 
 async function loadData(){
   try{
-    const res = await fetch("data.json?_="+Date.now());
+    const res = await fetch("data.json?_="+Date.now(), {cache:"no-store"});
     if(!res.ok) throw new Error("no data.json");
     return await res.json();
   }catch(e){

@@ -1,7 +1,7 @@
 {
   "plant": "AngioDynamics",
   "source_file": "Legacy Production Performance 2026.xlsx",
-  "generated_at": "2026-07-01T10:20:23",
+  "generated_at": "2026-07-02T11:07:26",
   "weeks": {
     "Week_41": {
       "label": "Week 41",
@@ -11618,7 +11618,7 @@
           "actual": [
             5649.0,
             6376.0,
-            0.0,
+            5049.0,
             0.0,
             0.0,
             0.0,
@@ -11627,15 +11627,15 @@
           "diff": [
             794.0,
             1521.0,
-            -4855.0,
+            194.0,
             -4855.0,
             -4855.0,
             -1512.0,
             0.0
           ],
           "planned_total": 25787.0,
-          "actual_total": 12025.0,
-          "diff_total": -13762.0
+          "actual_total": 17074.0,
+          "diff_total": -8713.0
         },
         "daily_outs": {
           "label": "Daily Outs (FG)",
@@ -11652,7 +11652,7 @@
           "actual": [
             3120.0,
             2260.0,
-            0.0,
+            2792.0,
             0.0,
             0.0,
             0.0,
@@ -11661,15 +11661,15 @@
           "diff": [
             -1147.0,
             -2007.0,
-            -4267.0,
+            -1475.0,
             -4267.0,
             -4267.0,
             -1321.0,
             0.0
           ],
           "planned_total": 22656.0,
-          "actual_total": 5380.0,
-          "diff_total": -17276.0
+          "actual_total": 8172.0,
+          "diff_total": -14484.0
         },
         "yield": {
           "label": "Yield (%)",
@@ -11686,7 +11686,7 @@
           "actual": [
             0.91,
             0.7,
-            0.0,
+            0.87,
             0.0,
             0.0,
             0.0,
@@ -11695,15 +11695,15 @@
           "diff": [
             -0.039999999999999925,
             -0.25,
-            -0.95,
+            -0.07999999999999996,
             -0.95,
             -0.95,
             -0.95,
             -0.95
           ],
           "planned_total": 0.9500000000000001,
-          "actual_total": 0.22999999999999998,
-          "diff_total": -0.7200000000000001
+          "actual_total": 0.35428571428571426,
+          "diff_total": -0.5957142857142859
         },
         "scrap": {
           "label": "SCRAP",
@@ -11718,26 +11718,26 @@
             0.0
           ],
           "actual": [
-            0.0,
-            0.0,
-            0.0,
+            0.0112,
+            0.0078,
+            0.0083,
             0.0,
             0.0,
             0.0,
             0.0
           ],
           "diff": [
-            0.0,
-            0.0,
-            0.0,
+            0.0112,
+            0.0078,
+            0.0083,
             0.0,
             0.0,
             0.0,
             0.0
           ],
           "planned_total": 0.0,
-          "actual_total": 0.0,
-          "diff_total": 0.0
+          "actual_total": 0.0039,
+          "diff_total": 0.0039
         },
         "downtime": {
           "label": "Unplanned downtime (hrs)",
@@ -11811,35 +11811,35 @@
           "label": "Productivity",
           "type": "pct",
           "planned": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.85,
+            0.85,
+            0.85,
+            0.85,
+            0.85,
+            0.85,
+            0.85
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            -0.85,
+            -0.85,
+            -0.85,
+            -0.85,
+            -0.85,
+            -0.85,
+            -0.85
           ],
-          "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "planned_total": 0.8499999999999999,
+          "actual_total": 0.0,
+          "diff_total": -0.8499999999999999
         }
       }
     },
@@ -12140,26 +12140,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -12460,26 +12460,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -12780,26 +12780,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -13100,26 +13100,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -13420,26 +13420,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -13740,26 +13740,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -14060,26 +14060,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -14380,26 +14380,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -14700,26 +14700,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -15020,26 +15020,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -15340,26 +15340,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -15660,26 +15660,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -15980,26 +15980,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -16300,26 +16300,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -16620,26 +16620,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -16940,26 +16940,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -17260,26 +17260,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -17580,26 +17580,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -17900,26 +17900,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -18220,26 +18220,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -18540,26 +18540,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -18860,26 +18860,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -19180,26 +19180,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -19500,26 +19500,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -19820,26 +19820,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     },
@@ -20140,26 +20140,26 @@
             null
           ],
           "actual": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "diff": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
           ],
           "planned_total": null,
-          "actual_total": null,
-          "diff_total": null
+          "actual_total": 0.0,
+          "diff_total": 0.0
         }
       }
     }

@@ -75,6 +75,11 @@
   /* bars chart */
   /* ---- grafico ordenado v2 ---- */
   .chart2{position:relative;padding-top:24px;height:230px}
+  .chart2.empty{display:flex;align-items:center;justify-content:center;height:100%}
+  .chart2.empty .emptybox{text-align:center;color:var(--grey)}
+  .chart2.empty .emoji{font-size:44px;margin-bottom:10px}
+  .chart2.empty .etit{font-size:18px;font-weight:800;color:var(--txt)}
+  .chart2.empty .esub{font-size:13px;margin-top:6px}
   .chart2 .bars{display:flex;align-items:flex-end;gap:16px;height:100%}
   .chart2 .col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
   /* plot: contenedor; barra y linea de meta miden en % desde la MISMA base (abajo) */
@@ -150,14 +155,14 @@
   body.tv .gauge .gtop .gpct{font-size:26px}
   body.tv .gbar{height:14px}
   body.tv .lower{padding:8px 20px;flex:1 1 auto;min-height:0;grid-template-columns:1fr}
-  body.tv .lower .panel{display:flex;flex-direction:column;min-height:0}
+  body.tv .lower .panel{display:flex;flex-direction:column;min-height:0;flex:1 1 auto}
   body.tv .lower .panel .phd{padding:7px 14px;font-size:13px;flex:0 0 auto}
-  body.tv .lower .panel .pbody{padding:10px 14px;overflow:hidden;flex:1 1 auto;min-height:0}
-  body.tv .hint{font-size:11px;margin:0 0 8px}
-  body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;min-height:250px;height:auto;padding-top:34px}
-  body.tv .chart2 .bars{flex:1 1 auto;min-height:0}
-  body.tv .chart2 .col{height:100%}
-  body.tv .chart2 .plot{height:100%!important}
+  body.tv .lower .panel .pbody{padding:10px 14px;overflow:hidden;flex:1 1 auto;min-height:0;display:flex;flex-direction:column}
+  body.tv .hint{font-size:11px;margin:0 0 8px;flex:0 0 auto}
+  body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;min-height:0;height:auto;padding-top:34px}
+  body.tv .chart2 .bars{flex:1 1 auto;min-height:0;align-items:flex-end}
+  body.tv .chart2 .col{height:100%;justify-content:flex-end}
+  body.tv .chart2 .plot{flex:1 1 auto;height:auto!important;min-height:0}
   body.tv .legend{margin-top:8px;font-size:11px;gap:12px}
   body.tv table{font-size:12px}
   body.tv .kpiname td{padding:6px 6px 2px;font-size:12px}
@@ -409,6 +414,19 @@ function buildScoreboard(K, wk){
 function buildChart(K){
   const outsA=K.daily_outs.actual, outsP=K.daily_outs.planned;
   const maxV = Math.max(1, ...outsA.map(v=>v||0), ...outsP.map(v=>v||0)) * 1.15; // headroom arriba
+
+  // si no hay NINGUNA produccion real capturada, mostrar aviso en lugar del grafico vacio
+  const hayReal = outsA.some(v=>v!==null && v!==undefined && v>0);
+  if(!hayReal){
+    const hayPlan = outsP.some(v=>v!==null && v!==undefined && v>0);
+    return `<div class="chart2 empty">
+      <div class="emptybox">
+        <div class="emoji">📋</div>
+        <div class="etit">Sin producción registrada para esta semana</div>
+        <div class="esub">${hayPlan?"Ya hay plan cargado, faltan las salidas reales del Excel.":"Aún no hay datos de esta semana en el Excel."}</div>
+      </div>
+    </div>`;
+  }
 
   let cols="";
   for(let i=0;i<7;i++){

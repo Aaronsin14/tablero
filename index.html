@@ -83,7 +83,7 @@
   .chart2 .bars{display:flex;align-items:flex-end;gap:16px;height:100%}
   .chart2 .col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
   /* plot: contenedor; barra y linea de meta miden en % desde la MISMA base (abajo) */
-  .chart2 .plot{width:100%;position:relative;display:flex;justify-content:center;align-items:flex-end;flex:1 1 auto;min-height:0}
+  .chart2 .plot{width:100%;position:relative;display:flex;justify-content:center;align-items:flex-end;height:100%;min-height:0}
   .chart2 .bar{position:relative;width:100%;max-width:70px;border-radius:7px 7px 0 0;transition:height .5s ease;min-height:3px;display:flex;justify-content:center}
   .chart2 .bar.g{background:var(--green)} .chart2 .bar.a{background:var(--amber)} .chart2 .bar.r{background:var(--red)} .chart2 .bar.z{background:#dfe4ea}
   .chart2 .bv{position:absolute;left:50%;transform:translateX(-50%);font-weight:800;font-size:13px;line-height:1;white-space:nowrap}
@@ -162,7 +162,7 @@
   body.tv .chart2{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;min-height:0;height:auto;padding-top:34px}
   body.tv .chart2 .bars{flex:1 1 auto;min-height:0;align-items:flex-end}
   body.tv .chart2 .col{height:100%;justify-content:flex-end}
-  body.tv .chart2 .plot{flex:1 1 auto;height:auto!important;min-height:0}
+  body.tv .chart2 .plot{height:100%!important;min-height:0}
   body.tv .legend{margin-top:8px;font-size:11px;gap:12px}
   body.tv table{font-size:12px}
   body.tv .kpiname td{padding:6px 6px 2px;font-size:12px}
@@ -230,18 +230,32 @@ function render(){
   const wk = DATA.weeks[CUR_WEEK];
   const K = wk.kpis;
   const di = CUR_DAY;
+  const isWeek = (di === -1); // vista SEMANA (totales) vs vista dia
 
-  // valores del dia seleccionado
-  const safety  = K.safety.actual[di];
-  const quality = K.quality.actual[di];
-  const scrap   = K.scrap.actual[di];
-  const yieldA  = K.yield.actual[di];
-  const yieldP  = K.yield.planned[di];
-  const outsA   = K.daily_outs.actual[di];
-  const outsP   = K.daily_outs.planned[di];
-  const downtime= K.downtime.actual[di];
+  // helpers para tomar valor del dia o el total/promedio de la semana
+  const sumA = arr => arr.reduce((a,b)=>a+(b||0),0);
+  const avgA = arr => { const v=arr.filter(x=>x!==null&&x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
+  const pick = (kpi, mode) => {
+    if(!isWeek) return kpi.actual[di];
+    // modo semana: suma para cantidades, promedio para porcentajes
+    return mode==="pct" ? avgA(kpi.actual) : sumA(kpi.actual);
+  };
+  const pickP = (kpi, mode) => {
+    if(!isWeek) return kpi.planned[di];
+    return mode==="pct" ? avgA(kpi.planned) : sumA(kpi.planned);
+  };
 
-  // cumplimiento entrega del dia
+  // valores segun vista (dia o semana)
+  const safety  = pick(K.safety,"count");
+  const quality = pick(K.quality,"count");
+  const scrap   = pick(K.scrap,"pct");
+  const yieldA  = pick(K.yield,"pct");
+  const yieldP  = pickP(K.yield,"pct");
+  const outsA   = pick(K.daily_outs,"units");
+  const outsP   = pickP(K.daily_outs,"units");
+  const downtime= pick(K.downtime,"hours");
+
+  // cumplimiento entrega
   const cump = (outsP && outsP>0 && outsA!==null) ? outsA/outsP : null;
 
   // status por seccion
@@ -253,7 +267,7 @@ function render(){
 
   const badge = s => s==="g"?"BIEN":s==="a"?"ATENCIÓN":s==="r"?"REVISAR":"—";
 
-  const dateStr = wk.dates[di] || ("Día "+(di+1));
+  const dateStr = isWeek ? "Semana completa" : (wk.dates[di] || ("Día "+(di+1)));
 
   // ---- attention banner ----
   const focuses=[];
@@ -285,7 +299,7 @@ function render(){
     <label>SEMANA</label>
     <select id="selWeek">${DATA.week_order.map((w,idx)=>`<option value="${w}" ${w===CUR_WEEK?"selected":""}>${DATA.weeks[w].label}${dateRangeLabel(DATA.weeks[w])}</option>`).join("")}</select>
     <label>DÍA</label>
-    <select id="selDay">${wk.dates.map((d,i)=>`<option value="${i}" ${i===di?"selected":""}>Día ${i+1}${d?" · "+d:""}</option>`).join("")}</select>
+    <select id="selDay"><option value="-1" ${isWeek?"selected":""}>★ SEMANA COMPLETA</option>${wk.dates.map((d,i)=>`<option value="${i}" ${i===di?"selected":""}>Día ${i+1}${d?" · "+d:""}</option>`).join("")}</select>
     <div class="src">Fuente: <b>${DATA.source_file}</b> · ${DATA.week_count||DATA.week_order.length} semanas</div>
     <div class="stamp">Actualizado: ${new Date(DATA.generated_at).toLocaleString("es-MX")}</div>
   </div>
@@ -317,7 +331,7 @@ function render(){
     <div class="face">${face}</div>
     <div class="msg">
       <h2>${bannerTitle}</h2>
-      <p>${focuses.length?("Hay que mejorar: "+focuses.join(", ")+"."):"Todos los indicadores en meta."} &nbsp; VIENDO: ${wk.label} · Día ${di+1} (${dateStr})</p>
+      <p>${focuses.length?("Hay que mejorar: "+focuses.join(", ")+"."):"Todos los indicadores en meta."} &nbsp; VIENDO: ${wk.label} · ${isWeek?"Semana completa":("Día "+(di+1)+" ("+dateStr+")")}</p>
     </div>
     <div class="gauge">
       <div class="gtop"><span class="glab">PRODUCCIÓN VS META</span><span class="gpct">${gPct}%</span></div>
@@ -351,7 +365,7 @@ function render(){
     <p>Piensa seguro · Trabaja seguro · Hazlo bien desde la primera vez · Cuida los recursos</p>
   </footer>`;
 
-  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=0; saveState(); render(); };
+  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=-1; saveState(); render(); };
   document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); saveState(); render(); };
 
   // ajustar al tamano de pantalla despues de pintar
@@ -532,10 +546,10 @@ window.addEventListener("resize", ()=>{
   const savedDay  = params.get("d");
   if(savedWeek && DATA.weeks[savedWeek]){
     CUR_WEEK = savedWeek;
-    CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : defaultDay(DATA.weeks[CUR_WEEK]);
+    CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {
     CUR_WEEK = DATA.week_order[0];
-    CUR_DAY = defaultDay(DATA.weeks[CUR_WEEK]);
+    CUR_DAY = -1; // por defecto: VISTA SEMANA COMPLETA
   }
   render();
   // refresco automatico: el data.json lo regenera Python cada hora.

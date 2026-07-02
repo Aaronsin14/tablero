@@ -115,23 +115,14 @@
 
   .loading{padding:60px;text-align:center;color:var(--grey);font-weight:600}
 
-  /* ============ FORMULARIOS DE EVENTOS ============ */
-  .events{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 22px 18px}
-  .evcard{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(15,37,66,.06);display:flex;flex-direction:column}
-  .evcard .evhd{background:var(--navy);color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;font-weight:800;letter-spacing:.5px;font-size:14px}
-  .evcard .evhd .cnt{background:var(--navy2);color:#bcd0ec;font-weight:800;font-size:12px;min-width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center}
-  .evcard .evbody{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
-  .evrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  .evbody input,.evbody select,.evbody textarea{width:100%;font-family:var(--sans);font-size:13px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--txt)}
-  .evbody textarea{resize:vertical;min-height:44px}
-  .evbtn{border:none;border-radius:8px;padding:11px;font-weight:800;font-size:14px;color:#fff;cursor:pointer;letter-spacing:.3px}
-  .evbtn.g{background:var(--green)} .evbtn.a{background:var(--amber)}
-  .evempty{font-size:12px;color:var(--grey);font-style:italic;text-align:center;padding:6px 0}
-  .evlist{display:flex;flex-direction:column;gap:6px;max-height:120px;overflow-y:auto}
-  .evitem{font-size:12px;border-left:3px solid var(--line);padding:5px 10px;background:#f7f9fc;border-radius:0 6px 6px 0}
-  .evitem b{font-weight:700}
-  .evitem .meta{color:var(--grey);font-size:11px}
-  .evitem.g{border-left-color:var(--green)} .evitem.a{border-left-color:var(--amber)}
+  /* ============ SCOREBOARD DE NUMEROS GRANDES ============ */
+  .scoreboard{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;padding:0 22px 18px}
+  .sc{background:var(--card);border-radius:14px;padding:16px 14px;box-shadow:0 1px 3px rgba(15,37,66,.06);position:relative;overflow:hidden;border-top:5px solid var(--grey);text-align:center}
+  .sc.g{border-top-color:var(--green)} .sc.a{border-top-color:var(--amber)} .sc.r{border-top-color:var(--red)} .sc.i{border-top-color:#2b6cb0} .sc.n{border-top-color:var(--grey)}
+  .sc-lbl{font-size:11px;letter-spacing:1px;font-weight:800;color:var(--grey);text-transform:uppercase;line-height:1.2;min-height:26px;display:flex;align-items:center;justify-content:center}
+  .sc-big{font-size:40px;font-weight:900;line-height:1;margin:8px 0 6px;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+  .sc.g .sc-big{color:var(--green)} .sc.a .sc-big{color:var(--amber)} .sc.r .sc-big{color:var(--red)} .sc.i .sc-big{color:#2b6cb0} .sc.n .sc-big{color:var(--ink)}
+  .sc-sub{font-size:11px;color:var(--grey);font-weight:600}
 
   /* ============ MODO TV: 1920x1080 SIN SCROLL ============ */
   body.tv{overflow:hidden;height:100vh}
@@ -171,12 +162,11 @@
   body.tv table{font-size:12px}
   body.tv .kpiname td{padding:6px 6px 2px;font-size:12px}
   body.tv tbody tr.trk td{padding:2px 6px}
-  body.tv .events{padding:8px 20px 10px;flex:0 0 auto}
-  body.tv .evbody{padding:8px 14px;gap:7px}
-  body.tv .evcard .evhd{padding:6px 14px;font-size:12px}
-  body.tv .evbody input,body.tv .evbody select,body.tv .evbody textarea{padding:6px 10px;font-size:12px}
-  body.tv .evbody textarea{min-height:34px}
-  body.tv .evbtn{padding:8px;font-size:12px}
+  body.tv .scoreboard{padding:8px 20px 10px;flex:0 0 auto;gap:12px}
+  body.tv .sc{padding:12px 12px}
+  body.tv .sc-lbl{font-size:10px;min-height:22px}
+  body.tv .sc-big{font-size:38px;margin:6px 0 4px}
+  body.tv .sc-sub{font-size:10px}
   body.tv footer.foot{margin:0;border-radius:0;padding:6px;flex:0 0 auto}
   body.tv footer.foot h3{font-size:13px}
   body.tv footer.foot p{font-size:10px;margin-top:2px}
@@ -230,31 +220,6 @@ async function loadData(){
 }
 
 let DATA=null, CUR_WEEK=null, CUR_DAY=0;
-
-// eventos capturados en la pantalla (se mantienen mientras la pagina este abierta)
-const EVENTS = { seg:[], cal:[] };
-
-function renderEventList(kind){
-  const arr = EVENTS[kind];
-  if(!arr.length) return `<div class="evempty">Sin eventos registrados. Usa el formulario de arriba para capturar.</div>`;
-  const cls = kind==='seg'?'g':'a';
-  return arr.map(e=>`<div class="evitem ${cls}"><b>${e.tipo}</b> · ${e.desc}<div class="meta">${e.fecha||'sin fecha'}${e.resp?' · '+e.resp:''}</div></div>`).join("");
-}
-
-function addEvent(kind){
-  const p = kind;
-  const fecha = document.getElementById(p+'Fecha').value;
-  const tipo  = document.getElementById(p+'Tipo').value;
-  const desc  = document.getElementById(p+'Desc').value.trim();
-  const resp  = document.getElementById(p+'Resp').value.trim();
-  if(!desc){ alert('Escribe una descripción del evento.'); return; }
-  EVENTS[kind].unshift({fecha,tipo,desc,resp});
-  // refrescar solo la lista y el contador (sin re-render completo)
-  document.getElementById('list'+(kind==='seg'?'Seg':'Cal')).innerHTML = renderEventList(kind);
-  document.getElementById('cnt'+(kind==='seg'?'Seg':'Cal')).textContent = EVENTS[kind].length;
-  document.getElementById(p+'Desc').value='';
-  document.getElementById(p+'Resp').value='';
-}
 
 function render(){
   const wk = DATA.weeks[CUR_WEEK];
@@ -372,46 +337,8 @@ function render(){
     </div>
   </div>
 
-  <div class="events">
-    <div class="evcard">
-      <div class="evhd">EVENTOS DE SEGURIDAD <span class="cnt" id="cntSeg">${EVENTS.seg.length}</span></div>
-      <div class="evbody">
-        <div class="evrow">
-          <input type="date" id="segFecha">
-          <select id="segTipo">
-            <option>Casi accidente</option>
-            <option>Primeros auxilios</option>
-            <option>Incidente</option>
-            <option>Condición insegura</option>
-            <option>Acto inseguro</option>
-          </select>
-        </div>
-        <textarea id="segDesc" placeholder="¿Qué pasó? Describe el evento de seguridad..."></textarea>
-        <input type="text" id="segResp" placeholder="Responsable / acción">
-        <button class="evbtn g" onclick="addEvent('seg')">+ Registrar evento de seguridad</button>
-        <div class="evlist" id="listSeg">${renderEventList('seg')}</div>
-      </div>
-    </div>
-
-    <div class="evcard">
-      <div class="evhd">EVENTOS DE CALIDAD (MRB) <span class="cnt" id="cntCal">${EVENTS.cal.length}</span></div>
-      <div class="evbody">
-        <div class="evrow">
-          <input type="date" id="calFecha">
-          <select id="calTipo">
-            <option>MRB</option>
-            <option>No conformidad</option>
-            <option>Retrabajo</option>
-            <option>Scrap</option>
-            <option>Queja cliente</option>
-          </select>
-        </div>
-        <textarea id="calDesc" placeholder="¿Qué se detectó? Describe el evento de calidad..."></textarea>
-        <input type="text" id="calResp" placeholder="Responsable / acción">
-        <button class="evbtn a" onclick="addEvent('cal')">+ Registrar evento de calidad</button>
-        <div class="evlist" id="listCal">${renderEventList('cal')}</div>
-      </div>
-    </div>
+  <div class="scoreboard">
+    ${buildScoreboard(K, wk)}
   </div>
 
   <footer class="foot">
@@ -442,6 +369,41 @@ function kcard(title, status, rowsHtml){
 }
 function row(lbl, sub, val, dot){
   return `<div class="krow"><div class="lbl">${lbl}<small>${sub}</small></div><div class="val">${val}<span class="dot ${dot}"></span></div></div>`;
+}
+
+function buildScoreboard(K, wk){
+  // totales de la SEMANA (acumulados)
+  const outsReal = K.daily_outs.actual_total ?? sum(K.daily_outs.actual);
+  const outsPlan = K.daily_outs.planned_total ?? sum(K.daily_outs.planned);
+  const insReal  = K.daily_ins.actual_total ?? sum(K.daily_ins.actual);
+  const cumpl    = outsPlan>0 ? outsReal/outsPlan : null;
+  const yieldW   = K.yield.actual_total; // ya viene como promedio/valor
+  const scrapW   = K.scrap.actual_total;
+  const safetyW  = (K.safety.actual_total ?? sum(K.safety.actual)) || 0;
+  const qualityW = (K.quality.actual_total ?? sum(K.quality.actual)) || 0;
+
+  const nfmt = v => v===null||v===undefined ? "—" : Math.round(v).toLocaleString("en-US");
+  const pfmt = v => v===null||v===undefined ? "—" : (v*100).toFixed(1)+"%";
+
+  // estado de color para cumplimiento y yield
+  const cumpCls = cumpl===null?"n": cumpl>=0.995?"g": cumpl>=0.9?"a":"r";
+  const yCls    = yieldW===null?"n": yieldW>=0.97?"g": yieldW>=0.90?"a":"r";
+
+  const cards = [
+    {big:nfmt(outsReal), lbl:"PRODUCIDO ESTA SEMANA", sub:`meta ${nfmt(outsPlan)} u`, cls:cumpCls, unit:"unidades FG"},
+    {big:cumpl===null?"—":Math.round(cumpl*100)+"%", lbl:"CUMPLIMIENTO", sub:"real ÷ plan", cls:cumpCls, unit:""},
+    {big:pfmt(yieldW), lbl:"YIELD SEMANA", sub:"meta ≥ 97%", cls:yCls, unit:""},
+    {big:nfmt(insReal), lbl:"ENTRADAS", sub:"unidades procesadas", cls:"i", unit:""},
+    {big:nfmt(safetyW), lbl:"EVENTOS SEGURIDAD", sub:"meta: 0", cls:safetyW>0?"r":"g", unit:""},
+    {big:nfmt(qualityW), lbl:"EVENTOS CALIDAD", sub:"MRB · meta: 0", cls:qualityW>0?"a":"g", unit:""},
+  ];
+
+  return cards.map(c=>`
+    <div class="sc ${c.cls}">
+      <div class="sc-lbl">${c.lbl}</div>
+      <div class="sc-big">${c.big}</div>
+      <div class="sc-sub">${c.unit?c.unit+" · ":""}${c.sub}</div>
+    </div>`).join("");
 }
 
 function buildChart(K){

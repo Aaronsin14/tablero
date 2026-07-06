@@ -210,7 +210,7 @@ function firstFilledIndex(actualArr){
 function ratioStatus(real, plan){
   if(plan===null||plan===0||plan===undefined) return "n";
   const r=real/plan;
-  if(r>=0.995) return "g"; if(r>=0.9) return "a"; return "r";
+  if(r>=0.995) return "g"; if(r>=0.50) return "a"; return "r";
 }
 
 async function loadData(){
@@ -262,7 +262,7 @@ function render(){
   const segSafety  = (safety||0)===0 ? "g":"r";
   const segQuality = (quality||0)===0 ? (yieldA!==null && yieldA<0.97?"a":"g") : "a";
   const yStatus    = yieldA===null?"n": yieldA>=0.97?"g": yieldA>=0.90?"a":"r";
-  const segEntrega = cump===null?"n": cump>=0.995?"g": cump>=0.9?"a":"r";
+  const segEntrega = cump===null?"n": cump>=0.995?"g": cump>=0.50?"a":"r";
   const segCosto   = (scrap===null && downtime===null)?"n":"g";
 
   const badge = s => s==="g"?"BIEN":s==="a"?"ATENCIÓN":s==="r"?"REVISAR":"—";
@@ -402,7 +402,7 @@ function buildScoreboard(K, wk){
   const pfmt = v => v===null||v===undefined ? "—" : (v*100).toFixed(1)+"%";
 
   // estado de color para cumplimiento y yield
-  const cumpCls = cumpl===null?"n": cumpl>=0.995?"g": cumpl>=0.9?"a":"r";
+  const cumpCls = cumpl===null?"n": cumpl>=0.995?"g": cumpl>=0.50?"a":"r";
   const yCls    = yieldW===null?"n": yieldW>=0.97?"g": yieldW>=0.90?"a":"r";
 
   const cards = [

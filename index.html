@@ -307,8 +307,6 @@ function render(){
   <div class="kpis">
     ${kcard("SEGURIDAD", segSafety, [
       row("Eventos de seguridad","del día", fmt(safety,"count"), segSafety),
-      row("Casi accidentes","incluidos arriba", "—", "g"),
-      row("Meta","cero eventos", "0", "g"),
     ])}
     ${kcard("CALIDAD", yStatus, [
       row("Eventos MRB","del día", fmt(quality,"count"), (quality||0)===0?"g":"a"),
@@ -322,7 +320,6 @@ function render(){
     ])}
     ${kcard("COSTO", segCosto, [
       row("Paro no planeado","horas cuello botella", fmt(downtime,"hours"), downtime===null?"n":downtime<=0.1?"g":"a"),
-      row("Yield vs meta","eficiencia material", fmt(yieldA,"pct"), yStatus),
       row("Scrap","costo de desperdicio", fmt(scrap,"pct"), scrap===null?"n":scrap<=0.02?"g":"a"),
     ])}
   </div>
@@ -348,8 +345,8 @@ function render(){
         ${buildChart(K)}
         <div class="legend">
           <span><i class="lg" style="background:var(--green)"></i> Llegó o pasó la meta</span>
-          <span><i class="lg" style="background:var(--amber)"></i> Cerca (90%+)</span>
-          <span><i class="lg" style="background:var(--red)"></i> Lejos de la meta</span>
+          <span><i class="lg" style="background:var(--amber)"></i> A media meta (50%+)</span>
+          <span><i class="lg" style="background:var(--red)"></i> Lejos (menos de 50%)</span>
           <span><i class="lg" style="background:#243b5c"></i> Meta del día</span>
         </div>
       </div>
@@ -447,9 +444,13 @@ function buildChart(K){
     const a=outsA[i], p=outsP[i];
     let cls="z", mark="", hPct=1;
     if(a!==null && a!==undefined){
+      // ratio real/plan. Regla de color:
+      //   verde  = llego o paso la meta (>=99.5%)
+      //   ambar  = del 50% al 99.5% (a partir de la mitad)
+      //   rojo   = menos del 50% (menos de la mitad)
       const r=(p&&p>0)? a/p : 1;
       if(r>=0.995){ cls="g"; mark="✓"; }
-      else if(r>=0.90){ cls="a"; mark="≈"; }
+      else if(r>=0.50){ cls="a"; mark="≈"; }
       else { cls="r"; mark="✕"; }
       hPct=Math.max(1.5,(a/maxV)*100);
     }

@@ -354,7 +354,7 @@ function render(){
   </div>
 
   <div class="scoreboard">
-    ${buildScoreboard(K, wk)}
+    ${buildScoreboard(K, wk, di, isWeek)}
   </div>
 
   <footer class="foot">
@@ -387,28 +387,43 @@ function row(lbl, sub, val, dot){
   return `<div class="krow"><div class="lbl">${lbl}<small>${sub}</small></div><div class="val">${val}<span class="dot ${dot}"></span></div></div>`;
 }
 
-function buildScoreboard(K, wk){
-  // totales de la SEMANA (acumulados)
-  const outsReal = K.daily_outs.actual_total ?? sum(K.daily_outs.actual);
-  const outsPlan = K.daily_outs.planned_total ?? sum(K.daily_outs.planned);
-  const insReal  = K.daily_ins.actual_total ?? sum(K.daily_ins.actual);
-  const cumpl    = outsPlan>0 ? outsReal/outsPlan : null;
-  const yieldW   = K.yield.actual_total; // ya viene como promedio/valor
-  const scrapW   = K.scrap.actual_total;
-  const safetyW  = (K.safety.actual_total ?? sum(K.safety.actual)) || 0;
-  const qualityW = (K.quality.actual_total ?? sum(K.quality.actual)) || 0;
+function buildScoreboard(K, wk, di, isWeek){
+  // helpers: total de semana o valor del dia
+  const sumArr = arr => arr.reduce((a,b)=>a+(b||0),0);
+  const avgArr = arr => { const v=arr.filter(x=>x!==null&&x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
+  const val = (kpi, mode) => {
+    if(isWeek) return mode==="pct" ? (kpi.actual_total ?? avgArr(kpi.actual)) : (kpi.actual_total ?? sumArr(kpi.actual));
+    return kpi.actual[di];
+  };
+  const valP = (kpi, mode) => {
+    if(isWeek) return mode==="pct" ? (kpi.planned_total ?? avgArr(kpi.planned)) : (kpi.planned_total ?? sumArr(kpi.planned));
+    return kpi.planned[di];
+  };
+
+  const outsReal = val(K.daily_outs,"units");
+  const outsPlan = valP(K.daily_outs,"units");
+  const insReal  = val(K.daily_ins,"units");
+  const cumpl    = (outsPlan && outsPlan>0) ? outsReal/outsPlan : null;
+  const yieldW   = val(K.yield,"pct");
+  const scrapW   = val(K.scrap,"pct");
+  const safetyW  = (val(K.safety,"count")) || 0;
+  const qualityW = (val(K.quality,"count")) || 0;
 
   const nfmt = v => v===null||v===undefined ? "—" : Math.round(v).toLocaleString("en-US");
   const pfmt = v => v===null||v===undefined ? "—" : (v*100).toFixed(1)+"%";
 
-  // estado de color para cumplimiento y yield
+  // estado de color (misma regla: verde>=100, ambar>=50, rojo<50)
   const cumpCls = cumpl===null?"n": cumpl>=0.995?"g": cumpl>=0.50?"a":"r";
   const yCls    = yieldW===null?"n": yieldW>=0.97?"g": yieldW>=0.90?"a":"r";
 
+  // etiquetas cambian segun vista
+  const alcance = isWeek ? "ESTA SEMANA" : "DEL DÍA";
+  const yieldLbl = isWeek ? "YIELD SEMANA" : "YIELD DÍA";
+
   const cards = [
-    {big:nfmt(outsReal), lbl:"PRODUCIDO ESTA SEMANA", sub:`meta ${nfmt(outsPlan)} u`, cls:cumpCls, unit:"unidades FG"},
+    {big:nfmt(outsReal), lbl:"PRODUCIDO "+alcance, sub:`meta ${nfmt(outsPlan)} u`, cls:cumpCls, unit:"unidades FG"},
     {big:cumpl===null?"—":Math.round(cumpl*100)+"%", lbl:"CUMPLIMIENTO", sub:"real ÷ plan", cls:cumpCls, unit:""},
-    {big:pfmt(yieldW), lbl:"YIELD SEMANA", sub:"meta ≥ 97%", cls:yCls, unit:""},
+    {big:pfmt(yieldW), lbl:yieldLbl, sub:"meta ≥ 97%", cls:yCls, unit:""},
     {big:nfmt(insReal), lbl:"ENTRADAS", sub:"unidades procesadas", cls:"i", unit:""},
     {big:nfmt(safetyW), lbl:"EVENTOS SEGURIDAD", sub:"meta: 0", cls:safetyW>0?"r":"g", unit:""},
     {big:nfmt(qualityW), lbl:"EVENTOS CALIDAD", sub:"MRB · meta: 0", cls:qualityW>0?"a":"g", unit:""},

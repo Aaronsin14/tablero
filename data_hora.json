@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-07T13:34:46",
+ "generated_at": "2026-07-07T07:41:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -92347,7 +92347,7 @@
       ],
       "procesos": [
        {
-        "name": "Cut (Tip/Teflon)",
+        "name": "Welder",
         "meta_hora": 200.0,
         "hours": [
          0,
@@ -92362,7 +92362,7 @@
         "rework": 0.0
        },
        {
-        "name": "Welder",
+        "name": "Carga de bandas",
         "meta_hora": 480.0,
         "hours": [
          0,
@@ -92377,7 +92377,7 @@
         "rework": 0.0
        },
        {
-        "name": "Carga de bandas",
+        "name": "Staker",
         "meta_hora": 75.0,
         "hours": [
          0,
@@ -92392,7 +92392,7 @@
         "rework": 0.0
        },
        {
-        "name": "Staker",
+        "name": "Swager",
         "meta_hora": 120.0,
         "hours": [
          0,
@@ -92407,7 +92407,7 @@
         "rework": 0.0
        },
        {
-        "name": "Swager",
+        "name": "Embedder",
         "meta_hora": 110.0,
         "hours": [
          0,
@@ -92422,7 +92422,7 @@
         "rework": 0.0
        },
        {
-        "name": "Embedder",
+        "name": "Inspeccion",
         "meta_hora": 60.0,
         "hours": [
          0,
@@ -92437,7 +92437,7 @@
         "rework": 0.0
        },
        {
-        "name": "Inspeccion",
+        "name": "Drawdown",
         "meta_hora": 55.0,
         "hours": [
          0,
@@ -92452,23 +92452,8 @@
         "rework": 0.0
        },
        {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
         "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
+        "meta_hora": 390.0,
         "hours": [
          0,
          0,
@@ -92498,7 +92483,7 @@
        },
        {
         "name": "Baking Rot",
-        "meta_hora": 450.0,
+        "meta_hora": 100.0,
         "hours": [
          0,
          0,
@@ -92513,7 +92498,7 @@
        },
        {
         "name": "Baking Conv",
-        "meta_hora": 50.0,
+        "meta_hora": 450.0,
         "hours": [
          0,
          0,
@@ -92528,7 +92513,7 @@
        },
        {
         "name": "Hand Drilling",
-        "meta_hora": 30.0,
+        "meta_hora": 50.0,
         "hours": [
          0,
          0,
@@ -92543,7 +92528,7 @@
        },
        {
         "name": "Prepping",
-        "meta_hora": 150.0,
+        "meta_hora": 30.0,
         "hours": [
          0,
          0,
@@ -92558,7 +92543,7 @@
        },
        {
         "name": "Rofing",
-        "meta_hora": 300.0,
+        "meta_hora": 150.0,
         "hours": [
          0,
          0,
@@ -92573,7 +92558,7 @@
        },
        {
         "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
+        "meta_hora": 300.0,
         "hours": [
          0,
          0,
@@ -92588,7 +92573,7 @@
        },
        {
         "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
+        "meta_hora": 480.0,
         "hours": [
          0,
          0,
@@ -92603,7 +92588,7 @@
        },
        {
         "name": "Pouch",
-        "meta_hora": 250.0,
+        "meta_hora": 310.0,
         "hours": [
          0,
          0,
@@ -92638,7 +92623,7 @@
         "name": "Cut (Tip/Teflon)",
         "meta_hora": 200.0,
         "hours": [
-         0,
+         125.0,
          0,
          0,
          0,
@@ -92655,7 +92640,7 @@
         "name": "Welder",
         "meta_hora": 480.0,
         "hours": [
-         0,
+         50.0,
          0,
          0,
          0,
@@ -92723,7 +92708,7 @@
         "name": "Embedder",
         "meta_hora": 60.0,
         "hours": [
-         0,
+         50.0,
          0,
          0,
          0,
@@ -92740,7 +92725,7 @@
         "name": "Inspeccion",
         "meta_hora": 55.0,
         "hours": [
-         0,
+         50.0,
          0,
          0,
          0,

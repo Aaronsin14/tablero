@@ -126,9 +126,22 @@ function render(){
   document.getElementById("selTurno").onchange=e=>{CUR_TURNO=e.target.value;render();};
 }
 
+// numero de semana ISO de hoy -> "WWxx"
+function semanaWWdeHoy(){
+  const d=new Date();
+  const target=new Date(d.valueOf());
+  const dayNr=(d.getDay()+6)%7;
+  target.setDate(target.getDate()-dayNr+3);
+  const firstThursday=new Date(target.getFullYear(),0,4);
+  const diff=target-firstThursday;
+  const week=1+Math.round(diff/(7*24*3600*1000));
+  const key="WW"+week;
+  return DATA.weeks[key]?key:null;
+}
+
 (async function(){
   DATA=await loadData();
-  CUR_WEEK=DATA.week_order[0];
+  CUR_WEEK=semanaWWdeHoy() || DATA.week_order[0];
   const hd=hoyDia();
   CUR_DIA=DATA.weeks[CUR_WEEK].dias[hd]?hd:Object.keys(DATA.weeks[CUR_WEEK].dias)[0];
   CUR_TURNO=turnoActivo();

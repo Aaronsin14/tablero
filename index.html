@@ -548,6 +548,20 @@ window.addEventListener("resize", ()=>{
   _fitTimer=setTimeout(fitToScreen, 120);
 });
 
+// busca la semana cuyas fechas contienen la fecha de hoy
+function semanaDeHoy(){
+  const hoy = new Date();
+  const y=hoy.getFullYear(), m=String(hoy.getMonth()+1).padStart(2,"0"), dd=String(hoy.getDate()).padStart(2,"0");
+  const hoyStr = `${y}-${m}-${dd}`;
+  for(const key of DATA.week_order){
+    const dates = DATA.weeks[key].dates.filter(Boolean);
+    if(dates.length && dates[0] <= hoyStr && hoyStr <= dates[dates.length-1]){
+      return key;
+    }
+  }
+  return null; // si hoy no cae en ninguna, devuelve null (usa la primera)
+}
+
 (async function(){
   // Modo TV (1920x1080 sin scroll): auto si pantalla grande, o forzado con ?tv en la URL
   const forceTV = location.search.includes("tv");
@@ -564,7 +578,7 @@ window.addEventListener("resize", ()=>{
     CUR_WEEK = savedWeek;
     CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {
-    CUR_WEEK = DATA.week_order[0];
+    CUR_WEEK = semanaDeHoy() || DATA.week_order[0];
     CUR_DAY = -1; // por defecto: VISTA SEMANA COMPLETA
   }
   render();

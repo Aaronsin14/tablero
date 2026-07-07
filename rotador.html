@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableros AngioDynamics — Rotación</title>
+<style>
+  html,body{margin:0;padding:0;height:100%;overflow:hidden;background:#0f2542;font-family:'Segoe UI',system-ui,sans-serif}
+  .frame-wrap{position:absolute;inset:0}
+  iframe{width:100%;height:100%;border:0;display:none}
+  iframe.active{display:block}
+  /* barra de progreso arriba que muestra cuanto falta para el cambio */
+  .progress{position:fixed;top:0;left:0;height:4px;background:#1f9d55;width:0;z-index:9999;transition:width .5s linear}
+  /* indicador de cual dashboard se ve */
+  .tag{position:fixed;bottom:12px;right:14px;background:rgba(15,37,66,.85);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;z-index:9999;letter-spacing:.5px}
+  .tag b{color:#7fd1a3}
+</style>
+</head>
+<body>
+  <div class="progress" id="prog"></div>
+  <div class="frame-wrap">
+    <!-- Dashboard 1: PRODUCCION (el que ya tienes) -->
+    <iframe id="f0" class="active" src="index.html?tv"></iframe>
+    <!-- Dashboard 2: EMBARQUES (se crea despues) -->
+    <iframe id="f1" src="embarques.html?tv"></iframe>
+  </div>
+  <div class="tag" id="tag">Mostrando: <b id="tagname">Producción</b></div>
+
+<script>
+  // ===== CONFIGURACION =====
+  const INTERVALO_MIN = 5;              // cambiar cada 5 minutos
+  const dashboards = [
+    { id:"f0", nombre:"Producción" },
+    { id:"f1", nombre:"Hora a Hora" },
+  ];
+  // =========================
+
+  const INTERVALO_MS = INTERVALO_MIN * 60 * 1000;
+  let actual = 0;
+
+  function mostrar(i){
+    dashboards.forEach((d,idx)=>{
+      document.getElementById(d.id).classList.toggle("active", idx===i);
+    });
+    document.getElementById("tagname").textContent = dashboards[i].nombre;
+  }
+
+  function siguiente(){
+    actual = (actual + 1) % dashboards.length;
+    mostrar(actual);
+    reiniciarBarra();
+  }
+
+  // barra de progreso visual
+  let barraInicio;
+  function reiniciarBarra(){
+    barraInicio = Date.now();
+  }
+  function animarBarra(){
+    const t = (Date.now() - barraInicio) / INTERVALO_MS;
+    document.getElementById("prog").style.width = Math.min(t*100,100) + "%";
+    requestAnimationFrame(animarBarra);
+  }
+
+  // arranque
+  mostrar(0);
+  reiniciarBarra();
+  animarBarra();
+  setInterval(siguiente, INTERVALO_MS);
+</script>
+</body>
+</html>

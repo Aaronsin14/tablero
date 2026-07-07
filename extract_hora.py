@@ -51,6 +51,21 @@ def find_day_rows(ws):
                 if up.startswith(d) and d not in rows: rows[d]=r
     return rows
 
+def find_meta_tables(ws):
+    """Encuentra todas las filas de encabezado de tabla de metas
+    (las que dicen 'Cantidad de estaciones' en la columna de Turno A)."""
+    tablas=[]
+    for r in range(1, ws.max_row+1):
+        v=ws.cell(r,3).value  # col C = Cantidad de estaciones (turno A)
+        if isinstance(v,str) and 'cantidad' in v.lower():
+            tablas.append(r)
+    return tablas
+
+def meta_row_for_day(day_row, meta_tables):
+    """La tabla de metas de un dia es la primera tabla en/despues del inicio del dia."""
+    cand=[m for m in meta_tables if m>=day_row]
+    return cand[0] if cand else day_row+68
+
 def read_turno(ws, meta_row, tcfg):
     name,cproc,cmeta,chour0,nhours = tcfg
     # etiquetas de hora (fila meta_row-1 tiene las horas)
@@ -94,10 +109,11 @@ def build_payload():
         if not sh.upper().startswith("WW"): continue
         ws=wb[sh]
         day_rows=find_day_rows(ws)
+        meta_tables=find_meta_tables(ws)
         dias={}
         for d in DIAS:
             if d not in day_rows: continue
-            meta_row=day_rows[d]+META_OFFSET
+            meta_row=meta_row_for_day(day_rows[d], meta_tables)
             turnos={}
             for tcfg in TURNOS:
                 turnos[tcfg[0]]=read_turno(ws, meta_row, tcfg)

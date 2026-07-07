@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-07T09:08:40",
+ "generated_at": "2026-07-07T17:15:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -25,7 +25,7 @@
         "name": "Cut (Tip/Teflon)",
         "meta_hora": 200.0,
         "hours": [
-         500.0,
+         0,
          0,
          0,
          0,
@@ -42,7 +42,7 @@
         "name": "Welder",
         "meta_hora": 480.0,
         "hours": [
-         400.0,
+         0,
          0,
          0,
          0,
@@ -110,7 +110,7 @@
         "name": "Embedder",
         "meta_hora": 60.0,
         "hours": [
-         50.0,
+         0,
          0,
          0,
          0,
@@ -127,7 +127,7 @@
         "name": "Inspeccion",
         "meta_hora": 55.0,
         "hours": [
-         50.0,
+         0,
          0,
          0,
          0,
@@ -92347,7 +92347,7 @@
       ],
       "procesos": [
        {
-        "name": "Welder",
+        "name": "Cut (Tip/Teflon)",
         "meta_hora": 200.0,
         "hours": [
          0,
@@ -92362,7 +92362,7 @@
         "rework": 0.0
        },
        {
-        "name": "Carga de bandas",
+        "name": "Welder",
         "meta_hora": 480.0,
         "hours": [
          0,
@@ -92377,7 +92377,7 @@
         "rework": 0.0
        },
        {
-        "name": "Staker",
+        "name": "Carga de bandas",
         "meta_hora": 75.0,
         "hours": [
          0,
@@ -92392,7 +92392,7 @@
         "rework": 0.0
        },
        {
-        "name": "Swager",
+        "name": "Staker",
         "meta_hora": 120.0,
         "hours": [
          0,
@@ -92407,7 +92407,7 @@
         "rework": 0.0
        },
        {
-        "name": "Embedder",
+        "name": "Swager",
         "meta_hora": 110.0,
         "hours": [
          0,
@@ -92422,7 +92422,7 @@
         "rework": 0.0
        },
        {
-        "name": "Inspeccion",
+        "name": "Embedder",
         "meta_hora": 60.0,
         "hours": [
          0,
@@ -92437,7 +92437,7 @@
         "rework": 0.0
        },
        {
-        "name": "Drawdown",
+        "name": "Inspeccion",
         "meta_hora": 55.0,
         "hours": [
          0,
@@ -92452,8 +92452,23 @@
         "rework": 0.0
        },
        {
-        "name": "Sidehole Soft Vu",
+        "name": "Drawdown",
         "meta_hora": 390.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 0.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 100.0,
         "hours": [
          0,
          0,
@@ -92483,21 +92498,6 @@
        },
        {
         "name": "Baking Rot",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
         "meta_hora": 450.0,
         "hours": [
          0,
@@ -92512,7 +92512,7 @@
         "rework": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Baking Conv",
         "meta_hora": 50.0,
         "hours": [
          0,
@@ -92527,7 +92527,7 @@
         "rework": 0.0
        },
        {
-        "name": "Prepping",
+        "name": "Hand Drilling",
         "meta_hora": 30.0,
         "hours": [
          0,
@@ -92542,7 +92542,7 @@
         "rework": 0.0
        },
        {
-        "name": "Rofing",
+        "name": "Prepping",
         "meta_hora": 150.0,
         "hours": [
          0,
@@ -92557,7 +92557,7 @@
         "rework": 0.0
        },
        {
-        "name": "Moldeadora Milacron",
+        "name": "Rofing",
         "meta_hora": 300.0,
         "hours": [
          0,
@@ -92572,7 +92572,7 @@
         "rework": 0.0
        },
        {
-        "name": "Moldeadora Atlas",
+        "name": "Moldeadora Milacron",
         "meta_hora": 480.0,
         "hours": [
          0,
@@ -92587,8 +92587,23 @@
         "rework": 0.0
        },
        {
-        "name": "Pouch",
+        "name": "Moldeadora Atlas",
         "meta_hora": 310.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 0.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 250.0,
         "hours": [
          0,
          0,
@@ -92623,7 +92638,7 @@
         "name": "Cut (Tip/Teflon)",
         "meta_hora": 200.0,
         "hours": [
-         125.0,
+         0,
          0,
          0,
          0,
@@ -92640,7 +92655,7 @@
         "name": "Welder",
         "meta_hora": 480.0,
         "hours": [
-         50.0,
+         0,
          0,
          0,
          0,
@@ -92708,7 +92723,7 @@
         "name": "Embedder",
         "meta_hora": 60.0,
         "hours": [
-         50.0,
+         0,
          0,
          0,
          0,
@@ -92725,7 +92740,7 @@
         "name": "Inspeccion",
         "meta_hora": 55.0,
         "hours": [
-         50.0,
+         0,
          0,
          0,
          0,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-08T13:26:21",
+ "generated_at": "2026-07-08T14:27:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -9,55 +9,21 @@
     "LUNES": {
      "A": {
       "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
       ],
       "procesos": [
        {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
         "name": "Carga de bandas",
-        "meta_hora": 75.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -70,11 +36,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 75.0
        },
        {
         "name": "Staker",
-        "meta_hora": 100.0,
+        "meta_hora": 2.0,
         "hours": [
          0,
          0,
@@ -87,11 +53,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Swager",
-        "meta_hora": 110.0,
+        "meta_hora": 2.0,
         "hours": [
          0,
          0,
@@ -104,11 +70,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Embedder",
-        "meta_hora": 50.0,
+        "meta_hora": 10.0,
         "hours": [
          0,
          0,
@@ -121,11 +87,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 50.0
        },
        {
         "name": "Inspeccion",
-        "meta_hora": 50.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -138,11 +104,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 50.0
        },
        {
         "name": "Drawdown",
-        "meta_hora": 390.0,
+        "meta_hora": 3.0,
         "hours": [
          0,
          0,
@@ -155,11 +121,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 390.0
        },
        {
         "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -172,11 +138,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -189,11 +155,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Baking Rot",
-        "meta_hora": 450.0,
+        "meta_hora": 3.0,
         "hours": [
          0,
          0,
@@ -206,11 +172,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 450.0
        },
        {
         "name": "Baking Conv",
-        "meta_hora": 50.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -223,11 +189,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 60.0
        },
        {
         "name": "Hand Drilling",
-        "meta_hora": 30.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -240,11 +206,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 30.0
        },
        {
         "name": "Prepping",
-        "meta_hora": 150.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -257,11 +223,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 150.0
        },
        {
         "name": "Rofing",
-        "meta_hora": 300.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -274,11 +240,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 300.0
        },
        {
         "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -291,11 +257,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 480.0
        },
        {
         "name": "Moldeadora Atlas",
-        "meta_hora": 300.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -308,11 +274,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 300.0
        },
        {
         "name": "Pouch",
-        "meta_hora": 300.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -325,15 +291,15 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 300.0
        }
       ]
      },
      "B": {
       "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
+       "Cut (Tip/Teflon)",
+       "2",
+       "500",
        "H4",
        "H5",
        "H6",
@@ -344,9 +310,9 @@
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "H3",
-       "H4",
+       "Cut (Tip/Teflon)",
+       "2",
+       "500",
        "H5",
        "H6",
        "H7",
@@ -358,355 +324,6 @@
     "MARTES": {
      "A": {
       "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "meta_hora": 75.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Staker",
-        "meta_hora": 120.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Swager",
-        "meta_hora": 110.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Embedder",
-        "meta_hora": 60.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "meta_hora": 55.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "meta_hora": 450.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
-        "meta_hora": 50.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "meta_hora": 30.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Prepping",
-        "meta_hora": 150.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Rofing",
-        "meta_hora": 300.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Pouch",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": [
-       {
-        "name": "Fase 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "C": {
-      "hour_labels": [
        "H1",
        "H2",
        "H3",
@@ -714,79 +331,14 @@
        "H5",
        "H6",
        "H7",
-       "H8"
+       "H8",
+       "H9",
+       "H10"
       ],
       "procesos": [
-       {
-        "name": "FASE 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     }
-    },
-    "MIERCOLES": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
        {
         "name": "Carga de bandas",
-        "meta_hora": 75.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -799,11 +351,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 75.0
        },
        {
         "name": "Staker",
-        "meta_hora": 120.0,
+        "meta_hora": 2.0,
         "hours": [
          0,
          0,
@@ -816,11 +368,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 120.0
        },
        {
         "name": "Swager",
-        "meta_hora": 110.0,
+        "meta_hora": 2.0,
         "hours": [
          0,
          0,
@@ -833,11 +385,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 110.0
        },
        {
         "name": "Embedder",
-        "meta_hora": 60.0,
+        "meta_hora": 10.0,
         "hours": [
          0,
          0,
@@ -850,11 +402,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 60.0
        },
        {
         "name": "Inspeccion",
-        "meta_hora": 55.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -867,11 +419,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 55.0
        },
        {
         "name": "Drawdown",
-        "meta_hora": 390.0,
+        "meta_hora": 3.0,
         "hours": [
          0,
          0,
@@ -884,11 +436,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 390.0
        },
        {
         "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -901,11 +453,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -918,11 +470,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 100.0
        },
        {
         "name": "Baking Rot",
-        "meta_hora": 450.0,
+        "meta_hora": 3.0,
         "hours": [
          0,
          0,
@@ -935,11 +487,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 450.0
        },
        {
         "name": "Baking Conv",
-        "meta_hora": 50.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -952,11 +504,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 50.0
        },
        {
         "name": "Hand Drilling",
-        "meta_hora": 30.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -969,11 +521,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 30.0
        },
        {
         "name": "Prepping",
-        "meta_hora": 150.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -986,11 +538,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 150.0
        },
        {
         "name": "Rofing",
-        "meta_hora": 300.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -1003,11 +555,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 300.0
        },
        {
         "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -1020,11 +572,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 480.0
        },
        {
         "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -1037,11 +589,11 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 310.0
        },
        {
         "name": "Pouch",
-        "meta_hora": 250.0,
+        "meta_hora": 1.0,
         "hours": [
          0,
          0,
@@ -1054,1535 +606,15 @@
          0,
          0
         ],
-        "rework": 0.0
+        "rework": 250.0
        }
       ]
      },
      "B": {
       "hour_labels": [
-       "H1",
+       "Cut (Tip/Teflon)",
        "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": [
-       {
-        "name": "Fase 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7",
-       "H8"
-      ],
-      "procesos": [
-       {
-        "name": "FASE 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     }
-    },
-    "JUEVES": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "meta_hora": 75.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Staker",
-        "meta_hora": 120.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Swager",
-        "meta_hora": 110.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Embedder",
-        "meta_hora": 60.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "meta_hora": 55.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "meta_hora": 450.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
-        "meta_hora": 50.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "meta_hora": 30.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Prepping",
-        "meta_hora": 150.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Rofing",
-        "meta_hora": 300.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Pouch",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": [
-       {
-        "name": "Fase 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7",
-       "H8"
-      ],
-      "procesos": [
-       {
-        "name": "FASE 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     }
-    },
-    "VIERNES": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "meta_hora": 75.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Staker",
-        "meta_hora": 120.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Swager",
-        "meta_hora": 110.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Embedder",
-        "meta_hora": 60.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "meta_hora": 55.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "meta_hora": 450.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
-        "meta_hora": 50.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "meta_hora": 30.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Prepping",
-        "meta_hora": 150.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Rofing",
-        "meta_hora": 300.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Pouch",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": [
-       {
-        "name": "Fase 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7",
-       "H8"
-      ],
-      "procesos": [
-       {
-        "name": "FASE 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     }
-    },
-    "SABADO": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "meta_hora": 75.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Staker",
-        "meta_hora": 120.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Swager",
-        "meta_hora": 110.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Embedder",
-        "meta_hora": 60.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "meta_hora": 55.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "meta_hora": 450.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
-        "meta_hora": 50.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "meta_hora": 30.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Prepping",
-        "meta_hora": 150.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Rofing",
-        "meta_hora": 300.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Pouch",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": [
-       {
-        "name": "Fase 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7",
-       "H8"
-      ],
-      "procesos": [
-       {
-        "name": "FASE 1",
-        "meta_hora": 125.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     }
-    },
-    "DOMINGO": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut (Tip/Teflon)",
-        "meta_hora": 200.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Welder",
-        "meta_hora": 400.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "meta_hora": 75.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Staker",
-        "meta_hora": 120.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Swager",
-        "meta_hora": 110.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Embedder",
-        "meta_hora": 60.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "meta_hora": 55.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "meta_hora": 390.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Soft Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Sidehole Accu Vu",
-        "meta_hora": 100.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "meta_hora": 450.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Baking Conv",
-        "meta_hora": 50.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "meta_hora": 30.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Prepping",
-        "meta_hora": 150.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Rofing",
-        "meta_hora": 300.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "meta_hora": 480.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "meta_hora": 310.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       },
-       {
-        "name": "Pouch",
-        "meta_hora": 250.0,
-        "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
+       "200",
        "H4",
        "H5",
        "H6",
@@ -2593,9 +625,1584 @@
      "C": {
       "hour_labels": [
        "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
+       "H5",
+       "H6",
+       "H7",
+       "H8"
+      ],
+      "procesos": []
+     }
+    },
+    "MIERCOLES": {
+     "A": {
+      "hour_labels": [
+       "H1",
        "H2",
        "H3",
        "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
+      ],
+      "procesos": [
+       {
+        "name": "Carga de bandas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 75.0
+       },
+       {
+        "name": "Staker",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 120.0
+       },
+       {
+        "name": "Swager",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 110.0
+       },
+       {
+        "name": "Embedder",
+        "meta_hora": 10.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 60.0
+       },
+       {
+        "name": "Inspeccion",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 55.0
+       },
+       {
+        "name": "Drawdown",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 390.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Sidehole Accu Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Baking Rot",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 450.0
+       },
+       {
+        "name": "Baking Conv",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 50.0
+       },
+       {
+        "name": "Hand Drilling",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 30.0
+       },
+       {
+        "name": "Prepping",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 150.0
+       },
+       {
+        "name": "Rofing",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 300.0
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 480.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 310.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 250.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "Cut (Tip/Teflon)",
+       "H2",
+       "200",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
+       "H5",
+       "H6",
+       "H7",
+       "H8"
+      ],
+      "procesos": []
+     }
+    },
+    "JUEVES": {
+     "A": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
+      ],
+      "procesos": [
+       {
+        "name": "Carga de bandas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 75.0
+       },
+       {
+        "name": "Staker",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 120.0
+       },
+       {
+        "name": "Swager",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 110.0
+       },
+       {
+        "name": "Embedder",
+        "meta_hora": 10.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 60.0
+       },
+       {
+        "name": "Inspeccion",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 55.0
+       },
+       {
+        "name": "Drawdown",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 390.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Sidehole Accu Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Baking Rot",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 450.0
+       },
+       {
+        "name": "Baking Conv",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 50.0
+       },
+       {
+        "name": "Hand Drilling",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 30.0
+       },
+       {
+        "name": "Prepping",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 150.0
+       },
+       {
+        "name": "Rofing",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 300.0
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 480.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 310.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 250.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "Cut (Tip/Teflon)",
+       "H2",
+       "200",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
+       "H5",
+       "H6",
+       "H7",
+       "H8"
+      ],
+      "procesos": []
+     }
+    },
+    "VIERNES": {
+     "A": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
+      ],
+      "procesos": [
+       {
+        "name": "Carga de bandas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 75.0
+       },
+       {
+        "name": "Staker",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 120.0
+       },
+       {
+        "name": "Swager",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 110.0
+       },
+       {
+        "name": "Embedder",
+        "meta_hora": 10.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 60.0
+       },
+       {
+        "name": "Inspeccion",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 55.0
+       },
+       {
+        "name": "Drawdown",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 390.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Sidehole Accu Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Baking Rot",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 450.0
+       },
+       {
+        "name": "Baking Conv",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 50.0
+       },
+       {
+        "name": "Hand Drilling",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 30.0
+       },
+       {
+        "name": "Prepping",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 150.0
+       },
+       {
+        "name": "Rofing",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 300.0
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 480.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 310.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 250.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "Cut (Tip/Teflon)",
+       "H2",
+       "200",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
+       "H5",
+       "H6",
+       "H7",
+       "H8"
+      ],
+      "procesos": []
+     }
+    },
+    "SABADO": {
+     "A": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
+      ],
+      "procesos": [
+       {
+        "name": "Carga de bandas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 75.0
+       },
+       {
+        "name": "Staker",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 120.0
+       },
+       {
+        "name": "Swager",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 110.0
+       },
+       {
+        "name": "Embedder",
+        "meta_hora": 10.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 60.0
+       },
+       {
+        "name": "Inspeccion",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 55.0
+       },
+       {
+        "name": "Drawdown",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 390.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Sidehole Accu Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Baking Rot",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 450.0
+       },
+       {
+        "name": "Baking Conv",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 50.0
+       },
+       {
+        "name": "Hand Drilling",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 30.0
+       },
+       {
+        "name": "Prepping",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 150.0
+       },
+       {
+        "name": "Rofing",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 300.0
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 480.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 310.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 250.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "Cut (Tip/Teflon)",
+       "H2",
+       "200",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
+       "H5",
+       "H6",
+       "H7",
+       "H8"
+      ],
+      "procesos": []
+     }
+    },
+    "DOMINGO": {
+     "A": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7",
+       "H8",
+       "H9",
+       "H10"
+      ],
+      "procesos": [
+       {
+        "name": "Carga de bandas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 75.0
+       },
+       {
+        "name": "Staker",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 120.0
+       },
+       {
+        "name": "Swager",
+        "meta_hora": 2.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 110.0
+       },
+       {
+        "name": "Embedder",
+        "meta_hora": 10.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 60.0
+       },
+       {
+        "name": "Inspeccion",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 55.0
+       },
+       {
+        "name": "Drawdown",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 390.0
+       },
+       {
+        "name": "Sidehole Soft Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Sidehole Accu Vu",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 100.0
+       },
+       {
+        "name": "Baking Rot",
+        "meta_hora": 3.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 450.0
+       },
+       {
+        "name": "Baking Conv",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 50.0
+       },
+       {
+        "name": "Hand Drilling",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 30.0
+       },
+       {
+        "name": "Prepping",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 150.0
+       },
+       {
+        "name": "Rofing",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 300.0
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 480.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 310.0
+       },
+       {
+        "name": "Pouch",
+        "meta_hora": 1.0,
+        "hours": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "rework": 250.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "Cut (Tip/Teflon)",
+       "H2",
+       "200",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "Cut (Tip/Teflon)",
+       "H3",
+       "200",
        "H5",
        "H6",
        "H7",

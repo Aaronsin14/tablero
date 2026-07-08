@@ -253,6 +253,8 @@ function render(){
   const yieldP  = pickP(K.yield,"pct");
   const outsA   = pick(K.daily_outs,"units");
   const outsP   = pickP(K.daily_outs,"units");
+  const insA    = pick(K.daily_ins,"units");
+  const insP    = pickP(K.daily_ins,"units");
   const downtime= pick(K.downtime,"hours");
 
   // cumplimiento entrega
@@ -263,6 +265,9 @@ function render(){
   const segQuality = (quality||0)===0 ? (yieldA!==null && yieldA<0.97?"a":"g") : "a";
   const yStatus    = yieldA===null?"n": yieldA>=0.97?"g": yieldA>=0.90?"a":"r";
   const segEntrega = cump===null?"n": cump>=0.995?"g": cump>=0.50?"a":"r";
+  // cumplimiento de entradas (recibido vs plan)
+  const cumpIns = (insP && insP>0 && insA!==null) ? insA/insP : null;
+  const segEntradas = cumpIns===null?"n": cumpIns>=0.995?"g": cumpIns>=0.50?"a":"r";
   const segCosto   = (scrap===null && downtime===null)?"n":"g";
 
   const badge = s => s==="g"?"BIEN":s==="a"?"ATENCIÓN":s==="r"?"REVISAR":"—";
@@ -286,7 +291,7 @@ function render(){
   <header class="top">
     <div>
       <h1>TABLERO TIER 2 — ${DATA.plant.toUpperCase()}</h1>
-      <div class="sub">SEGURIDAD · CALIDAD · ENTREGA · COSTO — TODOS LOS DÍAS</div>
+      <div class="sub">ENTRADAS · CALIDAD · ENTREGA · COSTO — TODOS LOS DÍAS</div>
     </div>
     <div class="pills">
       <div class="pill"><div class="k">PLANTA</div><div class="v">${DATA.plant}</div></div>
@@ -305,8 +310,10 @@ function render(){
   </div>
 
   <div class="kpis">
-    ${kcard("SEGURIDAD", segSafety, [
-      row("Eventos de seguridad","del día", fmt(safety,"count"), segSafety),
+    ${kcard("ENTRADAS", segEntradas, [
+      row("Entradas (real)","lo que recibimos", fmt(insA,"units"), segEntradas),
+      row("Plan de entradas","lo que se esperaba", fmt(insP,"units"), "n"),
+      row("Cumplimiento","real ÷ plan", cumpIns===null?"—":Math.round(cumpIns*100)+"%", segEntradas),
     ])}
     ${kcard("CALIDAD", yStatus, [
       row("Eventos MRB","del día", fmt(quality,"count"), (quality||0)===0?"g":"a"),

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-09T15:14:17",
+ "generated_at": "2026-07-09T15:30:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -23,9 +23,9 @@
       "procesos": [
        {
         "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
         "hours": [
          0.0,
          0.0,
@@ -39,14 +39,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3063.75,
+        "delta": 4089.0,
         "downtime": 0.0
        },
        {
         "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
         "hours": [
          0.0,
          0.0,
@@ -60,14 +60,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3268.0,
+        "delta": 2998.05,
         "downtime": 0.0
        },
        {
         "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
         "hours": [
          0.0,
          0.0,
@@ -81,14 +81,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 612.75,
+        "delta": 614.75,
         "downtime": 0.0
        },
        {
         "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -102,14 +102,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -123,14 +123,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -144,14 +144,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 428.5,
         "downtime": 0.0
        },
        {
         "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -165,14 +165,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 410.5,
         "downtime": 0.0
        },
        {
         "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
         "hours": [
          0.0,
          0.0,
@@ -186,14 +186,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3186.3,
+        "delta": 3192.3,
         "downtime": 0.0
        },
        {
         "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
         "hours": [
          0.0,
          0.0,
@@ -207,14 +207,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1634.0,
+        "delta": 1638.0,
         "downtime": 0.0
        },
        {
         "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
         "hours": [
          0.0,
          0.0,
@@ -228,14 +228,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3676.5,
+        "delta": 3682.5,
         "downtime": 0.0
        },
        {
         "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
         "hours": [
          0.0,
          0.0,
@@ -249,14 +249,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 490.2,
+        "delta": 492.2,
         "downtime": 0.0
        },
        {
         "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
         "hours": [
          0.0,
          0.0,
@@ -270,14 +270,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 245.1,
+        "delta": 247.1,
         "downtime": 0.0
        },
        {
         "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
         "hours": [
          0.0,
          0.0,
@@ -291,14 +291,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1225.5,
+        "delta": 1227.5,
         "downtime": 0.0
        },
        {
         "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -312,14 +312,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
         "hours": [
          0.0,
          0.0,
@@ -333,14 +333,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3921.6,
+        "delta": 3923.6,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -354,14 +354,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -375,7 +375,7 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
@@ -444,9 +444,9 @@
       "procesos": [
        {
         "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
         "hours": [
          0.0,
          0.0,
@@ -460,14 +460,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3063.75,
+        "delta": 4089.0,
         "downtime": 0.0
        },
        {
         "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
         "hours": [
          0.0,
          0.0,
@@ -481,14 +481,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3268.0,
+        "delta": 2998.05,
         "downtime": 0.0
        },
        {
         "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
         "hours": [
          0.0,
          0.0,
@@ -502,14 +502,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 612.75,
+        "delta": 614.75,
         "downtime": 0.0
        },
        {
         "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -523,14 +523,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -544,14 +544,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -565,14 +565,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 428.5,
         "downtime": 0.0
        },
        {
         "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -586,14 +586,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 410.5,
         "downtime": 0.0
        },
        {
         "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
         "hours": [
          0.0,
          0.0,
@@ -607,14 +607,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3186.3,
+        "delta": 3192.3,
         "downtime": 0.0
        },
        {
         "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
         "hours": [
          0.0,
          0.0,
@@ -628,14 +628,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1634.0,
+        "delta": 1638.0,
         "downtime": 0.0
        },
        {
         "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
         "hours": [
          0.0,
          0.0,
@@ -649,14 +649,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3676.5,
+        "delta": 3682.5,
         "downtime": 0.0
        },
        {
         "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
         "hours": [
          0.0,
          0.0,
@@ -670,14 +670,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 490.2,
+        "delta": 492.2,
         "downtime": 0.0
        },
        {
         "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
         "hours": [
          0.0,
          0.0,
@@ -691,14 +691,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 245.1,
+        "delta": 247.1,
         "downtime": 0.0
        },
        {
         "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
         "hours": [
          0.0,
          0.0,
@@ -712,14 +712,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1225.5,
+        "delta": 1227.5,
         "downtime": 0.0
        },
        {
         "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -733,14 +733,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
         "hours": [
          0.0,
          0.0,
@@ -754,14 +754,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3921.6,
+        "delta": 3923.6,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -775,14 +775,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -796,7 +796,7 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
@@ -865,9 +865,9 @@
       "procesos": [
        {
         "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
         "hours": [
          0.0,
          0.0,
@@ -881,14 +881,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3063.75,
+        "delta": 4089.0,
         "downtime": 0.0
        },
        {
         "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
         "hours": [
          0.0,
          0.0,
@@ -902,14 +902,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3268.0,
+        "delta": 2998.05,
         "downtime": 0.0
        },
        {
         "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
         "hours": [
          0.0,
          0.0,
@@ -923,14 +923,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 612.75,
+        "delta": 614.75,
         "downtime": 0.0
        },
        {
         "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -944,14 +944,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          0.0,
          0.0,
@@ -965,14 +965,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 817.0,
+        "delta": 821.0,
         "downtime": 0.0
        },
        {
         "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -986,14 +986,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 428.5,
         "downtime": 0.0
        },
        {
         "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
         "hours": [
          0.0,
          0.0,
@@ -1007,14 +1007,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 408.5,
+        "delta": 410.5,
         "downtime": 0.0
        },
        {
         "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
         "hours": [
          0.0,
          0.0,
@@ -1028,14 +1028,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3186.3,
+        "delta": 3192.3,
         "downtime": 0.0
        },
        {
         "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
         "hours": [
          0.0,
          0.0,
@@ -1049,14 +1049,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1634.0,
+        "delta": 1638.0,
         "downtime": 0.0
        },
        {
         "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
         "hours": [
          0.0,
          0.0,
@@ -1070,14 +1070,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3676.5,
+        "delta": 3682.5,
         "downtime": 0.0
        },
        {
         "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
         "hours": [
          0.0,
          0.0,
@@ -1091,14 +1091,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 490.2,
+        "delta": 492.2,
         "downtime": 0.0
        },
        {
         "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
         "hours": [
          0.0,
          0.0,
@@ -1112,14 +1112,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 245.1,
+        "delta": 247.1,
         "downtime": 0.0
        },
        {
         "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
         "hours": [
          0.0,
          0.0,
@@ -1133,14 +1133,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 1225.5,
+        "delta": 1227.5,
         "downtime": 0.0
        },
        {
         "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -1154,14 +1154,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
         "hours": [
          0.0,
          0.0,
@@ -1175,14 +1175,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 3921.6,
+        "delta": 3923.6,
         "downtime": 0.0
        },
        {
         "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -1196,14 +1196,14 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
         "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
         "hours": [
          0.0,
          0.0,
@@ -1217,7 +1217,7 @@
          0.0
         ],
         "scrap": 0.0,
-        "delta": 2451.0,
+        "delta": 2453.0,
         "downtime": 0.0
        },
        {
@@ -1286,9 +1286,9 @@
       "procesos": [
        {
         "name": "Cut",
-        "maquinas": 3,
-        "meta_dia": 4087.0,
-        "meta_hora": 500.0,
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
         "hours": [
          400.0,
          610.0,
@@ -1298,18 +1298,18 @@
          563.0,
          561.0,
          561.0,
-         0.0,
-         0.0
+         559.0,
+         209.0
         ],
-        "scrap": 8406.0,
-        "delta": -357.0,
+        "scrap": 9942.0,
+        "delta": -1123.0,
         "downtime": 0.0
        },
        {
         "name": "Welder",
-        "maquinas": 9,
-        "meta_dia": 2990.05,
-        "meta_hora": 365.0,
+        "maquinas": 10,
+        "meta_dia": 3038.9,
+        "meta_hora": 8372.9,
         "hours": [
          160.0,
          392.0,
@@ -1319,18 +1319,18 @@
          377.0,
          290.0,
          318.0,
-         0.0,
-         0.0
+         346.0,
+         168.0
         ],
-        "scrap": 4666.0,
-        "delta": 492.05,
+        "scrap": 5669.0,
+        "delta": 26.9,
         "downtime": 0.0
        },
        {
         "name": "Carga de bandas",
-        "maquinas": 2,
-        "meta_dia": 613.75,
-        "meta_hora": 75.0,
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
         "hours": [
          75.0,
          150.0,
@@ -1344,14 +1344,14 @@
          0.0
         ],
         "scrap": 524.0,
-        "delta": 29.75,
+        "delta": 30.75,
         "downtime": 0.0
        },
        {
         "name": "Staker",
-        "maquinas": 3,
-        "meta_dia": 819.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          20.0,
          50.0,
@@ -1365,14 +1365,14 @@
          0.0
         ],
         "scrap": 450.0,
-        "delta": 584.0,
+        "delta": 586.0,
         "downtime": 0.0
        },
        {
         "name": "Swager",
-        "maquinas": 3,
-        "meta_dia": 819.0,
-        "meta_hora": 100.0,
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
         "hours": [
          20.0,
          50.0,
@@ -1386,14 +1386,14 @@
          0.0
         ],
         "scrap": 450.0,
-        "delta": 584.0,
+        "delta": 586.0,
         "downtime": 0.0
        },
        {
         "name": "Embedder",
-        "maquinas": 11,
-        "meta_dia": 418.50000000000006,
-        "meta_hora": 50.0,
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
         "hours": [
          15.0,
          48.0,
@@ -1407,14 +1407,14 @@
          0.0
         ],
         "scrap": 403.0,
-        "delta": 195.5,
+        "delta": 205.5,
         "downtime": 0.0
        },
        {
         "name": "Inspeccion",
-        "maquinas": 2,
-        "meta_dia": 409.5,
-        "meta_hora": 50.0,
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
         "hours": [
          15.0,
          48.0,
@@ -1428,14 +1428,14 @@
          0.0
         ],
         "scrap": 403.0,
-        "delta": 186.5,
+        "delta": 187.5,
         "downtime": 0.0
        },
        {
         "name": "Drawdown",
-        "maquinas": 4,
-        "meta_dia": 3189.2999999999997,
-        "meta_hora": 390.0,
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
         "hours": [
          150.0,
          298.0,
@@ -1449,14 +1449,14 @@
          0.0
         ],
         "scrap": 1100.0,
-        "delta": 1381.3,
+        "delta": 1384.3,
         "downtime": 0.0
        },
        {
         "name": "Sidehole",
-        "maquinas": 4,
-        "meta_dia": 1636.0,
-        "meta_hora": 200.0,
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
         "hours": [
          50.0,
          100.0,
@@ -1470,14 +1470,14 @@
          0.0
         ],
         "scrap": 1432.0,
-        "delta": 895.0,
+        "delta": 897.0,
         "downtime": 0.0
        },
        {
         "name": "Baking Rot",
-        "maquinas": 4,
-        "meta_dia": 3679.5,
-        "meta_hora": 450.0,
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
         "hours": [
          210.0,
          350.0,
@@ -1491,7 +1491,1270 @@
          0.0
         ],
         "scrap": 2960.0,
-        "delta": 2094.5,
+        "delta": 2097.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking  Conv",
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 492.2,
+        "downtime": 0.0
+       },
+       {
+        "name": "Hand Drilling",
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 247.1,
+        "downtime": 0.0
+       },
+       {
+        "name": "Prepping",
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1227.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Rofing",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora  Milacron",
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3923.6,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Pouch",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Boxing",
+        "maquinas": 1,
+        "meta_dia": 2859.5,
+        "meta_hora": 350.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2859.5,
+        "downtime": 0.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "10-11 pm",
+       "11-12 am",
+       "12-1 am",
+       "1-2 am",
+       "2 - 3 am"
+      ],
+      "procesos": []
+     }
+    },
+    "VIERNES": {
+     "A": {
+      "hour_labels": [
+       "6-7 am",
+       "7-8 am",
+       "8-9 am",
+       "9-10 am",
+       "10-11 am",
+       "11-12 am",
+       "12-1 pm",
+       "1-2 pm",
+       "2 - 3 pm",
+       "3 - 336 pm"
+      ],
+      "procesos": [
+       {
+        "name": "Cut",
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 4089.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Welder",
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2998.05,
+        "downtime": 0.0
+       },
+       {
+        "name": "Carga de bandas",
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 614.75,
+        "downtime": 0.0
+       },
+       {
+        "name": "Staker",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Swager",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Embedder",
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 428.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Inspeccion",
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 410.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Drawdown",
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3192.3,
+        "downtime": 0.0
+       },
+       {
+        "name": "Sidehole",
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1638.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking Rot",
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3682.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking  Conv",
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 492.2,
+        "downtime": 0.0
+       },
+       {
+        "name": "Hand Drilling",
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 247.1,
+        "downtime": 0.0
+       },
+       {
+        "name": "Prepping",
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1227.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Rofing",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora  Milacron",
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3923.6,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Pouch",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Boxing",
+        "maquinas": 1,
+        "meta_dia": 2859.5,
+        "meta_hora": 350.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2859.5,
+        "downtime": 0.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "10-11 pm",
+       "11-12 am",
+       "12-1 am",
+       "1-2 am",
+       "2 - 3 am"
+      ],
+      "procesos": []
+     }
+    },
+    "SABADO": {
+     "A": {
+      "hour_labels": [
+       "6-7 am",
+       "7-8 am",
+       "8-9 am",
+       "9-10 am",
+       "10-11 am",
+       "11-12 am",
+       "12-1 pm",
+       "1-2 pm",
+       "2 - 3 pm",
+       "3 - 336 pm"
+      ],
+      "procesos": [
+       {
+        "name": "Cut",
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 4089.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Welder",
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2998.05,
+        "downtime": 0.0
+       },
+       {
+        "name": "Carga de bandas",
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 614.75,
+        "downtime": 0.0
+       },
+       {
+        "name": "Staker",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Swager",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Embedder",
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 428.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Inspeccion",
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 410.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Drawdown",
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3192.3,
+        "downtime": 0.0
+       },
+       {
+        "name": "Sidehole",
+        "maquinas": 6,
+        "meta_dia": 1638.0,
+        "meta_hora": 4324.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1638.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking Rot",
+        "maquinas": 5,
+        "meta_dia": 3682.5,
+        "meta_hora": 9729.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3682.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking  Conv",
+        "maquinas": 3,
+        "meta_dia": 492.2,
+        "meta_hora": 1297.2,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 492.2,
+        "downtime": 0.0
+       },
+       {
+        "name": "Hand Drilling",
+        "maquinas": 3,
+        "meta_dia": 247.1,
+        "meta_hora": 648.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 247.1,
+        "downtime": 0.0
+       },
+       {
+        "name": "Prepping",
+        "maquinas": 3,
+        "meta_dia": 1227.5,
+        "meta_hora": 2727.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1227.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Rofing",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora  Milacron",
+        "maquinas": 3,
+        "meta_dia": 3923.6,
+        "meta_hora": 10377.6,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3923.6,
+        "downtime": 0.0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Pouch",
+        "maquinas": 3,
+        "meta_dia": 2453.0,
+        "meta_hora": 6486.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2453.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Boxing",
+        "maquinas": 1,
+        "meta_dia": 2859.5,
+        "meta_hora": 350.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2859.5,
+        "downtime": 0.0
+       }
+      ]
+     },
+     "B": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "H4",
+       "H5",
+       "H6",
+       "H7"
+      ],
+      "procesos": []
+     },
+     "C": {
+      "hour_labels": [
+       "H1",
+       "H2",
+       "H3",
+       "10-11 pm",
+       "11-12 am",
+       "12-1 am",
+       "1-2 am",
+       "2 - 3 am"
+      ],
+      "procesos": []
+     }
+    },
+    "DOMINGO": {
+     "A": {
+      "hour_labels": [
+       "6-7 am",
+       "7-8 am",
+       "8-9 am",
+       "9-10 am",
+       "10-11 am",
+       "11-12 am",
+       "12-1 pm",
+       "1-2 pm",
+       "2 - 3 pm",
+       "3 - 336 pm"
+      ],
+      "procesos": [
+       {
+        "name": "Cut",
+        "maquinas": 4,
+        "meta_dia": 4089.0,
+        "meta_hora": 10810.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 4089.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Welder",
+        "maquinas": 10,
+        "meta_dia": 2998.05,
+        "meta_hora": 8327.05,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 2998.05,
+        "downtime": 0.0
+       },
+       {
+        "name": "Carga de bandas",
+        "maquinas": 3,
+        "meta_dia": 614.75,
+        "meta_hora": 1621.5,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 614.75,
+        "downtime": 0.0
+       },
+       {
+        "name": "Staker",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Swager",
+        "maquinas": 4,
+        "meta_dia": 821.0,
+        "meta_hora": 2162.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 821.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Embedder",
+        "maquinas": 12,
+        "meta_dia": 428.50000000000006,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 428.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Inspeccion",
+        "maquinas": 3,
+        "meta_dia": 410.5,
+        "meta_hora": 1081.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 410.5,
+        "downtime": 0.0
+       },
+       {
+        "name": "Drawdown",
+        "maquinas": 5,
+        "meta_dia": 3192.2999999999997,
+        "meta_hora": 8431.8,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3192.3,
+        "downtime": 0.0
+       },
+       {
+        "name": "Sidehole",
+        "maquinas": 5,
+        "meta_dia": 1637.0,
+        "meta_hora": 2262.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 1637.0,
+        "downtime": 0.0
+       },
+       {
+        "name": "Baking Rot",
+        "maquinas": 4,
+        "meta_dia": 3679.5,
+        "meta_hora": 450.0,
+        "hours": [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scrap": 0.0,
+        "delta": 3679.5,
         "downtime": 0.0
        },
        {
@@ -1639,1269 +2902,6 @@
         ],
         "scrap": 0.0,
         "delta": 2452.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_dia": 2859.5,
-        "meta_hora": 350.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2859.5,
-        "downtime": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": []
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "10-11 pm",
-       "11-12 am",
-       "12-1 am",
-       "1-2 am",
-       "2 - 3 am"
-      ],
-      "procesos": []
-     }
-    },
-    "VIERNES": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3063.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3268.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 612.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3186.3,
-        "downtime": 0.0
-       },
-       {
-        "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1634.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3676.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 490.2,
-        "downtime": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 245.1,
-        "downtime": 0.0
-       },
-       {
-        "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1225.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3921.6,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_dia": 2859.5,
-        "meta_hora": 350.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2859.5,
-        "downtime": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": []
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "10-11 pm",
-       "11-12 am",
-       "12-1 am",
-       "1-2 am",
-       "2 - 3 am"
-      ],
-      "procesos": []
-     }
-    },
-    "SABADO": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3063.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3268.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 612.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3186.3,
-        "downtime": 0.0
-       },
-       {
-        "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1634.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3676.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 490.2,
-        "downtime": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 245.1,
-        "downtime": 0.0
-       },
-       {
-        "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1225.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3921.6,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_dia": 2859.5,
-        "meta_hora": 350.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2859.5,
-        "downtime": 0.0
-       }
-      ]
-     },
-     "B": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "H4",
-       "H5",
-       "H6",
-       "H7"
-      ],
-      "procesos": []
-     },
-     "C": {
-      "hour_labels": [
-       "H1",
-       "H2",
-       "H3",
-       "10-11 pm",
-       "11-12 am",
-       "12-1 am",
-       "1-2 am",
-       "2 - 3 am"
-      ],
-      "procesos": []
-     }
-    },
-    "DOMINGO": {
-     "A": {
-      "hour_labels": [
-       "6-7 am",
-       "7-8 am",
-       "8-9 am",
-       "9-10 am",
-       "10-11 am",
-       "11-12 am",
-       "12-1 pm",
-       "1-2 pm",
-       "2 - 3 pm",
-       "3 - 336 pm"
-      ],
-      "procesos": [
-       {
-        "name": "Cut",
-        "maquinas": 2,
-        "meta_dia": 3063.75,
-        "meta_hora": 375.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3063.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Welder",
-        "maquinas": 8,
-        "meta_dia": 3268.0,
-        "meta_hora": 400.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3268.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Carga de bandas",
-        "maquinas": 1,
-        "meta_dia": 612.75,
-        "meta_hora": 75.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 612.75,
-        "downtime": 0.0
-       },
-       {
-        "name": "Staker",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Swager",
-        "maquinas": 2,
-        "meta_dia": 817.0,
-        "meta_hora": 100.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 817.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Embedder",
-        "maquinas": 10,
-        "meta_dia": 408.50000000000006,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Inspeccion",
-        "maquinas": 1,
-        "meta_dia": 408.5,
-        "meta_hora": 50.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 408.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Drawdown",
-        "maquinas": 3,
-        "meta_dia": 3186.2999999999997,
-        "meta_hora": 390.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3186.3,
-        "downtime": 0.0
-       },
-       {
-        "name": "Sidehole",
-        "maquinas": 2,
-        "meta_dia": 1634.0,
-        "meta_hora": 200.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1634.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_dia": 3676.5,
-        "meta_hora": 450.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3676.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Baking  Conv",
-        "maquinas": 1,
-        "meta_dia": 490.2,
-        "meta_hora": 60.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 490.2,
-        "downtime": 0.0
-       },
-       {
-        "name": "Hand Drilling",
-        "maquinas": 1,
-        "meta_dia": 245.1,
-        "meta_hora": 30.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 245.1,
-        "downtime": 0.0
-       },
-       {
-        "name": "Prepping",
-        "maquinas": 1,
-        "meta_dia": 1225.5,
-        "meta_hora": 150.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 1225.5,
-        "downtime": 0.0
-       },
-       {
-        "name": "Rofing",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora  Milacron",
-        "maquinas": 1,
-        "meta_dia": 3921.6,
-        "meta_hora": 480.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 3921.6,
-        "downtime": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
-        "downtime": 0.0
-       },
-       {
-        "name": "Pouch",
-        "maquinas": 1,
-        "meta_dia": 2451.0,
-        "meta_hora": 300.0,
-        "hours": [
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "scrap": 0.0,
-        "delta": 2451.0,
         "downtime": 0.0
        },
        {

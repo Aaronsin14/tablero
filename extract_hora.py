@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Extractor del dashboard HORA A HORA - AngioDynamics.
+Extractor del dashboard HORA A HORA - AngioDynamics (v2, nueva estructura).
 Lee Control_hr-hr_angio_2026_Actulizado.xlsx y genera data_hora.json.
 
-Estructura real:
-  - Cada hoja = una semana (WW28..WW52)
-  - Cada dia empieza en filas: Lunes=1, Martes=104, Miercoles=207... (cada +103)
-  - La tabla de METAS+PRODUCCION de cada dia esta 68 filas despues del inicio.
-    Esa tabla tiene por proceso: Meta/hora + Actual/Rework por cada hora.
-  - 3 turnos en bloques de columnas:
-      Turno A: proceso col B(2),  meta D(4),  horas E,G,I... (10 horas)
-      Turno B: proceso col AE(31),meta AG(33),horas AH...    (7 horas)
-      Turno C: proceso col BC(55),meta BE(57),horas BF...    (8 horas)
+Estructura (nueva):
+  - Cada hoja = una semana (WW28..WW50). Ojo: pueden traer espacios (ej "WW28 ").
+  - Cada dia empieza en col A: Lunes=1, Martes=102, Miercoles=202... (cada +100)
+  - Tabla de produccion en el mismo bloque del dia (encabezados en fila dia+4).
+  - 3 turnos en bloques de columnas. Cada proceso trae:
+      Meta * Dia, Meta UPH (meta por hora), horas (Actual + Scrap por hora),
+      DELTA y DOWN TIME al final del turno.
+  - Cada celda hora se colorea vs Meta UPH; el total del proceso vs Meta*Dia.
 """
 import json, sys, time, datetime, re
 from pathlib import Path
@@ -25,21 +24,41 @@ OUTPUT_JSON = Path(__file__).parent / "data_hora.json"
 REFRESH_SECONDS = 3600
 
 DIAS = ["LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO","DOMINGO"]
-META_OFFSET = 68  # filas desde el inicio del dia hasta su tabla de metas
 
-# turnos: (nombre, col_proceso, col_meta, col_primera_hora, num_horas)
+# turnos: nombre, col_proc, col_metaDia, col_metaUPH, col_hora0, num_horas, col_delta, col_downtime
 TURNOS = [
-    ("A", 2,  4,  5,  10),
-    ("B", 31, 33, 34, 7),
-    ("C", 55, 57, 58, 8),
+    ("A", 2,  3,  4,  7,  10, 30, 31),
+    ("B", 34, 35, 36, 39, 7,  56, 57),
+    ("C", 60, 61, 62, 65, 8,  84, 85),
 ]
+HDR_OFFSET = 4  # filas desde inicio del dia hasta la fila de encabezados (Actual, etc.)
 
 def _num(v):
     if isinstance(v,(int,float)): return float(v)
     return None
 
-def clean(proc):
-    return re.sub(r'\s+',' ',str(proc).strip())
+def clean(s): return re.sub(r'\s+',' ',str(s).strip())
+
+def group_name(proc):
+    """'Cut (Tip/Teflon) 1' -> 'Cut', 'Welder 3' -> 'Welder'."""
+    p=re.sub(r'\s*\d+\s*$','',str(proc).strip())   # quita numero de maquina
+    p=re.sub(r'\(.*?\)','',p).strip()               # quita parentesis
+    p=re.sub(r'\s+(Soft|Accu)\s*Vu.*$','',p).strip()
+    return p if p else clean(proc)
+
+def group_name(proc):
+    """Agrupa 'Cut (Tip/Teflon) 1' -> 'Cut', 'Welder 3' -> 'Welder'."""
+    p=re.sub(r'\s*\d+\s*$','',str(proc).strip())     # quita numero de maquina
+    p=re.sub(r'\(.*?\)','',p).strip()                 # quita parentesis
+    p=re.sub(r'\s+(Soft|Accu)\s*Vu.*$','',p).strip()
+    return p if p else str(proc).strip()
+
+def group_name(proc):
+    """'Cut (Tip/Teflon) 1' -> 'Cut', 'Welder 3' -> 'Welder', etc."""
+    p=re.sub(r'\s*\d+\s*$','',str(proc).strip())   # quita numero de maquina
+    p=re.sub(r'\(.*?\)','',p).strip()               # quita parentesis
+    p=re.sub(r'\s+(Soft|Accu)\s*Vu.*$','',p).strip()
+    return p if p else clean(proc)
 
 def find_day_rows(ws):
     rows={}
@@ -51,53 +70,53 @@ def find_day_rows(ws):
                 if up.startswith(d) and d not in rows: rows[d]=r
     return rows
 
-def find_meta_tables(ws):
-    """Encuentra todas las filas de encabezado de tabla de metas
-    (las que dicen 'Cantidad de estaciones' en la columna de Turno A)."""
-    tablas=[]
-    for r in range(1, ws.max_row+1):
-        v=ws.cell(r,3).value  # col C = Cantidad de estaciones (turno A)
-        if isinstance(v,str) and 'cantidad' in v.lower():
-            tablas.append(r)
-    return tablas
-
-def meta_row_for_day(day_row, meta_tables):
-    """La tabla de metas de un dia es la primera tabla en/despues del inicio del dia."""
-    cand=[m for m in meta_tables if m>=day_row]
-    return cand[0] if cand else day_row+68
-
-def read_turno(ws, meta_row, tcfg):
-    name,cproc,cmeta,chour0,nhours = tcfg
-    # etiquetas de hora (fila meta_row-1 tiene las horas)
+def read_turno(ws, day_row, tcfg):
+    name,cproc,cmetaDia,cuph,chour0,nhours,cdelta,cdown = tcfg
+    hdr = day_row + HDR_OFFSET
+    # etiquetas de hora estan en la fila hdr-1
     hour_labels=[]
     for hi in range(nhours):
         c=chour0+hi*2
-        hl=ws.cell(meta_row-1,c).value
-        hour_labels.append(str(hl).strip() if hl else f"H{hi+1}")
-    procesos=[]
-    for r in range(meta_row+1, meta_row+40):
+        hl=ws.cell(hdr-1,c).value
+        hour_labels.append(clean(hl) if hl else f"H{hi+1}")
+    groups={}  # nombre_grupo -> datos acumulados
+    order=[]
+    blancos=0
+    for r in range(hdr+1, hdr+80):
         proc=ws.cell(r,cproc).value
-        meta=_num(ws.cell(r,cmeta).value)
-        if not proc or not str(proc).strip() or str(proc).strip()=="Proceso":
-            # fin de la tabla al encontrar vacio despues de haber leido algo
-            if procesos and (proc is None or str(proc).strip()==""):
-                break
+        pstr=str(proc).strip() if proc else ""
+        if pstr=="" :
+            blancos+=1
+            if blancos>=6 and groups: break  # fin de tabla tras varios blancos
             continue
-        if meta is None: 
+        if pstr=="Proceso":  # sub-encabezado repetido, saltar
             continue
-        hours=[]
-        rework=0.0
+        blancos=0
+        metaDia=_num(ws.cell(r,cmetaDia).value)
+        uph=_num(ws.cell(r,cuph).value)
+        if metaDia is None and uph is None: continue
+        hours=[]; scrap=0.0
         for hi in range(nhours):
             c=chour0+hi*2
             a=_num(ws.cell(r,c).value) or 0
-            rw=_num(ws.cell(r,c+1).value) or 0
-            hours.append(a); rework+=rw
-        procesos.append({
-            "name":clean(proc),
-            "meta_hora":meta,
-            "hours":hours,
-            "rework":rework,
-        })
+            sc=_num(ws.cell(r,c+1).value) or 0
+            hours.append(a); scrap+=sc
+        delta=_num(ws.cell(r,cdelta).value) or 0
+        down=_num(ws.cell(r,cdown).value) or 0
+        g=group_name(proc)
+        if g not in groups:
+            groups[g]={"name":g,"maquinas":0,"meta_dia":0.0,"meta_hora":0.0,
+                       "hours":[0.0]*nhours,"scrap":0.0,"delta":0.0,"downtime":0.0}
+            order.append(g)
+        G=groups[g]
+        G["maquinas"]+=1
+        G["meta_dia"]+=(metaDia or 0)
+        G["meta_hora"]+=(uph or 0)
+        for hi in range(nhours): G["hours"][hi]+=hours[hi]
+        G["scrap"]+=scrap
+        G["delta"]+=delta
+        G["downtime"]+=down
+    procesos=[groups[g] for g in order]
     return {"hour_labels":hour_labels,"procesos":procesos}
 
 def build_payload():
@@ -106,20 +125,19 @@ def build_payload():
     wb=load_workbook(EXCEL_PATH, data_only=True)
     weeks={}; week_order=[]
     for sh in wb.sheetnames:
-        if not sh.upper().startswith("WW"): continue
+        key=sh.strip()  # quitar espacios ("WW28 " -> "WW28")
+        if not key.upper().startswith("WW"): continue
         ws=wb[sh]
         day_rows=find_day_rows(ws)
-        meta_tables=find_meta_tables(ws)
         dias={}
         for d in DIAS:
             if d not in day_rows: continue
-            meta_row=meta_row_for_day(day_rows[d], meta_tables)
             turnos={}
             for tcfg in TURNOS:
-                turnos[tcfg[0]]=read_turno(ws, meta_row, tcfg)
+                turnos[tcfg[0]]=read_turno(ws, day_rows[d], tcfg)
             dias[d]=turnos
-        weeks[sh]={"label":sh,"dias":dias}
-        week_order.append(sh)
+        weeks[key]={"label":key,"dias":dias}
+        week_order.append(key)
     return {
         "plant":"AngioDynamics",
         "source_file":EXCEL_PATH.name,

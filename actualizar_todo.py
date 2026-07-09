@@ -13,7 +13,7 @@ import subprocess, sys, time, datetime
 from pathlib import Path
 import extract, extract_hora
 
-REFRESH_SECONDS = 3600
+REFRESH_SECONDS = 900
 HERE = Path(__file__).parent
 LOG = HERE / "actualizador_log.txt"
 

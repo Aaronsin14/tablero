@@ -61,7 +61,18 @@ def find_day_rows(ws):
                 if up.startswith(d) and d not in rows: rows[d]=r
     return rows
 
-def read_turno(ws, day_row, tcfg):
+def find_summary_row(ws, day_row, next_day_row):
+    """Fila donde empieza la tabla RESUMIDA de este dia (tiene 'Cantidad de estaciones').
+    Leemos solo la tabla de maquinas, que esta ANTES de esta fila."""
+    fin = next_day_row if next_day_row else ws.max_row
+    for r in range(day_row, fin):
+        for c in (4, 36, 62):   # col D / AJ / BJ segun turno
+            v=ws.cell(r,c).value
+            if isinstance(v,str) and 'cantidad' in v.lower():
+                return r
+    return None
+
+def read_turno(ws, day_row, tcfg, next_day_row=None, summary_row=None):
     name,cproc,cmetaDia,cuph,chour0,nhours,cdelta,cdown = tcfg
     hdr = day_row + HDR_OFFSET
     hour_labels=[]
@@ -71,12 +82,30 @@ def read_turno(ws, day_row, tcfg):
         hour_labels.append(clean(hl) if hl else f"H{hi+1}")
 
     groups={}; order=[]
-    for r in range(hdr+1, hdr+40):
+    # el bloque de un dia puede tener varias sub-tablas (Fase 1, Fase 2...) separadas
+    # por filas vacias y encabezados 'Proceso' repetidos. Recorremos hasta el
+    # siguiente dia y saltamos vacios/encabezados en vez de cortar.
+    # leer solo hasta ANTES de la tabla resumida (que duplica los datos)
+    if summary_row:
+        limite = summary_row - 1
+    elif next_day_row:
+        limite = next_day_row - 1
+    else:
+        limite = hdr + 95
+    vacias = 0
+    for r in range(hdr+1, limite):
         proc=ws.cell(r,cproc).value
+        # fila sin proceso: puede ser separador entre fases -> saltar
         if not proc or not str(proc).strip():
-            if groups: break
+            vacias += 1
+            if vacias > 12: break   # muchas vacias seguidas = fin del dia
             continue
-        if str(proc).strip()=="Proceso": continue
+        vacias = 0
+        # encabezado repetido de una nueva fase -> saltar
+        if str(proc).strip() in ("Proceso","PROCESO"): continue
+        # si aparece el nombre de otro dia, terminamos
+        if any(str(proc).strip().upper().startswith(d) for d in DIAS): break
+
         metaDia=_num(ws.cell(r,cmetaDia).value)
         uph=_num(ws.cell(r,cuph).value)
         if metaDia is None and uph is None: continue
@@ -115,12 +144,18 @@ def build_payload():
         if not key.upper().startswith("WW"): continue
         ws=wb[sh]
         day_rows=find_day_rows(ws)
+        # ordenar los dias por su fila para saber donde termina cada uno
+        ordenados = sorted(day_rows.items(), key=lambda kv: kv[1])
+        siguiente = {}
+        for i,(d,fila) in enumerate(ordenados):
+            siguiente[d] = ordenados[i+1][1] if i+1 < len(ordenados) else None
         dias={}
         for d in DIAS:
             if d not in day_rows: continue
+            sr = find_summary_row(ws, day_rows[d], siguiente[d])
             turnos={}
             for tcfg in TURNOS:
-                turnos[tcfg[0]]=read_turno(ws, day_rows[d], tcfg)
+                turnos[tcfg[0]]=read_turno(ws, day_rows[d], tcfg, siguiente[d], sr)
             dias[d]=turnos
         weeks[key]={"label":key,"dias":dias}
         week_order.append(key)

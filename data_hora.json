@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-08T15:28:40",
+ "generated_at": "2026-07-09T06:28:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -929,11 +929,11 @@
       "hour_labels": [
        "Cut (Tip/Teflon)",
        "2",
-       "500",
+       "250",
        "H4",
        "H5",
-       "H6",
-       "H7"
+       "30",
+       "5"
       ],
       "procesos": []
      },
@@ -942,7 +942,7 @@
        "H1",
        "Cut (Tip/Teflon)",
        "2",
-       "500",
+       "125",
        "H5",
        "H6",
        "H7",
@@ -2910,7 +2910,7 @@
          0,
          0
         ],
-        "rework": 100.0
+        "rework": 917.0
        },
        {
         "name": "Embedder",

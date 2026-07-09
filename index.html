@@ -275,15 +275,25 @@ function render(){
   const dateStr = isWeek ? "Semana completa" : (wk.dates[di] || ("Día "+(di+1)));
 
   // ---- attention banner ----
-  const focuses=[];
-  if(segEntrega==="a"||segEntrega==="r") focuses.push("Entrega");
-  if(segCosto==="a"||segCosto==="r") focuses.push("Costo");
-  if(yStatus==="a"||yStatus==="r") focuses.push("Calidad");
-  if(segSafety==="r") focuses.push("Seguridad");
-  let bannerCls, bannerTitle, face;
-  if(focuses.length===0){ bannerCls="ok"; bannerTitle="VAMOS BIEN"; face="😀"; }
-  else if(focuses.includes("Seguridad")||segEntrega==="r"){ bannerCls="bad"; bannerTitle="PONER ATENCIÓN"; face="😟"; }
-  else { bannerCls="warn"; bannerTitle="PONER ATENCIÓN"; face="😐"; }
+  // se basa en el % de PRODUCCION vs meta:
+  //   >=80%  verde  (vamos bien)
+  //   50-79% ambar  (casi)
+  //   <50%   rojo   (poner atencion)
+  const pctProd = cump;  // real / plan
+  let bannerCls, bannerTitle, face, bannerMsg;
+  if(pctProd===null){
+    bannerCls="warn"; bannerTitle="SIN DATOS"; face="😐";
+    bannerMsg="Aún no hay producción registrada.";
+  } else if(pctProd>=0.80){
+    bannerCls="ok"; bannerTitle="VAMOS BIEN"; face="😀";
+    bannerMsg = pctProd>=1 ? "Meta alcanzada. ¡Excelente trabajo!" : "Vamos en buen ritmo, cerca de la meta.";
+  } else if(pctProd>=0.50){
+    bannerCls="warn"; bannerTitle="ATENCIÓN"; face="😐";
+    bannerMsg="Vamos a media meta. Hay que acelerar el paso.";
+  } else {
+    bannerCls="bad"; bannerTitle="PONER ATENCIÓN"; face="😟";
+    bannerMsg="Estamos por debajo de la mitad de la meta.";
+  }
   const gPct = cump!==null? Math.round(cump*100):0;
 
   const app = document.getElementById("app");
@@ -335,7 +345,7 @@ function render(){
     <div class="face">${face}</div>
     <div class="msg">
       <h2>${bannerTitle}</h2>
-      <p>${focuses.length?("Hay que mejorar: "+focuses.join(", ")+"."):"Todos los indicadores en meta."} &nbsp; VIENDO: ${wk.label} · ${isWeek?"Semana completa":("Día "+(di+1)+" ("+dateStr+")")}</p>
+      <p>${bannerMsg} &nbsp; VIENDO: ${wk.label} · ${isWeek?"Semana completa":("Día "+(di+1)+" ("+dateStr+")")}</p>
     </div>
     <div class="gauge">
       <div class="gtop"><span class="glab">PRODUCCIÓN VS META</span><span class="gpct">${gPct}%</span></div>

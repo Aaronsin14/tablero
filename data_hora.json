@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-09T20:41:34",
+ "generated_at": "2026-07-09T20:57:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -4205,16 +4205,16 @@
          0,
          0,
          0,
-         3.0,
+         0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 3.0,
-        "delta": 325.2,
+        "total": 0.0,
+        "delta": 328.2,
         "downtime": 0.0,
-        "proficiency": 0.00909090909090909
+        "proficiency": 0.0
        },
        {
         "name": "Hand Drilling",
@@ -4751,8 +4751,8 @@
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 350.0,
+        "meta_dia": 2859.5,
         "hours": [
          0,
          0,
@@ -4767,7 +4767,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 3022.9,
+        "delta": 2859.5,
         "downtime": 0.0,
         "proficiency": 0.0
        },

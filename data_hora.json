@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-10T04:27:28",
+ "generated_at": "2026-07-10T04:43:30",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -1671,18 +1671,18 @@
         "meta_dia": 410.25,
         "hours": [
          0,
+         50.0,
          0,
          0,
-         0,
-         0,
+         30.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": 410.25,
+        "total": 80.0,
+        "delta": 330.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.19393939393939394
        },
        {
         "name": "Staker",
@@ -1690,8 +1690,8 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         0,
-         0,
+         10.0,
+         50.0,
          0,
          0,
          0,
@@ -1699,10 +1699,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": 547.0,
+        "total": 60.0,
+        "delta": 487.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10909090909090909
        },
        {
         "name": "Swager",
@@ -1730,7 +1730,7 @@
         "meta_hora": 50.0,
         "meta_dia": 273.5,
         "hours": [
-         206.0,
+         0,
          0,
          0,
          0,
@@ -1739,10 +1739,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 206.0,
-        "delta": 67.5,
+        "total": 0.0,
+        "delta": 273.5,
         "downtime": 0.0,
-        "proficiency": 0.749090909090909
+        "proficiency": 0.0
        },
        {
         "name": "Inspeccion",
@@ -4361,15 +4361,15 @@
          265.0,
          350.0,
          365.0,
-         0,
+         401.0,
          0,
          0
         ],
-        "rework": 133.0,
-        "total": 1565.0,
-        "delta": 1227.0,
+        "rework": 155.0,
+        "total": 1966.0,
+        "delta": 826.0,
         "downtime": 0.0,
-        "proficiency": 0.5081168831168831
+        "proficiency": 0.6383116883116883
        },
        {
         "name": "Carga de bandas",

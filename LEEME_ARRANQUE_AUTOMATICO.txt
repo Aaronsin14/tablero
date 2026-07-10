@@ -1,0 +1,130 @@
+============================================================
+  ARRANQUE AUTOMATICO DEL ACTUALIZADOR
+  Tableros AngioDynamics
+============================================================
+
+NOTA: los archivos .vbs estan bloqueados por politica de la
+empresa ("Access is denied"). Por eso usamos otro camino.
+
+
+============================================================
+  OPCION A - LA MAS LIMPIA (sin scripts intermedios)
+  El Programador de tareas llama a pythonw.exe directo
+============================================================
+
+PASO 1 - Abrir el Programador
+------------------------------
+Menu inicio -> escribe "Programador de tareas" -> Enter
+
+
+PASO 2 - Crear la tarea
+------------------------
+Panel derecho -> "Crear tarea..."  (NO la basica, la normal)
+
+
+PASO 3 - Pestana "General"
+---------------------------
+Nombre:  Actualizador Tableros
+
+[x] Ejecutar tanto si el usuario inicio sesion como si no
+    ^ marca esta casilla
+
+[x] Ejecutar con los privilegios mas altos
+
+
+PASO 4 - Pestana "Desencadenadores"
+------------------------------------
+Nuevo... -> Iniciar la tarea: "Al iniciar sesion"
+-> Aceptar
+
+
+PASO 5 - Pestana "Acciones"
+----------------------------
+Nuevo... -> Accion: "Iniciar un programa"
+
+Programa o script:
+    C:\Users\aaron.lara\AppData\Local\Microsoft\WindowsApps\pythonw.exe
+
+Agregar argumentos:
+    "C:\Users\aaron.lara\tierbat\actualizar_todo.py" --watch
+
+Iniciar en:
+    C:\Users\aaron.lara\tierbat
+
+-> Aceptar
+
+
+PASO 6 - Pestana "Condiciones"
+-------------------------------
+[ ] Iniciar la tarea solo si el equipo esta con CA
+    ^ DESMARCA (importante en laptop)
+
+[ ] Detener si el equipo cambia a bateria
+    ^ DESMARCA tambien
+
+
+PASO 7 - Pestana "Configuracion"
+---------------------------------
+[x] Si la tarea falla, reiniciar cada:  5 minutos
+[x] Intentar reiniciar hasta:  3 veces
+
+-> Aceptar
+
+
+PASO 8 - Probar
+----------------
+Click derecho en la tarea -> "Ejecutar"
+
+Abre actualizador_log.txt. Debe salir una linea nueva que diga:
+
+    === Actualizador DOBLE iniciado (watch) ===
+
+Ese "(watch)" es la prueba de que quedo corriendo en bucle.
+
+
+============================================================
+  OPCION B - SI LA OPCION A FALLA
+  Usar el .bat oculto
+============================================================
+
+1. Copia iniciar_oculto.bat a C:\Users\aaron.lara\tierbat
+
+2. Doble click. Se abre una ventana negra un segundo y se cierra.
+   El proceso queda vivo atras.
+
+3. Revisa actualizador_log.txt -> debe decir "(watch)"
+
+4. Para que arranque solo al prender la compu, en el Programador
+   usa este .bat en vez de pythonw.exe:
+
+   Programa o script:
+       C:\Users\aaron.lara\tierbat\iniciar_oculto.bat
+
+   Iniciar en:
+       C:\Users\aaron.lara\tierbat
+
+
+============================================================
+  COMO SABER SI ESTA CORRIENDO
+============================================================
+
+Ctrl+Shift+Esc -> pestana "Detalles" -> busca "pythonw.exe"
+
+Si esta ahi, esta vivo en segundo plano.
+
+
+COMO DETENERLO
+--------------
+Administrador de tareas -> Detalles -> pythonw.exe -> Finalizar
+
+
+============================================================
+  OJO CON ESTO
+============================================================
+
+Esto corre mientras TU COMPU este encendida. Si la apagas o te
+la llevas, el actualizador se detiene y las pantallas se quedan
+con el ultimo dato subido (no se caen, se congelan).
+
+Para que corra siempre, tiene que vivir en una maquina que no
+se apague: un servidor o una PC dedicada en planta.

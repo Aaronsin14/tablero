@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-10T11:54:04",
+ "generated_at": "2026-07-10T12:10:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -1315,8 +1315,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 50.0,
-        "meta_dia": 408.50000000000006,
+        "meta_hora": 70.0,
+        "meta_dia": 571.9000000000001,
         "hours": [
          0,
          48.0,
@@ -1331,15 +1331,15 @@
         ],
         "rework": 21.0,
         "total": 439.0,
-        "delta": 30.5,
-        "downtime": 90.0,
-        "proficiency": 1.0947630922693268
+        "delta": -132.89999999999998,
+        "downtime": 60.0,
+        "proficiency": 0.7771286953443087
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 50.0,
-        "meta_dia": 408.5,
+        "meta_hora": 70.0,
+        "meta_dia": 571.9,
         "hours": [
          0,
          48.0,
@@ -1354,9 +1354,9 @@
         ],
         "rework": 21.0,
         "total": 439.0,
-        "delta": 30.5,
+        "delta": -132.89999999999998,
         "downtime": 0.0,
-        "proficiency": 1.0746634026927786
+        "proficiency": 0.7676167162091275
        },
        {
         "name": "Drawdown",
@@ -2508,8 +2508,8 @@
         "rework": 17.0,
         "total": 249.0,
         "delta": -159.5,
-        "downtime": 150.0,
-        "proficiency": 0.6287878787878788
+        "downtime": 555.0,
+        "proficiency": 0.6873706004140787
        },
        {
         "name": "Inspeccion",
@@ -2531,8 +2531,8 @@
         "rework": 17.0,
         "total": 249.0,
         "delta": -159.5,
-        "downtime": 0.0,
-        "proficiency": 0.609547123623011
+        "downtime": 45.0,
+        "proficiency": 0.6711590296495957
        },
        {
         "name": "Drawdown",
@@ -3684,8 +3684,8 @@
         "rework": 42.0,
         "total": 310.0,
         "delta": -98.5,
-        "downtime": 0.0,
-        "proficiency": 0.758873929008568
+        "downtime": 300.0,
+        "proficiency": 0.8083441981747066
        },
        {
         "name": "Inspeccion",

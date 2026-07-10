@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-09T19:37:28",
+ "generated_at": "2026-07-09T19:53:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -3985,36 +3985,36 @@
          250.0,
          250.0,
          500.0,
-         0,
+         267.0,
          0,
          0,
          0
         ],
-        "rework": 10.0,
-        "total": 1000.0,
-        "delta": 367.5,
+        "rework": 27.0,
+        "total": 1267.0,
+        "delta": 100.5,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 0.9214545454545455
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 350.0,
-        "meta_dia": 1914.4999999999998,
+        "meta_hora": 380.0,
+        "meta_dia": 2078.6,
         "hours": [
          125.0,
          332.0,
          371.0,
-         0,
+         330.0,
          0,
          0,
          0
         ],
-        "rework": 118.0,
-        "total": 828.0,
-        "delta": 1086.5,
+        "rework": 147.0,
+        "total": 1158.0,
+        "delta": 920.5999999999999,
         "downtime": 0.0,
-        "proficiency": 0.4301298701298701
+        "proficiency": 0.5540669856459329
        },
        {
         "name": "Carga de bandas",
@@ -4488,14 +4488,14 @@
          0,
          0,
          0,
-         500.0,
+         0,
          0
         ],
         "rework": 0.0,
-        "total": 500.0,
-        "delta": 2222.2000000000003,
-        "downtime": 45.0,
-        "proficiency": 0.18446781036709092
+        "total": 0.0,
+        "delta": 2722.2000000000003,
+        "downtime": 0.0,
+        "proficiency": 0.0
        },
        {
         "name": "Sidehole Soft Vu",
@@ -4768,7 +4768,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": 3022.9,
-        "downtime": 3.0,
+        "downtime": 0.0,
         "proficiency": 0.0
        },
        {

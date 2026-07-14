@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-14T07:22:25",
+ "generated_at": "2026-07-14T07:39:17",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -8322,8 +8322,8 @@
         "rework": 168.0,
         "total": 2526.0,
         "delta": -496.9000000000001,
-        "downtime": 905.0,
-        "proficiency": 1.086313390231709
+        "downtime": 700.0,
+        "proficiency": 1.0171880348190256
        },
        {
         "name": "Carga de bandas",
@@ -8397,8 +8397,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 100.0,
+        "meta_dia": 817.0000000000001,
         "hours": [
          40.0,
          38.0,
@@ -8413,15 +8413,15 @@
         ],
         "rework": 13.0,
         "total": 636.0,
-        "delta": 64.10000000000002,
+        "delta": -181.0,
         "downtime": 0.0,
-        "proficiency": 1.1120825319111733
+        "proficiency": 0.7784577723378213
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 100.0,
+        "meta_dia": 817.0,
         "hours": [
          40.0,
          38.0,
@@ -8436,9 +8436,9 @@
         ],
         "rework": 13.0,
         "total": 636.0,
-        "delta": 64.10000000000002,
+        "delta": -181.0,
         "downtime": 0.0,
-        "proficiency": 1.1120825319111733
+        "proficiency": 0.7784577723378213
        },
        {
         "name": "Drawdown",
@@ -8832,8 +8832,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 100.0,
+        "meta_dia": 547.0,
         "hours": [
          17.0,
          60.0,
@@ -8845,15 +8845,15 @@
         ],
         "rework": 3.0,
         "total": 462.0,
-        "delta": -194.39999999999998,
+        "delta": -85.0,
         "downtime": 0.0,
-        "proficiency": 0.7
+        "proficiency": 0.84
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 50.0,
-        "meta_dia": 273.5,
+        "meta_hora": 100.0,
+        "meta_dia": 547.0,
         "hours": [
          17.0,
          60.0,
@@ -8865,9 +8865,9 @@
         ],
         "rework": 3.0,
         "total": 462.0,
-        "delta": 188.5,
+        "delta": -85.0,
         "downtime": 0.0,
-        "proficiency": 1.68
+        "proficiency": 0.84
        },
        {
         "name": "Drawdown",
@@ -9210,8 +9210,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 50.0,
-        "meta_dia": 349.0,
+        "meta_hora": 100.0,
+        "meta_dia": 698.0,
         "hours": [
          44.0,
          107.0,
@@ -9224,15 +9224,15 @@
         ],
         "rework": 0.0,
         "total": 544.0,
-        "delta": 195.0,
+        "delta": -154.0,
         "downtime": 0.0,
-        "proficiency": 1.412987012987013
+        "proficiency": 0.7064935064935065
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 50.0,
-        "meta_dia": 349.0,
+        "meta_hora": 100.0,
+        "meta_dia": 698.0,
         "hours": [
          44.0,
          107.0,
@@ -9245,9 +9245,9 @@
         ],
         "rework": 0.0,
         "total": 544.0,
-        "delta": 195.0,
+        "delta": -154.0,
         "downtime": 0.0,
-        "proficiency": 1.412987012987013
+        "proficiency": 0.7064935064935065
        },
        {
         "name": "Drawdown",

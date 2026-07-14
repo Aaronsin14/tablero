@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-13T21:42:28",
+ "generated_at": "2026-07-13T21:59:23",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -8741,13 +8741,13 @@
          125.0,
          146.0,
          330.0,
-         0
+         135.0
         ],
-        "rework": 59.0,
-        "total": 1079.0,
-        "delta": -1656.0,
+        "rework": 87.0,
+        "total": 1214.0,
+        "delta": -1521.0,
         "downtime": 0.0,
-        "proficiency": 0.39236363636363636
+        "proficiency": 0.44145454545454543
        },
        {
         "name": "Welder",
@@ -8761,13 +8761,13 @@
          327.0,
          174.0,
          355.0,
-         35.0
+         305.0
         ],
-        "rework": 210.0,
-        "total": 1666.0,
-        "delta": -412.5999999999999,
+        "rework": 238.0,
+        "total": 1936.0,
+        "delta": -142.5999999999999,
         "downtime": 230.0,
-        "proficiency": 0.8732037562786635
+        "proficiency": 1.0147193710417122
        },
        {
         "name": "Carga de bandas",
@@ -8779,15 +8779,15 @@
          75.0,
          0,
          0,
-         0,
-         0,
-         0
+         91.0,
+         92.0,
+         92.0
         ],
         "rework": 0.0,
-        "total": 75.0,
-        "delta": -335.25,
+        "total": 350.0,
+        "delta": -60.25,
         "downtime": 0.0,
-        "proficiency": 0.18181818181818182
+        "proficiency": 0.8484848484848484
        },
        {
         "name": "Staker",
@@ -8800,14 +8800,14 @@
          60.0,
          30.0,
          80.0,
-         0,
-         0
+         85.0,
+         80.0
         ],
-        "rework": 0.0,
-        "total": 243.0,
-        "delta": -304.0,
+        "rework": 1.0,
+        "total": 408.0,
+        "delta": -139.0,
         "downtime": 0.0,
-        "proficiency": 0.4418181818181818
+        "proficiency": 0.7418181818181818
        },
        {
         "name": "Swager",
@@ -8820,14 +8820,14 @@
          60.0,
          30.0,
          80.0,
-         0,
-         0
+         85.0,
+         80.0
         ],
         "rework": 0.0,
-        "total": 243.0,
-        "delta": -304.0,
+        "total": 408.0,
+        "delta": -139.0,
         "downtime": 0.0,
-        "proficiency": 0.4418181818181818
+        "proficiency": 0.7418181818181818
        },
        {
         "name": "Embedder",
@@ -8840,14 +8840,14 @@
          60.0,
          58.0,
          75.0,
-         0,
-         0
+         98.0,
+         94.0
         ],
-        "rework": 2.0,
-        "total": 270.0,
-        "delta": -386.4,
+        "rework": 3.0,
+        "total": 462.0,
+        "delta": -194.39999999999998,
         "downtime": 0.0,
-        "proficiency": 0.4090909090909091
+        "proficiency": 0.7
        },
        {
         "name": "Inspeccion",
@@ -8860,14 +8860,14 @@
          60.0,
          58.0,
          75.0,
-         0,
-         0
+         98.0,
+         94.0
         ],
-        "rework": 2.0,
-        "total": 270.0,
-        "delta": -3.5,
+        "rework": 3.0,
+        "total": 462.0,
+        "delta": 188.5,
         "downtime": 0.0,
-        "proficiency": 0.9818181818181819
+        "proficiency": 1.68
        },
        {
         "name": "Drawdown",
@@ -8875,19 +8875,19 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         0,
+         130.0,
          260.0,
          260.0,
-         200.0,
          230.0,
-         0,
-         0
+         230.0,
+         275.0,
+         215.0
         ],
         "rework": 0.0,
-        "total": 950.0,
-        "delta": -1183.2999999999997,
+        "total": 1600.0,
+        "delta": -533.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.4428904428904429
+        "proficiency": 0.745920745920746
        },
        {
         "name": "Sidehole Soft Vu",
@@ -8918,16 +8918,16 @@
          0,
          50.0,
          100.0,
-         75.0,
          100.0,
-         0,
-         0
+         100.0,
+         100.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 325.0,
-        "delta": -222.0,
+        "total": 550.0,
+        "delta": 3.0,
         "downtime": 0.0,
-        "proficiency": 0.5909090909090909
+        "proficiency": 1.0
        },
        {
         "name": "Baking Rot",
@@ -8940,14 +8940,14 @@
          300.0,
          251.0,
          300.0,
-         0,
-         0
+         220.0,
+         200.0
         ],
         "rework": 0.0,
-        "total": 926.0,
-        "delta": -1535.5,
+        "total": 1346.0,
+        "delta": -1115.5,
         "downtime": 0.0,
-        "proficiency": 0.37414141414141416
+        "proficiency": 0.5438383838383838
        },
        {
         "name": "Baking Conv",
@@ -9000,14 +9000,14 @@
          290.0,
          243.0,
          300.0,
-         0,
-         0
+         300.0,
+         300.0
         ],
         "rework": 0.0,
-        "total": 1323.0,
-        "delta": 502.5,
+        "total": 1923.0,
+        "delta": 1102.5,
         "downtime": 0.0,
-        "proficiency": 1.6036363636363635
+        "proficiency": 2.330909090909091
        },
        {
         "name": "Rofing",
@@ -9060,14 +9060,14 @@
          300.0,
          300.0,
          300.0,
-         0,
-         0
+         300.0,
+         200.0
         ],
         "rework": 0.0,
-        "total": 1200.0,
-        "delta": -441.0,
+        "total": 1700.0,
+        "delta": 59.0,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 1.0303030303030303
        },
        {
         "name": "Pouch",
@@ -9080,14 +9080,14 @@
          0,
          0,
          0,
-         0,
-         0
+         400.0,
+         400.0
         ],
         "rework": 0.0,
-        "total": 209.0,
-        "delta": -1432.0,
+        "total": 1009.0,
+        "delta": -632.0,
         "downtime": 0.0,
-        "proficiency": 0.12666666666666668
+        "proficiency": 0.6115151515151516
        },
        {
         "name": "Boxing",
@@ -9101,13 +9101,13 @@
          400.0,
          400.0,
          400.0,
-         370.0
+         610.0
         ],
         "rework": 0.0,
-        "total": 2520.0,
-        "delta": 605.5,
+        "total": 2760.0,
+        "delta": 845.5,
         "downtime": 0.0,
-        "proficiency": 1.309090909090909
+        "proficiency": 1.4337662337662338
        }
       ]
      },

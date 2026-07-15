@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-15T14:45:57",
+ "generated_at": "2026-07-15T15:03:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -10774,13 +10774,13 @@
          250.0,
          750.0,
          500.0,
-         0
+         500.0
         ],
         "rework": 1.0,
-        "total": 3150.0,
-        "delta": -935.0,
+        "total": 3650.0,
+        "delta": -435.0,
         "downtime": 180.0,
-        "proficiency": 0.9445277361319341
+        "proficiency": 1.0944527736131933
        },
        {
         "name": "Welder",
@@ -11069,17 +11069,17 @@
          0,
          265.0,
          300.0,
-         0,
-         0,
-         0,
+         300.0,
+         150.0,
+         300.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 754.0,
-        "delta": -471.5,
+        "total": 1504.0,
+        "delta": 278.5,
         "downtime": 0.0,
-        "proficiency": 0.6152590779273766
+        "proficiency": 1.2272541819665441
        },
        {
         "name": "Rofing",
@@ -11092,17 +11092,17 @@
          425.0,
          584.0,
          500.0,
-         0,
-         0,
-         0,
+         900.0,
+         350.0,
+         400.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 2409.0,
-        "delta": -450.5,
+        "total": 4059.0,
+        "delta": 1199.5,
         "downtime": 0.0,
-        "proficiency": 0.842454974645917
+        "proficiency": 1.4194789298828467
        },
        {
         "name": "Moldeadora Milacron",
@@ -11138,17 +11138,17 @@
          300.0,
          68.0,
          230.0,
-         0,
-         0,
-         0,
+         300.0,
+         300.0,
+         30.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 1198.0,
-        "delta": -1253.0,
+        "total": 1828.0,
+        "delta": -623.0,
         "downtime": 40.0,
-        "proficiency": 0.5322079075966237
+        "proficiency": 0.8120835184362506
        },
        {
         "name": "Pouch",

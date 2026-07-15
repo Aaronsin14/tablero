@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-15T11:56:51",
+ "generated_at": "2026-07-15T12:13:51",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -10811,22 +10811,22 @@
         "meta_hora": 75.0,
         "meta_dia": 612.75,
         "hours": [
+         83.0,
+         101.0,
+         50.0,
          0,
-         0,
-         0,
-         0,
-         0,
-         0,
+         50.0,
+         75.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -612.75,
+        "total": 359.0,
+        "delta": -253.75,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.5858833129334965
        },
        {
         "name": "Staker",
@@ -10834,10 +10834,10 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0,
-         0,
-         0,
-         0,
+         20.0,
+         50.0,
+         30.0,
+         15.0,
          0,
          0,
          0,
@@ -10846,10 +10846,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 115.0,
+        "delta": -702.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.14075887392900857
        },
        {
         "name": "Swager",
@@ -10857,10 +10857,10 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0,
-         0,
-         0,
-         0,
+         20.0,
+         50.0,
+         30.0,
+         15.0,
          0,
          0,
          0,
@@ -10869,56 +10869,56 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 115.0,
+        "delta": -702.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.14075887392900857
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 408.50000000000006,
         "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
+         14.0,
+         50.0,
+         28.0,
+         33.0,
+         34.0,
+         45.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -571.9,
+        "rework": 24.0,
+        "total": 204.0,
+        "delta": -204.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.49938800489596086
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
+         14.0,
+         50.0,
+         28.0,
+         33.0,
+         34.0,
+         45.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -571.9,
+        "rework": 24.0,
+        "total": 204.0,
+        "delta": -204.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.49938800489596086
        },
        {
         "name": "Drawdown",
@@ -11061,14 +11061,14 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 1021.25,
+        "meta_hora": 150.0,
+        "meta_dia": 1225.5,
         "hours": [
+         189.0,
          0,
          0,
-         0,
-         0,
-         0,
+         265.0,
+         300.0,
          0,
          0,
          0,
@@ -11076,10 +11076,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0,
-        "downtime": 0,
-        "proficiency": 0
+        "total": 754.0,
+        "delta": -471.5,
+        "downtime": 0.0,
+        "proficiency": 0.6152590779273766
        },
        {
         "name": "Rofing",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-16T17:00:49",
+ "generated_at": "2026-07-16T17:17:48",
  "weeks": {
   "WW29": {
    "label": "WW29",
@@ -1814,8 +1814,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 60.0,
+        "meta_dia": 328.2,
         "hours": [
          0,
          46.0,
@@ -1827,15 +1827,15 @@
         ],
         "rework": 13.0,
         "total": 248.0,
-        "delta": -408.4,
+        "delta": -80.19999999999999,
         "downtime": 0.0,
-        "proficiency": 0.3757575757575758
+        "proficiency": 0.7515151515151516
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 50.0,
-        "meta_dia": 273.5,
+        "meta_hora": 60.0,
+        "meta_dia": 328.2,
         "hours": [
          0,
          46.0,
@@ -1847,9 +1847,9 @@
         ],
         "rework": 13.0,
         "total": 248.0,
-        "delta": -25.5,
+        "delta": -80.19999999999999,
         "downtime": 0.0,
-        "proficiency": 0.9018181818181819
+        "proficiency": 0.7515151515151516
        },
        {
         "name": "Drawdown",
@@ -4197,8 +4197,8 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         0,
-         0,
+         250.0,
+         375.0,
          0,
          0,
          0,
@@ -4206,10 +4206,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "total": 625.0,
+        "delta": -2110.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2272727272727273
        },
        {
         "name": "Welder",
@@ -4217,19 +4217,19 @@
         "meta_hora": 360.0,
         "meta_dia": 1969.1999999999998,
         "hours": [
-         0,
-         0,
+         116.0,
+         322.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -1969.1999999999998,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 72.0,
+        "total": 438.0,
+        "delta": -1531.1999999999998,
+        "downtime": 60.0,
+        "proficiency": 0.22635658914728682
        },
        {
         "name": "Carga de bandas",

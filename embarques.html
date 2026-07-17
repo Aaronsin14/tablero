@@ -143,11 +143,10 @@ function render(){
     const pctTot = metaTot>0 ? Math.round(tot/metaTot*100)+"%" : "";
     cells+=`<div class="hm-cell hm-total ${clsT}"><span>${tot>0?Math.round(tot).toLocaleString():"·"}</span><span class="sub">${pctTot}</span></div>`;
 
-    // DELTA: el Excel lo guarda como (meta - producido), asi que le damos vuelta
-    // para que se lea natural (producido - meta):
-    //   negativo = falta para la meta  -> ROJO   (ej: -1000)
-    //   positivo = se pasaron          -> VERDE  (ej: +87)
-    const dl = -Math.round(g.delta||0);
+    // DELTA: el Excel ya lo guarda como (producido - meta), o sea con signo natural
+    //   negativo = falta para la meta -> ROJO   (ej: -1815)
+    //   positivo = se pasaron         -> VERDE  (ej: +87)
+    const dl = Math.round(g.delta||0);
     const dlCls = dl>0 ? "g" : dl<0 ? "r" : "z";
     const dlTxt = dl>0 ? "+"+dl.toLocaleString() : dl.toLocaleString();
     cells+=`<div class="hm-cell hm-extra ${dlCls}">${dlTxt}</div>`;

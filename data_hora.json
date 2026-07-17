@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-17T07:25:22",
+ "generated_at": "2026-07-17T07:42:34",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -12226,14 +12226,14 @@
         "rework": 0.0,
         "total": 556.0,
         "delta": -261.0,
-        "downtime": 0.0,
-        "proficiency": 0.6805385556915544
+        "downtime": 90.0,
+        "proficiency": 0.8335832083958021
        },
        {
         "name": "Baking Rot",
         "maquinas": 3,
-        "meta_hora": 450.0,
-        "meta_dia": 3676.5,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
          161.0,
          200.0,
@@ -12248,9 +12248,9 @@
         ],
         "rework": 0.0,
         "total": 956.0,
-        "delta": -2720.5,
-        "downtime": 0.0,
-        "proficiency": 0.26002991976064194
+        "delta": -1495.0,
+        "downtime": 420.0,
+        "proficiency": 0.5459737292975443
        },
        {
         "name": "Baking Conv",
@@ -12276,10 +12276,10 @@
         "proficiency": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hidrofilico",
         "maquinas": 1,
-        "meta_hora": 30.0,
-        "meta_dia": 245.0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
          0,
          0,
@@ -12294,14 +12294,14 @@
         ],
         "rework": 0.0,
         "total": 87.0,
-        "delta": -158.1,
-        "downtime": 420.0,
-        "proficiency": 2.4786324786324787
+        "delta": -403.2,
+        "downtime": 400.0,
+        "proficiency": 0.9645232815964526
        },
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
          300.0,
@@ -12317,15 +12317,15 @@
         ],
         "rework": 0.0,
         "total": 2409.0,
-        "delta": 1183.5,
+        "delta": -42.0,
         "downtime": 0.0,
-        "proficiency": 1.9657282741738065
+        "proficiency": 0.9828641370869032
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 550.0,
-        "meta_dia": 4493.5,
+        "meta_hora": 700.0,
+        "meta_dia": 5719.0,
         "hours": [
          440.0,
          500.0,
@@ -12340,9 +12340,9 @@
         ],
         "rework": 0.0,
         "total": 4910.0,
-        "delta": 416.5,
+        "delta": -809.0,
         "downtime": 0.0,
-        "proficiency": 1.0926894403026595
+        "proficiency": 0.8585417030949467
        },
        {
         "name": "Moldeadora Milacron",
@@ -12387,8 +12387,8 @@
         "rework": 12.0,
         "total": 442.0,
         "delta": -2009.0,
-        "downtime": 480.0,
-        "proficiency": 8.66666666666667
+        "downtime": 400.0,
+        "proficiency": 0.9800443458980046
        },
        {
         "name": "Pouch",
@@ -12399,10 +12399,10 @@
          0,
          0,
          0,
-         411.0,
+         300.0,
          0,
          250.0,
-         100.0,
+         211.0,
          265.0,
          344.0,
          87.0
@@ -12410,8 +12410,8 @@
         "rework": 0.0,
         "total": 1457.0,
         "delta": -994.0,
-        "downtime": 240.0,
-        "proficiency": 1.1646682653876899
+        "downtime": 400.0,
+        "proficiency": 3.2305986696230606
        },
        {
         "name": "Boxing",
@@ -12433,8 +12433,8 @@
         "rework": 0.0,
         "total": 1820.0,
         "delta": -1448.0,
-        "downtime": 240.0,
-        "proficiency": 1.091127098321343
+        "downtime": 210.0,
+        "proficiency": 0.974304068522484
        }
       ]
      },

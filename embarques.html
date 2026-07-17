@@ -57,12 +57,30 @@
 const DIAS_ES={LUNES:"Lunes",MARTES:"Martes",MIERCOLES:"Miércoles",JUEVES:"Jueves",VIERNES:"Viernes",SABADO:"Sábado",DOMINGO:"Domingo"};
 let DATA=null,CUR_WEEK=null,CUR_DIA=null,CUR_TURNO="A";
 
-function hoyDia(){const m=["DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO"];return m[new Date().getDay()];}
+// ---- DIA DE PRODUCCION ----
+// El turno C cruza la medianoche (10:00 pm -> 5:59 am), asi que entre las
+// 00:00 y las 5:59 am seguimos dentro del dia ANTERIOR.
+// Ej: el turno C que arranco el jueves 16 a las 10 pm sigue siendo "jueves 16"
+// hasta las 5:59 am del 17. A las 6:00 am del 17 arranca el viernes 17, turno A.
+function fechaProduccion(){
+  const n = new Date();
+  const min = n.getHours()*60 + n.getMinutes();
+  if(min < 6*60){                 // antes de las 6:00 am -> aun es el dia de ayer
+    n.setDate(n.getDate() - 1);
+  }
+  return n;
+}
+
+function hoyDia(){
+  const m=["DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO"];
+  return m[fechaProduccion().getDay()];
+}
+
 function turnoActivo(){
   // horarios reales de planta:
   //   Turno A: 6:00 am  -> 3:36 pm
   //   Turno B: 3:37 pm  -> 9:59 pm
-  //   Turno C: 10:00 pm -> 5:59 am
+  //   Turno C: 10:00 pm -> 5:59 am  (cruza medianoche)
   const n=new Date();
   const min = n.getHours()*60 + n.getMinutes();   // minutos desde medianoche
   const A_ini =  6*60;        // 06:00
@@ -82,8 +100,18 @@ async function loadData(){
 function render(){
   const wk=DATA.weeks[CUR_WEEK];
   if(!wk){document.getElementById("app").innerHTML="<div class='loading'>Sin datos</div>";return;}
-  if(!wk.dias[CUR_DIA]) CUR_DIA=Object.keys(wk.dias)[0];
+  // la semana puede no tener dias cargados todavia
+  const diasDisp = Object.keys(wk.dias||{});
+  if(!diasDisp.length){
+    document.getElementById("app").innerHTML="<div class='loading'>Sin datos para "+wk.label+"</div>";
+    return;
+  }
+  if(!wk.dias[CUR_DIA]) CUR_DIA=diasDisp[0];
   const turno=wk.dias[CUR_DIA][CUR_TURNO]||wk.dias[CUR_DIA].A;
+  if(!turno){
+    document.getElementById("app").innerHTML="<div class='loading'>Sin datos para este turno</div>";
+    return;
+  }
   const horas=turno.hour_labels;
   const groups=turno.procesos.filter(p=>p.meta_hora>0).map(p=>[p.name,p]);
   const nH=horas.length;
@@ -115,10 +143,12 @@ function render(){
     const pctTot = metaTot>0 ? Math.round(tot/metaTot*100)+"%" : "";
     cells+=`<div class="hm-cell hm-total ${clsT}"><span>${tot>0?Math.round(tot).toLocaleString():"·"}</span><span class="sub">${pctTot}</span></div>`;
 
-    // DELTA (del Excel): negativo = se paso de la meta (bueno), positivo = falta
+    // DELTA (tal como viene del Excel: meta - producido)
+    //   negativo = se pasaron de la meta -> VERDE
+    //   positivo = falta para la meta     -> ROJO
     const dl = Math.round(g.delta||0);
     const dlCls = dl<0 ? "g" : dl>0 ? "r" : "z";
-    const dlTxt = dl===0 ? "0" : (dl<0 ? "+"+Math.abs(dl).toLocaleString() : "-"+dl.toLocaleString());
+    const dlTxt = dl.toLocaleString();
     cells+=`<div class="hm-cell hm-extra ${dlCls}">${dlTxt}</div>`;
 
     // DOWNTIME en minutos
@@ -163,9 +193,10 @@ function render(){
   document.getElementById("selTurno").onchange=e=>{CUR_TURNO=e.target.value;render();};
 }
 
-// numero de semana ISO de hoy -> "WWxx"
+// numero de semana ISO del dia de PRODUCCION -> "WWxx"
+// usa fechaProduccion() para que el turno C de madrugada no salte de semana
 function semanaWWdeHoy(){
-  const d=new Date();
+  const d=fechaProduccion();
   const target=new Date(d.valueOf());
   const dayNr=(d.getDay()+6)%7;
   target.setDate(target.getDate()-dayNr+3);
@@ -178,10 +209,17 @@ function semanaWWdeHoy(){
 
 (async function(){
   DATA=await loadData();
-  CUR_WEEK=semanaWWdeHoy() || DATA.week_order[0];
-  const hd=hoyDia();
-  CUR_DIA=DATA.weeks[CUR_WEEK].dias[hd]?hd:Object.keys(DATA.weeks[CUR_WEEK].dias)[0];
-  CUR_TURNO=turnoActivo();
+  // arrancar en la semana de hoy; si esa no tiene dias cargados, buscar la
+  // primera que si los tenga (evita quedarse en una WW vacia)
+  CUR_WEEK = semanaWWdeHoy();
+  const tieneDias = k => k && DATA.weeks[k] && Object.keys(DATA.weeks[k].dias||{}).length;
+  if(!tieneDias(CUR_WEEK)){
+    CUR_WEEK = DATA.week_order.find(tieneDias) || DATA.week_order[0];
+  }
+  const dias = Object.keys(DATA.weeks[CUR_WEEK].dias||{});
+  const hd = hoyDia();
+  CUR_DIA = dias.includes(hd) ? hd : dias[0];
+  CUR_TURNO = turnoActivo();
   render();
   setInterval(async()=>{const f=await loadData();if(f.generated_at!==DATA.generated_at){DATA=f;render();}},5*60*1000);
 })();

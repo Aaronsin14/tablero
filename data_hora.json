@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-17T09:58:28",
+ "generated_at": "2026-07-17T10:15:26",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -13522,9 +13522,9 @@
         "meta_dia": 490.2,
         "hours": [
          0,
-         0,
-         0,
-         0,
+         20.0,
+         20.0,
+         40.0,
          0,
          0,
          0,
@@ -13533,21 +13533,21 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "total": 80.0,
+        "delta": -410.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1631986944104447
        },
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
-         0,
-         0,
-         0,
+         208.0,
+         300.0,
+         150.0,
+         300.0,
          0,
          0,
          0,
@@ -13556,10 +13556,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 958.0,
+        "delta": -1493.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3908608731130151
        },
        {
         "name": "Rofing",
@@ -13613,10 +13613,10 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
+         300.0,
          0,
          0,
-         0,
-         0,
+         270.0,
          0,
          0,
          0,
@@ -13625,10 +13625,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 570.0,
+        "delta": -1881.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.23255813953488372
        },
        {
         "name": "Pouch",

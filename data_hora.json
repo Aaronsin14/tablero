@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-20T08:17:27",
+ "generated_at": "2026-07-20T08:34:35",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -17381,11 +17381,11 @@
        {
         "name": "Boxing",
         "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 2859.5,
+        "meta_hora": 400.0,
+        "meta_dia": 3268.0,
         "hours": [
-         0,
-         0,
+         360.0,
+         420.0,
          0,
          0,
          0,
@@ -17396,10 +17396,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2859.5,
+        "total": 780.0,
+        "delta": -2488.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.23867809057527542
        }
       ]
      },

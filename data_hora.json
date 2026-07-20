@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-20T14:00:08",
+ "generated_at": "2026-07-20T14:16:50",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -17017,21 +17017,21 @@
         "meta_dia": 612.75,
         "hours": [
          0,
+         30.0,
          0,
-         0,
-         0,
-         0,
-         0,
-         0,
+         75.0,
+         100.0,
+         75.0,
+         75.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -612.75,
+        "total": 355.0,
+        "delta": -257.75,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.5793553651570787
        },
        {
         "name": "Staker",
@@ -17391,15 +17391,15 @@
          270.0,
          0,
          0,
-         0,
+         520.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 1765.0,
-        "delta": -1503.0,
+        "total": 2285.0,
+        "delta": -983.0,
         "downtime": 0.0,
-        "proficiency": 0.5400856793145654
+        "proficiency": 0.6992044063647491
        }
       ]
      },

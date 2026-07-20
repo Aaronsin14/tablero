@@ -232,17 +232,37 @@ function render(){
   const di = CUR_DAY;
   const isWeek = (di === -1); // vista SEMANA (totales) vs vista dia
 
+  // indice del dia de HOY dentro de esta semana (0..6), o -1 si la semana ya paso
+  // o aun no empieza. Sirve para no comparar contra el plan de dias que no han
+  // llegado (si no, el lunes siempre saldria rojo porque el plan es de 5 dias).
+  const hoyStr = (()=>{ const h=new Date(); return `${h.getFullYear()}-${String(h.getMonth()+1).padStart(2,"0")}-${String(h.getDate()).padStart(2,"0")}`; })();
+  const wkDates = (wk.dates||[]);
+  let idxHoy = wkDates.indexOf(hoyStr);
+  // hasta que dia contar el plan en vista semana:
+  //   - si hoy cae en la semana -> hasta hoy
+  //   - si la semana ya termino  -> todos los dias
+  //   - si aun no empieza        -> ninguno
+  let hastaDia;
+  if(idxHoy >= 0)                         hastaDia = idxHoy;
+  else if(wkDates.filter(Boolean).length && wkDates.filter(Boolean)[wkDates.filter(Boolean).length-1] < hoyStr) hastaDia = 6;
+  else                                    hastaDia = 6; // semana futura o sin fechas: comporta como antes
+
+  // suma solo hasta el dia 'hastaDia' (inclusive)
+  const sumHasta = arr => arr.reduce((a,b,i)=> i<=hastaDia ? a+(b||0) : a, 0);
+  const avgHasta = arr => { const v=arr.filter((x,i)=>i<=hastaDia && x!==null && x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
+
   // helpers para tomar valor del dia o el total/promedio de la semana
   const sumA = arr => arr.reduce((a,b)=>a+(b||0),0);
   const avgA = arr => { const v=arr.filter(x=>x!==null&&x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
   const pick = (kpi, mode) => {
     if(!isWeek) return kpi.actual[di];
-    // modo semana: suma para cantidades, promedio para porcentajes
-    return mode==="pct" ? avgA(kpi.actual) : sumA(kpi.actual);
+    // modo semana: suma para cantidades, promedio para porcentajes (solo hasta hoy)
+    return mode==="pct" ? avgHasta(kpi.actual) : sumHasta(kpi.actual);
   };
   const pickP = (kpi, mode) => {
     if(!isWeek) return kpi.planned[di];
-    return mode==="pct" ? avgA(kpi.planned) : sumA(kpi.planned);
+    // el plan tambien se cuenta solo hasta hoy, para comparar peras con peras
+    return mode==="pct" ? avgHasta(kpi.planned) : sumHasta(kpi.planned);
   };
 
   // valores segun vista (dia o semana)
@@ -596,7 +616,19 @@ function semanaDeHoy(){
     CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {
     CUR_WEEK = semanaDeHoy() || DATA.week_order[0];
-    CUR_DAY = -1; // por defecto: VISTA SEMANA COMPLETA
+    // abrir mostrando el DIA ANTERIOR (no la semana completa).
+    // buscamos el indice de hoy en la semana y restamos uno.
+    const hoy = new Date();
+    const hoyStr = `${hoy.getFullYear()}-${String(hoy.getMonth()+1).padStart(2,"0")}-${String(hoy.getDate()).padStart(2,"0")}`;
+    const dts = DATA.weeks[CUR_WEEK].dates || [];
+    const idxHoy = dts.indexOf(hoyStr);
+    if(idxHoy > 0){
+      CUR_DAY = idxHoy - 1;           // dia anterior dentro de la misma semana
+    } else if(idxHoy === 0){
+      CUR_DAY = -1;                   // es el primer dia: no hay anterior, muestra semana
+    } else {
+      CUR_DAY = -1;                   // hoy no cae en la semana: muestra semana completa
+    }
   }
   render();
   // refresco automatico: el data.json lo regenera Python cada hora.

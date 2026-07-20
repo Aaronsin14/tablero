@@ -224,13 +224,16 @@ async function loadData(){
   }
 }
 
-let DATA=null, CUR_WEEK=null, CUR_DAY=0;
+let DATA=null, CUR_WEEK=null, CUR_DAY=0, CUR_HASTA=null;
 
 function render(){
   const wk = DATA.weeks[CUR_WEEK];
   const K = wk.kpis;
   const di = CUR_DAY;
-  const isWeek = (di === -1); // vista SEMANA (totales) vs vista dia
+  // Vista acumulada: si CUR_HASTA es un numero, mostramos la SUMA de lunes
+  // hasta ese dia (ej. jueves = lun+mar+mie). isAcum manda sobre isWeek/dia.
+  const isAcum = (typeof CUR_HASTA === "number" && CUR_HASTA >= 0);
+  const isWeek = (di === -1) && !isAcum; // vista SEMANA (totales) vs vista dia
 
   // indice del dia de HOY dentro de esta semana (0..6), o -1 si la semana ya paso
   // o aun no empieza. Sirve para no comparar contra el plan de dias que no han
@@ -243,7 +246,8 @@ function render(){
   //   - si la semana ya termino  -> todos los dias
   //   - si aun no empieza        -> ninguno
   let hastaDia;
-  if(idxHoy >= 0)                         hastaDia = idxHoy;
+  if(isAcum)                              hastaDia = CUR_HASTA;   // acumulado forzado
+  else if(idxHoy >= 0)                    hastaDia = idxHoy;
   else if(wkDates.filter(Boolean).length && wkDates.filter(Boolean)[wkDates.filter(Boolean).length-1] < hoyStr) hastaDia = 6;
   else                                    hastaDia = 6; // semana futura o sin fechas: comporta como antes
 
@@ -255,13 +259,12 @@ function render(){
   const sumA = arr => arr.reduce((a,b)=>a+(b||0),0);
   const avgA = arr => { const v=arr.filter(x=>x!==null&&x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
   const pick = (kpi, mode) => {
-    if(!isWeek) return kpi.actual[di];
-    // modo semana: suma para cantidades, promedio para porcentajes (solo hasta hoy)
+    if(!isWeek && !isAcum) return kpi.actual[di];
+    // modo semana o acumulado: suma cantidades, promedia porcentajes (hasta hastaDia)
     return mode==="pct" ? avgHasta(kpi.actual) : sumHasta(kpi.actual);
   };
   const pickP = (kpi, mode) => {
-    if(!isWeek) return kpi.planned[di];
-    // el plan tambien se cuenta solo hasta hoy, para comparar peras con peras
+    if(!isWeek && !isAcum) return kpi.planned[di];
     return mode==="pct" ? avgHasta(kpi.planned) : sumHasta(kpi.planned);
   };
 
@@ -292,7 +295,10 @@ function render(){
 
   const badge = s => s==="g"?"BIEN":s==="a"?"ATENCIÓN":s==="r"?"REVISAR":"—";
 
-  const dateStr = isWeek ? "Semana completa" : (wk.dates[di] || ("Día "+(di+1)));
+  const nombresDia = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
+  const dateStr = isAcum
+      ? ("Lunes a "+(nombresDia[hastaDia]||("Día "+(hastaDia+1))))
+      : isWeek ? "Semana completa" : (wk.dates[di] || ("Día "+(di+1)));
 
   // ---- attention banner ----
   // se basa en el % de PRODUCCION vs meta:
@@ -365,7 +371,7 @@ function render(){
     <div class="face">${face}</div>
     <div class="msg">
       <h2>${bannerTitle}</h2>
-      <p>${bannerMsg} &nbsp; VIENDO: ${wk.label} · ${isWeek?"Semana completa":("Día "+(di+1)+" ("+dateStr+")")}</p>
+      <p>${bannerMsg} &nbsp; VIENDO: ${wk.label} · ${isAcum?("Acumulado "+dateStr):isWeek?"Semana completa":("Día "+(di+1)+" ("+dateStr+")")}</p>
     </div>
     <div class="gauge">
       <div class="gtop"><span class="glab">PRODUCCIÓN VS META</span><span class="gpct">${gPct}%</span></div>
@@ -399,8 +405,8 @@ function render(){
     <p>Piensa seguro · Trabaja seguro · Hazlo bien desde la primera vez · Cuida los recursos</p>
   </footer>`;
 
-  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=-1; saveState(); render(); };
-  document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); saveState(); render(); };
+  document.getElementById("selWeek").onchange = e=>{ CUR_WEEK=e.target.value; CUR_DAY=-1; CUR_HASTA=null; saveState(); render(); };
+  document.getElementById("selDay").onchange  = e=>{ CUR_DAY=parseInt(e.target.value); CUR_HASTA=null; saveState(); render(); };
 
   // ajustar al tamano de pantalla despues de pintar
   requestAnimationFrame(fitToScreen);
@@ -615,11 +621,13 @@ function semanaDeHoy(){
     CUR_WEEK = savedWeek;
     CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {
-    // Regla: mostrar siempre el ultimo dia que ya tiene datos completos.
-    // Los datos entran hasta fin de turno, asi que el dia de HOY va en rojo
-    // todo el dia. Por eso mostramos el dia anterior.
-    //   - Martes a viernes: esta semana, dia anterior (lunes..jueves)
-    //   - Lunes: el dia anterior cae en la SEMANA PASADA -> mostramos esa semana
+    // Regla: mostrar el ACUMULADO de la semana desde el lunes hasta AYER.
+    // Los datos entran hasta fin de turno, asi que el dia de hoy no se cuenta.
+    //   Martes    -> lunes
+    //   Miercoles -> lunes+martes
+    //   Jueves    -> lunes+martes+miercoles
+    //   Viernes   -> lunes..jueves
+    //   Lunes     -> no hay dias de esta semana; muestra la semana pasada completa
     const semActual = semanaDeHoy() || DATA.week_order[0];
     const hoy = new Date();
     const hoyStr = `${hoy.getFullYear()}-${String(hoy.getMonth()+1).padStart(2,"0")}-${String(hoy.getDate()).padStart(2,"0")}`;
@@ -627,20 +635,16 @@ function semanaDeHoy(){
     const idxHoy = dts.indexOf(hoyStr);
 
     if(idxHoy > 0){
-      // hay dia anterior en la misma semana (martes..domingo)
-      CUR_WEEK = semActual;
-      CUR_DAY  = idxHoy - 1;
+      // hay dias cerrados en esta semana: acumular de lunes (0) hasta ayer (idxHoy-1)
+      CUR_WEEK  = semActual;
+      CUR_DAY   = -1;
+      CUR_HASTA = idxHoy - 1;
     } else {
-      // es lunes (idxHoy===0) o hoy no cae en la semana:
-      // saltar a la semana ANTERIOR y mostrarla completa
+      // lunes (idxHoy===0) o hoy fuera de la semana: semana pasada completa
       const pos = DATA.week_order.indexOf(semActual);
-      if(pos > 0){
-        CUR_WEEK = DATA.week_order[pos-1];
-        CUR_DAY  = -1;               // semana pasada completa
-      } else {
-        CUR_WEEK = semActual;        // no hay anterior: primera semana
-        CUR_DAY  = -1;
-      }
+      CUR_WEEK  = pos > 0 ? DATA.week_order[pos-1] : semActual;
+      CUR_DAY   = -1;
+      CUR_HASTA = null;          // semana completa (sin limite)
     }
   }
   render();

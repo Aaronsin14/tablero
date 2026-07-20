@@ -615,19 +615,32 @@ function semanaDeHoy(){
     CUR_WEEK = savedWeek;
     CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {
-    CUR_WEEK = semanaDeHoy() || DATA.week_order[0];
-    // abrir mostrando el DIA ANTERIOR (no la semana completa).
-    // buscamos el indice de hoy en la semana y restamos uno.
+    // Regla: mostrar siempre el ultimo dia que ya tiene datos completos.
+    // Los datos entran hasta fin de turno, asi que el dia de HOY va en rojo
+    // todo el dia. Por eso mostramos el dia anterior.
+    //   - Martes a viernes: esta semana, dia anterior (lunes..jueves)
+    //   - Lunes: el dia anterior cae en la SEMANA PASADA -> mostramos esa semana
+    const semActual = semanaDeHoy() || DATA.week_order[0];
     const hoy = new Date();
     const hoyStr = `${hoy.getFullYear()}-${String(hoy.getMonth()+1).padStart(2,"0")}-${String(hoy.getDate()).padStart(2,"0")}`;
-    const dts = DATA.weeks[CUR_WEEK].dates || [];
+    const dts = DATA.weeks[semActual].dates || [];
     const idxHoy = dts.indexOf(hoyStr);
+
     if(idxHoy > 0){
-      CUR_DAY = idxHoy - 1;           // dia anterior dentro de la misma semana
-    } else if(idxHoy === 0){
-      CUR_DAY = -1;                   // es el primer dia: no hay anterior, muestra semana
+      // hay dia anterior en la misma semana (martes..domingo)
+      CUR_WEEK = semActual;
+      CUR_DAY  = idxHoy - 1;
     } else {
-      CUR_DAY = -1;                   // hoy no cae en la semana: muestra semana completa
+      // es lunes (idxHoy===0) o hoy no cae en la semana:
+      // saltar a la semana ANTERIOR y mostrarla completa
+      const pos = DATA.week_order.indexOf(semActual);
+      if(pos > 0){
+        CUR_WEEK = DATA.week_order[pos-1];
+        CUR_DAY  = -1;               // semana pasada completa
+      } else {
+        CUR_WEEK = semActual;        // no hay anterior: primera semana
+        CUR_DAY  = -1;
+      }
     }
   }
   render();

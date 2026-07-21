@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-21T17:04:19",
+ "generated_at": "2026-07-21T17:21:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -18661,38 +18661,38 @@
         "meta_dia": 1367.5,
         "hours": [
          125.0,
-         0,
+         375.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 125.0,
-        "delta": -1242.5,
+        "rework": 5.0,
+        "total": 500.0,
+        "delta": -867.5,
         "downtime": 0.0,
-        "proficiency": 0.09090909090909091
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 355.0,
+        "meta_dia": 1941.85,
         "hours": [
          133.0,
-         0,
+         318.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 28.0,
-        "total": 133.0,
-        "delta": -2055.0,
-        "downtime": 0.0,
-        "proficiency": 0.060454545454545455
+        "rework": 82.0,
+        "total": 451.0,
+        "delta": -1490.85,
+        "downtime": 120.0,
+        "proficiency": 0.2419852448021462
        },
        {
         "name": "Carga de bandas",
@@ -18737,8 +18737,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 547.0,
+        "meta_hora": 80.0,
+        "meta_dia": 437.6,
         "hours": [
          0,
          0,
@@ -18750,7 +18750,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -547.0,
+        "delta": -437.59999999999997,
         "downtime": 0.0,
         "proficiency": 0.0
        },

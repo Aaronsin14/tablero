@@ -7,7 +7,7 @@ Actualiza AMBOS dashboards y sube todo a GitHub.
 
 USO:
   python actualizar_todo.py            (una vez)
-  python actualizar_todo.py --watch    (cada hora)
+  python actualizar_todo.py --watch    (cada 15 minutos)
 """
 import subprocess, sys, time, datetime
 from pathlib import Path
@@ -17,6 +17,13 @@ REFRESH_SECONDS = 900
 HERE = Path(__file__).parent
 LOG = HERE / "actualizador_log.txt"
 
+# En Windows, cada subprocess abre su propia ventana de consola aunque el
+# proceso padre corra oculto con pythonw. Esta bandera lo evita.
+if sys.platform == "win32":
+    NO_WINDOW = subprocess.CREATE_NO_WINDOW
+else:
+    NO_WINDOW = 0
+
 def log(m):
     line=f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {m}"
     print(line)
@@ -24,7 +31,14 @@ def log(m):
         with open(LOG,"a",encoding="utf-8") as f: f.write(line+"\n")
     except: pass
 
-def run(cmd): return subprocess.run(cmd,cwd=str(HERE),capture_output=True,text=True)
+def run(cmd):
+    return subprocess.run(
+        cmd,
+        cwd=str(HERE),
+        capture_output=True,
+        text=True,
+        creationflags=NO_WINDOW,   # <- sin ventana de consola
+    )
 
 def ciclo():
     # 1) generar los dos json

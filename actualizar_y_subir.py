@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Genera data.json desde el Excel y lo SUBE a GitHub automaticamente.
-Pensado para correr cada 1 hora en la compu que tiene el Excel.
+Pensado para correr cada 15 hora en la compu que tiene el Excel.
 
 Requisitos:
   - git instalado y configurado (git config user.name / user.email)
@@ -22,7 +22,7 @@ from pathlib import Path
 
 import extract  # tu logica de extraccion (lee el Excel -> data.json)
 
-REFRESH_SECONDS = 3600  # 1 hora
+REFRESH_SECONDS = 3600  # 15 hora
 HERE = Path(__file__).parent
 
 

@@ -613,11 +613,14 @@ function semanaDeHoy(){
 
   DATA = await loadData();
 
-  // restaurar semana/dia desde la URL (para que no se pierda al recargar o actualizar)
+  // restaurar semana/dia desde la URL SOLO si NO es modo TV.
+  // En las pantallas (rotador con ?tv) siempre recalculamos con la fecha de hoy,
+  // asi el martes salta solo al acumulado de esta semana en vez de quedarse
+  // pegado en la semana que quedo guardada en la URL.
   const params = new URLSearchParams(location.search);
   const savedWeek = params.get("w");
   const savedDay  = params.get("d");
-  if(savedWeek && DATA.weeks[savedWeek]){
+  if(!forceTV && savedWeek && DATA.weeks[savedWeek]){
     CUR_WEEK = savedWeek;
     CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
   } else {

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-21T09:30:18",
+ "generated_at": "2026-07-21T09:47:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -18212,28 +18212,6 @@
         "hours": [
          350.0,
          300.0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "rework": 10.0,
-        "total": 650.0,
-        "delta": -3435.0,
-        "downtime": 0.0,
-        "proficiency": 0.1591187270501836
-       },
-       {
-        "name": "Welder",
-        "maquinas": 8,
-        "meta_hora": 375.0,
-        "meta_dia": 3063.75,
-        "hours": [
-         175.0,
          300.0,
          0,
          0,
@@ -18241,14 +18219,36 @@
          0,
          0,
          0,
+         0
+        ],
+        "rework": 15.0,
+        "total": 950.0,
+        "delta": -3135.0,
+        "downtime": 120.0,
+        "proficiency": 0.2649930264993026
+       },
+       {
+        "name": "Welder",
+        "maquinas": 8,
+        "meta_hora": 350.0,
+        "meta_dia": 2859.5,
+        "hours": [
+         175.0,
+         300.0,
+         259.0,
+         0,
+         0,
+         0,
+         0,
+         0,
          0,
          0
         ],
-        "rework": 36.0,
-        "total": 475.0,
-        "delta": -2588.75,
+        "rework": 49.0,
+        "total": 734.0,
+        "delta": -2125.5,
         "downtime": 0.0,
-        "proficiency": 0.15503875968992248
+        "proficiency": 0.25668823220842807
        },
        {
         "name": "Carga de bandas",
@@ -18460,8 +18460,8 @@
        {
         "name": "Baking Conv",
         "maquinas": 1,
-        "meta_hora": 60.0,
-        "meta_dia": 490.2,
+        "meta_hora": 0,
+        "meta_dia": 0,
         "hours": [
          0,
          0,
@@ -18476,9 +18476,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -490.2,
+        "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Hand Drilling",
@@ -18621,12 +18621,12 @@
        {
         "name": "Boxing",
         "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 2859.5,
+        "meta_hora": 400.0,
+        "meta_dia": 3268.0,
         "hours": [
-         0,
-         0,
-         0,
+         150.0,
+         400.0,
+         315.0,
          0,
          0,
          0,
@@ -18636,10 +18636,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2859.5,
+        "total": 865.0,
+        "delta": -2403.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.26468788249694003
        }
       ]
      },

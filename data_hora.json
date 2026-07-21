@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-21T11:44:54",
+ "generated_at": "2026-07-21T12:01:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -18481,7 +18481,7 @@
         "proficiency": 0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hidrofilico",
         "maquinas": 1,
         "meta_hora": 60.0,
         "meta_dia": 490.2,
@@ -18506,7 +18506,7 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
          200.0,
@@ -18522,9 +18522,9 @@
         ],
         "rework": 0.0,
         "total": 967.0,
-        "delta": -258.5,
+        "delta": -1484.0,
         "downtime": 0.0,
-        "proficiency": 0.7890656874745002
+        "proficiency": 0.3945328437372501
        },
        {
         "name": "Rofing",
@@ -18629,17 +18629,17 @@
          315.0,
          400.0,
          400.0,
-         0,
+         400.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 1665.0,
-        "delta": -1603.0,
+        "total": 2065.0,
+        "delta": -1203.0,
         "downtime": 0.0,
-        "proficiency": 0.5094859241126071
+        "proficiency": 0.6318849449204407
        }
       ]
      },

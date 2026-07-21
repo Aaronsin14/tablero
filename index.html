@@ -397,7 +397,7 @@ function render(){
   </div>
 
   <div class="scoreboard">
-    ${buildScoreboard(K, wk, di, isWeek)}
+    ${buildScoreboard(K, wk, di, isWeek, isAcum, hastaDia)}
   </div>
 
   <footer class="foot">
@@ -430,16 +430,21 @@ function row(lbl, sub, val, dot){
   return `<div class="krow"><div class="lbl">${lbl}<small>${sub}</small></div><div class="val">${val}<span class="dot ${dot}"></span></div></div>`;
 }
 
-function buildScoreboard(K, wk, di, isWeek){
+function buildScoreboard(K, wk, di, isWeek, isAcum, hastaDia){
   // helpers: total de semana o valor del dia
   const sumArr = arr => arr.reduce((a,b)=>a+(b||0),0);
   const avgArr = arr => { const v=arr.filter(x=>x!==null&&x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
+  // acumulado: suma/promedio de lunes hasta 'hastaDia'
+  const sumHasta = arr => arr.reduce((a,b,i)=> i<=hastaDia ? a+(b||0) : a, 0);
+  const avgHasta = arr => { const v=arr.filter((x,i)=>i<=hastaDia && x!==null && x!==undefined); return v.length?v.reduce((a,b)=>a+b,0)/v.length:null; };
   const val = (kpi, mode) => {
     if(isWeek) return mode==="pct" ? (kpi.actual_total ?? avgArr(kpi.actual)) : (kpi.actual_total ?? sumArr(kpi.actual));
+    if(isAcum) return mode==="pct" ? avgHasta(kpi.actual) : sumHasta(kpi.actual);
     return kpi.actual[di];
   };
   const valP = (kpi, mode) => {
     if(isWeek) return mode==="pct" ? (kpi.planned_total ?? avgArr(kpi.planned)) : (kpi.planned_total ?? sumArr(kpi.planned));
+    if(isAcum) return mode==="pct" ? avgHasta(kpi.planned) : sumHasta(kpi.planned);
     return kpi.planned[di];
   };
 
@@ -460,8 +465,8 @@ function buildScoreboard(K, wk, di, isWeek){
   const yCls    = yieldW===null?"n": yieldW>=0.97?"g": yieldW>=0.90?"a":"r";
 
   // etiquetas cambian segun vista
-  const alcance = isWeek ? "ESTA SEMANA" : "DEL DÍA";
-  const yieldLbl = isWeek ? "YIELD SEMANA" : "YIELD DÍA";
+  const alcance  = isAcum ? "ACUMULADO" : isWeek ? "ESTA SEMANA" : "DEL DÍA";
+  const yieldLbl = isAcum ? "YIELD ACUM." : isWeek ? "YIELD SEMANA" : "YIELD DÍA";
 
   const cards = [
     {big:nfmt(outsReal), lbl:"PRODUCIDO "+alcance, sub:`meta ${nfmt(outsPlan)} u`, cls:cumpCls, unit:"unidades FG"},

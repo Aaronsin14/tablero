@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T11:41:03",
+ "generated_at": "2026-07-22T11:57:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19616,17 +19616,17 @@
          0,
          0,
          0,
-         0,
+         70.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3186.3,
+        "total": 70.0,
+        "delta": -3116.3,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.021969055016790633
        },
        {
         "name": "Sidehole Soft Vu",
@@ -19638,7 +19638,7 @@
          139.0,
          100.0,
          100.0,
-         0,
+         100.0,
          0,
          0,
          0,
@@ -19646,10 +19646,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 439.0,
-        "delta": -378.0,
+        "total": 539.0,
+        "delta": -278.0,
         "downtime": 0.0,
-        "proficiency": 0.5373317013463893
+        "proficiency": 0.6597307221542228
        },
        {
         "name": "Sidehole Accu Vu",
@@ -19684,7 +19684,7 @@
          350.0,
          175.0,
          330.0,
-         0,
+         230.0,
          0,
          0,
          0,
@@ -19692,10 +19692,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 955.0,
-        "delta": -2721.5,
+        "total": 1185.0,
+        "delta": -2491.5,
         "downtime": 0.0,
-        "proficiency": 0.2597579219366245
+        "proficiency": 0.3223174214606283
        },
        {
         "name": "Baking Conv",
@@ -19707,7 +19707,7 @@
          60.0,
          0,
          60.0,
-         0,
+         60.0,
          0,
          0,
          0,
@@ -19715,10 +19715,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -340.2,
+        "total": 210.0,
+        "delta": -280.2,
         "downtime": 0.0,
-        "proficiency": 0.30599755201958384
+        "proficiency": 0.4283965728274174
        },
        {
         "name": "Hand Drilling",
@@ -19728,20 +19728,20 @@
         "hours": [
          0,
          0,
-         0,
-         0,
-         0,
+         11.0,
+         40.0,
+         40.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "rework": 4.0,
+        "total": 91.0,
+        "delta": -399.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18563851489188085
        },
        {
         "name": "Prepping",

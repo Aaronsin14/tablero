@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T02:38:55",
+ "generated_at": "2026-07-22T02:55:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19099,17 +19099,17 @@
          50.0,
          50.0,
          50.0,
-         0,
+         40.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -548.0,
+        "total": 190.0,
+        "delta": -508.0,
         "downtime": 0.0,
-        "proficiency": 0.1948051948051948
+        "proficiency": 0.24675324675324675
        },
        {
         "name": "Swager",
@@ -19120,17 +19120,17 @@
          50.0,
          50.0,
          50.0,
-         0,
+         40.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -548.0,
+        "total": 190.0,
+        "delta": -508.0,
         "downtime": 0.0,
-        "proficiency": 0.1948051948051948
+        "proficiency": 0.24675324675324675
        },
        {
         "name": "Embedder",
@@ -19141,17 +19141,17 @@
          28.0,
          49.0,
          30.0,
-         0,
+         41.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 107.0,
-        "delta": -242.0,
+        "total": 148.0,
+        "delta": -201.0,
         "downtime": 0.0,
-        "proficiency": 0.2779220779220779
+        "proficiency": 0.38441558441558443
        },
        {
         "name": "Inspeccion",
@@ -19162,17 +19162,17 @@
          28.0,
          49.0,
          30.0,
-         0,
+         41.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 107.0,
-        "delta": -242.0,
+        "total": 148.0,
+        "delta": -201.0,
         "downtime": 0.0,
-        "proficiency": 0.2779220779220779
+        "proficiency": 0.38441558441558443
        },
        {
         "name": "Drawdown",
@@ -19183,17 +19183,17 @@
          165.0,
          165.0,
          192.0,
-         0,
+         104.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 522.0,
-        "delta": -1292.8000000000002,
-        "downtime": 140.0,
-        "proficiency": 0.29003580688973946
+        "total": 626.0,
+        "delta": -1188.8000000000002,
+        "downtime": 200.0,
+        "proficiency": 0.3654170450123233
        },
        {
         "name": "Sidehole Soft Vu",
@@ -19245,7 +19245,7 @@
         "hours": [
          281.0,
          210.0,
-         128.0,
+         159.0,
          0,
          0,
          0,
@@ -19253,10 +19253,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 619.0,
-        "delta": -2522.0,
-        "downtime": 600.0,
-        "proficiency": 0.3150127226463104
+        "total": 650.0,
+        "delta": -2491.0,
+        "downtime": 840.0,
+        "proficiency": 0.4761904761904762
        },
        {
         "name": "Baking Conv",
@@ -19267,17 +19267,17 @@
          0,
          0,
          0,
-         0,
+         60.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -418.8,
+        "total": 60.0,
+        "delta": -358.8,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12987012987012986
        },
        {
         "name": "Hand Drilling",
@@ -19308,18 +19308,18 @@
         "hours": [
          0,
          0,
-         0,
-         0,
+         180.0,
+         200.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1047.0,
+        "total": 380.0,
+        "delta": -667.0,
         "downtime": 120.0,
-        "proficiency": 0.0
+        "proficiency": 0.4444444444444445
        },
        {
         "name": "Rofing",
@@ -19400,10 +19400,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 0,
+        "delta": 0,
         "downtime": 480.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Boxing",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T07:26:44",
+ "generated_at": "2026-07-22T07:43:39",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19510,7 +19510,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -612.75,
-        "downtime": 0.0,
+        "downtime": 35.0,
         "proficiency": 0.0
        },
        {
@@ -19519,7 +19519,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0,
+         5.0,
          0,
          0,
          0,
@@ -19531,10 +19531,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 5.0,
+        "delta": -812.0,
+        "downtime": 70.0,
+        "proficiency": 0.006590509666080844
        },
        {
         "name": "Swager",
@@ -19542,7 +19542,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0,
+         5.0,
          0,
          0,
          0,
@@ -19554,18 +19554,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 5.0,
+        "delta": -812.0,
+        "downtime": 70.0,
+        "proficiency": 0.006590509666080844
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 408.50000000000006,
         "hours": [
-         0,
+         11.0,
          0,
          0,
          0,
@@ -19576,19 +19576,19 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -571.9,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 2.0,
+        "total": 11.0,
+        "delta": -397.5,
+        "downtime": 350.0,
+        "proficiency": 0.02899824253075571
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
-         0,
+         11.0,
          0,
          0,
          0,
@@ -19599,11 +19599,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -571.9,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 2.0,
+        "total": 11.0,
+        "delta": -397.5,
+        "downtime": 35.0,
+        "proficiency": 0.02899824253075571
        },
        {
         "name": "Drawdown",
@@ -19723,8 +19723,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
          0,
          0,
@@ -19739,17 +19739,17 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
+        "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
+         200.0,
          0,
          0,
          0,
@@ -19761,18 +19761,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 200.0,
+        "delta": -2251.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08159934720522236
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 550.0,
+        "meta_dia": 4493.5,
         "hours": [
-         0,
+         330.0,
          0,
          0,
          0,
@@ -19784,10 +19784,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 330.0,
+        "delta": -4163.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.07343941248470012
        },
        {
         "name": "Moldeadora Milacron",

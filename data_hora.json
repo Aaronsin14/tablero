@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T15:17:22",
+ "generated_at": "2026-07-22T15:36:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19481,14 +19481,14 @@
          162.0,
          117.0,
          101.0,
-         0,
-         0
+         129.0,
+         73.0
         ],
-        "rework": 352.0,
-        "total": 1451.0,
-        "delta": -1326.8000000000002,
-        "downtime": 95.0,
-        "proficiency": 0.5353239398513809
+        "rework": 479.0,
+        "total": 1653.0,
+        "delta": -1124.8000000000002,
+        "downtime": 825.0,
+        "proficiency": 0.7536159203072821
        },
        {
         "name": "Carga de bandas",
@@ -19740,8 +19740,8 @@
         "rework": 5.0,
         "total": 141.0,
         "delta": -349.2,
-        "downtime": 0.0,
-        "proficiency": 0.2876376988984088
+        "downtime": 240.0,
+        "proficiency": 0.5635491606714628
        },
        {
         "name": "Prepping",
@@ -19757,20 +19757,20 @@
          300.0,
          150.0,
          0,
-         0,
+         200.0,
          0
         ],
         "rework": 0.0,
-        "total": 1540.0,
-        "delta": -911.0,
-        "downtime": 0.0,
-        "proficiency": 0.6283149734802123
+        "total": 1740.0,
+        "delta": -711.0,
+        "downtime": 60.0,
+        "proficiency": 0.8089260808926081
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 550.0,
-        "meta_dia": 4493.5,
+        "meta_hora": 6500.0,
+        "meta_dia": 53105.0,
         "hours": [
          330.0,
          500.0,
@@ -19785,9 +19785,9 @@
         ],
         "rework": 0.0,
         "total": 5355.0,
-        "delta": 861.5,
+        "delta": -47750.0,
         "downtime": 0.0,
-        "proficiency": 1.1917213753199065
+        "proficiency": 0.10083796252706902
        },
        {
         "name": "Moldeadora Milacron",
@@ -19826,14 +19826,14 @@
          300.0,
          270.0,
          300.0,
-         0,
+         300.0,
          0
         ],
-        "rework": 24.0,
-        "total": 1320.0,
-        "delta": -1131.0,
+        "rework": 32.0,
+        "total": 1620.0,
+        "delta": -831.0,
         "downtime": 0.0,
-        "proficiency": 0.5385556915544676
+        "proficiency": 0.6609547123623011
        },
        {
         "name": "Pouch",

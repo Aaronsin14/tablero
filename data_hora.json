@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-21T22:58:56",
+ "generated_at": "2026-07-21T23:15:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -18478,7 +18478,7 @@
         "total": 0.0,
         "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Hidrofilico",
@@ -18570,7 +18570,7 @@
         "total": 0.0,
         "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Moldeadora Atlas",
@@ -18897,22 +18897,22 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 30.0,
-        "meta_dia": 164.1,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
          0,
-         0,
-         0,
-         0,
-         0,
+         80.0,
+         80.0,
+         80.0,
+         80.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -164.1,
+        "total": 320.0,
+        "delta": 46.5,
         "downtime": 328.0,
-        "proficiency": 0.0
+        "proficiency": 192.00000000000068
        },
        {
         "name": "Prepping",
@@ -19051,10 +19051,10 @@
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2792.0,
+        "meta_hora": 370.0,
+        "meta_dia": 2582.6,
         "hours": [
-         0,
+         191.0,
          0,
          0,
          0,
@@ -19063,11 +19063,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2792.0,
+        "rework": 41.0,
+        "total": 191.0,
+        "delta": -2391.6000000000004,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.06704106704106703
        },
        {
         "name": "Carga de bandas",

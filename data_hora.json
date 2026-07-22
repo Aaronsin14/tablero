@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T07:43:39",
+ "generated_at": "2026-07-22T08:00:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19634,7 +19634,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0,
+         100.0,
          0,
          0,
          0,
@@ -19646,10 +19646,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 100.0,
+        "delta": -717.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783355
        },
        {
         "name": "Sidehole Accu Vu",
@@ -19680,7 +19680,7 @@
         "meta_hora": 450.0,
         "meta_dia": 3676.5,
         "hours": [
-         0,
+         100.0,
          0,
          0,
          0,
@@ -19692,10 +19692,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 100.0,
+        "delta": -3576.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.027199782401740785
        },
        {
         "name": "Baking Conv",
@@ -19703,7 +19703,7 @@
         "meta_hora": 60.0,
         "meta_dia": 490.2,
         "hours": [
-         0,
+         30.0,
          0,
          0,
          0,
@@ -19715,10 +19715,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "total": 30.0,
+        "delta": -460.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.061199510403916774
        },
        {
         "name": "Hand Drilling",

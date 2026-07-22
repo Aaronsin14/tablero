@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T05:28:02",
+ "generated_at": "2026-07-22T05:44:50",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19102,14 +19102,14 @@
          40.0,
          50.0,
          40.0,
-         0,
+         40.0,
          0
         ],
         "rework": 0.0,
-        "total": 280.0,
-        "delta": -418.0,
-        "downtime": 0.0,
-        "proficiency": 0.3636363636363636
+        "total": 320.0,
+        "delta": -378.0,
+        "downtime": 60.0,
+        "proficiency": 0.4444444444444444
        },
        {
         "name": "Swager",
@@ -19123,14 +19123,14 @@
          40.0,
          50.0,
          40.0,
-         0,
+         40.0,
          0
         ],
         "rework": 0.0,
-        "total": 280.0,
-        "delta": -418.0,
-        "downtime": 0.0,
-        "proficiency": 0.3636363636363636
+        "total": 320.0,
+        "delta": -378.0,
+        "downtime": 120.0,
+        "proficiency": 0.4776119402985074
        },
        {
         "name": "Embedder",
@@ -19144,14 +19144,14 @@
          41.0,
          43.0,
          40.0,
-         0,
+         38.0,
          0
         ],
         "rework": 0.0,
-        "total": 231.0,
-        "delta": -118.0,
-        "downtime": 0.0,
-        "proficiency": 0.6
+        "total": 269.0,
+        "delta": -80.0,
+        "downtime": 600.0,
+        "proficiency": 0.8029850746268656
        },
        {
         "name": "Inspeccion",
@@ -19165,14 +19165,14 @@
          41.0,
          43.0,
          40.0,
-         0,
+         38.0,
          0
         ],
         "rework": 0.0,
-        "total": 231.0,
-        "delta": -118.0,
-        "downtime": 0.0,
-        "proficiency": 0.6
+        "total": 269.0,
+        "delta": -80.0,
+        "downtime": 60.0,
+        "proficiency": 0.8029850746268656
        },
        {
         "name": "Drawdown",
@@ -19186,14 +19186,14 @@
          104.0,
          65.0,
          160.0,
-         18.0,
+         198.0,
          0
         ],
         "rework": 0.0,
-        "total": 869.0,
-        "delta": -945.8000000000002,
+        "total": 1049.0,
+        "delta": -765.8000000000002,
         "downtime": 540.0,
-        "proficiency": 0.7111292962356792
+        "proficiency": 0.8584288052373158
        },
        {
         "name": "Sidehole Soft Vu",
@@ -19207,14 +19207,14 @@
          0,
          125.0,
          100.0,
-         0,
+         75.0,
          0
         ],
         "rework": 0.0,
-        "total": 225.0,
-        "delta": -473.0,
+        "total": 300.0,
+        "delta": -398.0,
         "downtime": 300.0,
-        "proficiency": 0.8333333333333333
+        "proficiency": 1.111111111111111
        },
        {
         "name": "Sidehole Accu Vu",
@@ -19249,14 +19249,14 @@
          70.0,
          70.0,
          150.0,
-         0,
+         75.0,
          0
         ],
         "rework": 0.0,
-        "total": 885.0,
-        "delta": -2256.0,
+        "total": 960.0,
+        "delta": -2181.0,
         "downtime": 840.0,
-        "proficiency": 0.6483516483516484
+        "proficiency": 0.7032967032967034
        },
        {
         "name": "Baking Conv",
@@ -19270,14 +19270,14 @@
          60.0,
          68.0,
          100.0,
-         0,
+         100.0,
          0
         ],
         "rework": 0.0,
-        "total": 228.0,
-        "delta": -190.8,
+        "total": 328.0,
+        "delta": -90.80000000000001,
         "downtime": 180.0,
-        "proficiency": 0.8085106382978723
+        "proficiency": 1.1631205673758866
        },
        {
         "name": "Hand Drilling",
@@ -19312,14 +19312,14 @@
          200.0,
          130.0,
          150.0,
-         0,
-         0
+         200.0,
+         209.0
         ],
         "rework": 0.0,
-        "total": 660.0,
-        "delta": -387.0,
+        "total": 1069.0,
+        "delta": 22.0,
         "downtime": 120.0,
-        "proficiency": 0.7719298245614035
+        "proficiency": 1.2502923976608187
        },
        {
         "name": "Rofing",

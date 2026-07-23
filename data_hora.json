@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T14:07:48",
+ "generated_at": "2026-07-23T14:24:52",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20697,15 +20697,15 @@
          550.0,
          500.0,
          600.0,
-         0,
+         600.0,
          0,
          0
         ],
         "rework": 25.0,
-        "total": 3700.0,
-        "delta": -385.0,
+        "total": 4300.0,
+        "delta": 215.0,
         "downtime": 0.0,
-        "proficiency": 0.9057527539779682
+        "proficiency": 1.0526315789473684
        },
        {
         "name": "Welder",
@@ -20720,15 +20720,15 @@
          268.0,
          282.0,
          164.0,
-         0,
+         294.0,
          0,
          0
         ],
-        "rework": 211.0,
-        "total": 1628.0,
-        "delta": -1149.8000000000002,
+        "rework": 231.0,
+        "total": 1922.0,
+        "delta": -855.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.5860753113975088
+        "proficiency": 0.6919144646842825
        },
        {
         "name": "Carga de bandas",
@@ -20971,17 +20971,17 @@
          10.0,
          35.0,
          0,
-         0,
-         0,
-         0,
+         20.0,
+         20.0,
+         40.0,
          0,
          0
         ],
         "rework": 11.0,
-        "total": 70.0,
-        "delta": -175.1,
+        "total": 150.0,
+        "delta": -95.1,
         "downtime": 0.0,
-        "proficiency": 0.28559771521827826
+        "proficiency": 0.6119951040391677
        },
        {
         "name": "Prepping",
@@ -20995,16 +20995,16 @@
          0,
          150.0,
          151.0,
-         0,
-         0,
+         100.0,
+         150.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 301.0,
-        "delta": -924.5,
+        "total": 551.0,
+        "delta": -674.5,
         "downtime": 0.0,
-        "proficiency": 0.2456140350877193
+        "proficiency": 0.44961240310077516
        },
        {
         "name": "Rofing",
@@ -21018,16 +21018,16 @@
          550.0,
          550.0,
          550.0,
-         0,
-         0,
+         550.0,
+         1100.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 3084.0,
-        "delta": -2635.0,
+        "total": 4734.0,
+        "delta": -985.0,
         "downtime": 0.0,
-        "proficiency": 0.5392551145305123
+        "proficiency": 0.8277670921489771
        },
        {
         "name": "Moldeadora Milacron",
@@ -21064,16 +21064,16 @@
          298.0,
          300.0,
          130.0,
-         0,
-         0,
+         250.0,
+         161.0,
          0,
          0
         ],
         "rework": 9.0,
-        "total": 1136.0,
-        "delta": -1315.0,
+        "total": 1547.0,
+        "delta": -904.0,
         "downtime": 0.0,
-        "proficiency": 0.46348429212566294
+        "proficiency": 0.6311709506323949
        },
        {
         "name": "Pouch",
@@ -21088,15 +21088,15 @@
          100.0,
          0,
          0,
-         0,
+         60.0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 556.0,
-        "delta": -1895.0,
+        "total": 616.0,
+        "delta": -1835.0,
         "downtime": 0.0,
-        "proficiency": 0.22684618523051814
+        "proficiency": 0.2513259893920849
        },
        {
         "name": "Boxing",

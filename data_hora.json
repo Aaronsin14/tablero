@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-22T18:42:46",
+ "generated_at": "2026-07-22T18:59:42",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19962,17 +19962,17 @@
         "hours": [
          45.0,
          110.0,
-         0,
+         45.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 155.0,
-        "delta": -118.5,
+        "rework": 1.0,
+        "total": 200.0,
+        "delta": -73.5,
         "downtime": 0.0,
-        "proficiency": 0.5636363636363637
+        "proficiency": 0.7272727272727273
        },
        {
         "name": "Swager",
@@ -19982,17 +19982,17 @@
         "hours": [
          45.0,
          110.0,
-         0,
+         45.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 155.0,
-        "delta": -282.59999999999997,
+        "total": 200.0,
+        "delta": -237.59999999999997,
         "downtime": 0.0,
-        "proficiency": 0.3522727272727273
+        "proficiency": 0.4545454545454546
        },
        {
         "name": "Embedder",
@@ -20002,17 +20002,17 @@
         "hours": [
          26.0,
          88.0,
-         0,
+         46.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 4.0,
-        "total": 114.0,
-        "delta": -323.59999999999997,
+        "rework": 23.0,
+        "total": 160.0,
+        "delta": -277.59999999999997,
         "downtime": 0.0,
-        "proficiency": 0.2590909090909091
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Inspeccion",
@@ -20022,17 +20022,17 @@
         "hours": [
          26.0,
          88.0,
-         0,
+         46.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 4.0,
-        "total": 114.0,
-        "delta": -159.5,
+        "rework": 23.0,
+        "total": 160.0,
+        "delta": -113.5,
         "downtime": 0.0,
-        "proficiency": 0.41454545454545455
+        "proficiency": 0.5818181818181818
        },
        {
         "name": "Drawdown",
@@ -20042,17 +20042,17 @@
         "hours": [
          200.0,
          230.0,
-         0,
+         152.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 430.0,
-        "delta": -1703.2999999999997,
+        "rework": 4.0,
+        "total": 582.0,
+        "delta": -1551.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.20046620046620048
+        "proficiency": 0.27132867132867133
        },
        {
         "name": "Sidehole Soft Vu",
@@ -20101,18 +20101,18 @@
         "meta_dia": 2188.0,
         "hours": [
          75.0,
-         398.0,
-         0,
+         498.0,
+         551.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 473.0,
-        "delta": -1715.0,
+        "total": 1124.0,
+        "delta": -1064.0,
         "downtime": 0.0,
-        "proficiency": 0.215
+        "proficiency": 0.510909090909091
        },
        {
         "name": "Baking Conv",
@@ -20162,17 +20162,17 @@
         "hours": [
          438.0,
          438.0,
-         0,
+         533.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 876.0,
-        "delta": -765.0,
+        "total": 1409.0,
+        "delta": -232.0,
         "downtime": 0.0,
-        "proficiency": 0.5309090909090909
+        "proficiency": 0.853939393939394
        },
        {
         "name": "Rofing",
@@ -20222,17 +20222,17 @@
         "hours": [
          0,
          150.0,
-         0,
+         300.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -1491.0,
+        "total": 450.0,
+        "delta": -1191.0,
         "downtime": 0.0,
-        "proficiency": 0.09090909090909091
+        "proficiency": 0.2727272727272727
        },
        {
         "name": "Pouch",

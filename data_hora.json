@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T13:34:01",
+ "generated_at": "2026-07-23T13:50:50",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -19677,7 +19677,7 @@
        {
         "name": "Baking Rot",
         "maquinas": 3,
-        "meta_hora": 450.0,
+        "meta_hora": 300.0,
         "meta_dia": 3676.5,
         "hours": [
          100.0,
@@ -19693,9 +19693,9 @@
         ],
         "rework": 0.0,
         "total": 2002.0,
-        "delta": -1674.5,
+        "delta": -449.0,
         "downtime": 0.0,
-        "proficiency": 0.5445396436828506
+        "proficiency": 0.8168094655242758
        },
        {
         "name": "Baking Conv",
@@ -21109,17 +21109,17 @@
          285.0,
          0,
          0,
-         0,
-         0,
+         400.0,
+         312.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 885.0,
-        "delta": -2383.0,
+        "total": 1597.0,
+        "delta": -1671.0,
         "downtime": 0.0,
-        "proficiency": 0.27080783353733173
+        "proficiency": 0.4886780905752754
        }
       ]
      },

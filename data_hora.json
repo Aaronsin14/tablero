@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T10:11:00",
+ "generated_at": "2026-07-23T10:27:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20693,7 +20693,7 @@
          250.0,
          550.0,
          550.0,
-         0,
+         700.0,
          0,
          0,
          0,
@@ -20702,10 +20702,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 1350.0,
-        "delta": -2735.0,
+        "total": 2050.0,
+        "delta": -2035.0,
         "downtime": 0.0,
-        "proficiency": 0.33047735618115054
+        "proficiency": 0.5018359853121175
        },
        {
         "name": "Welder",
@@ -20716,7 +20716,7 @@
          116.0,
          314.0,
          202.0,
-         0,
+         282.0,
          0,
          0,
          0,
@@ -20724,11 +20724,11 @@
          0,
          0
         ],
-        "rework": 96.0,
-        "total": 632.0,
-        "delta": -2145.8,
-        "downtime": 0.0,
-        "proficiency": 0.22751817985456116
+        "rework": 112.0,
+        "total": 914.0,
+        "delta": -1863.8000000000002,
+        "downtime": 60.0,
+        "proficiency": 0.3341498190326473
        },
        {
         "name": "Carga de bandas",
@@ -20852,8 +20852,8 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          0,
-         0,
-         0,
+         220.0,
+         170.0,
          0,
          0,
          0,
@@ -20863,10 +20863,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3186.3,
+        "total": 390.0,
+        "delta": -2796.3,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783355
        },
        {
         "name": "Sidehole Soft Vu",
@@ -20921,9 +20921,9 @@
         "meta_dia": 3676.5,
         "hours": [
          0,
-         0,
-         0,
-         0,
+         150.0,
+         75.0,
+         230.0,
          0,
          0,
          0,
@@ -20932,10 +20932,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 455.0,
+        "delta": -3221.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12375900992792058
        },
        {
         "name": "Baking Conv",

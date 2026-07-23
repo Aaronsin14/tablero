@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T11:52:36",
+ "generated_at": "2026-07-23T12:09:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20808,19 +20808,19 @@
          11.0,
          32.0,
          0,
-         7.0,
-         0,
+         18.0,
+         18.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 50.0,
-        "delta": -358.5,
+        "rework": 9.0,
+        "total": 79.0,
+        "delta": -329.5,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.193390452876377
        },
        {
         "name": "Inspeccion",
@@ -20831,19 +20831,19 @@
          11.0,
          32.0,
          0,
-         7.0,
-         0,
+         18.0,
+         18.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 50.0,
-        "delta": -358.5,
+        "rework": 6.0,
+        "total": 79.0,
+        "delta": -329.5,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.193390452876377
        },
        {
         "name": "Drawdown",
@@ -20963,8 +20963,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 80.0,
-        "meta_dia": 653.6,
+        "meta_hora": 30.0,
+        "meta_dia": 245.1,
         "hours": [
          0,
          25.0,
@@ -20979,9 +20979,9 @@
         ],
         "rework": 11.0,
         "total": 70.0,
-        "delta": -583.6,
+        "delta": -175.1,
         "downtime": 0.0,
-        "proficiency": 0.10709914320685435
+        "proficiency": 0.28559771521827826
        },
        {
         "name": "Prepping",
@@ -20993,18 +20993,18 @@
          0,
          0,
          0,
-         0,
-         0,
+         150.0,
+         151.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 301.0,
+        "delta": -924.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2456140350877193
        },
        {
         "name": "Rofing",
@@ -21016,18 +21016,18 @@
          550.0,
          550.0,
          550.0,
-         0,
-         0,
+         550.0,
+         550.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 1984.0,
-        "delta": -3735.0,
+        "total": 3084.0,
+        "delta": -2635.0,
         "downtime": 0.0,
-        "proficiency": 0.3469137961182025
+        "proficiency": 0.5392551145305123
        },
        {
         "name": "Moldeadora Milacron",
@@ -21062,18 +21062,18 @@
          79.0,
          224.0,
          298.0,
-         0,
-         0,
+         300.0,
+         130.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 5.0,
-        "total": 706.0,
-        "delta": -1745.0,
+        "rework": 9.0,
+        "total": 1136.0,
+        "delta": -1315.0,
         "downtime": 0.0,
-        "proficiency": 0.28804569563443494
+        "proficiency": 0.46348429212566294
        },
        {
         "name": "Pouch",
@@ -21084,8 +21084,8 @@
          0,
          0,
          350.0,
-         166.0,
-         0,
+         106.0,
+         100.0,
          0,
          0,
          0,
@@ -21093,10 +21093,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 516.0,
-        "delta": -1935.0,
+        "total": 556.0,
+        "delta": -1895.0,
         "downtime": 0.0,
-        "proficiency": 0.21052631578947367
+        "proficiency": 0.22684618523051814
        },
        {
         "name": "Boxing",

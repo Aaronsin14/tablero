@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T15:32:42",
+ "generated_at": "2026-07-23T15:49:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20727,8 +20727,8 @@
         "rework": 250.0,
         "total": 2365.0,
         "delta": -453.6500000000001,
-        "downtime": 420.0,
-        "proficiency": 0.9396946489058418
+        "downtime": 480.0,
+        "proficiency": 0.9560770521294444
        },
        {
         "name": "Carga de bandas",
@@ -20974,14 +20974,14 @@
          20.0,
          20.0,
          40.0,
-         0,
-         0
+         40.0,
+         40.0
         ],
         "rework": 5.0,
-        "total": 150.0,
-        "delta": -95.1,
-        "downtime": 0.0,
-        "proficiency": 0.6119951040391677
+        "total": 230.0,
+        "delta": -15.099999999999994,
+        "downtime": 60.0,
+        "proficiency": 1.0692701069270107
        },
        {
         "name": "Prepping",
@@ -21003,8 +21003,8 @@
         "rework": 0.0,
         "total": 851.0,
         "delta": -374.5,
-        "downtime": 0.0,
-        "proficiency": 0.6944104447164422
+        "downtime": 120.0,
+        "proficiency": 0.9195029713668288
        },
        {
         "name": "Rofing",
@@ -21067,13 +21067,13 @@
          250.0,
          161.0,
          150.0,
-         0
+         130.0
         ],
         "rework": 9.0,
-        "total": 1697.0,
-        "delta": -754.0,
-        "downtime": 0.0,
-        "proficiency": 0.6923704610363117
+        "total": 1827.0,
+        "delta": -624.0,
+        "downtime": 30.0,
+        "proficiency": 0.7940026075619296
        },
        {
         "name": "Pouch",
@@ -21095,8 +21095,8 @@
         "rework": 0.0,
         "total": 616.0,
         "delta": -1835.0,
-        "downtime": 0.0,
-        "proficiency": 0.2513259893920849
+        "downtime": 240.0,
+        "proficiency": 0.49240607513988804
        },
        {
         "name": "Boxing",

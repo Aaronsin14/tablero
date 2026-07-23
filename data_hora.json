@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T08:12:25",
+ "generated_at": "2026-07-23T08:29:15",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20963,11 +20963,11 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 80.0,
+        "meta_dia": 653.6,
         "hours": [
          0,
-         0,
+         25.0,
          0,
          0,
          0,
@@ -20977,11 +20977,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
+        "rework": 3.0,
+        "total": 25.0,
+        "delta": -628.6,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03824969400244798
        },
        {
         "name": "Prepping",
@@ -21009,11 +21009,11 @@
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 700.0,
+        "meta_dia": 5719.0,
         "hours": [
-         0,
-         0,
+         334.0,
+         550.0,
          0,
          0,
          0,
@@ -21024,10 +21024,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 884.0,
+        "delta": -4835.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.15457247770589264
        },
        {
         "name": "Moldeadora Milacron",
@@ -21058,8 +21058,8 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0,
-         0,
+         105.0,
+         79.0,
          0,
          0,
          0,
@@ -21069,11 +21069,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "rework": 1.0,
+        "total": 184.0,
+        "delta": -2267.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.07507139942880457
        },
        {
         "name": "Pouch",
@@ -21101,11 +21101,11 @@
        {
         "name": "Boxing",
         "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 2859.5,
+        "meta_hora": 400.0,
+        "meta_dia": 3268.0,
         "hours": [
-         0,
-         0,
+         200.0,
+         400.0,
          0,
          0,
          0,
@@ -21116,10 +21116,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2859.5,
+        "total": 600.0,
+        "delta": -2668.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18359853121175032
        }
       ]
      },

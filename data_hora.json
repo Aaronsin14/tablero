@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T04:15:50",
+ "generated_at": "2026-07-23T04:32:41",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20375,8 +20375,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 64.0,
-        "meta_dia": 446.72,
+        "meta_hora": 60.0,
+        "meta_dia": 418.80000000000007,
         "hours": [
          50.0,
          60.0,
@@ -20389,9 +20389,9 @@
         ],
         "rework": 0.0,
         "total": 252.0,
-        "delta": -194.72000000000003,
+        "delta": -166.8,
         "downtime": 600.0,
-        "proficiency": 0.5876865671641791
+        "proficiency": 0.6268656716417911
        },
        {
         "name": "Inspeccion",
@@ -20432,8 +20432,8 @@
         "rework": 0.0,
         "total": 915.0,
         "delta": -446.10000000000014,
-        "downtime": 480.0,
-        "proficiency": 0.9322465613856342
+        "downtime": 0.0,
+        "proficiency": 0.6093906093906094
        },
        {
         "name": "Sidehole Soft Vu",

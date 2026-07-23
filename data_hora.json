@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-23T09:03:09",
+ "generated_at": "2026-07-23T09:20:08",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -20968,7 +20968,7 @@
         "hours": [
          0,
          25.0,
-         0,
+         10.0,
          0,
          0,
          0,
@@ -20977,11 +20977,11 @@
          0,
          0
         ],
-        "rework": 3.0,
-        "total": 25.0,
-        "delta": -628.6,
+        "rework": 5.0,
+        "total": 35.0,
+        "delta": -618.6,
         "downtime": 0.0,
-        "proficiency": 0.03824969400244798
+        "proficiency": 0.053549571603427173
        },
        {
         "name": "Prepping",
@@ -21014,7 +21014,7 @@
         "hours": [
          334.0,
          550.0,
-         0,
+         550.0,
          0,
          0,
          0,
@@ -21024,10 +21024,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 884.0,
-        "delta": -4835.0,
+        "total": 1434.0,
+        "delta": -4285.0,
         "downtime": 0.0,
-        "proficiency": 0.15457247770589264
+        "proficiency": 0.2507431369120476
        },
        {
         "name": "Moldeadora Milacron",

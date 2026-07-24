@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-24T15:54:47",
+ "generated_at": "2026-07-24T16:11:41",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -22165,17 +22165,17 @@
          176.0,
          260.0,
          285.0,
-         100.0,
-         0,
-         0,
-         0,
-         0
+         260.0,
+         165.0,
+         270.0,
+         316.0,
+         30.0
         ],
         "rework": 0.0,
-        "total": 1111.0,
-        "delta": -2565.5,
+        "total": 2052.0,
+        "delta": -1624.5,
         "downtime": 0.0,
-        "proficiency": 0.30218958248334016
+        "proficiency": 0.5581395348837209
        },
        {
         "name": "Baking Conv",
@@ -22220,8 +22220,8 @@
         "rework": 0.0,
         "total": 94.0,
         "delta": -69.4,
-        "downtime": 0.0,
-        "proficiency": 0.5752753977968176
+        "downtime": 180.0,
+        "proficiency": 0.9090909090909092
        },
        {
         "name": "Prepping",
@@ -22235,16 +22235,16 @@
          150.0,
          150.0,
          295.0,
-         0,
-         0,
-         0,
-         0
+         100.0,
+         200.0,
+         200.0,
+         75.0
         ],
         "rework": 0.0,
-        "total": 1070.0,
-        "delta": -155.5,
+        "total": 1645.0,
+        "delta": 419.5,
         "downtime": 0.0,
-        "proficiency": 0.8731130150958792
+        "proficiency": 1.3423092615259078
        },
        {
         "name": "Rofing",
@@ -22258,16 +22258,16 @@
          760.0,
          760.0,
          760.0,
-         0,
-         0,
-         0,
+         232.0,
+         1000.0,
+         400.0,
          0
         ],
         "rework": 0.0,
-        "total": 4560.0,
-        "delta": -1567.5,
-        "downtime": 0.0,
-        "proficiency": 0.7441860465116279
+        "total": 6192.0,
+        "delta": 64.5,
+        "downtime": 30.0,
+        "proficiency": 1.0764015645371579
        },
        {
         "name": "Moldeadora Milacron",
@@ -22304,16 +22304,16 @@
          300.0,
          300.0,
          300.0,
-         0,
-         0,
-         0,
+         160.0,
+         300.0,
+         118.0,
          0
         ],
         "rework": 24.0,
-        "total": 1800.0,
-        "delta": -651.0,
-        "downtime": 0.0,
-        "proficiency": 0.7343941248470013
+        "total": 2378.0,
+        "delta": -73.0,
+        "downtime": 30.0,
+        "proficiency": 1.033463711429813
        },
        {
         "name": "Pouch",
@@ -22335,7 +22335,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -2451.0,
-        "downtime": 0.0,
+        "downtime": 495.0,
         "proficiency": 0.0
        },
        {

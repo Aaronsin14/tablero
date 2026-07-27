@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-27T07:40:34",
+ "generated_at": "2026-07-27T07:57:18",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -25655,7 +25655,7 @@
         "meta_hora": 500.0,
         "meta_dia": 4085.0,
         "hours": [
-         0,
+         100.0,
          0,
          0,
          0,
@@ -25667,10 +25667,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -4085.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 100.0,
+        "delta": -3985.0,
+        "downtime": 80.0,
+        "proficiency": 0.02665482007996446
        },
        {
         "name": "Welder",
@@ -25692,7 +25692,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -2818.65,
-        "downtime": 0.0,
+        "downtime": 320.0,
         "proficiency": 0.0
        },
        {

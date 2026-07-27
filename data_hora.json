@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-27T16:22:58",
+ "generated_at": "2026-07-27T16:39:46",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -26105,7 +26105,7 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         0,
+         250.0,
          0,
          0,
          0,
@@ -26114,10 +26114,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "total": 250.0,
+        "delta": -2485.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Welder",
@@ -26125,7 +26125,7 @@
         "meta_hora": 400.0,
         "meta_dia": 2188.0,
         "hours": [
-         0,
+         103.0,
          0,
          0,
          0,
@@ -26133,11 +26133,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 8.0,
+        "total": 103.0,
+        "delta": -2085.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.046818181818181814
        },
        {
         "name": "Carga de bandas",

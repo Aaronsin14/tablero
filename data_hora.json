@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T15:28:11",
+ "generated_at": "2026-07-28T15:45:00",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -26903,14 +26903,14 @@
          450.0,
          550.0,
          250.0,
-         0,
-         0
+         450.0,
+         375.0
         ],
-        "rework": 74.0,
-        "total": 3600.0,
-        "delta": -485.0,
+        "rework": 153.0,
+        "total": 4425.0,
+        "delta": 340.0,
         "downtime": 0.0,
-        "proficiency": 0.8812729498164015
+        "proficiency": 1.0832313341493267
        },
        {
         "name": "Welder",
@@ -26926,14 +26926,14 @@
          282.0,
          196.0,
          292.0,
-         0,
-         0
+         330.0,
+         137.0
         ],
-        "rework": 313.0,
-        "total": 1971.0,
-        "delta": -725.0999999999999,
+        "rework": 368.0,
+        "total": 2438.0,
+        "delta": -258.0999999999999,
         "downtime": 210.0,
-        "proficiency": 0.7724186579666696
+        "proficiency": 0.9554321096513142
        },
        {
         "name": "Carga de bandas",
@@ -26949,14 +26949,14 @@
          23.0,
          0,
          0,
-         0,
-         0
+         68.0,
+         31.0
         ],
         "rework": 0.0,
-        "total": 379.0,
-        "delta": -233.75,
+        "total": 478.0,
+        "delta": -134.75,
         "downtime": 80.0,
-        "proficiency": 0.7391516333495856
+        "proficiency": 0.932228181374939
        },
        {
         "name": "Staker",
@@ -26972,14 +26972,14 @@
          50.0,
          30.0,
          50.0,
-         0,
-         0
+         50.0,
+         30.0
         ],
         "rework": 0.0,
-        "total": 273.0,
-        "delta": -135.5,
+        "total": 353.0,
+        "delta": -55.5,
         "downtime": 0.0,
-        "proficiency": 0.6682986536107711
+        "proficiency": 0.8641370869033048
        },
        {
         "name": "Swager",
@@ -26995,14 +26995,14 @@
          50.0,
          30.0,
          50.0,
-         0,
-         0
+         50.0,
+         30.0
         ],
         "rework": 0.0,
-        "total": 273.0,
-        "delta": -421.45000000000005,
+        "total": 353.0,
+        "delta": -341.45000000000005,
         "downtime": 0.0,
-        "proficiency": 0.3931168550651595
+        "proficiency": 0.5083159334725322
        },
        {
         "name": "Embedder",
@@ -27064,14 +27064,14 @@
          266.0,
          120.0,
          207.0,
-         0,
-         0
+         100.0,
+         45.0
         ],
         "rework": 0.0,
-        "total": 1323.0,
-        "delta": -1863.3000000000002,
+        "total": 1468.0,
+        "delta": -1718.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.41521513981734304
+        "proficiency": 0.4607224680664093
        },
        {
         "name": "Sidehole Soft Vu",
@@ -27203,13 +27203,13 @@
          200.0,
          400.0,
          310.0,
-         0
+         150.0
         ],
         "rework": 0.0,
-        "total": 2035.0,
-        "delta": 809.5,
+        "total": 2185.0,
+        "delta": 959.5,
         "downtime": 0.0,
-        "proficiency": 1.660546715626275
+        "proficiency": 1.7829457364341086
        },
        {
         "name": "Rofing",
@@ -27226,13 +27226,13 @@
          550.0,
          650.0,
          650.0,
-         0
+         650.0
         ],
         "rework": 0.0,
-        "total": 5350.0,
-        "delta": 856.5,
+        "total": 6000.0,
+        "delta": 1506.5,
         "downtime": 0.0,
-        "proficiency": 1.1906086569489263
+        "proficiency": 1.3352620451763657
        },
        {
         "name": "Moldeadora Milacron",
@@ -27295,13 +27295,13 @@
          350.0,
          521.0,
          300.0,
-         0
+         150.0
         ],
         "rework": 0.0,
-        "total": 2251.0,
-        "delta": -200.0,
+        "total": 2401.0,
+        "delta": -50.0,
         "downtime": 0.0,
-        "proficiency": 0.9184006527947776
+        "proficiency": 0.9796001631986944
        },
        {
         "name": "Boxing",

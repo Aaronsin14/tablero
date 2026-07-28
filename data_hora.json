@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-27T23:25:12",
+ "generated_at": "2026-07-27T23:42:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -26136,8 +26136,8 @@
         "rework": 261.0,
         "total": 1717.0,
         "delta": -334.25,
-        "downtime": 60.0,
-        "proficiency": 0.8518449612403101
+        "downtime": 450.0,
+        "proficiency": 1.0035433789954338
        },
        {
         "name": "Carga de bandas",
@@ -26176,8 +26176,8 @@
         "rework": 18.0,
         "total": 203.0,
         "delta": -70.5,
-        "downtime": 85.0,
-        "proficiency": 0.847304347826087
+        "downtime": 0.0,
+        "proficiency": 0.7381818181818182
        },
        {
         "name": "Swager",
@@ -26216,8 +26216,8 @@
         "rework": 16.0,
         "total": 217.0,
         "delta": -56.5,
-        "downtime": 585.0,
-        "proficiency": 0.9591160220994475
+        "downtime": 456.0,
+        "proficiency": 0.9156118143459915
        },
        {
         "name": "Inspeccion",
@@ -26256,8 +26256,8 @@
         "rework": 4.0,
         "total": 1780.0,
         "delta": -353.2999999999997,
-        "downtime": 0.0,
-        "proficiency": 0.8298368298368298
+        "downtime": 60.0,
+        "proficiency": 0.8833746898263027
        },
        {
         "name": "Sidehole Soft Vu",
@@ -26541,7 +26541,7 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         0,
+         40.0,
          0,
          0,
          0,
@@ -26551,10 +26551,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 40.0,
+        "delta": -658.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.051948051948051945
        },
        {
         "name": "Swager",
@@ -26562,7 +26562,7 @@
         "meta_hora": 85.0,
         "meta_dia": 593.3,
         "hours": [
-         0,
+         40.0,
          0,
          0,
          0,
@@ -26572,18 +26572,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -593.3000000000001,
+        "total": 40.0,
+        "delta": -553.3000000000001,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.061115355233002294
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 837.6,
+        "meta_hora": 50.0,
+        "meta_dia": 349.0,
         "hours": [
-         0,
+         36.0,
          0,
          0,
          0,
@@ -26592,11 +26592,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -837.6,
+        "rework": 5.0,
+        "total": 36.0,
+        "delta": -313.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0935064935064935
        },
        {
         "name": "Inspeccion",
@@ -26604,7 +26604,7 @@
         "meta_hora": 50.0,
         "meta_dia": 349.0,
         "hours": [
-         0,
+         36.0,
          0,
          0,
          0,
@@ -26613,19 +26613,19 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -349.0,
+        "rework": 5.0,
+        "total": 36.0,
+        "delta": -313.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0935064935064935
        },
        {
         "name": "Drawdown",
         "maquinas": 3,
-        "meta_hora": 390.0,
-        "meta_dia": 2722.2000000000003,
+        "meta_hora": 195.0,
+        "meta_dia": 1361.1000000000001,
         "hours": [
-         0,
+         195.0,
          0,
          0,
          0,
@@ -26635,10 +26635,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2722.2000000000003,
+        "total": 195.0,
+        "delta": -1166.1000000000001,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12987012987012989
        },
        {
         "name": "Sidehole Soft Vu",
@@ -26688,7 +26688,7 @@
         "meta_hora": 450.0,
         "meta_dia": 3141.0,
         "hours": [
-         0,
+         150.0,
          0,
          0,
          0,
@@ -26698,10 +26698,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3141.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 150.0,
+        "delta": -2991.0,
+        "downtime": 60.0,
+        "proficiency": 0.04524886877828054
        },
        {
         "name": "Baking Conv",
@@ -26751,7 +26751,7 @@
         "meta_hora": 150.0,
         "meta_dia": 872.5,
         "hours": [
-         0,
+         285.0,
          0,
          0,
          0,
@@ -26761,10 +26761,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1047.0,
+        "total": 285.0,
+        "delta": -762.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.24675324675324675
        },
        {
         "name": "Rofing",
@@ -26814,7 +26814,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         0,
+         270.0,
          0,
          0,
          0,
@@ -26824,10 +26824,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 270.0,
+        "delta": -1824.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.11688311688311688
        },
        {
         "name": "Pouch",
@@ -26835,7 +26835,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         0,
+         200.0,
          0,
          0,
          0,
@@ -26845,10 +26845,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 200.0,
+        "delta": -1894.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08658008658008658
        },
        {
         "name": "Boxing",

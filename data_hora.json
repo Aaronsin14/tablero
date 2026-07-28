@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T09:16:32",
+ "generated_at": "2026-07-28T09:33:40",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -26896,8 +26896,8 @@
         "meta_dia": 4085.0,
         "hours": [
          250.0,
-         0,
-         0,
+         500.0,
+         500.0,
          0,
          0,
          0,
@@ -26906,21 +26906,21 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 250.0,
-        "delta": -3835.0,
+        "rework": 5.0,
+        "total": 1250.0,
+        "delta": -2835.0,
         "downtime": 0.0,
-        "proficiency": 0.06119951040391677
+        "proficiency": 0.30599755201958384
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 355.0,
-        "meta_dia": 2900.35,
+        "meta_hora": 330.0,
+        "meta_dia": 2696.1,
         "hours": [
          147.0,
-         0,
-         0,
+         290.0,
+         197.0,
          0,
          0,
          0,
@@ -26929,11 +26929,11 @@
          0,
          0
         ],
-        "rework": 18.0,
-        "total": 147.0,
-        "delta": -2753.35,
+        "rework": 101.0,
+        "total": 634.0,
+        "delta": -2062.1,
         "downtime": 30.0,
-        "proficiency": 0.051074253104194084
+        "proficiency": 0.23696726749455702
        },
        {
         "name": "Carga de bandas",
@@ -26942,7 +26942,7 @@
         "meta_dia": 612.75,
         "hours": [
          25.0,
-         0,
+         79.0,
          0,
          0,
          0,
@@ -26953,20 +26953,20 @@
          0
         ],
         "rework": 0.0,
-        "total": 25.0,
-        "delta": -587.75,
-        "downtime": 0.0,
-        "proficiency": 0.04079967360261118
+        "total": 104.0,
+        "delta": -508.75,
+        "downtime": 40.0,
+        "proficiency": 0.18480675255442028
        },
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 100.0,
+        "meta_hora": 50.0,
         "meta_dia": 817.0,
         "hours": [
          0,
-         0,
-         0,
+         40.0,
+         30.0,
          0,
          0,
          0,
@@ -26976,10 +26976,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 70.0,
+        "delta": -338.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.17135862913096694
        },
        {
         "name": "Swager",
@@ -26988,8 +26988,8 @@
         "meta_dia": 694.45,
         "hours": [
          0,
-         0,
-         0,
+         40.0,
+         30.0,
          0,
          0,
          0,
@@ -26999,10 +26999,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -694.45,
+        "total": 70.0,
+        "delta": -624.45,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10079919360645115
        },
        {
         "name": "Embedder",
@@ -27057,8 +27057,8 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          50.0,
-         0,
-         0,
+         100.0,
+         140.0,
          0,
          0,
          0,
@@ -27068,10 +27068,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -3136.3,
+        "total": 290.0,
+        "delta": -2896.3,
         "downtime": 0.0,
-        "proficiency": 0.015692182154850454
+        "proficiency": 0.09101465649813262
        },
        {
         "name": "Sidehole Soft Vu",
@@ -27126,8 +27126,8 @@
         "meta_dia": 3676.5,
         "hours": [
          50.0,
-         0,
-         0,
+         243.0,
+         173.0,
          0,
          0,
          0,
@@ -27137,10 +27137,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -3626.5,
+        "total": 466.0,
+        "delta": -3210.5,
         "downtime": 0.0,
-        "proficiency": 0.013599891200870393
+        "proficiency": 0.12675098599211207
        },
        {
         "name": "Baking Conv",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T15:45:00",
+ "generated_at": "2026-07-28T16:01:46",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -27019,13 +27019,13 @@
          36.0,
          86.0,
          66.0,
-         0
+         12.0
         ],
-        "rework": 11.0,
-        "total": 340.0,
-        "delta": -68.5,
+        "rework": 13.0,
+        "total": 352.0,
+        "delta": -56.5,
         "downtime": 400.0,
-        "proficiency": 0.9062638827187917
+        "proficiency": 0.9382496668147491
        },
        {
         "name": "Inspeccion",
@@ -27042,13 +27042,13 @@
          36.0,
          86.0,
          66.0,
-         0
+         12.0
         ],
-        "rework": 11.0,
-        "total": 340.0,
-        "delta": -68.5,
+        "rework": 13.0,
+        "total": 352.0,
+        "delta": -56.5,
         "downtime": 40.0,
-        "proficiency": 0.9062638827187917
+        "proficiency": 0.9382496668147491
        },
        {
         "name": "Drawdown",
@@ -27110,14 +27110,14 @@
          70.0,
          20.0,
          70.0,
-         0,
-         0
+         62.0,
+         36.0
         ],
         "rework": 0.0,
-        "total": 317.0,
-        "delta": -500.0,
+        "total": 415.0,
+        "delta": -402.0,
         "downtime": 0.0,
-        "proficiency": 0.3880048959608323
+        "proficiency": 0.5079559363525091
        },
        {
         "name": "Baking Rot",
@@ -27133,14 +27133,14 @@
          339.0,
          175.0,
          383.0,
-         0,
-         0
+         393.0,
+         182.0
         ],
         "rework": 0.0,
-        "total": 2029.0,
-        "delta": -1647.5,
+        "total": 2604.0,
+        "delta": -1072.5,
         "downtime": 0.0,
-        "proficiency": 0.5518835849313206
+        "proficiency": 0.7082823337413301
        },
        {
         "name": "Baking Conv",
@@ -27277,8 +27277,8 @@
         "rework": 36.0,
         "total": 2176.0,
         "delta": -275.0,
-        "downtime": 0.0,
-        "proficiency": 0.8878008975928192
+        "downtime": 60.0,
+        "proficiency": 1.0116225011622502
        },
        {
         "name": "Pouch",
@@ -27300,8 +27300,8 @@
         "rework": 0.0,
         "total": 2401.0,
         "delta": -50.0,
-        "downtime": 0.0,
-        "proficiency": 0.9796001631986944
+        "downtime": 60.0,
+        "proficiency": 1.1162250116225012
        },
        {
         "name": "Boxing",

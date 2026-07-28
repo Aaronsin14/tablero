@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T16:01:46",
+ "generated_at": "2026-07-28T16:48:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -27342,10 +27342,10 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
-         0,
+         125.0,
          0,
          0,
          0,
@@ -27354,18 +27354,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "total": 125.0,
+        "delta": -1242.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 375.0,
+        "meta_dia": 2051.25,
         "hours": [
-         0,
+         122.0,
          0,
          0,
          0,
@@ -27373,11 +27373,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 22.0,
+        "total": 122.0,
+        "delta": -1929.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.059151515151515156
        },
        {
         "name": "Carga de bandas",
@@ -27716,7 +27716,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -1914.5,
-        "downtime": 0.0,
+        "downtime": 24.0,
         "proficiency": 0.0
        }
       ]

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T18:24:13",
+ "generated_at": "2026-07-28T18:41:05",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -27387,17 +27387,17 @@
         "hours": [
          0,
          50.0,
-         0,
+         50.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -360.25,
+        "total": 100.0,
+        "delta": -310.25,
         "downtime": 0.0,
-        "proficiency": 0.12121212121212123
+        "proficiency": 0.24242424242424246
        },
        {
         "name": "Staker",
@@ -27407,17 +27407,17 @@
         "hours": [
          30.0,
          40.0,
-         0,
+         50.0,
          0,
          0,
          0,
          0
         ],
         "rework": 2.0,
-        "total": 70.0,
-        "delta": -203.5,
+        "total": 120.0,
+        "delta": -153.5,
         "downtime": 0.0,
-        "proficiency": 0.2545454545454545
+        "proficiency": 0.43636363636363634
        },
        {
         "name": "Swager",
@@ -27427,17 +27427,17 @@
         "hours": [
          30.0,
          40.0,
-         0,
+         50.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 70.0,
-        "delta": -477.0,
+        "total": 120.0,
+        "delta": -427.0,
         "downtime": 0.0,
-        "proficiency": 0.12727272727272726
+        "proficiency": 0.21818181818181817
        },
        {
         "name": "Embedder",
@@ -27447,17 +27447,17 @@
         "hours": [
          10.0,
          36.0,
-         0,
+         27.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 9.0,
-        "total": 46.0,
-        "delta": -227.5,
+        "rework": 18.0,
+        "total": 73.0,
+        "delta": -200.5,
         "downtime": 0.0,
-        "proficiency": 0.16727272727272727
+        "proficiency": 0.26545454545454544
        },
        {
         "name": "Inspeccion",
@@ -27467,17 +27467,17 @@
         "hours": [
          10.0,
          36.0,
-         0,
+         27.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 9.0,
-        "total": 46.0,
-        "delta": -227.5,
+        "rework": 18.0,
+        "total": 73.0,
+        "delta": -200.5,
         "downtime": 0.0,
-        "proficiency": 0.16727272727272727
+        "proficiency": 0.26545454545454544
        },
        {
         "name": "Drawdown",
@@ -27487,17 +27487,17 @@
         "hours": [
          200.0,
          360.0,
-         0,
+         260.0,
          0,
          0,
          0,
          0
         ],
         "rework": 4.0,
-        "total": 560.0,
-        "delta": -1573.2999999999997,
+        "total": 820.0,
+        "delta": -1313.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.26107226107226106
+        "proficiency": 0.3822843822843823
        },
        {
         "name": "Sidehole Soft Vu",
@@ -27527,17 +27527,17 @@
         "hours": [
          60.0,
          100.0,
-         0,
+         100.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 160.0,
-        "delta": -387.0,
+        "total": 260.0,
+        "delta": -287.0,
         "downtime": 0.0,
-        "proficiency": 0.2909090909090909
+        "proficiency": 0.4727272727272727
        },
        {
         "name": "Baking Rot",
@@ -27547,17 +27547,17 @@
         "hours": [
          75.0,
          203.0,
-         0,
+         388.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 278.0,
-        "delta": -2183.5,
+        "total": 666.0,
+        "delta": -1795.5,
         "downtime": 0.0,
-        "proficiency": 0.11232323232323232
+        "proficiency": 0.2690909090909091
        },
        {
         "name": "Baking Conv",

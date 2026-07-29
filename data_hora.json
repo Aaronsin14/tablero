@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-28T18:41:05",
+ "generated_at": "2026-07-28T18:58:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -27602,22 +27602,22 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 683.75,
         "hours": [
          300.0,
          300.0,
-         0,
+         300.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -220.5,
+        "total": 900.0,
+        "delta": -741.0,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 0.5454545454545454
        },
        {
         "name": "Rofing",
@@ -27667,17 +27667,17 @@
         "hours": [
          150.0,
          300.0,
-         0,
+         300.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 450.0,
-        "delta": -1191.0,
+        "total": 750.0,
+        "delta": -891.0,
         "downtime": 0.0,
-        "proficiency": 0.2727272727272727
+        "proficiency": 0.4545454545454546
        },
        {
         "name": "Pouch",

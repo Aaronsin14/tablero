@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-29T09:03:26",
+ "generated_at": "2026-07-29T09:20:25",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -28435,8 +28435,8 @@
         "meta_dia": 1021.25,
         "hours": [
          0,
-         0,
-         0,
+         150.0,
+         150.0,
          0,
          0,
          0,
@@ -28446,10 +28446,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 300.0,
+        "delta": -925.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2447980416156671
        },
        {
         "name": "Rofing",
@@ -28458,8 +28458,8 @@
         "meta_dia": 4493.5,
         "hours": [
          550.0,
-         0,
-         0,
+         550.0,
+         660.0,
          0,
          0,
          0,
@@ -28469,10 +28469,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 550.0,
-        "delta": -3943.5,
+        "total": 1760.0,
+        "delta": -2733.5,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783353
+        "proficiency": 0.39167686658506734
        },
        {
         "name": "Moldeadora Milacron",
@@ -28504,8 +28504,8 @@
         "meta_dia": 2451.0,
         "hours": [
          290.0,
-         0,
-         0,
+         240.0,
+         300.0,
          0,
          0,
          0,
@@ -28515,10 +28515,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 290.0,
-        "delta": -2161.0,
+        "total": 830.0,
+        "delta": -1621.0,
         "downtime": 0.0,
-        "proficiency": 0.11831905344757242
+        "proficiency": 0.33863729090167277
        },
        {
         "name": "Pouch",
@@ -28551,7 +28551,7 @@
         "hours": [
          400.0,
          400.0,
-         0,
+         315.0,
          0,
          0,
          0,
@@ -28561,10 +28561,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 800.0,
-        "delta": -2468.0,
+        "total": 1115.0,
+        "delta": -2153.0,
         "downtime": 0.0,
-        "proficiency": 0.2447980416156671
+        "proficiency": 0.341187270501836
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-30T07:43:04",
+ "generated_at": "2026-07-30T07:59:59",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -28546,8 +28546,8 @@
        {
         "name": "Boxing",
         "maquinas": 1,
-        "meta_hora": 400.0,
-        "meta_dia": 3268.0,
+        "meta_hora": 500.0,
+        "meta_dia": 4085.0,
         "hours": [
          400.0,
          400.0,
@@ -28562,9 +28562,9 @@
         ],
         "rework": 0.0,
         "total": 3075.0,
-        "delta": -193.0,
+        "delta": -1010.0,
         "downtime": 0.0,
-        "proficiency": 0.9409424724602203
+        "proficiency": 0.7527539779681763
        }
       ]
      },
@@ -29649,7 +29649,7 @@
         "name": "Hand Drilling",
         "maquinas": 1,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 40.0,
         "hours": [
          0,
          0,
@@ -29674,7 +29674,7 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
+         250.0,
          0,
          0,
          0,
@@ -29686,18 +29686,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 250.0,
+        "delta": -975.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2039983680130559
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 550.0,
+        "meta_dia": 4493.5,
         "hours": [
-         0,
+         550.0,
          0,
          0,
          0,
@@ -29709,10 +29709,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 550.0,
+        "delta": -3943.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783353
        },
        {
         "name": "Moldeadora Milacron",
@@ -29743,7 +29743,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0,
+         236.0,
          0,
          0,
          0,
@@ -29755,10 +29755,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 236.0,
+        "delta": -2215.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09628722970216237
        },
        {
         "name": "Pouch",

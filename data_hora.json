@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-30T15:50:39",
+ "generated_at": "2026-07-30T17:47:31",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -29587,17 +29587,17 @@
          31.0,
          53.0,
          0,
-         50.0,
+         61.0,
          0,
          57.0,
          74.0,
          0
         ],
         "rework": 0.0,
-        "total": 350.0,
-        "delta": -467.0,
+        "total": 361.0,
+        "delta": -456.0,
         "downtime": 0.0,
-        "proficiency": 0.4283965728274174
+        "proficiency": 0.4418604651162791
        },
        {
         "name": "Baking Rot",
@@ -29612,15 +29612,15 @@
          330.0,
          377.0,
          155.0,
-         58.0,
-         0,
-         80.0
+         339.0,
+         170.0,
+         155.0
         ],
         "rework": 0.0,
-        "total": 1630.0,
-        "delta": -2046.5,
+        "total": 2156.0,
+        "delta": -1520.5,
         "downtime": 0.0,
-        "proficiency": 0.4433564531483748
+        "proficiency": 0.5864273085815314
        },
        {
         "name": "Baking Conv",
@@ -29825,19 +29825,19 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         0,
-         0,
+         225.0,
+         300.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 10.0,
+        "total": 525.0,
+        "delta": -2210.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.19090909090909092
        },
        {
         "name": "Welder",
@@ -29845,19 +29845,19 @@
         "meta_hora": 400.0,
         "meta_dia": 2188.0,
         "hours": [
-         0,
-         0,
+         85.0,
+         294.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 51.0,
+        "total": 379.0,
+        "delta": -1809.0,
+        "downtime": 125.0,
+        "proficiency": 0.18083499005964218
        },
        {
         "name": "Carga de bandas",
@@ -30196,7 +30196,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -1914.5,
-        "downtime": 0.0,
+        "downtime": 24.0,
         "proficiency": 0.0
        }
       ]

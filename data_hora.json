@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-31T08:03:38",
+ "generated_at": "2026-07-31T08:21:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -30616,7 +30616,7 @@
         "meta_dia": 4085.0,
         "hours": [
          250.0,
-         0,
+         420.0,
          0,
          0,
          0,
@@ -30626,11 +30626,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 250.0,
-        "delta": -3835.0,
+        "rework": 10.0,
+        "total": 670.0,
+        "delta": -3415.0,
         "downtime": 0.0,
-        "proficiency": 0.06119951040391677
+        "proficiency": 0.16401468788249693
        },
        {
         "name": "Welder",
@@ -30639,7 +30639,7 @@
         "meta_dia": 2532.7,
         "hours": [
          158.0,
-         0,
+         200.0,
          0,
          0,
          0,
@@ -30649,11 +30649,11 @@
          0,
          0
         ],
-        "rework": 26.0,
-        "total": 158.0,
-        "delta": -2374.7,
+        "rework": 39.0,
+        "total": 358.0,
+        "delta": -2174.7,
         "downtime": 30.0,
-        "proficiency": 0.0628649299235077
+        "proficiency": 0.1424407905861757
        },
        {
         "name": "Carga de bandas",
@@ -30888,8 +30888,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 30.0,
+        "meta_dia": 40.0,
         "hours": [
          0,
          0,
@@ -30904,9 +30904,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
+        "delta": -245.1,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",
@@ -30915,7 +30915,7 @@
         "meta_dia": 1021.25,
         "hours": [
          0,
-         0,
+         250.0,
          0,
          0,
          0,
@@ -30926,19 +30926,19 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 250.0,
+        "delta": -975.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2039983680130559
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 550.0,
+        "meta_dia": 4493.5,
         "hours": [
-         0,
-         0,
+         660.0,
+         550.0,
          0,
          0,
          0,
@@ -30949,10 +30949,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 1210.0,
+        "delta": -3283.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2692778457772338
        },
        {
         "name": "Moldeadora Milacron",
@@ -31029,8 +31029,8 @@
         "meta_hora": 350.0,
         "meta_dia": 2859.5,
         "hours": [
-         0,
-         0,
+         400.0,
+         400.0,
          0,
          0,
          0,
@@ -31041,10 +31041,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2859.5,
+        "total": 800.0,
+        "delta": -2059.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2797691904179052
        }
       ]
      },

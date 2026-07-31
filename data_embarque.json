@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-07-31T11:56:59",
+ "generated_at": "2026-07-31T12:14:12",
  "current_sheet": "04-Ago-2026",
  "current_date": "2026-08-04",
  "stages": [
@@ -211,11 +211,11 @@
    "part_number": "40708702 Hand Drilling",
    "sub_ensamble": "14400106",
    "demanda": 250.0,
-   "producido": 254.0,
-   "pct": 101.6,
-   "stage_key": "boxing",
-   "stage_col": 22,
-   "status": "verde"
+   "producido": 245.0,
+   "pct": 98.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
+   "status": "ambar"
   },
   {
    "part_number": "411732701",
@@ -341,10 +341,10 @@
  "kpis": {
   "partes_activos": 25,
   "total_demanda": 23165.0,
-  "total_producido": 22722.0,
-  "empacado": 17256.0,
-  "pct_cumplimiento": 74.5,
-  "exceso_total": -443.0,
+  "total_producido": 22713.0,
+  "empacado": 17501.0,
+  "pct_cumplimiento": 75.5,
+  "exceso_total": -452.0,
   "atrasados": 0
  },
  "weeks_available": [

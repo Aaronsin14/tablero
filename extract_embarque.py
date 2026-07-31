@@ -46,13 +46,13 @@ from openpyxl import load_workbook
 # Ruta confirmada con Get-Item (archivo real .xlsx, 4.29 MB, sincronizado).
 # ----------------------------------------------------------------------------
 EXCEL_PATH = Path(
-    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\1. %Avance de embarque Diario.xlsx"
+    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\%Avance de embarque Diario.xlsx"
 )
 PLANT_NAME = "AngioDynamics"
 OUTPUT_JSON = Path(__file__).parent / "data_embarque.json"
 REFRESH_SECONDS = 900  # 15 min
 
-# Columnas fijas de identificacion (1-based)
+# Columnas fijas de identificacion (1-based) -- estas SI son estables
 COL_EXPORTATION = 1
 COL_PROCESS = 2
 COL_SUBENSAMBLE = 3
@@ -60,10 +60,7 @@ COL_PARTNUMBER = 4
 COL_COMENTARIOS = 5
 COL_DEMANDA = 6
 COL_DELTA = 7
-COL_PROC_START = 8   # primera columna de etapa de proceso (Wip Welder)
-COL_PROC_END = 20    # ultima columna de etapa (Packaged)
-COL_TOTAL = 21        # columna "Total" (U) -- ya calculada por el Excel
-COL_PCT_ACC = 22      # columna "% Accomplisment" (V) -- ya calculada por el Excel
+COL_PROC_START = 8   # primera columna de etapa de proceso (justo despues de Delta)
 HEADER_ROW = 2
 DATA_START_ROW = 3
 
@@ -120,10 +117,30 @@ def stage_key(label):
     return base or "etapa"
 
 
-def read_stage_columns(ws):
-    """Lee dinamicamente las columnas de proceso (H..T) desde la fila de encabezado."""
+def find_named_column(ws, target_names, search_up_to=60):
+    """Busca en la fila de encabezado una columna cuyo texto coincida (empiece
+    igual, sin importar mayusculas/acentos/espacios) con alguno de target_names.
+    Se usa para NO depender de un numero de columna fijo (Total, % Accomplishment),
+    ya que el Excel les mete columnas nuevas de vez en cuando y todo se recorre."""
+    for c in range(1, search_up_to + 1):
+        raw = ws.cell(HEADER_ROW, c).value
+        if not raw:
+            continue
+        norm = re.sub(r"[^a-z0-9]", "", str(raw).strip().lower())
+        for name in target_names:
+            if norm.startswith(re.sub(r"[^a-z0-9]", "", name.lower())):
+                return c
+    return None
+
+
+def read_stage_columns(ws, col_total):
+    """Lee dinamicamente las columnas de proceso: todo lo que hay entre
+    COL_PROC_START y la columna 'Total' (sin incluirla). Asi no importa
+    cuantas etapas haya ni en que orden -- si meten una columna nueva en medio,
+    se detecta sola."""
     stages = []
-    for c in range(COL_PROC_START, COL_PROC_END + 1):
+    limite = col_total if col_total else COL_PROC_START + 20
+    for c in range(COL_PROC_START, limite):
         raw = ws.cell(HEADER_ROW, c).value
         if not raw or not str(raw).strip():
             continue
@@ -138,7 +155,7 @@ def read_stage_columns(ws):
     return stages
 
 
-def read_sheet_parts(ws, stages):
+def read_sheet_parts(ws, stages, col_total):
     parts = []
     for r in range(DATA_START_ROW, ws.max_row + 1):
         pn = ws.cell(r, COL_PARTNUMBER).value
@@ -146,9 +163,9 @@ def read_sheet_parts(ws, stages):
             continue
         demanda = _num(ws.cell(r, COL_DEMANDA).value)
 
-        # etapa actual = la columna de proceso (H..T) mas a la derecha con dato.
-        # el TOTAL producido se toma directo de la columna "Total" (U) que ya
-        # trae la formula del Excel, en vez de re-derivarlo nosotros.
+        # etapa actual = la columna de proceso mas a la derecha con dato.
+        # el TOTAL producido se toma directo de la columna "Total" que ya
+        # trae la formula del Excel (localizada por nombre, no por numero fijo).
         filled_stage = None
         for st in stages:
             v = _num(ws.cell(r, st["col"]).value)
@@ -157,7 +174,7 @@ def read_sheet_parts(ws, stages):
         if filled_stage is None:
             continue  # numero de parte sin movimiento todavia -> no se muestra
 
-        producido = _num(ws.cell(r, COL_TOTAL).value)
+        producido = _num(ws.cell(r, col_total).value) if col_total else None
         if producido is None:
             producido = _num(ws.cell(r, filled_stage["col"]).value)  # respaldo
 
@@ -216,8 +233,9 @@ def build_payload():
         current_name, current_date = pasadas[-1]
     ws = wb[current_name]
 
-    stages = read_stage_columns(ws)
-    parts = read_sheet_parts(ws, stages)
+    col_total = find_named_column(ws, ["Total"])
+    stages = read_stage_columns(ws, col_total)
+    parts = read_sheet_parts(ws, stages, col_total)
 
     total_demanda = sum(p["demanda"] for p in parts if p["demanda"])
     total_producido = sum(p["producido"] for p in parts if p["producido"])

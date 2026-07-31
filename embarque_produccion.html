@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producción por Proceso — AngioDynamics</title>
+<style>
+  :root{
+    --navy:#0f2542; --navy2:#13325c; --ink:#0b1b30;
+    --green:#1f9d55; --green-soft:#e7f6ee;
+    --amber:#e0a008; --amber-soft:#fdf3da;
+    --red:#dc3545; --red-soft:#fbe7e9;
+    --grey:#6b7a8d; --line:#e4e8ee; --bg:#eef1f5; --card:#ffffff;
+    --txt:#1d2b3a;
+    --mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{background:var(--bg);font-family:var(--sans);color:var(--txt);font-size:14px;
+       display:flex;flex-direction:column;overflow:hidden}
+
+  /* ---- header ---- */
+  header.top{background:var(--navy);color:#fff;padding:14px 22px;display:flex;align-items:center;
+    justify-content:space-between;flex-wrap:wrap;gap:14px;flex:0 0 auto}
+  header.top h1{margin:0;font-size:21px;font-weight:800;letter-spacing:.3px}
+  header.top .sub{font-size:11px;letter-spacing:1.5px;color:#9fb4cf;margin-top:3px;font-weight:700}
+  .pills{display:flex;gap:10px}
+  .pill{background:var(--navy2);border-radius:10px;padding:7px 16px;text-align:center;min-width:100px}
+  .pill .k{font-size:9px;letter-spacing:1.5px;color:#8aa3c4;font-weight:700}
+  .pill .v{font-size:14px;font-weight:800;margin-top:2px;font-family:var(--mono)}
+
+  /* ---- KPI row ---- */
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;padding:14px 22px 10px;flex:0 0 auto}
+  .kcard{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(15,37,66,.06)}
+  .kcard .hd{padding:8px 14px;color:#fff;font-weight:800;letter-spacing:.4px;font-size:10px}
+  .kcard .hd.g{background:var(--green)} .kcard .hd.a{background:var(--amber)} .kcard .hd.r{background:var(--red)} .kcard .hd.n{background:var(--navy2)}
+  .kcard .bd{padding:10px 14px}
+  .kcard .val{font-size:23px;font-weight:900;font-family:var(--mono);display:flex;align-items:baseline;gap:5px}
+  .kcard .val small{font-size:12px;color:var(--grey);font-weight:700}
+  .kcard.g .val{color:var(--green)} .kcard.a .val{color:var(--amber)} .kcard.r .val{color:var(--red)}
+
+  /* ---- franja de etapas sin actividad ---- */
+  .inactive-strip{padding:0 22px 10px;flex:0 0 auto}
+  .inactive-strip .box{background:var(--card);border-radius:10px;box-shadow:0 1px 3px rgba(15,37,66,.06);
+    padding:8px 14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .inactive-strip .box .cap{font-size:10px;letter-spacing:1.2px;color:var(--grey);font-weight:800;flex:0 0 auto}
+  .inactive-strip .chip{background:#eef1f5;color:var(--grey);border-radius:20px;padding:3px 12px;font-size:11px;font-weight:700}
+
+  /* ---- process board ---- */
+  .board{flex:1 1 auto;display:flex;gap:10px;padding:0 22px 10px;min-height:0;overflow:hidden}
+  .col{flex:1 1 0;min-width:0;background:var(--card);border-radius:12px;
+    box-shadow:0 1px 3px rgba(15,37,66,.06);display:flex;flex-direction:column;overflow:hidden}
+  .col .chd{background:var(--navy2);color:#fff;padding:8px 10px;text-align:center;flex:0 0 auto}
+  .col .chd .cname{font-size:11px;font-weight:800;letter-spacing:.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .col .chd .cuph{font-size:9px;color:#9fb4cf;font-weight:700;margin-top:1px}
+  .col .chd .ccount{display:inline-block;margin-top:5px;background:rgba(255,255,255,.18);
+    border-radius:20px;padding:2px 10px;font-size:11px;font-weight:800}
+  .col .cbody{flex:1 1 auto;overflow:hidden;padding:7px;display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(128px,1fr));grid-auto-rows:min-content;gap:6px;align-content:start}
+  .col .empty{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;
+    color:var(--grey);text-align:center;padding:6px;gap:4px;grid-column:1/-1}
+  .col .empty .eicon{font-size:20px;opacity:.4}
+  .col .empty .etxt{font-size:10px;font-weight:700}
+
+  .pcard{border-radius:7px;padding:6px 8px;border-left:3px solid var(--grey);background:#f7f9fb}
+  .pcard.verde{border-left-color:var(--green);background:var(--green-soft)}
+  .pcard.ambar{border-left-color:var(--amber);background:var(--amber-soft)}
+  .pcard.rojo{border-left-color:var(--red);background:var(--red-soft)}
+  .pcard .pn{font-family:var(--mono);font-weight:800;font-size:11px;letter-spacing:.1px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pcard .nums{display:flex;justify-content:space-between;align-items:baseline;margin-top:2px;gap:4px}
+  .pcard .nums .frac{font-size:9.5px;color:var(--grey);font-family:var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pcard .nums .pct{font-size:12px;font-weight:900;font-family:var(--mono);white-space:nowrap}
+  .pcard.verde .pct{color:var(--green)} .pcard.ambar .pct{color:#8a6400} .pcard.rojo .pct{color:var(--red)}
+  .pbar{height:4px;border-radius:4px;background:#e4e8ee;margin-top:4px;overflow:hidden}
+  .pbar .fill{height:100%;border-radius:4px}
+  .pbar .fill.verde{background:var(--green)} .pbar .fill.ambar{background:var(--amber)} .pbar .fill.rojo{background:var(--red)}
+  .pcard.more{display:flex;align-items:center;justify-content:center;background:#eef1f5;border-left-color:var(--grey);
+    color:var(--grey);font-weight:800;font-size:11px}
+
+  /* ---- footer ---- */
+  footer.foot{flex:0 0 auto;display:grid;grid-template-columns:1.4fr 1.6fr .9fr .9fr;gap:12px;padding:0 22px 14px}
+  .fpanel{background:var(--card);border-radius:12px;box-shadow:0 1px 3px rgba(15,37,66,.06);padding:10px 16px}
+  .fpanel h4{margin:0 0 7px;font-size:10px;letter-spacing:1.3px;color:var(--grey);font-weight:800}
+  .leyenda{display:flex;gap:16px;flex-wrap:wrap;align-items:center;height:100%}
+  .leyenda .li{display:flex;align-items:center;gap:7px;font-size:11px}
+  .dot{width:10px;height:10px;border-radius:50%;flex:0 0 auto}
+  .dot.verde{background:var(--green)} .dot.ambar{background:var(--amber)} .dot.rojo{background:var(--red)}
+  .li .txt b{display:block;font-size:11px} .li .txt small{color:var(--grey);font-size:9px}
+
+  .resumen-bar{display:flex;height:26px;border-radius:8px;overflow:hidden;font-size:12px;font-weight:800}
+  .resumen-bar div{display:flex;align-items:center;justify-content:center;color:#fff}
+  .resumen-bar .g{background:var(--green)} .resumen-bar .a{background:var(--amber);color:#3a2c00} .resumen-bar .r{background:var(--red)}
+  .resumen-labels{display:flex;justify-content:space-between;margin-top:6px;font-size:9px;color:var(--grey);font-weight:700}
+
+  .big-stat{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:2px}
+  .big-stat .num{font-size:28px;font-weight:900;font-family:var(--mono);color:var(--navy)}
+  .big-stat .cap{font-size:10px;color:var(--grey);font-weight:700;letter-spacing:.4px}
+
+  .refresh{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:3px}
+  .refresh .ricon{font-size:18px}
+  .refresh .rtime{font-family:var(--mono);font-weight:800;font-size:13px;color:var(--navy)}
+  .refresh .rcap{font-size:9px;color:var(--grey);font-weight:700;letter-spacing:.4px}
+
+  @media (max-width:1300px){
+    .kpis{grid-template-columns:repeat(3,1fr)}
+    footer.foot{grid-template-columns:1fr 1fr}
+  }
+</style>
+</head>
+<body>
+
+  <header class="top">
+    <div>
+      <h1>SEGUIMIENTO DE PRODUCCIÓN POR PROCESO</h1>
+      <div class="sub" id="subtitle">ANGIODYNAMICS · PRÓXIMO EMBARQUE</div>
+    </div>
+    <div class="pills">
+      <div class="pill"><div class="k">SEMANA</div><div class="v" id="pillWeek">--</div></div>
+      <div class="pill"><div class="k">FECHA</div><div class="v" id="pillDate">--</div></div>
+      <div class="pill"><div class="k">HORA</div><div class="v" id="pillTime">--</div></div>
+    </div>
+  </header>
+
+  <div class="kpis" id="kpiRow"></div>
+
+  <div class="inactive-strip" id="inactiveStrip"></div>
+
+  <div class="board" id="board"></div>
+
+  <footer class="foot">
+    <div class="fpanel">
+      <h4>LEYENDA</h4>
+      <div class="leyenda">
+        <div class="li"><span class="dot verde"></span><span class="txt"><b>Cumple / Adelantado</b><small>(≥100%)</small></span></div>
+        <div class="li"><span class="dot ambar"></span><span class="txt"><b>En proceso</b><small>(80–99%)</small></span></div>
+        <div class="li"><span class="dot rojo"></span><span class="txt"><b>Atrasado</b><small>(&lt;80%)</small></span></div>
+      </div>
+    </div>
+    <div class="fpanel">
+      <h4>RESUMEN POR ESTADO</h4>
+      <div class="resumen-bar" id="resumenBar"></div>
+      <div class="resumen-labels">
+        <span>Cumplen / Adelantados</span><span>En proceso</span><span>Atrasados</span>
+      </div>
+    </div>
+    <div class="fpanel">
+      <div class="big-stat"><div class="num" id="totalPartes">--</div><div class="cap">NÚMEROS DE PARTE TOTALES</div></div>
+    </div>
+    <div class="fpanel">
+      <div class="refresh"><div class="ricon">🔄</div><div class="rtime" id="lastUpdate">--:--:--</div><div class="rcap">ÚLTIMA ACTUALIZACIÓN</div></div>
+    </div>
+  </footer>
+
+<script>
+  const isTV = location.search.includes('tv');
+
+  let DATA = null;
+
+  function fmtInt(n){ return Math.round(n).toLocaleString('es-MX'); }
+
+  function updateClockPill(){
+    const now = new Date();
+    const meses=["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+    document.getElementById('pillDate').textContent =
+      String(now.getDate()).padStart(2,'0')+'-'+meses[now.getMonth()]+'-'+now.getFullYear();
+    let h = now.getHours(); const ampm = h>=12?'PM':'AM'; h = h%12; if(h===0) h=12;
+    document.getElementById('pillTime').textContent =
+      String(h).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0')+' '+ampm;
+  }
+
+  function render(){
+    if(!DATA) return;
+    const k = DATA.kpis;
+    document.getElementById('subtitle').textContent =
+      DATA.plant + ' · Próximo embarque: ' + (DATA.current_sheet||'');
+    document.getElementById('pillWeek').textContent = DATA.current_sheet || '--';
+
+    const pctClass = k.pct_cumplimiento>=100 ? 'g' : (k.pct_cumplimiento>=80 ? 'a' : 'r');
+    const atrClass = k.atrasados>0 ? 'r' : 'g';
+
+    const kpiDefs = [
+      {lbl:'NÚMEROS DE PARTE ACTIVOS', val:k.partes_activos, suf:'', cls:'n'},
+      {lbl:'% CUMPLIMIENTO GENERAL', val:k.pct_cumplimiento, suf:'%', cls:pctClass},
+      {lbl:'TOTAL DEMANDA REAL', val:fmtInt(k.total_demanda), suf:'pcs', cls:'n'},
+      {lbl:'TOTAL PRODUCIDO', val:fmtInt(k.total_producido), suf:'pcs', cls:'n'},
+      {lbl:'EXCESO TOTAL', val:(k.exceso_total>=0?'+':'')+fmtInt(k.exceso_total), suf:'pcs', cls:k.exceso_total>=0?'g':'r'},
+      {lbl:'ATRASADOS', val:k.atrasados, suf:'', cls:atrClass},
+    ];
+    document.getElementById('kpiRow').innerHTML = kpiDefs.map(d=>`
+      <div class="kcard ${d.cls}">
+        <div class="hd ${d.cls}">${d.lbl}</div>
+        <div class="bd"><div class="val">${d.val}${d.suf?`<small>${d.suf}</small>`:''}</div></div>
+      </div>`).join('');
+
+    // agrupar partes por etapa
+    const byStage = {};
+    DATA.stages.forEach(s=> byStage[s.key] = []);
+    DATA.parts.forEach(p=>{ if(byStage[p.stage_key]) byStage[p.stage_key].push(p); });
+
+    const activeStages = DATA.stages.filter(s => (byStage[s.key]||[]).length > 0);
+    const inactiveStages = DATA.stages.filter(s => (byStage[s.key]||[]).length === 0);
+
+    document.getElementById('inactiveStrip').innerHTML = inactiveStages.length ? `
+      <div class="box">
+        <span class="cap">SIN ACTIVIDAD</span>
+        ${inactiveStages.map(s=>`<span class="chip">${s.label}</span>`).join('')}
+      </div>` : '';
+
+    document.getElementById('board').innerHTML = activeStages.map(s=>{
+      const parts = byStage[s.key] || [];
+      const uph = s.uph ? `meta ${s.uph} UPH` : '';
+      const cards = parts.map(p=>{
+        const frac = `${fmtInt(p.producido)}/${fmtInt(p.demanda)}`;
+        const pct = p.pct===null ? '—' : p.pct+'%';
+        const width = p.pct===null ? 0 : Math.min(p.pct,100);
+        return `<div class="pcard ${p.status}">
+          <div class="pn">${p.part_number}</div>
+          <div class="nums"><span class="frac">${frac}</span><span class="pct">${pct}</span></div>
+          <div class="pbar"><div class="fill ${p.status}" style="width:${width}%"></div></div>
+        </div>`;
+      }).join('');
+      // chip "+N mas" oculto por defecto; fitBoard() lo activa solo si no caben todas
+      const body = cards + `<div class="pcard more" style="display:none">+0 más</div>`;
+      return `<div class="col">
+        <div class="chd">
+          <div class="cname">${s.label.toUpperCase()}</div>
+          <div class="cuph">${uph}</div>
+          <div class="ccount">${parts.length}</div>
+        </div>
+        <div class="cbody">${body}</div>
+      </div>`;
+    }).join('');
+    requestAnimationFrame(fitBoard);
+
+    // resumen por estado
+    const g = DATA.parts.filter(p=>p.status==='verde').length;
+    const a = DATA.parts.filter(p=>p.status==='ambar').length;
+    const r = DATA.parts.filter(p=>p.status==='rojo').length;
+    const tot = Math.max(g+a+r,1);
+    document.getElementById('resumenBar').innerHTML =
+      (g?`<div class="g" style="width:${g/tot*100}%">${g}</div>`:'') +
+      (a?`<div class="a" style="width:${a/tot*100}%">${a}</div>`:'') +
+      (r?`<div class="r" style="width:${r/tot*100}%">${r}</div>`:'');
+
+    document.getElementById('totalPartes').textContent = DATA.parts.length;
+
+    const gen = new Date(DATA.generated_at);
+    document.getElementById('lastUpdate').textContent =
+      String(gen.getHours()).padStart(2,'0')+':'+String(gen.getMinutes()).padStart(2,'0')+':'+String(gen.getSeconds()).padStart(2,'0');
+  }
+
+  async function loadData(){
+    try{
+      const res = await fetch("data_embarque.json?_="+Date.now(), {cache:"no-store"});
+      if(!res.ok) throw new Error("no json");
+      return await res.json();
+    }catch(e){
+      return SAMPLE;
+    }
+  }
+
+  // Recorta tarjetas que no quepan de verdad en el espacio disponible de cada
+  // columna, en vez de usar un tope fijo. Si algo no cabe, se oculta y se
+  // muestra un chip "+N mas" -- nunca se ve una tarjeta cortada a la mitad.
+  function fitBoard(){
+    document.querySelectorAll('.col .cbody').forEach(cbody=>{
+      const more = cbody.querySelector('.pcard.more');
+      if(!more) return; // columna vacia, sin tarjetas que ajustar
+      more.style.display = 'none';
+      if(cbody.scrollHeight <= cbody.clientHeight + 1) return; // ya cabe todo
+
+      more.style.display = 'flex';
+      let cards = Array.from(cbody.querySelectorAll('.pcard:not(.more)'));
+      let hidden = 0;
+      while(cbody.scrollHeight > cbody.clientHeight + 1 && cards.length > 0){
+        const last = cards.pop();
+        last.remove();
+        hidden++;
+        more.textContent = `+${hidden} más`;
+      }
+      if(hidden === 0) more.style.display = 'none';
+    });
+  }
+
+  let resizeTimer;
+  window.addEventListener('resize', ()=>{
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(()=>{ render(); }, 200);
+  });
+
+  async function tick(){
+    const fresh = await loadData();
+    if(fresh) DATA = fresh;
+    render();
+  }
+
+  updateClockPill();
+  setInterval(updateClockPill, 1000);
+  tick();
+  setInterval(tick, 60000);
+
+const SAMPLE = {"plant": "AngioDynamics", "source_file": "Avance de embarque Diario.xlsx", "generated_at": "2026-07-21T20:01:44", "current_sheet": "28-Jul-2026", "current_date": "2026-07-28", "stages": [{"key": "wip_welder", "label": "Wip Welder", "uph": null}, {"key": "embedder", "label": "Embedder", "uph": 45}, {"key": "drawdown", "label": "Drawdown", "uph": 130}, {"key": "sidehole", "label": "Sidehole", "uph": 100}, {"key": "handrilling_6f", "label": "Handrilling 6F", "uph": 20}, {"key": "baking", "label": "Baking", "uph": 150}, {"key": "prepping", "label": "Prepping", "uph": 350}, {"key": "moldeo", "label": "Moldeo", "uph": 310}, {"key": "hydrophilic_mariner", "label": "Hydrophilic Mariner", "uph": 30}, {"key": "baking_mariner", "label": "Baking Mariner", "uph": 150}, {"key": "pouch", "label": "Pouch", "uph": 350}, {"key": "boxing", "label": "Boxing", "uph": 400}, {"key": "packaged", "label": "Packaged", "uph": null}], "parts": [{"part_number": "40708504", "sub_ensamble": "14400109", "demanda": 500.0, "producido": 485.0, "pct": 97.0, "stage_key": "moldeo", "stage_col": 15, "status": "ambar"}, {"part_number": "40708505", "sub_ensamble": "14400112", "demanda": 300.0, "producido": 330.0, "pct": 110.0, "stage_key": "sidehole", "stage_col": 11, "status": "verde"}, {"part_number": "40708506", "sub_ensamble": "14400114", "demanda": 350.0, "producido": 382.0, "pct": 109.1, "stage_key": "sidehole", "stage_col": 11, "status": "verde"}, {"part_number": "40708603", "sub_ensamble": "14400109", "demanda": 250.0, "producido": 253.0, "pct": 101.2, "stage_key": "sidehole", "stage_col": 11, "status": "verde"}, {"part_number": "40719708", "sub_ensamble": "14400109", "demanda": 300.0, "producido": 255.0, "pct": 85.0, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "40720401", "sub_ensamble": "14400113", "demanda": 800.0, "producido": 840.0, "pct": 105.0, "stage_key": "packaged", "stage_col": 20, "status": "verde"}, {"part_number": "40720405", "sub_ensamble": "14400113", "demanda": 1500.0, "producido": 1540.0, "pct": 102.7, "stage_key": "packaged", "stage_col": 20, "status": "verde"}, {"part_number": "40720408", "sub_ensamble": "14400113", "demanda": 400.0, "producido": 395.0, "pct": 98.8, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "40722104", "sub_ensamble": "14400109", "demanda": 1400.0, "producido": 1430.0, "pct": 102.1, "stage_key": "packaged", "stage_col": 20, "status": "verde"}, {"part_number": "40720406", "sub_ensamble": "14400113", "demanda": 250.0, "producido": 270.0, "pct": 108.0, "stage_key": "packaged", "stage_col": 20, "status": "verde"}, {"part_number": "40732201", "sub_ensamble": "14400111", "demanda": 6000.0, "producido": 3300.0, "pct": 55.0, "stage_key": "packaged", "stage_col": 20, "status": "rojo"}, {"part_number": "40732203", "sub_ensamble": "14400111", "demanda": 4000.0, "producido": 985.0, "pct": 24.6, "stage_key": "boxing", "stage_col": 19, "status": "rojo"}, {"part_number": "40722102", "sub_ensamble": "14400114", "demanda": 1000.0, "producido": 920.0, "pct": 92.0, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "40712006", "sub_ensamble": "14400105", "demanda": 1500.0, "producido": 1375.0, "pct": 91.7, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "40712008", "sub_ensamble": "14400105", "demanda": 250.0, "producido": 220.0, "pct": 88.0, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "411732701", "sub_ensamble": "14400109", "demanda": 550.0, "producido": 394.0, "pct": 71.6, "stage_key": "boxing", "stage_col": 19, "status": "rojo"}, {"part_number": "411732702", "sub_ensamble": "14400109", "demanda": 250.0, "producido": 96.0, "pct": 38.4, "stage_key": "boxing", "stage_col": 19, "status": "rojo"}, {"part_number": "411722709", "sub_ensamble": "14400137", "demanda": 300.0, "producido": 169.0, "pct": 56.3, "stage_key": "pouch", "stage_col": 18, "status": "rojo"}, {"part_number": "43709703 (21 Bandas)", "sub_ensamble": "14400116", "demanda": 600.0, "producido": 520.0, "pct": 86.7, "stage_key": "packaged", "stage_col": 20, "status": "ambar"}, {"part_number": "43709801 (21 Bandas)", "sub_ensamble": "14400114", "demanda": 1000.0, "producido": 956.0, "pct": 95.6, "stage_key": "moldeo", "stage_col": 15, "status": "ambar"}, {"part_number": "43709803 (21 Bandas)", "sub_ensamble": "14400114", "demanda": 1300.0, "producido": 983.0, "pct": 75.6, "stage_key": "prepping", "stage_col": 14, "status": "rojo"}, {"part_number": "43709901 (21 Bandas)", "sub_ensamble": "14400114", "demanda": 155.0, "producido": 159.0, "pct": 102.6, "stage_key": "sidehole", "stage_col": 11, "status": "verde"}, {"part_number": "43709702 (21 Bandas)", "sub_ensamble": "14400116", "demanda": 300.0, "producido": 237.0, "pct": 79.0, "stage_key": "sidehole", "stage_col": 11, "status": "rojo"}, {"part_number": "43709703 (21 Bandas)", "sub_ensamble": "14400116", "demanda": 400.0, "producido": 290.0, "pct": 72.5, "stage_key": "packaged", "stage_col": 20, "status": "rojo"}, {"part_number": "43709802 (21 Bandas)", "sub_ensamble": "14400114", "demanda": 400.0, "producido": 311.0, "pct": 77.8, "stage_key": "boxing", "stage_col": 19, "status": "rojo"}, {"part_number": "43709802 (21 Bandas)", "sub_ensamble": "14400114", "demanda": 0.0, "producido": 160.0, "pct": null, "stage_key": "embedder", "stage_col": 9, "status": "sin_meta"}], "kpis": {"partes_activos": 26, "total_demanda": 24055.0, "total_producido": 17255.0, "pct_cumplimiento": 71.7, "exceso_total": -6800.0, "atrasados": 9}, "weeks_available": []};
+</script>
+</body>
+</html>

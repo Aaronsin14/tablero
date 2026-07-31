@@ -20,9 +20,11 @@
   <div class="progress" id="prog"></div>
   <div class="frame-wrap">
     <!-- Dashboard 1: PRODUCCION (el que ya tienes) -->
-    <iframe id="f0" class="active" src="index.html?tv"></iframe>
-    <!-- Dashboard 2: EMBARQUES (se crea despues) -->
-    <iframe id="f1" src="embarques.html?tv"></iframe>
+    <iframe id="f0" class="active" data-src="index.html" src="index.html?tv"></iframe>
+    <!-- Dashboard 2: EMBARQUES -->
+    <iframe id="f1" data-src="embarques.html" src="embarques.html?tv"></iframe>
+    <!-- Dashboard 3: EMBARQUE / PRODUCCION POR PROCESO -->
+    <iframe id="f2" data-src="embarque_produccion.html" src="embarque_produccion.html?tv"></iframe>
   </div>
   <div class="tag" id="tag">Mostrando: <b id="tagname">Producción</b></div>
 
@@ -32,6 +34,7 @@
   const dashboards = [
     { id:"f0", nombre:"Producción" },
     { id:"f1", nombre:"Hora a Hora" },
+    { id:"f2", nombre:"Embarque por Proceso" },
   ];
   // =========================
 
@@ -40,7 +43,15 @@
 
   function mostrar(i){
     dashboards.forEach((d,idx)=>{
-      document.getElementById(d.id).classList.toggle("active", idx===i);
+      const frame = document.getElementById(d.id);
+      frame.classList.toggle("active", idx===i);
+      if(idx===i){
+        // recarga forzada con datos frescos justo al mostrarlo, en vez de
+        // confiar en el auto-refresco interno del tablero (que puede
+        // quedarse dormido mientras el iframe estuvo oculto en el fondo)
+        const base = frame.dataset.src;
+        frame.src = base + "?tv&_=" + Date.now();
+      }
     });
     document.getElementById("tagname").textContent = dashboards[i].nombre;
   }

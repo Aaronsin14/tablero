@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Actualiza AMBOS dashboards y sube todo a GitHub.
-  - extract.py       -> data.json       (produccion / legacy)
-  - extract_hora.py  -> data_hora.json  (hora a hora)
+Actualiza LOS TRES dashboards y sube todo a GitHub.
+  - extract.py            -> data.json            (produccion / legacy)
+  - extract_hora.py       -> data_hora.json       (hora a hora)
+  - extract_embarque.py   -> data_embarque.json   (embarque por proceso)
 
 USO:
   python actualizar_todo.py            (una vez)
@@ -11,7 +12,7 @@ USO:
 """
 import subprocess, sys, time, datetime
 from pathlib import Path
-import extract, extract_hora
+import extract, extract_hora, extract_embarque
 
 REFRESH_SECONDS = 900
 HERE = Path(__file__).parent
@@ -41,14 +42,16 @@ def run(cmd):
     )
 
 def ciclo():
-    # 1) generar los dos json
+    # 1) generar los tres json
     try: extract.write_json()
     except Exception as e: log(f"ERROR produccion: {e}")
     try: extract_hora.write_json()
     except Exception as e: log(f"ERROR hora a hora: {e}")
+    try: extract_embarque.write_json()
+    except Exception as e: log(f"ERROR embarque por proceso: {e}")
     # 2) subir a github
     run(["git","pull","--no-edit","-X","ours"])
-    run(["git","add","data.json","data_hora.json"])
+    run(["git","add","data.json","data_hora.json","data_embarque.json"])
     st=run(["git","status","--porcelain"])
     if not st.stdout.strip():
         log("Sin cambios."); return
@@ -59,7 +62,7 @@ def ciclo():
 
 def main():
     watch="--watch" in sys.argv
-    log("=== Actualizador DOBLE iniciado "+("(watch)" if watch else "(una vez)")+" ===")
+    log("=== Actualizador TRIPLE iniciado "+("(watch)" if watch else "(una vez)")+" ===")
     while True:
         try: ciclo()
         except Exception as e: log(f"ERROR: {e}")

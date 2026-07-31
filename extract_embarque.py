@@ -46,7 +46,7 @@ from openpyxl import load_workbook
 # Ruta confirmada con Get-Item (archivo real .xlsx, 4.29 MB, sincronizado).
 # ----------------------------------------------------------------------------
 EXCEL_PATH = Path(
-    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\%Avance de embarque Diario.xlsx"
+    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\1. %Avance de embarque Diario.xlsx"
 )
 PLANT_NAME = "AngioDynamics"
 OUTPUT_JSON = Path(__file__).parent / "data_embarque.json"

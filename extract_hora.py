@@ -22,8 +22,9 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 EXCEL_PATH = Path(
-    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - Hr a Hr actulizado 2026\Control_hr-hr_angio_2026_Actulizado.xlsx"
+    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\2. Control_hr-hr_angio_2026_Actulizado.xlsx"
 )
+
 OUTPUT_JSON = Path(__file__).parent / "data_hora.json"
 REFRESH_SECONDS = 900  # 15 min
 

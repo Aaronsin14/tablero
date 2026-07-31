@@ -46,7 +46,7 @@ from openpyxl import load_workbook
 # Ruta confirmada con Get-Item (archivo real .xlsx, 4.29 MB, sincronizado).
 # ----------------------------------------------------------------------------
 EXCEL_PATH = Path(
-    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\1. %Avance de embarque Diario.xlsx"
+    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\%Avance de embarque Diario.xlsx"
 )
 PLANT_NAME = "AngioDynamics"
 OUTPUT_JSON = Path(__file__).parent / "data_embarque.json"
@@ -221,7 +221,12 @@ def build_payload():
 
     total_demanda = sum(p["demanda"] for p in parts if p["demanda"])
     total_producido = sum(p["producido"] for p in parts if p["producido"])
-    pct_general = (total_producido / total_demanda * 100.0) if total_demanda else 0.0
+    # % Cumplimiento General = solo lo que YA LLEGO a Packaged cuenta como
+    # cumplido (termino todo su recorrido). Lo que este mas avanzado pero aun
+    # no llegue a Packaged (Baking, Moldeo, Pouch, etc.) NO suma aqui todavia
+    # -- sigue siendo trabajo en proceso, no cumplimiento.
+    empacado = sum(p["producido"] for p in parts if p["stage_key"] == "packaged" and p["producido"])
+    pct_general = (empacado / total_demanda * 100.0) if total_demanda else 0.0
     atrasados = sum(1 for p in parts if p["status"] == "rojo")
 
     weeks_available = sorted(
@@ -241,6 +246,7 @@ def build_payload():
             "partes_activos": len(parts),
             "total_demanda": total_demanda,
             "total_producido": total_producido,
+            "empacado": empacado,
             "pct_cumplimiento": round(pct_general, 1),
             "exceso_total": round(total_producido - total_demanda, 0),
             "atrasados": atrasados,

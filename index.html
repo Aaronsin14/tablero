@@ -610,24 +610,20 @@ function semanaDeHoy(){
   return null; // si hoy no cae en ninguna, devuelve null (usa la primera)
 }
 
-(async function(){
-  // Modo TV (1920x1080 sin scroll): auto si pantalla grande, o forzado con ?tv en la URL
-  const forceTV = location.search.includes("tv");
-  const bigScreen = window.innerWidth>=1280 && window.innerHeight>=700;
-  if(forceTV || bigScreen) document.body.classList.add("tv");
-
-  DATA = await loadData();
-
-  // restaurar semana/dia desde la URL SOLO si NO es modo TV.
-  // En las pantallas (rotador con ?tv) siempre recalculamos con la fecha de hoy,
-  // asi el martes salta solo al acumulado de esta semana en vez de quedarse
-  // pegado en la semana que quedo guardada en la URL.
+// calcula que semana/dia le toca mostrar AHORA MISMO segun el reloj.
+// Regresa true si el resultado es distinto a lo que ya estaba mostrando
+// (para saber si hace falta volver a pintar).
+function recalcularSemana(forceTV){
   const params = new URLSearchParams(location.search);
   const savedWeek = params.get("w");
   const savedDay  = params.get("d");
+
+  let nuevoWeek, nuevoDay, nuevoHasta;
+
   if(!forceTV && savedWeek && DATA.weeks[savedWeek]){
-    CUR_WEEK = savedWeek;
-    CUR_DAY = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
+    nuevoWeek = savedWeek;
+    nuevoDay = (savedDay!==null && !isNaN(savedDay)) ? parseInt(savedDay) : -1;
+    nuevoHasta = null;
   } else {
     // Regla: mostrar el ACUMULADO de la semana desde el lunes hasta AYER.
     // Los datos entran hasta fin de turno, asi que el dia de hoy no se cuenta.
@@ -643,21 +639,34 @@ function semanaDeHoy(){
     const idxHoy = dts.indexOf(hoyStr);
 
     if(idxHoy > 0){
-      // hay dias cerrados en esta semana: acumular de lunes (0) hasta ayer (idxHoy-1)
-      CUR_WEEK  = semActual;
-      CUR_DAY   = -1;
-      CUR_HASTA = idxHoy - 1;
+      nuevoWeek  = semActual;
+      nuevoDay   = -1;
+      nuevoHasta = idxHoy - 1;
     } else {
-      // lunes (idxHoy===0) o hoy fuera de la semana: semana pasada completa
       const pos = DATA.week_order.indexOf(semActual);
-      CUR_WEEK  = pos > 0 ? DATA.week_order[pos-1] : semActual;
-      CUR_DAY   = -1;
-      CUR_HASTA = null;          // semana completa (sin limite)
+      nuevoWeek  = pos > 0 ? DATA.week_order[pos-1] : semActual;
+      nuevoDay   = -1;
+      nuevoHasta = null;
     }
   }
+
+  const cambio = (nuevoWeek!==CUR_WEEK || nuevoDay!==CUR_DAY || nuevoHasta!==CUR_HASTA);
+  CUR_WEEK = nuevoWeek; CUR_DAY = nuevoDay; CUR_HASTA = nuevoHasta;
+  return cambio;
+}
+
+(async function(){
+  // Modo TV (1920x1080 sin scroll): auto si pantalla grande, o forzado con ?tv en la URL
+  const forceTV = location.search.includes("tv");
+  const bigScreen = window.innerWidth>=1280 && window.innerHeight>=700;
+  if(forceTV || bigScreen) document.body.classList.add("tv");
+
+  DATA = await loadData();
+  recalcularSemana(forceTV);
   render();
+
   // refresco automatico: el data.json lo regenera Python cada hora.
-  // aqui revisamos cada 5 min si cambio. Mantiene la semana/dia elegidos.
+  // aqui revisamos cada 5 min si cambio.
   setInterval(async ()=>{
     const fresh = await loadData();
     if(fresh.generated_at !== DATA.generated_at){
@@ -666,6 +675,14 @@ function semanaDeHoy(){
       render();
     }
   }, 5*60*1000);
+
+  // NUEVO: recalcula la semana/dia segun el reloj cada minuto, aunque el
+  // JSON no haya cambiado. Sin esto, una pestana que lleva horas/dias
+  // abierta se queda pegada en la semana que calculo al cargar (por eso
+  // "hora a hora" si avanzaba solo y "Tier 2" no).
+  setInterval(()=>{
+    if(recalcularSemana(forceTV)) render();
+  }, 60*1000);
 })();
 
 /* ---- datos de ejemplo (Week 40 real del archivo) para abrir sin servidor ---- */

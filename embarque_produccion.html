@@ -182,7 +182,7 @@
 
     const kpiDefs = [
       {lbl:'NÚMEROS DE PARTE ACTIVOS', val:k.partes_activos, suf:'', cls:'n'},
-      {lbl:'% CUMPLIMIENTO GENERAL', val:k.pct_cumplimiento, suf:'%', cls:pctClass},
+      {lbl:'% CUMPLIMIENTO (EMPACADO)', val:k.pct_cumplimiento, suf:'%', cls:pctClass},
       {lbl:'TOTAL DEMANDA REAL', val:fmtInt(k.total_demanda), suf:'pcs', cls:'n'},
       {lbl:'TOTAL PRODUCIDO', val:fmtInt(k.total_producido), suf:'pcs', cls:'n'},
       {lbl:'EXCESO TOTAL', val:(k.exceso_total>=0?'+':'')+fmtInt(k.exceso_total), suf:'pcs', cls:k.exceso_total>=0?'g':'r'},

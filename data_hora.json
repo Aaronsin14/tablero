@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-07-30T18:21:14",
+ "generated_at": "2026-07-30T18:37:59",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -29827,17 +29827,17 @@
         "hours": [
          225.0,
          300.0,
-         0,
+         300.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 10.0,
-        "total": 525.0,
-        "delta": -2210.0,
+        "rework": 11.0,
+        "total": 825.0,
+        "delta": -1910.0,
         "downtime": 0.0,
-        "proficiency": 0.19090909090909092
+        "proficiency": 0.3
        },
        {
         "name": "Welder",
@@ -29847,17 +29847,17 @@
         "hours": [
          85.0,
          294.0,
-         0,
+         310.0,
          0,
          0,
          0,
          0
         ],
-        "rework": 51.0,
-        "total": 379.0,
-        "delta": -1809.0,
+        "rework": 108.0,
+        "total": 689.0,
+        "delta": -1499.0,
         "downtime": 125.0,
-        "proficiency": 0.18083499005964218
+        "proficiency": 0.3287475149105368
        },
        {
         "name": "Carga de bandas",
@@ -30006,18 +30006,18 @@
         "meta_dia": 547.0,
         "hours": [
          0,
-         0,
-         0,
+         100.0,
+         100.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 200.0,
+        "delta": -347.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Baking Rot",
@@ -30027,17 +30027,17 @@
         "hours": [
          0,
          0,
-         0,
+         110.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2461.5,
+        "total": 110.0,
+        "delta": -2351.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.044444444444444446
        },
        {
         "name": "Baking Conv",
@@ -30082,22 +30082,22 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 547.0,
         "hours": [
-         0,
-         0,
-         0,
+         420.0,
+         420.0,
+         427.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -820.5,
+        "total": 1267.0,
+        "delta": -374.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.7678787878787879
        },
        {
         "name": "Rofing",
@@ -30145,19 +30145,19 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         0,
-         0,
-         0,
+         100.0,
+         300.0,
+         100.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1641.0,
+        "total": 500.0,
+        "delta": -1141.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.30303030303030304
        },
        {
         "name": "Pouch",
@@ -30166,18 +30166,18 @@
         "meta_dia": 1641.0,
         "hours": [
          0,
-         0,
-         0,
+         300.0,
+         300.0,
          0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1641.0,
+        "total": 600.0,
+        "delta": -1041.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Boxing",

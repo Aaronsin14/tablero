@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-07-31T13:57:12",
+ "generated_at": "2026-08-01T16:59:01",
  "current_sheet": "04-Ago-2026",
  "current_date": "2026-08-04",
  "stages": [
@@ -231,21 +231,21 @@
    "part_number": "411723502",
    "sub_ensamble": "14400117",
    "demanda": 185.0,
-   "producido": 192.0,
-   "pct": 103.8,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 190.0,
+   "pct": 102.7,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "verde"
   },
   {
    "part_number": "411707133",
    "sub_ensamble": "14400137",
    "demanda": 250.0,
-   "producido": 294.0,
-   "pct": 117.6,
-   "stage_key": "boxing",
-   "stage_col": 22,
-   "status": "verde"
+   "producido": 240.0,
+   "pct": 96.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
+   "status": "ambar"
   },
   {
    "part_number": "40734301",
@@ -273,8 +273,8 @@
    "demanda": 500.0,
    "producido": 445.0,
    "pct": 89.0,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -301,51 +301,51 @@
    "part_number": "43709004",
    "sub_ensamble": "14400116",
    "demanda": 250.0,
-   "producido": 238.0,
-   "pct": 95.2,
-   "stage_key": "material_para_calidad",
-   "stage_col": 20,
+   "producido": 210.0,
+   "pct": 84.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
    "part_number": "43709701 (21 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 1000.0,
-   "producido": 941.0,
-   "pct": 94.1,
-   "stage_key": "material_para_calidad",
-   "stage_col": 20,
+   "producido": 810.0,
+   "pct": 81.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
    "part_number": "43709803 (21 Bandas)",
    "sub_ensamble": "14400114",
    "demanda": 2000.0,
-   "producido": 1713.0,
-   "pct": 85.7,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 1740.0,
+   "pct": 87.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
    "part_number": "43709005 (2 Bandas)",
    "sub_ensamble": "14400131",
    "demanda": 1550.0,
-   "producido": 1361.0,
-   "pct": 87.8,
-   "stage_key": "inspeccion_de_pines_y_cable_guia",
-   "stage_col": 19,
-   "status": "ambar"
+   "producido": 1160.0,
+   "pct": 74.8,
+   "stage_key": "packaged",
+   "stage_col": 23,
+   "status": "rojo"
   }
  ],
  "kpis": {
   "partes_activos": 25,
   "total_demanda": 23165.0,
-  "total_producido": 22685.0,
-  "empacado": 17501.0,
-  "pct_cumplimiento": 75.5,
-  "exceso_total": -480.0,
-  "atrasados": 0
+  "total_producido": 22296.0,
+  "empacado": 22296.0,
+  "pct_cumplimiento": 96.2,
+  "exceso_total": -869.0,
+  "atrasados": 1
  },
  "weeks_available": [
   {

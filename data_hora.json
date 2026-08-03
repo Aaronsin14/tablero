@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-03T12:16:46",
+ "generated_at": "2026-08-03T12:33:55",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -34502,21 +34502,21 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          0,
-         100.0,
-         70.0,
-         130.0,
-         0,
+         200.0,
+         140.0,
+         260.0,
+         260.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 2.0,
-        "total": 300.0,
-        "delta": -2886.3,
-        "downtime": 0.0,
-        "proficiency": 0.09415309292910273
+        "rework": 9.0,
+        "total": 860.0,
+        "delta": -2326.3,
+        "downtime": 300.0,
+        "proficiency": 0.3390766076568229
        },
        {
         "name": "Sidehole Soft Vu",
@@ -34550,19 +34550,19 @@
          0,
          0,
          0,
-         0,
-         0,
+         20.0,
+         37.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "rework": 1.0,
+        "total": 57.0,
+        "delta": -760.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.06976744186046512
        },
        {
         "name": "Baking Rot",
@@ -34571,21 +34571,21 @@
         "meta_dia": 3676.5,
         "hours": [
          0,
-         0,
-         0,
-         0,
-         0,
+         150.0,
+         155.0,
+         305.0,
+         380.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "rework": 2.0,
+        "total": 990.0,
+        "delta": -2686.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2692778457772338
        },
        {
         "name": "Baking Conv",

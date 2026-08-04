@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-04T06:49:53",
+ "generated_at": "2026-08-04T07:06:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -34337,8 +34337,8 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 4085.0,
+        "meta_hora": 375.0,
+        "meta_dia": 3063.75,
         "hours": [
          0,
          295.0,
@@ -34353,9 +34353,9 @@
         ],
         "rework": 89.0,
         "total": 2253.0,
-        "delta": -1832.0,
+        "delta": -810.75,
         "downtime": 0.0,
-        "proficiency": 0.5515299877600979
+        "proficiency": 0.7353733170134639
        },
        {
         "name": "Welder",
@@ -35577,8 +35577,8 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 4085.0,
+        "meta_hora": 375.0,
+        "meta_dia": 3063.75,
         "hours": [
          0,
          0,
@@ -35593,15 +35593,15 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -4085.0,
+        "delta": -3063.75,
         "downtime": 0.0,
         "proficiency": 0.0
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 335.0,
+        "meta_dia": 2736.95,
         "hours": [
          0,
          0,
@@ -35616,7 +35616,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -3022.9,
+        "delta": -2736.95,
         "downtime": 0.0,
         "proficiency": 0.0
        },

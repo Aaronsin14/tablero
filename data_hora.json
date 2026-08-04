@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-03T23:06:12",
+ "generated_at": "2026-08-03T23:23:25",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -35141,8 +35141,8 @@
         "rework": 0.0,
         "total": 1025.0,
         "delta": -616.0,
-        "downtime": 180.0,
-        "proficiency": 1.3666666666666667
+        "downtime": 120.0,
+        "proficiency": 0.9761904761904762
        },
        {
         "name": "Boxing",
@@ -35184,7 +35184,7 @@
         "meta_hora": 400.0,
         "meta_dia": 2792.0,
         "hours": [
-         0,
+         295.0,
          0,
          0,
          0,
@@ -35193,11 +35193,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2792.0,
+        "rework": 24.0,
+        "total": 295.0,
+        "delta": -2497.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09577922077922077
        },
        {
         "name": "Carga de bandas",

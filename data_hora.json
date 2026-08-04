@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-04T07:24:01",
+ "generated_at": "2026-08-04T07:41:13",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -35580,7 +35580,7 @@
         "meta_hora": 375.0,
         "meta_dia": 3063.75,
         "hours": [
-         0,
+         350.0,
          0,
          0,
          0,
@@ -35592,18 +35592,18 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3063.75,
+        "total": 350.0,
+        "delta": -2713.75,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1142390860873113
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 335.0,
-        "meta_dia": 2736.95,
+        "meta_hora": 310.0,
+        "meta_dia": 2532.7,
         "hours": [
-         0,
+         191.0,
          0,
          0,
          0,
@@ -35614,11 +35614,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2736.95,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 25.0,
+        "total": 191.0,
+        "delta": -2341.7,
+        "downtime": 30.0,
+        "proficiency": 0.07599494693284792
        },
        {
         "name": "Carga de bandas",
@@ -35853,8 +35853,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 30.0,
+        "meta_dia": 40.0,
         "hours": [
          0,
          0,
@@ -35869,9 +35869,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
+        "delta": -245.1,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",
@@ -35899,10 +35899,10 @@
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 550.0,
+        "meta_dia": 4493.5,
         "hours": [
-         0,
+         520.0,
          0,
          0,
          0,
@@ -35914,10 +35914,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 520.0,
+        "delta": -3973.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.11572271058195172
        },
        {
         "name": "Moldeadora Milacron",

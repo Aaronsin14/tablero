@@ -30,7 +30,8 @@
 
 <script>
   // ===== CONFIGURACION =====
-  const INTERVALO_MIN = 5;              // cambiar cada 5 minutos
+  const INTERVALO_MIN = 3;              // cambiar cada 3 minutos
+  const RECARGA_PAGINA_HORAS = 1;       // recarga TODA la pagina cada 1 hora
   const dashboards = [
     { id:"f0", nombre:"Producción" },
     { id:"f1", nombre:"Hora a Hora" },
@@ -78,6 +79,15 @@
   reiniciarBarra();
   animarBarra();
   setInterval(siguiente, INTERVALO_MS);
+
+  // RECARGA COMPLETA DE LA PAGINA cada cierto tiempo. Esto es aparte de la
+  // recarga de cada iframe al rotar: aqui se recarga rotador.html EN SI
+  // MISMO, para que si alguna vez subimos una correccion de codigo (como
+  // esta), la TV la recoja sola en menos de 1 hora en vez de quedarse
+  // corriendo para siempre el JavaScript viejo que ya tenia cargado en
+  // memoria desde que se prendio.
+  setTimeout(()=>{ location.reload(); }, RECARGA_PAGINA_HORAS * 60 * 60 * 1000);
+
 </script>
 </body>
 </html>

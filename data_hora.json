@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-06T15:12:47",
+ "generated_at": "2026-08-06T15:29:52",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -38069,13 +38069,13 @@
          500.0,
          550.0,
          550.0,
-         0
+         200.0
         ],
         "rework": 36.0,
-        "total": 4200.0,
-        "delta": 115.0,
+        "total": 4400.0,
+        "delta": 315.0,
         "downtime": 0.0,
-        "proficiency": 1.0281517747858018
+        "proficiency": 1.0771113831089352
        },
        {
         "name": "Welder",
@@ -38091,14 +38091,14 @@
          275.0,
          142.0,
          167.0,
-         154.0,
-         25.0
+         199.0,
+         63.0
         ],
         "rework": 85.0,
-        "total": 1965.0,
-        "delta": -281.75,
+        "total": 2048.0,
+        "delta": -198.75,
         "downtime": 30.0,
-        "proficiency": 0.8813388276848036
+        "proficiency": 0.9185658621366299
        },
        {
         "name": "Carga de bandas",
@@ -38183,14 +38183,14 @@
          34.0,
          18.0,
          28.0,
-         0,
+         37.0,
          0
         ],
-        "rework": 45.0,
-        "total": 206.0,
-        "delta": -202.5,
+        "rework": 51.0,
+        "total": 243.0,
+        "delta": -165.5,
         "downtime": 0.0,
-        "proficiency": 0.5042839657282742
+        "proficiency": 0.594859241126071
        },
        {
         "name": "Inspeccion",
@@ -38206,14 +38206,14 @@
          34.0,
          18.0,
          28.0,
-         0,
+         37.0,
          0
         ],
-        "rework": 45.0,
-        "total": 206.0,
-        "delta": -202.5,
+        "rework": 51.0,
+        "total": 243.0,
+        "delta": -165.5,
         "downtime": 0.0,
-        "proficiency": 0.5042839657282742
+        "proficiency": 0.594859241126071
        },
        {
         "name": "Drawdown",

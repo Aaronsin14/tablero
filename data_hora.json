@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-05T20:40:45",
+ "generated_at": "2026-08-05T20:57:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -37267,42 +37267,42 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
+         125.0,
+         200.0,
+         161.0,
+         200.0,
+         200.0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 21.0,
+        "total": 886.0,
+        "delta": -481.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.6443636363636364
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 375.0,
+        "meta_dia": 2051.25,
         "hours": [
-         0,
-         0,
-         0,
-         0,
-         0,
+         170.0,
+         380.0,
+         345.0,
+         375.0,
+         205.0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 117.0,
+        "total": 1475.0,
+        "delta": -576.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.7151515151515152
        },
        {
         "name": "Carga de bandas",
@@ -37311,7 +37311,7 @@
         "meta_dia": 410.25,
         "hours": [
          0,
-         0,
+         25.0,
          0,
          0,
          0,
@@ -37319,19 +37319,19 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -410.25,
+        "total": 25.0,
+        "delta": -385.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.060606060606060615
        },
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 547.0,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
-         0,
-         0,
+         8.0,
+         61.0,
          0,
          0,
          0,
@@ -37339,10 +37339,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 69.0,
+        "delta": -204.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2509090909090909
        },
        {
         "name": "Swager",
@@ -37350,8 +37350,8 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         0,
-         0,
+         8.0,
+         61.0,
          0,
          0,
          0,
@@ -37359,30 +37359,30 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 69.0,
+        "delta": -478.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12545454545454546
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
-         0,
-         0,
+         6.0,
+         28.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -656.4,
+        "rework": 13.0,
+        "total": 34.0,
+        "delta": -239.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12363636363636363
        },
        {
         "name": "Inspeccion",
@@ -37390,19 +37390,19 @@
         "meta_hora": 50.0,
         "meta_dia": 273.5,
         "hours": [
-         0,
-         0,
+         6.0,
+         28.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -273.5,
+        "rework": 13.0,
+        "total": 34.0,
+        "delta": -239.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12363636363636363
        },
        {
         "name": "Drawdown",
@@ -37528,7 +37528,7 @@
         "name": "Prepping",
         "maquinas": 1,
         "meta_hora": 150.0,
-        "meta_dia": 683.75,
+        "meta_dia": 547.0,
         "hours": [
          0,
          0,
@@ -37631,7 +37631,7 @@
         "meta_dia": 1914.5,
         "hours": [
          0,
-         0,
+         165.0,
          0,
          0,
          0,
@@ -37639,10 +37639,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
+        "total": 165.0,
+        "delta": -1749.5,
         "downtime": 24.0,
-        "proficiency": 0.0
+        "proficiency": 0.09243697478991596
        }
       ]
      },

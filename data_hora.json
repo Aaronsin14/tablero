@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-06T17:12:18",
+ "generated_at": "2026-08-06T17:29:15",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -38510,19 +38510,19 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         0,
-         0,
+         130.0,
+         125.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 14.0,
+        "total": 255.0,
+        "delta": -2480.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09272727272727273
        },
        {
         "name": "Welder",
@@ -38530,19 +38530,19 @@
         "meta_hora": 400.0,
         "meta_dia": 2188.0,
         "hours": [
-         0,
-         0,
+         120.0,
+         275.0,
          0,
          0,
          0,
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 33.0,
+        "total": 395.0,
+        "delta": -1793.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.17954545454545454
        },
        {
         "name": "Carga de bandas",
@@ -38550,7 +38550,7 @@
         "meta_hora": 75.0,
         "meta_dia": 410.25,
         "hours": [
-         0,
+         15.0,
          0,
          0,
          0,
@@ -38559,10 +38559,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -410.25,
+        "total": 15.0,
+        "delta": -395.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.03636363636363636
        },
        {
         "name": "Staker",
@@ -38570,7 +38570,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         0,
+         25.0,
          0,
          0,
          0,
@@ -38579,10 +38579,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 25.0,
+        "delta": -522.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.045454545454545456
        },
        {
         "name": "Swager",
@@ -38590,7 +38590,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         0,
+         25.0,
          0,
          0,
          0,
@@ -38599,10 +38599,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 25.0,
+        "delta": -522.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.045454545454545456
        },
        {
         "name": "Embedder",

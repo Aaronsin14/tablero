@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-06T07:49:34",
+ "generated_at": "2026-08-06T08:06:28",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -38060,7 +38060,7 @@
         "meta_hora": 500.0,
         "meta_dia": 4085.0,
         "hours": [
-         0,
+         100.0,
          0,
          0,
          0,
@@ -38072,10 +38072,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -4085.0,
+        "total": 100.0,
+        "delta": -3985.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02447980416156671
        },
        {
         "name": "Welder",
@@ -38083,7 +38083,7 @@
         "meta_hora": 275.0,
         "meta_dia": 2246.75,
         "hours": [
-         0,
+         168.0,
          0,
          0,
          0,
@@ -38094,11 +38094,11 @@
          0,
          0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2246.75,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 11.0,
+        "total": 168.0,
+        "delta": -2078.75,
+        "downtime": 30.0,
+        "proficiency": 0.07535110587839543
        },
        {
         "name": "Carga de bandas",
@@ -38359,7 +38359,7 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
+         200.0,
          0,
          0,
          0,
@@ -38371,10 +38371,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 200.0,
+        "delta": -1025.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1631986944104447
        },
        {
         "name": "Rofing",
@@ -38382,8 +38382,8 @@
         "meta_hora": 550.0,
         "meta_dia": 4493.5,
         "hours": [
-         0,
-         0,
+         550.0,
+         550.0,
          0,
          0,
          0,
@@ -38394,10 +38394,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -4493.5,
+        "total": 1100.0,
+        "delta": -3393.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.24479804161566707
        },
        {
         "name": "Moldeadora Milacron",

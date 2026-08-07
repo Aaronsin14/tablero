@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-06T22:54:16",
+ "generated_at": "2026-08-06T23:11:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -38567,8 +38567,8 @@
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 50.0,
-        "meta_dia": 273.5,
+        "meta_hora": 75.0,
+        "meta_dia": 410.25,
         "hours": [
          25.0,
          20.0,
@@ -38580,9 +38580,9 @@
         ],
         "rework": 2.0,
         "total": 261.0,
-        "delta": -12.5,
-        "downtime": 305.0,
-        "proficiency": 1.764507042253521
+        "delta": -149.25,
+        "downtime": 0.0,
+        "proficiency": 0.6327272727272727
        },
        {
         "name": "Swager",
@@ -38601,8 +38601,8 @@
         "rework": 0.0,
         "total": 261.0,
         "delta": -286.0,
-        "downtime": 305.0,
-        "proficiency": 0.8822535211267605
+        "downtime": 0.0,
+        "proficiency": 0.47454545454545455
        },
        {
         "name": "Embedder",
@@ -38621,8 +38621,8 @@
         "rework": 13.0,
         "total": 289.0,
         "delta": 15.5,
-        "downtime": 1830.0,
-        "proficiency": 2.3591836734693876
+        "downtime": 360.0,
+        "proficiency": 1.1795918367346938
        },
        {
         "name": "Inspeccion",
@@ -38768,7 +38768,7 @@
         "name": "Prepping",
         "maquinas": 1,
         "meta_hora": 150.0,
-        "meta_dia": 547.0,
+        "meta_dia": 683.75,
         "hours": [
          300.0,
          300.0,

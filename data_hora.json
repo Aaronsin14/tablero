@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-10T15:15:24",
+ "generated_at": "2026-08-10T15:35:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -43034,13 +43034,13 @@
          375.0,
          500.0,
          500.0,
-         203.0
+         453.0
         ],
-        "rework": 16.0,
-        "total": 3998.0,
-        "delta": -87.0,
+        "rework": 71.0,
+        "total": 4248.0,
+        "delta": 163.0,
         "downtime": 0.0,
-        "proficiency": 0.978702570379437
+        "proficiency": 1.0399020807833537
        },
        {
         "name": "Welder",
@@ -43057,13 +43057,13 @@
          207.0,
          374.0,
          380.0,
-         0
+         166.0
         ],
-        "rework": 232.0,
-        "total": 2435.0,
-        "delta": -383.6500000000001,
-        "downtime": 240.0,
-        "proficiency": 0.9202048258791073
+        "rework": 246.0,
+        "total": 2601.0,
+        "delta": -217.6500000000001,
+        "downtime": 300.0,
+        "proficiency": 0.9992220589506439
        },
        {
         "name": "Carga de bandas",
@@ -43321,7 +43321,7 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 170.0,
         "meta_dia": 1021.25,
         "hours": [
          0,
@@ -43332,14 +43332,14 @@
          185.0,
          150.0,
          300.0,
-         0,
-         0
+         322.0,
+         322.0
         ],
         "rework": 0.0,
-        "total": 1425.0,
-        "delta": 199.5,
+        "total": 2069.0,
+        "delta": 680.0999999999999,
         "downtime": 0.0,
-        "proficiency": 1.1627906976744184
+        "proficiency": 1.4896680826553388
        },
        {
         "name": "Rofing",
@@ -43355,14 +43355,14 @@
          550.0,
          330.0,
          880.0,
-         0,
-         0
+         1100.0,
+         550.0
         ],
         "rework": 0.0,
-        "total": 3355.0,
-        "delta": -1138.5,
+        "total": 5005.0,
+        "delta": 511.5,
         "downtime": 0.0,
-        "proficiency": 0.7466340269277846
+        "proficiency": 1.113831089351285
        },
        {
         "name": "Moldeadora Milacron",
@@ -43446,15 +43446,15 @@
          500.0,
          400.0,
          350.0,
-         480.0,
          400.0,
-         0
+         500.0,
+         440.0
         ],
         "rework": 0.0,
-        "total": 3230.0,
-        "delta": 370.5,
+        "total": 3690.0,
+        "delta": 830.5,
         "downtime": 0.0,
-        "proficiency": 1.1295681063122922
+        "proficiency": 1.2904353908025878
        }
       ]
      },

@@ -19,20 +19,18 @@
 <body>
   <div class="progress" id="prog"></div>
   <div class="frame-wrap">
-    <!-- Dashboard 1: PRODUCCION (el que ya tienes) -->
-    <!-- Dashboard 2: EMBARQUES -->
-    <iframe id="f1" data-src="embarques.html" src="embarques.html?tv"></iframe>
-    <!-- Dashboard 3: EMBARQUE / PRODUCCION POR PROCESO -->
+    <!-- Dashboard 1: EMBARQUES -->
+    <iframe id="f1" class="active" data-src="embarques.html" src="embarques.html?tv"></iframe>
+    <!-- Dashboard 2: EMBARQUE / PRODUCCION POR PROCESO -->
     <iframe id="f2" data-src="embarque_produccion.html" src="embarque_produccion.html?tv"></iframe>
   </div>
-  <div class="tag" id="tag">Mostrando: <b id="tagname">Producción</b></div>
+  <div class="tag" id="tag">Mostrando: <b id="tagname">Hora a Hora</b></div>
 
 <script>
   // ===== CONFIGURACION =====
   const INTERVALO_MIN = 3;              // cambiar cada 3 minutos
   const RECARGA_PAGINA_HORAS = 1;       // recarga TODA la pagina cada 1 hora
   const dashboards = [
-    { id:"f0", nombre:"Producción" },
     { id:"f1", nombre:"Hora a Hora" },
     { id:"f2", nombre:"Embarque por Proceso" },
   ];

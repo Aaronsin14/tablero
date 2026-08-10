@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-07T15:31:38",
+ "generated_at": "2026-08-10T02:41:37",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -39307,21 +39307,21 @@
          250.0,
          125.0,
          250.0,
-         250.0,
-         0,
-         0
+         500.0,
+         500.0,
+         396.0
         ],
-        "rework": 14.0,
-        "total": 1645.0,
-        "delta": -2440.0,
-        "downtime": 0.0,
-        "proficiency": 0.40269277845777235
+        "rework": 132.0,
+        "total": 2791.0,
+        "delta": -1294.0,
+        "downtime": 300.0,
+        "proficiency": 0.9844797178130511
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 350.0,
-        "meta_dia": 2859.5,
+        "meta_hora": 310.0,
+        "meta_dia": 2532.7,
         "hours": [
          148.0,
          272.0,
@@ -39330,15 +39330,15 @@
          353.0,
          327.0,
          135.0,
-         254.0,
-         0,
-         0
+         274.0,
+         270.0,
+         70.0
         ],
-        "rework": 176.0,
-        "total": 1963.0,
-        "delta": -896.5,
-        "downtime": 0.0,
-        "proficiency": 0.686483650987935
+        "rework": 197.0,
+        "total": 2323.0,
+        "delta": -209.69999999999982,
+        "downtime": 120.0,
+        "proficiency": 0.9461550993809059
        },
        {
         "name": "Carga de bandas",
@@ -39389,8 +39389,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 65.0,
-        "meta_dia": 531.05,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          4.0,
          4.0,
@@ -39405,9 +39405,9 @@
         ],
         "rework": 0.0,
         "total": 214.0,
-        "delta": -317.04999999999995,
+        "delta": -194.5,
         "downtime": 0.0,
-        "proficiency": 0.40297523773655963
+        "proficiency": 0.5238678090575275
        },
        {
         "name": "Embedder",

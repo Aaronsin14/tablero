@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-11T10:54:06",
+ "generated_at": "2026-08-11T11:11:19",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -44268,7 +44268,7 @@
          430.0,
          270.0,
          250.0,
-         250.0,
+         500.0,
          0,
          0,
          0,
@@ -44277,10 +44277,10 @@
          0
         ],
         "rework": 33.0,
-        "total": 1200.0,
-        "delta": -2885.0,
+        "total": 1450.0,
+        "delta": -2635.0,
         "downtime": 0.0,
-        "proficiency": 0.2937576499388005
+        "proficiency": 0.35495716034271724
        },
        {
         "name": "Welder",
@@ -44383,7 +44383,7 @@
          21.0,
          45.0,
          26.0,
-         0,
+         29.0,
          0,
          0,
          0,
@@ -44391,11 +44391,11 @@
          0,
          0
         ],
-        "rework": 5.0,
-        "total": 92.0,
-        "delta": -316.5,
+        "rework": 8.0,
+        "total": 121.0,
+        "delta": -287.5,
         "downtime": 0.0,
-        "proficiency": 0.2252141982864137
+        "proficiency": 0.2962056303549572
        },
        {
         "name": "Inspeccion",
@@ -44406,7 +44406,7 @@
          21.0,
          45.0,
          26.0,
-         0,
+         29.0,
          0,
          0,
          0,
@@ -44414,11 +44414,11 @@
          0,
          0
         ],
-        "rework": 5.0,
-        "total": 92.0,
-        "delta": -316.5,
+        "rework": 8.0,
+        "total": 121.0,
+        "delta": -287.5,
         "downtime": 0.0,
-        "proficiency": 0.2252141982864137
+        "proficiency": 0.2962056303549572
        },
        {
         "name": "Drawdown",
@@ -44426,10 +44426,10 @@
         "meta_hora": 390.0,
         "meta_dia": 3186.2999999999997,
         "hours": [
-         0,
-         0,
-         0,
-         0,
+         50.0,
+         367.0,
+         231.0,
+         265.0,
          0,
          0,
          0,
@@ -44438,10 +44438,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3186.3,
+        "total": 913.0,
+        "delta": -2273.3,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.28653924614756926
        },
        {
         "name": "Sidehole Soft Vu",
@@ -44496,9 +44496,9 @@
         "meta_dia": 3676.5,
         "hours": [
          0,
-         0,
-         0,
-         0,
+         120.0,
+         170.0,
+         280.0,
          0,
          0,
          0,
@@ -44507,10 +44507,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 570.0,
+        "delta": -3106.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.15503875968992248
        },
        {
         "name": "Baking Conv",

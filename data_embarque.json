@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-13T09:39:49",
+ "generated_at": "2026-08-13T09:57:04",
  "current_sheet": "18-Ago-2026",
  "current_date": "2026-08-18",
  "stages": [
@@ -261,11 +261,11 @@
    "part_number": "40734301",
    "sub_ensamble": "14400122",
    "demanda": 3200.0,
-   "producido": 2123.0,
-   "pct": 66.3,
-   "stage_key": "boxing",
-   "stage_col": 22,
-   "status": "rojo"
+   "producido": 3883.0,
+   "pct": 121.3,
+   "stage_key": "packaged",
+   "stage_col": 23,
+   "status": "verde"
   },
   {
    "part_number": "40714025",
@@ -381,11 +381,11 @@
  "kpis": {
   "partes_activos": 29,
   "total_demanda": 24836.0,
-  "total_producido": 23533.0,
-  "empacado": 11486.0,
-  "pct_cumplimiento": 46.2,
-  "exceso_total": -1303.0,
-  "atrasados": 4
+  "total_producido": 25293.0,
+  "empacado": 15369.0,
+  "pct_cumplimiento": 61.9,
+  "exceso_total": 457.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

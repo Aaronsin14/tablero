@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-13T10:40:39",
+ "generated_at": "2026-08-13T11:20:14",
  "current_sheet": "18-Ago-2026",
  "current_date": "2026-08-18",
  "stages": [
@@ -203,8 +203,8 @@
    "demanda": 250.0,
    "producido": 234.0,
    "pct": 93.6,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "stage_key": "inspeccion_qc",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
@@ -273,8 +273,8 @@
    "demanda": 1200.0,
    "producido": 1089.0,
    "pct": 90.8,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "stage_key": "sellado_pouch",
+   "stage_col": 21,
    "status": "ambar"
   },
   {
@@ -293,8 +293,8 @@
    "demanda": 45.0,
    "producido": 35.0,
    "pct": 77.8,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "stage_key": "inspeccion_qc",
+   "stage_col": 20,
    "status": "rojo"
   },
   {
@@ -303,8 +303,8 @@
    "demanda": 25.0,
    "producido": 36.0,
    "pct": 144.0,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "stage_key": "inspeccion_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {

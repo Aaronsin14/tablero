@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-14T08:03:54",
+ "generated_at": "2026-08-14T08:21:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -48258,8 +48258,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
          0,
          0,
@@ -48274,9 +48274,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
+        "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",
@@ -48284,8 +48284,8 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
-         0,
+         225.0,
+         300.0,
          0,
          0,
          0,
@@ -48296,10 +48296,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 525.0,
+        "delta": -700.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.4283965728274174
        },
        {
         "name": "Rofing",
@@ -48307,8 +48307,8 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0,
-         0,
+         550.0,
+         800.0,
          0,
          0,
          0,
@@ -48319,10 +48319,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 1350.0,
+        "delta": -1101.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.5507955936352509
        },
        {
         "name": "Moldeadora Milacron",
@@ -48353,8 +48353,8 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0,
-         0,
+         186.0,
+         300.0,
          0,
          0,
          0,
@@ -48365,10 +48365,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 486.0,
+        "delta": -1965.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.19828641370869035
        },
        {
         "name": "Pouch",

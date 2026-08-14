@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-13T17:27:35",
+ "generated_at": "2026-08-14T06:04:10",
  "current_sheet": "18-Ago-2026",
  "current_date": "2026-08-18",
  "stages": [
@@ -153,8 +153,8 @@
    "demanda": 250.0,
    "producido": 255.0,
    "pct": 102.0,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "verde"
   },
   {
@@ -191,10 +191,10 @@
    "part_number": "40709010",
    "sub_ensamble": "14400106",
    "demanda": 250.0,
-   "producido": 248.0,
-   "pct": 99.2,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 245.0,
+   "pct": 98.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -211,10 +211,10 @@
    "part_number": "411722109",
    "sub_ensamble": "14400145",
    "demanda": 85.0,
-   "producido": 90.0,
-   "pct": 105.9,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "producido": 86.0,
+   "pct": 101.2,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -231,30 +231,20 @@
    "part_number": "411733301",
    "sub_ensamble": "14400101",
    "demanda": 95.0,
-   "producido": 78.0,
-   "pct": 82.1,
-   "stage_key": "inspeccion_qc",
-   "stage_col": 20,
-   "status": "ambar"
-  },
-  {
-   "part_number": "411714009",
-   "sub_ensamble": "14400131",
-   "demanda": 800.0,
-   "producido": 864.0,
-   "pct": 108.0,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 17,
-   "status": "verde"
+   "producido": 75.0,
+   "pct": 78.9,
+   "stage_key": "packaged",
+   "stage_col": 23,
+   "status": "rojo"
   },
   {
    "part_number": "40714016",
    "sub_ensamble": "14400131",
    "demanda": 800.0,
-   "producido": 766.0,
-   "pct": 95.8,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "producido": 745.0,
+   "pct": 93.1,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -271,10 +261,10 @@
    "part_number": "40714025",
    "sub_ensamble": "14400131",
    "demanda": 1200.0,
-   "producido": 1089.0,
-   "pct": 90.8,
-   "stage_key": "sellado_pouch",
-   "stage_col": 21,
+   "producido": 1077.0,
+   "pct": 89.8,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
@@ -341,16 +331,6 @@
    "part_number": "43709701",
    "sub_ensamble": "14400116",
    "demanda": 1000.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
-  },
-  {
-   "part_number": "43709801",
-   "sub_ensamble": "14400114",
-   "demanda": 1000.0,
    "producido": 1100.0,
    "pct": 110.0,
    "stage_key": "embedder",
@@ -358,13 +338,23 @@
    "status": "verde"
   },
   {
+   "part_number": "43709801",
+   "sub_ensamble": "14400114",
+   "demanda": 1000.0,
+   "producido": 971.0,
+   "pct": 97.1,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "ambar"
+  },
+  {
    "part_number": "43709802",
    "sub_ensamble": "14400114",
    "demanda": 300.0,
-   "producido": 330.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
+   "producido": 300.0,
+   "pct": 100.0,
+   "stage_key": "sidehole",
+   "stage_col": 11,
    "status": "verde"
   },
   {
@@ -373,18 +363,18 @@
    "demanda": 1500.0,
    "producido": 1639.0,
    "pct": 109.3,
-   "stage_key": "inspeccion_final_producci_n",
-   "stage_col": 19,
+   "stage_key": "inspeccion_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {
    "part_number": "43709704",
    "sub_ensamble": "14400131",
    "demanda": 500.0,
-   "producido": 319.0,
-   "pct": 63.8,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 313.0,
+   "pct": 62.6,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "rojo"
   },
   {
@@ -399,12 +389,12 @@
   }
  ],
  "kpis": {
-  "partes_activos": 31,
-  "total_demanda": 24978.0,
-  "total_producido": 24422.0,
-  "empacado": 16171.0,
-  "pct_cumplimiento": 64.7,
-  "exceso_total": -556.0,
+  "partes_activos": 30,
+  "total_demanda": 24178.0,
+  "total_producido": 24450.0,
+  "empacado": 17491.0,
+  "pct_cumplimiento": 72.3,
+  "exceso_total": 272.0,
   "atrasados": 3
  },
  "weeks_available": [

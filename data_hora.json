@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-19T05:37:56",
+ "generated_at": "2026-08-19T05:55:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -53816,19 +53816,19 @@
         "meta_dia": 523.5,
         "hours": [
          0,
-         75.0,
          0,
          0,
-         50.0,
-         50.0,
+         0,
+         0,
+         0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 175.0,
-        "delta": -348.5,
+        "total": 0.0,
+        "delta": -523.5,
         "downtime": 0.0,
-        "proficiency": 0.30303030303030304
+        "proficiency": 0.0
        },
        {
         "name": "Staker",
@@ -53885,13 +53885,13 @@
          22.0,
          39.0,
          40.0,
-         0
+         5.0
         ],
         "rework": 0.0,
-        "total": 253.0,
-        "delta": -584.6,
+        "total": 258.0,
+        "delta": -579.6,
         "downtime": 300.0,
-        "proficiency": 0.29282407407407407
+        "proficiency": 0.2986111111111111
        },
        {
         "name": "Inspeccion",
@@ -53927,13 +53927,13 @@
          163.0,
          180.0,
          130.0,
-         0
+         9.0
         ],
         "rework": 0.0,
-        "total": 1323.0,
-        "delta": -1399.2000000000003,
+        "total": 1332.0,
+        "delta": -1390.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.4405594405594406
+        "proficiency": 0.4435564435564435
        },
        {
         "name": "Sidehole Soft Vu",
@@ -53967,15 +53967,15 @@
          60.0,
          30.0,
          25.0,
-         0,
-         0,
+         35.0,
+         50.0,
          0
         ],
         "rework": 0.0,
-        "total": 295.0,
-        "delta": -403.0,
+        "total": 380.0,
+        "delta": -318.0,
         "downtime": 0.0,
-        "proficiency": 0.3831168831168831
+        "proficiency": 0.4935064935064935
        },
        {
         "name": "Baking Rot",
@@ -53988,15 +53988,15 @@
          225.0,
          366.0,
          366.0,
-         0,
-         0,
-         0
+         366.0,
+         397.0,
+         423.0
         ],
         "rework": 0.0,
-        "total": 1379.0,
-        "delta": -1762.0,
+        "total": 2565.0,
+        "delta": -576.0,
         "downtime": 0.0,
-        "proficiency": 0.397979797979798
+        "proficiency": 0.7402597402597403
        },
        {
         "name": "Baking Conv",

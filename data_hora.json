@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-19T13:36:19",
+ "generated_at": "2026-08-19T13:57:39",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -54196,22 +54196,22 @@
          325.0,
          325.0,
          125.0,
-         0,
+         200.0,
          0,
          0,
          0
         ],
         "rework": 10.0,
-        "total": 1320.0,
-        "delta": -1743.75,
+        "total": 1520.0,
+        "delta": -1543.75,
         "downtime": 0.0,
-        "proficiency": 0.430844553243574
+        "proficiency": 0.49612403100775193
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 315.0,
-        "meta_dia": 2573.55,
+        "meta_hora": 295.0,
+        "meta_dia": 2410.15,
         "hours": [
          89.0,
          212.0,
@@ -54219,16 +54219,16 @@
          170.0,
          195.0,
          195.0,
-         0,
+         100.0,
          0,
          0,
          0
         ],
-        "rework": 147.0,
-        "total": 1004.0,
-        "delta": -1569.5500000000002,
+        "rework": 160.0,
+        "total": 1104.0,
+        "delta": -1306.15,
         "downtime": 60.0,
-        "proficiency": 0.3961841624986435
+        "proficiency": 0.4651799728223657
        },
        {
         "name": "Carga de bandas",
@@ -54279,8 +54279,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 80.0,
+        "meta_dia": 653.6,
         "hours": [
          20.0,
          20.0,
@@ -54295,9 +54295,9 @@
         ],
         "rework": 0.0,
         "total": 209.0,
-        "delta": -608.0,
+        "delta": -444.6,
         "downtime": 180.0,
-        "proficiency": 0.31334332833583206
+        "proficiency": 0.3916791604197901
        },
        {
         "name": "Embedder",
@@ -54495,16 +54495,16 @@
          343.0,
          200.0,
          200.0,
-         0,
+         190.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 1493.0,
-        "delta": 267.5,
+        "total": 1683.0,
+        "delta": 457.5,
         "downtime": 0.0,
-        "proficiency": 1.2182782537739698
+        "proficiency": 1.3733170134638923
        },
        {
         "name": "Rofing",
@@ -54518,16 +54518,16 @@
          550.0,
          1100.0,
          850.0,
-         0,
+         262.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 4150.0,
-        "delta": 1699.0,
+        "total": 4412.0,
+        "delta": 1961.0,
         "downtime": 0.0,
-        "proficiency": 1.693186454508364
+        "proficiency": 1.8000815993472055
        },
        {
         "name": "Moldeadora Milacron",
@@ -54610,16 +54610,16 @@
          400.0,
          415.0,
          400.0,
-         0,
+         120.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 2215.0,
-        "delta": -644.5,
+        "total": 2335.0,
+        "delta": -524.5,
         "downtime": 0.0,
-        "proficiency": 0.774610945969575
+        "proficiency": 0.8165763245322609
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-19T06:49:08",
+ "generated_at": "2026-08-19T07:08:37",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -61,13 +61,13 @@
    "uph": 150
   },
   {
-   "key": "inspeccion_qc_final",
-   "label": "INSPECCION QC FINAL",
+   "key": "inspeccion_pines_y_cable_guia",
+   "label": "INSPECCION PINES Y CABLE GUIA",
    "uph": null
   },
   {
-   "key": "pouch",
-   "label": "Pouch",
+   "key": "sellado",
+   "label": "Sellado",
    "uph": 350
   },
   {
@@ -93,7 +93,7 @@
    "demanda": 300.0,
    "producido": 303.0,
    "pct": 101.0,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -113,7 +113,7 @@
    "demanda": 1000.0,
    "producido": 989.0,
    "pct": 98.9,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "ambar"
   },
@@ -193,7 +193,7 @@
    "demanda": 800.0,
    "producido": 876.0,
    "pct": 109.5,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -203,7 +203,7 @@
    "demanda": 1000.0,
    "producido": 1064.0,
    "pct": 106.4,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -213,7 +213,7 @@
    "demanda": 2000.0,
    "producido": 2070.0,
    "pct": 103.5,
-   "stage_key": "pouch",
+   "stage_key": "sellado",
    "stage_col": 20,
    "status": "verde"
   },
@@ -223,7 +223,7 @@
    "demanda": 600.0,
    "producido": 613.0,
    "pct": 102.2,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -233,7 +233,7 @@
    "demanda": 250.0,
    "producido": 233.0,
    "pct": 93.2,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "ambar"
   },
@@ -243,7 +243,7 @@
    "demanda": 250.0,
    "producido": 273.0,
    "pct": 109.2,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -283,7 +283,7 @@
    "demanda": 1500.0,
    "producido": 1532.0,
    "pct": 102.1,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -293,7 +293,7 @@
    "demanda": 800.0,
    "producido": 800.0,
    "pct": 100.0,
-   "stage_key": "inspeccion_qc_final",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
   },
@@ -301,8 +301,8 @@
    "part_number": "42401836",
    "sub_ensamble": "N/A",
    "demanda": 25.0,
-   "producido": 40.0,
-   "pct": 160.0,
+   "producido": 37.0,
+   "pct": 148.0,
    "stage_key": "slitting_automatica",
    "stage_col": 14,
    "status": "verde"
@@ -381,10 +381,10 @@
  "kpis": {
   "partes_activos": 29,
   "total_demanda": 23625.0,
-  "total_producido": 23440.0,
+  "total_producido": 23437.0,
   "empacado": 4130.0,
   "pct_cumplimiento": 17.5,
-  "exceso_total": -185.0,
+  "exceso_total": -188.0,
   "atrasados": 1
  },
  "weeks_available": [

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-19T05:03:27",
+ "generated_at": "2026-08-19T05:20:40",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -53848,8 +53848,8 @@
         "rework": 0.0,
         "total": 250.0,
         "delta": -448.0,
-        "downtime": 30.0,
-        "proficiency": 0.33557046979865773
+        "downtime": 60.0,
+        "proficiency": 0.3472222222222222
        },
        {
         "name": "Swager",
@@ -53869,8 +53869,8 @@
         "rework": 0.0,
         "total": 250.0,
         "delta": -238.60000000000002,
-        "downtime": 0.0,
-        "proficiency": 0.46382189239332094
+        "downtime": 60.0,
+        "proficiency": 0.49603174603174605
        },
        {
         "name": "Embedder",
@@ -53880,18 +53880,18 @@
         "hours": [
          40.0,
          40.0,
-         24.0,
-         22.0,
+         40.0,
+         32.0,
          22.0,
          39.0,
-         8.0,
+         40.0,
          0
         ],
         "rework": 0.0,
-        "total": 195.0,
-        "delta": -642.6,
-        "downtime": 0.0,
-        "proficiency": 0.21103896103896105
+        "total": 253.0,
+        "delta": -584.6,
+        "downtime": 300.0,
+        "proficiency": 0.29282407407407407
        },
        {
         "name": "Inspeccion",
@@ -53905,14 +53905,14 @@
          30.0,
          32.0,
          38.0,
-         46.0,
+         40.0,
          0
         ],
         "rework": 0.0,
-        "total": 259.0,
-        "delta": -90.0,
-        "downtime": 0.0,
-        "proficiency": 0.6727272727272726
+        "total": 253.0,
+        "delta": -96.0,
+        "downtime": 30.0,
+        "proficiency": 0.7027777777777777
        },
        {
         "name": "Drawdown",
@@ -53924,16 +53924,16 @@
          260.0,
          200.0,
          130.0,
-         200.0,
-         0,
-         0,
+         163.0,
+         180.0,
+         130.0,
          0
         ],
         "rework": 0.0,
-        "total": 1050.0,
-        "delta": -1672.2000000000003,
+        "total": 1323.0,
+        "delta": -1399.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.3496503496503497
+        "proficiency": 0.4405594405594406
        },
        {
         "name": "Sidehole Soft Vu",
@@ -54121,8 +54121,8 @@
         "rework": 0.0,
         "total": 1546.0,
         "delta": -548.0,
-        "downtime": 0.0,
-        "proficiency": 0.6692640692640692
+        "downtime": 60.0,
+        "proficiency": 0.7691542288557214
        },
        {
         "name": "Pouch",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-19T07:08:37",
+ "generated_at": "2026-08-19T07:28:36",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -66,14 +66,14 @@
    "uph": null
   },
   {
+   "key": "inspeccion_final_de_qc",
+   "label": "INSPECCION FINAL DE QC",
+   "uph": null
+  },
+  {
    "key": "sellado",
    "label": "Sellado",
    "uph": 350
-  },
-  {
-   "key": "en_sellado",
-   "label": "EN SELLADO",
-   "uph": null
   },
   {
    "key": "boxing",
@@ -113,8 +113,8 @@
    "demanda": 1000.0,
    "producido": 989.0,
    "pct": 98.9,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
@@ -193,8 +193,8 @@
    "demanda": 800.0,
    "producido": 876.0,
    "pct": 109.5,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -213,7 +213,7 @@
    "demanda": 2000.0,
    "producido": 2070.0,
    "pct": 103.5,
-   "stage_key": "sellado",
+   "stage_key": "inspeccion_final_de_qc",
    "stage_col": 20,
    "status": "verde"
   },

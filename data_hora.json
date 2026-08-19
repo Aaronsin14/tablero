@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-19T15:16:21",
+ "generated_at": "2026-08-19T15:34:15",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -54198,14 +54198,14 @@
          125.0,
          200.0,
          325.0,
-         0,
-         0
+         285.0,
+         100.0
         ],
-        "rework": 10.0,
-        "total": 1845.0,
-        "delta": -1218.75,
+        "rework": 19.0,
+        "total": 2230.0,
+        "delta": -833.75,
         "downtime": 0.0,
-        "proficiency": 0.6022031823745411
+        "proficiency": 0.7278661770705835
        },
        {
         "name": "Welder",
@@ -54221,14 +54221,14 @@
          195.0,
          100.0,
          266.0,
-         183.0,
-         50.0
+         263.0,
+         112.0
         ],
-        "rework": 218.0,
-        "total": 1583.0,
-        "delta": -827.1500000000001,
+        "rework": 230.0,
+        "total": 1725.0,
+        "delta": -685.1500000000001,
         "downtime": 60.0,
-        "proficiency": 0.6670107762480116
+        "proficiency": 0.7268437075349464
        },
        {
         "name": "Carga de bandas",
@@ -54496,15 +54496,15 @@
          200.0,
          200.0,
          190.0,
-         0,
-         0,
-         0
+         200.0,
+         245.0,
+         100.0
         ],
-        "rework": 200.0,
-        "total": 1683.0,
-        "delta": 457.5,
+        "rework": 0.0,
+        "total": 2228.0,
+        "delta": 1002.5,
         "downtime": 0.0,
-        "proficiency": 1.3733170134638923
+        "proficiency": 1.818033455732354
        },
        {
         "name": "Rofing",
@@ -54519,15 +54519,15 @@
          1100.0,
          850.0,
          262.0,
-         0,
-         0,
-         0
+         900.0,
+         1100.0,
+         697.0
         ],
-        "rework": 900.0,
-        "total": 4412.0,
-        "delta": 1961.0,
+        "rework": 0.0,
+        "total": 7109.0,
+        "delta": 4658.0,
         "downtime": 0.0,
-        "proficiency": 1.8000815993472055
+        "proficiency": 2.900448796409629
        },
        {
         "name": "Moldeadora Milacron",
@@ -54566,14 +54566,14 @@
          0,
          0,
          0,
-         0,
+         250.0,
          0
         ],
         "rework": 0.0,
-        "total": 1360.0,
-        "delta": -1091.0,
+        "total": 1610.0,
+        "delta": -841.0,
         "downtime": 0.0,
-        "proficiency": 0.554875560995512
+        "proficiency": 0.65687474500204
        },
        {
         "name": "Pouch",
@@ -54613,13 +54613,13 @@
          120.0,
          400.0,
          400.0,
-         0
+         515.0
         ],
         "rework": 0.0,
-        "total": 3135.0,
-        "delta": 275.5,
+        "total": 3650.0,
+        "delta": 790.5,
         "downtime": 0.0,
-        "proficiency": 1.0963455149501662
+        "proficiency": 1.2764469312816926
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-19T17:35:15",
+ "generated_at": "2026-08-19T17:52:33",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -103,8 +103,8 @@
    "demanda": 400.0,
    "producido": 400.0,
    "pct": 100.0,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "verde"
   },
   {
@@ -263,8 +263,8 @@
    "demanda": 130.0,
    "producido": 145.0,
    "pct": 111.5,
-   "stage_key": "sellado",
-   "stage_col": 21,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -368,16 +368,6 @@
    "status": "verde"
   },
   {
-   "part_number": "43709801 (21 Bandas)",
-   "sub_ensamble": "14400114",
-   "demanda": 470.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
-  },
-  {
    "part_number": "43709002 (2 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 70.0,
@@ -411,8 +401,8 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 94.93557603686637,
-   "pct": 0.4,
+   "producido": 111.66408986175117,
+   "pct": 0.5,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -421,21 +411,21 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 4.520741716041256,
-   "pct": 430.7,
+   "producido": 5.317337612464341,
+   "pct": 506.6,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
   }
  ],
  "kpis": {
-  "partes_activos": 34,
-  "total_demanda": 48621.049616270146,
-  "total_producido": 24528.45631775291,
-  "empacado": 7269.456317752908,
-  "pct_cumplimiento": 15.0,
-  "exceso_total": -24093.0,
-  "atrasados": 4
+  "partes_activos": 33,
+  "total_demanda": 48151.049616270146,
+  "total_producido": 24545.981427474217,
+  "empacado": 7686.981427474216,
+  "pct_cumplimiento": 16.0,
+  "exceso_total": -23605.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

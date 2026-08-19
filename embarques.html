@@ -133,7 +133,7 @@ function render(){
     cells+=`<div class="hm-cell hm-proc">${name}<small>${maq}meta ${Math.round(g.meta_hora)}/h</small></div>`;
     g.hours.forEach(v=>{
       const cls=status(v,g.meta_hora);
-      cells+=`<div class="hm-cell hm-val ${cls}">${v>0?Math.round(v):"·"}</div>`;
+      cells+=`<div class="hm-cell hm-val ${cls}">${Math.round(v)}</div>`;
     });
 
     // TOTAL: viene del Excel; se compara contra meta del dia

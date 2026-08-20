@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-20T09:49:32",
+ "generated_at": "2026-08-20T10:06:45",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -311,20 +311,20 @@
    "part_number": "42401836",
    "sub_ensamble": "N/A",
    "demanda": 25.0,
-   "producido": 33.0,
-   "pct": 132.0,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 28.0,
+   "pct": 112.0,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "verde"
   },
   {
    "part_number": "42401836",
    "sub_ensamble": "N/A",
    "demanda": 25.0,
-   "producido": 36.0,
-   "pct": 144.0,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 35.0,
+   "pct": 140.0,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -368,6 +368,16 @@
    "status": "verde"
   },
   {
+   "part_number": "43709801 (21 Bandas)",
+   "sub_ensamble": "14400114",
+   "demanda": 470.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
    "part_number": "43709002 (2 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 70.0,
@@ -401,8 +411,8 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 80.21455837173579,
-   "pct": 0.3,
+   "producido": 86.8639400921659,
+   "pct": 0.4,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -411,21 +421,21 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 3.8197408748445616,
-   "pct": 363.9,
+   "producido": 4.136378099626947,
+   "pct": 394.1,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
   }
  ],
  "kpis": {
-  "partes_activos": 33,
-  "total_demanda": 48151.049616270146,
-  "total_producido": 24953.03429924658,
-  "empacado": 9214.034299246581,
-  "pct_cumplimiento": 19.1,
-  "exceso_total": -23198.0,
-  "atrasados": 2
+  "partes_activos": 34,
+  "total_demanda": 48621.049616270146,
+  "total_producido": 24954.000318191793,
+  "empacado": 9221.000318191793,
+  "pct_cumplimiento": 19.0,
+  "exceso_total": -23667.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

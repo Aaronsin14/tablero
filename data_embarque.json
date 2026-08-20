@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-20T05:59:49",
+ "generated_at": "2026-08-20T06:24:01",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -198,6 +198,16 @@
    "status": "ambar"
   },
   {
+   "part_number": "40712005",
+   "sub_ensamble": "14400105",
+   "demanda": 1000.0,
+   "producido": 1030.0,
+   "pct": 103.0,
+   "stage_key": "boxing",
+   "stage_col": 22,
+   "status": "verde"
+  },
+  {
    "part_number": "40712006",
    "sub_ensamble": "14400105",
    "demanda": 2000.0,
@@ -223,8 +233,8 @@
    "demanda": 250.0,
    "producido": 233.0,
    "pct": 93.2,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
@@ -351,8 +361,8 @@
    "part_number": "43709803 (21 Bandas)",
    "sub_ensamble": "14400114",
    "demanda": 2500.0,
-   "producido": 2970.0,
-   "pct": 118.8,
+   "producido": 2991.0,
+   "pct": 119.6,
    "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
@@ -401,7 +411,7 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 85.95637480798771,
+   "producido": 90.06353686635944,
    "pct": 0.4,
    "stage_key": "packaged",
    "stage_col": 23,
@@ -411,20 +421,20 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 4.093160705142272,
-   "pct": 390.0,
+   "producido": 4.288739850779021,
+   "pct": 408.6,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
   }
  ],
  "kpis": {
-  "partes_activos": 33,
-  "total_demanda": 47621.049616270146,
-  "total_producido": 23944.04953551313,
-  "empacado": 8165.04953551313,
-  "pct_cumplimiento": 17.1,
-  "exceso_total": -23677.0,
+  "partes_activos": 34,
+  "total_demanda": 48621.049616270146,
+  "total_producido": 24999.352276717138,
+  "empacado": 8169.352276717138,
+  "pct_cumplimiento": 16.8,
+  "exceso_total": -23622.0,
   "atrasados": 3
  },
  "weeks_available": [

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-19T19:52:49",
+ "generated_at": "2026-08-19T20:10:03",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -54783,16 +54783,16 @@
          230.0,
          260.0,
          260.0,
-         0,
+         260.0,
          0,
          0,
          0
         ],
-        "rework": 3.0,
-        "total": 750.0,
-        "delta": -1383.2999999999997,
+        "rework": 7.0,
+        "total": 1010.0,
+        "delta": -1123.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.3496503496503497
+        "proficiency": 0.47086247086247085
        },
        {
         "name": "Sidehole Soft Vu",
@@ -54843,16 +54843,16 @@
          100.0,
          310.0,
          390.0,
-         150.0,
+         243.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 950.0,
-        "delta": -1511.5,
+        "total": 1043.0,
+        "delta": -1418.5,
         "downtime": 0.0,
-        "proficiency": 0.3838383838383838
+        "proficiency": 0.4214141414141414
        },
        {
         "name": "Baking Conv",
@@ -54877,22 +54877,22 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 30.0,
-        "meta_dia": 164.1,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
          0,
          0,
          0,
-         0,
+         54.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -164.1,
+        "total": 54.0,
+        "delta": -219.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.19636363636363638
        },
        {
         "name": "Prepping",
@@ -54903,16 +54903,16 @@
          300.0,
          300.0,
          300.0,
-         0,
+         450.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": 79.5,
+        "total": 1350.0,
+        "delta": 529.5,
         "downtime": 0.0,
-        "proficiency": 1.0909090909090908
+        "proficiency": 1.6363636363636365
        },
        {
         "name": "Rofing",
@@ -55003,16 +55003,16 @@
          0,
          350.0,
          350.0,
-         0,
+         200.0,
          0,
          0,
          0
         ],
         "rework": 0.0,
-        "total": 700.0,
-        "delta": -1214.5,
+        "total": 900.0,
+        "delta": -1014.5,
         "downtime": 24.0,
-        "proficiency": 0.39215686274509803
+        "proficiency": 0.5042016806722689
        }
       ]
      },

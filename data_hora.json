@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-20T10:37:52",
+ "generated_at": "2026-08-20T10:58:35",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -55433,7 +55433,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -55441,11 +55441,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -4085.0,
+        "rework": 16.0,
+        "total": 250.0,
+        "delta": -3835.0,
         "downtime": 360.0,
-        "proficiency": 0.0
+        "proficiency": 0.09671179883945841
        },
        {
         "name": "Welder",
@@ -55456,7 +55456,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         262.0,
          null,
          null,
          null,
@@ -55464,11 +55464,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2818.65,
+        "rework": 69.0,
+        "total": 262.0,
+        "delta": -2556.65,
         "downtime": 1440.0,
-        "proficiency": 0.0
+        "proficiency": 0.14688980461413395
        },
        {
         "name": "Carga de bandas",
@@ -55709,7 +55709,7 @@
          0.0,
          15.0,
          30.0,
-         null,
+         40.0,
          null,
          null,
          null,
@@ -55718,10 +55718,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 45.0,
-        "delta": -445.2,
+        "total": 85.0,
+        "delta": -405.2,
         "downtime": 0.0,
-        "proficiency": 0.09179926560587516
+        "proficiency": 0.17339861281109753
        },
        {
         "name": "Prepping",
@@ -55732,7 +55732,7 @@
          100.0,
          38.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55755,7 +55755,7 @@
          413.0,
          230.0,
          660.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55801,7 +55801,7 @@
          0.0,
          22.0,
          52.0,
-         null,
+         25.0,
          null,
          null,
          null,
@@ -55810,10 +55810,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 74.0,
-        "delta": -2377.0,
+        "total": 99.0,
+        "delta": -2352.0,
         "downtime": 0.0,
-        "proficiency": 0.030191758465932274
+        "proficiency": 0.04039167686658507
        },
        {
         "name": "Pouch",
@@ -55824,7 +55824,7 @@
          null,
          0.0,
          160.0,
-         null,
+         350.0,
          null,
          null,
          null,
@@ -55833,10 +55833,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 160.0,
-        "delta": -2291.0,
+        "total": 510.0,
+        "delta": -1941.0,
         "downtime": 0.0,
-        "proficiency": 0.06527947776417789
+        "proficiency": 0.20807833537331702
        },
        {
         "name": "Boxing",

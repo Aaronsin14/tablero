@@ -24,7 +24,6 @@ from openpyxl import load_workbook
 EXCEL_PATH = Path(
     r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\2. Control_hr-hr_angio_2026_Actulizado.xlsx"
 )
-
 OUTPUT_JSON = Path(__file__).parent / "data_hora.json"
 REFRESH_SECONDS = 900  # 15 min
 
@@ -93,7 +92,7 @@ def read_turno(ws, hdr, tcfg):
         hours=[]; rework=0.0
         for hi in range(nhours):
             c=chour0+hi*2
-            hours.append(_num(ws.cell(r,c).value) or 0)
+            hours.append(_num(ws.cell(r,c).value))  # None = celda vacia de verdad, 0 = 0 escrito
             rework += _num(ws.cell(r,c+1).value) or 0
 
         procesos.append({
@@ -103,7 +102,7 @@ def read_turno(ws, hdr, tcfg):
             "meta_dia": metaDia or 0,
             "hours": hours,
             "rework": rework,
-            "total": total if total is not None else sum(hours),
+            "total": total if total is not None else sum(h or 0 for h in hours),
             "delta": delta if delta is not None else 0,
             "downtime": down if down is not None else 0,     # en minutos
             "proficiency": prof if prof is not None else 0,  # fraccion (1.25 = 125%)

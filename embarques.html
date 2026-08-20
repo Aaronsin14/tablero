@@ -90,7 +90,7 @@ function turnoActivo(){
   if(min >  A_fin && min <  B_fin) return "B";
   return "C";                  // 22:00 -> 05:59
 }
-function status(a,meta){ if(meta<=0) return a>0?"g":"z"; const r=a/meta; if(a===0)return"z"; return r>=0.995?"g":r>=0.50?"a":"r"; }
+function status(a,meta){ if(a===null||a===undefined) return "z"; if(meta<=0) return a>0?"g":"z"; const r=a/meta; if(a===0)return"z"; return r>=0.995?"g":r>=0.50?"a":"r"; }
 
 async function loadData(){
   try{const res=await fetch("data_hora.json?_="+Date.now(),{cache:"no-store"});if(!res.ok)throw 0;return await res.json();}
@@ -133,11 +133,11 @@ function render(){
     cells+=`<div class="hm-cell hm-proc">${name}<small>${maq}meta ${Math.round(g.meta_hora)}/h</small></div>`;
     g.hours.forEach(v=>{
       const cls=status(v,g.meta_hora);
-      cells+=`<div class="hm-cell hm-val ${cls}">${Math.round(v)}</div>`;
+      cells+=`<div class="hm-cell hm-val ${cls}">${(v===null||v===undefined)?"·":Math.round(v)}</div>`;
     });
 
     // TOTAL: viene del Excel; se compara contra meta del dia
-    const tot = g.total ?? g.hours.reduce((a,b)=>a+b,0);
+    const tot = g.total ?? g.hours.reduce((a,b)=>a+(b||0),0);
     const metaTot = g.meta_dia>0 ? g.meta_dia : g.meta_hora*nH;
     const clsT = status(tot, metaTot);
     const pctTot = metaTot>0 ? Math.round(tot/metaTot*100)+"%" : "";

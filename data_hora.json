@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-20T07:39:05",
+ "generated_at": "2026-08-20T07:58:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -55542,8 +55542,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 408.50000000000006,
         "hours": [
          0,
          0,
@@ -55558,15 +55558,15 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -571.9,
+        "delta": -408.5,
         "downtime": 0.0,
         "proficiency": 0.0
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          0,
          0,
@@ -55581,7 +55581,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -571.9,
+        "delta": -408.5,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -55703,8 +55703,8 @@
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
          0,
          0,
@@ -55719,9 +55719,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
+        "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",
@@ -55729,7 +55729,7 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         0,
+         100.0,
          0,
          0,
          0,
@@ -55741,10 +55741,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 100.0,
+        "delta": -1125.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08159934720522236
        },
        {
         "name": "Rofing",
@@ -55752,7 +55752,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0,
+         413.0,
          0,
          0,
          0,
@@ -55764,10 +55764,10 @@
          0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 413.0,
+        "delta": -2038.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.16850265197878417
        },
        {
         "name": "Moldeadora Milacron",

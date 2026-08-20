@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-20T12:15:32",
+ "generated_at": "2026-08-20T12:32:45",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -55481,7 +55481,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55490,7 +55490,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -612.75,
-        "downtime": 0.0,
+        "downtime": 150.0,
         "proficiency": 0.0
        },
        {
@@ -55504,17 +55504,17 @@
          10.0,
          82.0,
          76.0,
-         null,
+         90.0,
          null,
          null,
          null,
          null
         ],
         "rework": 6.0,
-        "total": 168.0,
-        "delta": -649.0,
-        "downtime": 0.0,
-        "proficiency": 0.20563035495716034
+        "total": 258.0,
+        "delta": -559.0,
+        "downtime": 320.0,
+        "proficiency": 0.46880678376741364
        },
        {
         "name": "Swager",
@@ -55527,17 +55527,17 @@
          10.0,
          82.0,
          76.0,
-         null,
+         90.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 168.0,
-        "delta": -485.6,
-        "downtime": 0.0,
-        "proficiency": 0.2570379436964504
+        "total": 258.0,
+        "delta": -395.6,
+        "downtime": 320.0,
+        "proficiency": 0.5860084797092671
        },
        {
         "name": "Embedder",
@@ -55550,17 +55550,17 @@
          0.0,
          32.0,
          30.0,
-         null,
+         29.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 4.0,
-        "total": 62.0,
-        "delta": -346.5,
-        "downtime": 0.0,
-        "proficiency": 0.15177478580171358
+        "rework": 8.0,
+        "total": 91.0,
+        "delta": -317.5,
+        "downtime": 1600.0,
+        "proficiency": 0.3307086614173229
        },
        {
         "name": "Inspeccion",
@@ -55573,17 +55573,17 @@
          0.0,
          32.0,
          30.0,
-         0.0,
+         29.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 4.0,
-        "total": 62.0,
-        "delta": -346.5,
-        "downtime": 0.0,
-        "proficiency": 0.15177478580171358
+        "rework": 8.0,
+        "total": 91.0,
+        "delta": -317.5,
+        "downtime": 160.0,
+        "proficiency": 0.3307086614173228
        },
        {
         "name": "Drawdown",
@@ -55596,17 +55596,17 @@
          0.0,
          310.0,
          350.0,
-         null,
+         305.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 660.0,
-        "delta": -2526.3,
-        "downtime": 0.0,
-        "proficiency": 0.20713680444402596
+        "total": 965.0,
+        "delta": -2221.3,
+        "downtime": 480.0,
+        "proficiency": 0.44961095839351434
        },
        {
         "name": "Sidehole Soft Vu",
@@ -55619,17 +55619,17 @@
          0.0,
          0.0,
          50.0,
-         null,
+         50.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -767.0,
-        "downtime": 0.0,
-        "proficiency": 0.061199510403916774
+        "total": 100.0,
+        "delta": -717.0,
+        "downtime": 160.0,
+        "proficiency": 0.18170805572380375
        },
        {
         "name": "Sidehole Accu Vu",
@@ -55642,7 +55642,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55665,17 +55665,17 @@
          0.0,
          0.0,
          35.0,
-         null,
+         164.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 35.0,
-        "delta": -3641.5,
-        "downtime": 0.0,
-        "proficiency": 0.009519923840609274
+        "total": 199.0,
+        "delta": -3477.5,
+        "downtime": 320.0,
+        "proficiency": 0.06918129671475752
        },
        {
         "name": "Baking Conv",
@@ -55688,7 +55688,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55711,17 +55711,17 @@
          30.0,
          40.0,
          70.0,
-         null,
+         40.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 155.0,
-        "delta": -335.2,
+        "total": 195.0,
+        "delta": -295.2,
         "downtime": 0.0,
-        "proficiency": 0.31619747042023666
+        "proficiency": 0.39779681762545904
        },
        {
         "name": "Prepping",
@@ -55734,7 +55734,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55757,7 +55757,7 @@
          660.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -55803,17 +55803,17 @@
          52.0,
          25.0,
          150.0,
-         null,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 249.0,
-        "delta": -2202.0,
+        "total": 549.0,
+        "delta": -1902.0,
         "downtime": 0.0,
-        "proficiency": 0.10159118727050184
+        "proficiency": 0.22399020807833536
        },
        {
         "name": "Pouch",
@@ -55826,17 +55826,17 @@
          160.0,
          350.0,
          477.0,
-         null,
+         250.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 987.0,
-        "delta": -1464.0,
+        "total": 1237.0,
+        "delta": -1214.0,
         "downtime": 0.0,
-        "proficiency": 0.40269277845777235
+        "proficiency": 0.5046919624643003
        },
        {
         "name": "Boxing",

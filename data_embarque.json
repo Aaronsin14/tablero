@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-20T19:51:44",
+ "generated_at": "2026-08-21T06:05:40",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -91,8 +91,8 @@
    "part_number": "40708505",
    "sub_ensamble": "14400112",
    "demanda": 300.0,
-   "producido": 86.0,
-   "pct": 28.7,
+   "producido": 82.0,
+   "pct": 27.3,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -211,20 +211,20 @@
    "part_number": "40712006",
    "sub_ensamble": "14400105",
    "demanda": 2000.0,
-   "producido": 2072.0,
-   "pct": 103.6,
+   "producido": 1985.0,
+   "pct": 99.2,
    "stage_key": "packaged",
    "stage_col": 23,
-   "status": "verde"
+   "status": "ambar"
   },
   {
    "part_number": "40712008",
    "sub_ensamble": "14400105",
    "demanda": 600.0,
-   "producido": 575.0,
-   "pct": 95.8,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 570.0,
+   "pct": 95.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -251,8 +251,8 @@
    "part_number": "411732706",
    "sub_ensamble": "14400101",
    "demanda": 200.0,
-   "producido": 235.0,
-   "pct": 117.5,
+   "producido": 225.0,
+   "pct": 112.5,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "verde"
@@ -271,40 +271,40 @@
    "part_number": "411714014",
    "sub_ensamble": "14400131",
    "demanda": 800.0,
-   "producido": 850.0,
-   "pct": 106.2,
-   "stage_key": "baking_mariner",
-   "stage_col": 18,
-   "status": "verde"
+   "producido": 700.0,
+   "pct": 87.5,
+   "stage_key": "sellado",
+   "stage_col": 21,
+   "status": "ambar"
   },
   {
    "part_number": "40714009",
    "sub_ensamble": "14400131",
    "demanda": 2000.0,
-   "producido": 2131.0,
-   "pct": 106.5,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "producido": 2091.0,
+   "pct": 104.6,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "verde"
   },
   {
    "part_number": "40723502",
    "sub_ensamble": "14400117",
    "demanda": 1500.0,
-   "producido": 1528.0,
-   "pct": 101.9,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 20,
-   "status": "verde"
+   "producido": 1451.0,
+   "pct": 96.7,
+   "stage_key": "boxing",
+   "stage_col": 22,
+   "status": "ambar"
   },
   {
    "part_number": "40733201",
    "sub_ensamble": "14400117",
    "demanda": 800.0,
-   "producido": 857.0,
-   "pct": 107.1,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "producido": 841.0,
+   "pct": 105.1,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -353,16 +353,16 @@
    "demanda": 500.0,
    "producido": 550.0,
    "pct": 110.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
+   "stage_key": "embedder",
+   "stage_col": 9,
    "status": "verde"
   },
   {
    "part_number": "43709803 (21 Bandas)",
    "sub_ensamble": "14400114",
    "demanda": 2500.0,
-   "producido": 2991.0,
-   "pct": 119.6,
+   "producido": 2839.0,
+   "pct": 113.6,
    "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
@@ -401,8 +401,8 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 70.78676651305683,
-   "pct": 0.3,
+   "producido": 47.05859062980031,
+   "pct": 0.2,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -411,8 +411,8 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 3.370798405383659,
-   "pct": 321.1,
+   "producido": 2.240885268085729,
+   "pct": 213.5,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -421,10 +421,10 @@
  "kpis": {
   "partes_activos": 33,
   "total_demanda": 48151.049616270146,
-  "total_producido": 24758.15756491844,
-  "empacado": 13157.15756491844,
-  "pct_cumplimiento": 27.3,
-  "exceso_total": -23393.0,
+  "total_producido": 24192.299475897886,
+  "empacado": 13611.299475897886,
+  "pct_cumplimiento": 28.3,
+  "exceso_total": -23959.0,
   "atrasados": 2
  },
  "weeks_available": [

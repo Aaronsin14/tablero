@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-21T11:38:46",
+ "generated_at": "2026-08-21T11:58:29",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -56674,41 +56674,41 @@
          125.0,
          100.0,
          150.0,
-         null,
+         189.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 400.0,
-        "delta": -3685.0,
+        "rework": 26.0,
+        "total": 589.0,
+        "delta": -3496.0,
         "downtime": 0.0,
-        "proficiency": 0.09791921664626684
+        "proficiency": 0.14418604651162792
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 380.0,
-        "meta_dia": 3104.6,
+        "meta_hora": 359.0,
+        "meta_dia": 2933.0299999999997,
         "hours": [
          158.0,
          310.0,
          179.0,
          345.0,
-         null,
+         291.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 109.0,
-        "total": 992.0,
-        "delta": -2112.6,
-        "downtime": 0.0,
-        "proficiency": 0.3195258648457128
+        "rework": 142.0,
+        "total": 1283.0,
+        "delta": -1650.0300000000002,
+        "downtime": 150.0,
+        "proficiency": 0.45482865491426766
        },
        {
         "name": "Carga de bandas",
@@ -56759,8 +56759,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 79.0,
+        "meta_dia": 645.4300000000001,
         "hours": [
          45.0,
          60.0,
@@ -56775,9 +56775,9 @@
         ],
         "rework": 0.0,
         "total": 245.0,
-        "delta": -572.0,
+        "delta": -400.42999999999995,
         "downtime": 0.0,
-        "proficiency": 0.2998776009791922
+        "proficiency": 0.379591899973661
        },
        {
         "name": "Embedder",
@@ -57088,18 +57088,18 @@
          0.0,
          400.0,
          400.0,
-         null,
-         null,
+         420.0,
+         235.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 816.0,
-        "delta": -2043.5,
+        "total": 1471.0,
+        "delta": -1388.5,
         "downtime": 0.0,
-        "proficiency": 0.2853645742262633
+        "proficiency": 0.5144255988809233
        }
       ]
      },

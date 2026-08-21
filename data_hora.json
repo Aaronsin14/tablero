@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-21T13:41:48",
+ "generated_at": "2026-08-21T13:58:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -57043,17 +57043,17 @@
          300.0,
          300.0,
          300.0,
-         null,
-         null,
+         200.0,
+         100.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1460.0,
-        "delta": -991.0,
+        "total": 1760.0,
+        "delta": -691.0,
         "downtime": 0.0,
-        "proficiency": 0.5956752345981232
+        "proficiency": 0.7180742554059568
        },
        {
         "name": "Pouch",
@@ -57066,17 +57066,17 @@
          420.0,
          100.0,
          285.0,
-         null,
-         null,
+         67.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1260.0,
-        "delta": -1191.0,
+        "total": 1327.0,
+        "delta": -1124.0,
         "downtime": 0.0,
-        "proficiency": 0.5140758873929009
+        "proficiency": 0.5414116687066504
        },
        {
         "name": "Boxing",
@@ -57091,15 +57091,15 @@
          420.0,
          235.0,
          420.0,
-         null,
+         420.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1891.0,
-        "delta": -968.5,
+        "total": 2311.0,
+        "delta": -548.5,
         "downtime": 0.0,
-        "proficiency": 0.6613044238503235
+        "proficiency": 0.8081832488197238
        }
       ]
      },

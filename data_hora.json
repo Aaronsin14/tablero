@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-21T07:11:34",
+ "generated_at": "2026-08-21T07:31:21",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -56716,7 +56716,7 @@
         "meta_hora": 75.0,
         "meta_dia": 612.75,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -56728,10 +56728,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -612.75,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Staker",
@@ -56739,7 +56739,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         45.0,
          null,
          null,
          null,
@@ -56751,10 +56751,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 45.0,
+        "delta": -772.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.05507955936352509
        },
        {
         "name": "Swager",
@@ -56762,7 +56762,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         45.0,
          null,
          null,
          null,
@@ -56774,10 +56774,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 45.0,
+        "delta": -772.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.05507955936352509
        },
        {
         "name": "Embedder",
@@ -56785,7 +56785,7 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9000000000001,
         "hours": [
-         null,
+         20.0,
          null,
          null,
          null,
@@ -56797,10 +56797,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -571.9,
+        "total": 20.0,
+        "delta": -551.9,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03497114880223815
        },
        {
         "name": "Inspeccion",
@@ -56808,7 +56808,7 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9,
         "hours": [
-         null,
+         20.0,
          null,
          null,
          null,
@@ -56820,10 +56820,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -571.9,
+        "total": 20.0,
+        "delta": -551.9,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03497114880223815
        },
        {
         "name": "Drawdown",
@@ -56969,7 +56969,7 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -56981,10 +56981,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -1225.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Rofing",
@@ -56992,7 +56992,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -57004,10 +57004,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Moldeadora Milacron",
@@ -57038,7 +57038,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         280.0,
          null,
          null,
          null,
@@ -57050,10 +57050,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 280.0,
+        "delta": -2171.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.1142390860873113
        },
        {
         "name": "Pouch",
@@ -57084,7 +57084,7 @@
         "meta_hora": 350.0,
         "meta_dia": 2859.5,
         "hours": [
-         null,
+         16.0,
          null,
          null,
          null,
@@ -57096,10 +57096,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2859.5,
+        "total": 16.0,
+        "delta": -2843.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.005595383808358104
        }
       ]
      },

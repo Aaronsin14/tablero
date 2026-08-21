@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-21T14:51:07",
+ "generated_at": "2026-08-21T15:08:22",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -56723,8 +56723,8 @@
          0.0,
          0.0,
          75.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -56746,15 +56746,15 @@
          30.0,
          34.0,
          30.0,
-         null,
-         null,
+         50.0,
+         14.0,
          null
         ],
-        "rework": 0.0,
-        "total": 309.0,
-        "delta": -508.0,
+        "rework": 3.0,
+        "total": 373.0,
+        "delta": -444.0,
         "downtime": 0.0,
-        "proficiency": 0.37821297429620565
+        "proficiency": 0.45654834761321905
        },
        {
         "name": "Swager",
@@ -57092,14 +57092,14 @@
          235.0,
          420.0,
          420.0,
-         null,
+         400.0,
          null
         ],
         "rework": 0.0,
-        "total": 2311.0,
-        "delta": -548.5,
+        "total": 2711.0,
+        "delta": -148.5,
         "downtime": 0.0,
-        "proficiency": 0.8081832488197238
+        "proficiency": 0.9480678440286764
        }
       ]
      },

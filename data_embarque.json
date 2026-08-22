@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-22T10:56:35",
+ "generated_at": "2026-08-22T11:13:51",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -351,10 +351,10 @@
    "part_number": "43709702 (21 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 500.0,
-   "producido": 379.0,
-   "pct": 75.8,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 371.0,
+   "pct": 74.2,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "rojo"
   },
   {
@@ -381,10 +381,10 @@
    "part_number": "43709002 (2 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 70.0,
-   "producido": 74.0,
-   "pct": 105.7,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 148.0,
+   "pct": 211.4,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "verde"
   },
   {
@@ -411,7 +411,7 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 23910.0,
-   "producido": 56.604385560675894,
+   "producido": 43.008847926267286,
    "pct": 0.2,
    "stage_key": "packaged",
    "stage_col": 23,
@@ -421,8 +421,8 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 2.695446931460756,
-   "pct": 256.8,
+   "producido": 2.048040377441299,
+   "pct": 195.1,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -431,10 +431,10 @@
  "kpis": {
   "partes_activos": 34,
   "total_demanda": 47821.049616270146,
-  "total_producido": 24478.299832492135,
-  "empacado": 22879.299832492135,
+  "total_producido": 24530.05688830371,
+  "empacado": 22865.05688830371,
   "pct_cumplimiento": 47.8,
-  "exceso_total": -23343.0,
+  "exceso_total": -23291.0,
   "atrasados": 4
  },
  "weeks_available": [

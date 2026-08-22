@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-22T11:13:51",
+ "generated_at": "2026-08-22T11:31:14",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -91,8 +91,8 @@
    "part_number": "40708505",
    "sub_ensamble": "14400112",
    "demanda": 300.0,
-   "producido": 300.0,
-   "pct": 100.0,
+   "producido": 380.0,
+   "pct": 126.7,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -261,8 +261,8 @@
    "part_number": "411723505",
    "sub_ensamble": "14400101",
    "demanda": 130.0,
-   "producido": 175.0,
-   "pct": 134.6,
+   "producido": 140.0,
+   "pct": 107.7,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -271,8 +271,8 @@
    "part_number": "411714014",
    "sub_ensamble": "14400131",
    "demanda": 800.0,
-   "producido": 935.0,
-   "pct": 116.9,
+   "producido": 880.0,
+   "pct": 110.0,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -381,8 +381,8 @@
    "part_number": "43709002 (2 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 70.0,
-   "producido": 148.0,
-   "pct": 211.4,
+   "producido": 74.0,
+   "pct": 105.7,
    "stage_key": "moldeo",
    "stage_col": 16,
    "status": "verde"
@@ -400,19 +400,19 @@
   {
    "part_number": "43709804 (21 Bandas)",
    "sub_ensamble": "14400131",
-   "demanda": 400.0,
+   "demanda": 300.0,
    "producido": 312.0,
-   "pct": 78.0,
+   "pct": 104.0,
    "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
-   "status": "rojo"
+   "status": "verde"
   },
   {
    "part_number": "42",
    "sub_ensamble": "21",
-   "demanda": 23910.0,
-   "producido": 43.008847926267286,
-   "pct": 0.2,
+   "demanda": 23810.0,
+   "producido": 34.148709677419355,
+   "pct": 0.1,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -421,8 +421,8 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 2.048040377441299,
-   "pct": 195.1,
+   "producido": 1.6261290322580646,
+   "pct": 154.9,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -430,12 +430,12 @@
  ],
  "kpis": {
   "partes_activos": 34,
-  "total_demanda": 47821.049616270146,
-  "total_producido": 24530.05688830371,
-  "empacado": 22865.05688830371,
-  "pct_cumplimiento": 47.8,
-  "exceso_total": -23291.0,
-  "atrasados": 4
+  "total_demanda": 47621.049616270146,
+  "total_producido": 24436.774838709676,
+  "empacado": 22845.774838709676,
+  "pct_cumplimiento": 48.0,
+  "exceso_total": -23184.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

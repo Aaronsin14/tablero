@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-21T19:43:41",
+ "generated_at": "2026-08-21T20:00:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -57163,7 +57163,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -57203,16 +57203,16 @@
          25.0,
          50.0,
          50.0,
-         null,
+         20.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 125.0,
-        "delta": -422.0,
+        "total": 145.0,
+        "delta": -402.0,
         "downtime": 0.0,
-        "proficiency": 0.22727272727272727
+        "proficiency": 0.2636363636363636
        },
        {
         "name": "Embedder",
@@ -57223,16 +57223,16 @@
          0.0,
          36.0,
          28.0,
-         null,
+         10.0,
          null,
          null,
          null
         ],
-        "rework": 21.0,
-        "total": 64.0,
-        "delta": -209.5,
+        "rework": 31.0,
+        "total": 74.0,
+        "delta": -199.5,
         "downtime": 0.0,
-        "proficiency": 0.23272727272727273
+        "proficiency": 0.2690909090909091
        },
        {
         "name": "Inspeccion",
@@ -57243,16 +57243,16 @@
          0.0,
          36.0,
          28.0,
-         0.0,
+         10.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 21.0,
-        "total": 64.0,
-        "delta": -209.5,
+        "rework": 31.0,
+        "total": 74.0,
+        "delta": -199.5,
         "downtime": 0.0,
-        "proficiency": 0.23272727272727273
+        "proficiency": 0.2690909090909091
        },
        {
         "name": "Drawdown",
@@ -57283,16 +57283,16 @@
          0.0,
          50.0,
          60.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 110.0,
-        "delta": -437.0,
+        "total": 140.0,
+        "delta": -407.0,
         "downtime": 0.0,
-        "proficiency": 0.2
+        "proficiency": 0.2545454545454545
        },
        {
         "name": "Sidehole Accu Vu",
@@ -57303,16 +57303,16 @@
          0.0,
          50.0,
          100.0,
-         null,
+         50.0,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 150.0,
-        "delta": -397.0,
+        "rework": 3.0,
+        "total": 200.0,
+        "delta": -347.0,
         "downtime": 0.0,
-        "proficiency": 0.2727272727272727
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Baking Rot",
@@ -57343,7 +57343,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -57363,7 +57363,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -57403,7 +57403,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -57423,7 +57423,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -57463,16 +57463,16 @@
          0.0,
          331.0,
          331.0,
-         null,
+         196.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 662.0,
-        "delta": -979.0,
+        "total": 858.0,
+        "delta": -783.0,
         "downtime": 0.0,
-        "proficiency": 0.4012121212121212
+        "proficiency": 0.52
        },
        {
         "name": "Boxing",

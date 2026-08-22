@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-22T08:03:29",
+ "generated_at": "2026-08-22T08:20:51",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -57976,8 +57976,8 @@
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          null,
          null,
@@ -57992,7 +57992,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -817.0,
+        "delta": -408.5,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -58022,8 +58022,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 408.50000000000006,
         "hours": [
          null,
          null,
@@ -58038,15 +58038,15 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -571.9,
+        "delta": -408.5,
         "downtime": 0.0,
         "proficiency": 0
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          null,
          null,
@@ -58061,7 +58061,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -571.9,
+        "delta": -408.5,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -58072,7 +58072,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          null,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -58083,10 +58083,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -3186.3,
+        "total": 100.0,
+        "delta": -3086.3,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03138436430970091
        },
        {
         "name": "Sidehole Soft Vu",
@@ -58095,7 +58095,7 @@
         "meta_dia": 817.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -58106,10 +58106,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -817.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Sidehole Accu Vu",
@@ -58118,7 +58118,7 @@
         "meta_dia": 817.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -58129,10 +58129,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -817.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Baking Rot",
@@ -58141,7 +58141,7 @@
         "meta_dia": 3676.5,
         "hours": [
          null,
-         null,
+         246.0,
          null,
          null,
          null,
@@ -58152,10 +58152,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -3676.5,
+        "total": 246.0,
+        "delta": -3430.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.06691146470828234
        },
        {
         "name": "Baking Conv",
@@ -58164,7 +58164,7 @@
         "meta_dia": 490.2,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -58175,10 +58175,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Hand Drilling",
@@ -58207,7 +58207,7 @@
         "name": "Prepping",
         "maquinas": 1,
         "meta_hora": 150.0,
-        "meta_dia": 1021.25,
+        "meta_dia": 817.0,
         "hours": [
          null,
          null,

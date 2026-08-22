@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-22T10:04:31",
+ "generated_at": "2026-08-22T10:21:45",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -57912,8 +57912,8 @@
         "hours": [
          null,
          375.0,
-         null,
-         null,
+         300.0,
+         300.0,
          null,
          null,
          null,
@@ -57921,11 +57921,11 @@
          null,
          null
         ],
-        "rework": 19.0,
-        "total": 375.0,
-        "delta": -3710.0,
+        "rework": 40.0,
+        "total": 975.0,
+        "delta": -3110.0,
         "downtime": 0.0,
-        "proficiency": 0.09179926560587515
+        "proficiency": 0.2386780905752754
        },
        {
         "name": "Welder",
@@ -57935,8 +57935,8 @@
         "hours": [
          null,
          200.0,
-         null,
-         null,
+         235.0,
+         360.0,
          null,
          null,
          null,
@@ -57944,11 +57944,11 @@
          null,
          null
         ],
-        "rework": 5.0,
-        "total": 200.0,
-        "delta": -3068.0,
+        "rework": 38.0,
+        "total": 795.0,
+        "delta": -2473.0,
         "downtime": 0.0,
-        "proficiency": 0.061199510403916774
+        "proficiency": 0.24326805385556916
        },
        {
         "name": "Carga de bandas",
@@ -57959,7 +57959,7 @@
          null,
          0.0,
          75.0,
-         null,
+         25.0,
          null,
          null,
          null,
@@ -57968,10 +57968,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 75.0,
-        "delta": -537.75,
+        "total": 100.0,
+        "delta": -512.75,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.1631986944104447
        },
        {
         "name": "Staker",
@@ -58327,7 +58327,7 @@
          null,
          400.0,
          300.0,
-         null,
+         400.0,
          null,
          null,
          null,
@@ -58336,10 +58336,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 700.0,
-        "delta": -2159.5,
+        "total": 1100.0,
+        "delta": -1759.5,
         "downtime": 0.0,
-        "proficiency": 0.2447980416156671
+        "proficiency": 0.3846826368246197
        }
       ]
      },

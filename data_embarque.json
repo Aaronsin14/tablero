@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-21T20:35:25",
+ "generated_at": "2026-08-21T20:52:42",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -241,10 +241,10 @@
    "part_number": "40709006",
    "sub_ensamble": "14400107",
    "demanda": 250.0,
-   "producido": 247.0,
-   "pct": 98.8,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 245.0,
+   "pct": 98.0,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -363,8 +363,8 @@
    "demanda": 2500.0,
    "producido": 2822.0,
    "pct": 112.9,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 20,
+   "stage_key": "sellado",
+   "stage_col": 21,
    "status": "verde"
   },
   {
@@ -391,11 +391,11 @@
    "part_number": "43709006 (2 Bandas)",
    "sub_ensamble": "14400131",
    "demanda": 250.0,
-   "producido": 214.0,
-   "pct": 85.6,
-   "stage_key": "sellado",
-   "stage_col": 21,
-   "status": "ambar"
+   "producido": 196.0,
+   "pct": 78.4,
+   "stage_key": "boxing",
+   "stage_col": 22,
+   "status": "rojo"
   },
   {
    "part_number": "43709804 (21 Bandas)",
@@ -411,7 +411,7 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 244.15056835637483,
+   "producido": 238.01306835637482,
    "pct": 1.0,
    "stage_key": "packaged",
    "stage_col": 23,
@@ -421,8 +421,8 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 15.281596729492279,
-   "pct": 1455.9,
+   "producido": 14.989334824730372,
+   "pct": 1428.1,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -431,11 +431,11 @@
  "kpis": {
   "partes_activos": 34,
   "total_demanda": 48621.049616270146,
-  "total_producido": 25086.432165085866,
-  "empacado": 19641.432165085866,
-  "pct_cumplimiento": 40.4,
-  "exceso_total": -23535.0,
-  "atrasados": 2
+  "total_producido": 25060.002403181104,
+  "empacado": 19880.002403181104,
+  "pct_cumplimiento": 40.9,
+  "exceso_total": -23561.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-22T04:54:30",
+ "generated_at": "2026-08-22T05:11:41",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -261,8 +261,8 @@
    "part_number": "411723505",
    "sub_ensamble": "14400101",
    "demanda": 130.0,
-   "producido": 187.0,
-   "pct": 143.8,
+   "producido": 175.0,
+   "pct": 134.6,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -351,18 +351,18 @@
    "part_number": "43709702 (21 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 500.0,
-   "producido": 387.0,
-   "pct": 77.4,
-   "stage_key": "drawdown",
-   "stage_col": 10,
+   "producido": 379.0,
+   "pct": 75.8,
+   "stage_key": "baking",
+   "stage_col": 13,
    "status": "rojo"
   },
   {
    "part_number": "43709803 (21 Bandas)",
    "sub_ensamble": "14400114",
    "demanda": 2500.0,
-   "producido": 2828.0,
-   "pct": 113.1,
+   "producido": 2768.0,
+   "pct": 110.7,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "verde"
@@ -381,11 +381,11 @@
    "part_number": "43709002 (2 Bandas)",
    "sub_ensamble": "14400116",
    "demanda": 70.0,
-   "producido": 77.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
-   "status": "verde"
+   "producido": 65.0,
+   "pct": 92.9,
+   "stage_key": "sidehole",
+   "stage_col": 11,
+   "status": "ambar"
   },
   {
    "part_number": "43709006 (2 Bandas)",
@@ -411,8 +411,8 @@
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 24310.0,
-   "producido": 135.27370967741936,
-   "pct": 0.6,
+   "producido": 104.19413594470045,
+   "pct": 0.4,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -421,8 +421,8 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 6.733580531376231,
-   "pct": 641.5,
+   "producido": 5.208098184315542,
+   "pct": 496.2,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -431,10 +431,10 @@
  "kpis": {
   "partes_activos": 34,
   "total_demanda": 48621.049616270146,
-  "total_producido": 24724.007290208796,
-  "empacado": 20024.007290208796,
-  "pct_cumplimiento": 41.2,
-  "exceso_total": -23897.0,
+  "total_producido": 24599.402234129015,
+  "empacado": 19979.402234129015,
+  "pct_cumplimiento": 41.1,
+  "exceso_total": -24022.0,
   "atrasados": 4
  },
  "weeks_available": [

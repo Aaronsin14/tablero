@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-22T05:11:25",
+ "generated_at": "2026-08-22T05:28:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -57520,14 +57520,14 @@
          265.0,
          370.0,
          355.0,
-         null,
+         280.0,
          null
         ],
-        "rework": 118.0,
-        "total": 1626.0,
-        "delta": -537.8000000000002,
+        "rework": 145.0,
+        "total": 1906.0,
+        "delta": -257.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.6811897779639715
+        "proficiency": 0.7984918307498953
        },
        {
         "name": "Carga de bandas",
@@ -57547,8 +57547,8 @@
         "rework": 0.0,
         "total": 300.0,
         "delta": -223.5,
-        "downtime": 0.0,
-        "proficiency": 0.5194805194805194
+        "downtime": 80.0,
+        "proficiency": 0.6282722513089005
        },
        {
         "name": "Staker",
@@ -57568,8 +57568,8 @@
         "rework": 0.0,
         "total": 280.0,
         "delta": -418.0,
-        "downtime": 0.0,
-        "proficiency": 0.3636363636363636
+        "downtime": 80.0,
+        "proficiency": 0.3981042654028436
        },
        {
         "name": "Swager",
@@ -57589,8 +57589,8 @@
         "rework": 0.0,
         "total": 280.0,
         "delta": -208.60000000000002,
-        "downtime": 0.0,
-        "proficiency": 0.5194805194805194
+        "downtime": 160.0,
+        "proficiency": 0.6282722513089004
        },
        {
         "name": "Embedder",
@@ -57610,8 +57610,8 @@
         "rework": 0.0,
         "total": 261.0,
         "delta": -88.0,
-        "downtime": 80.0,
-        "proficiency": 0.6898678414096916
+        "downtime": 800.0,
+        "proficiency": 0.8198952879581151
        },
        {
         "name": "Inspeccion",
@@ -57631,8 +57631,8 @@
         "rework": 0.0,
         "total": 261.0,
         "delta": -88.0,
-        "downtime": 0.0,
-        "proficiency": 0.6779220779220779
+        "downtime": 80.0,
+        "proficiency": 0.8198952879581151
        },
        {
         "name": "Drawdown",
@@ -57700,8 +57700,8 @@
        {
         "name": "Baking Rot",
         "maquinas": 3,
-        "meta_hora": 450.0,
-        "meta_dia": 3141.0,
+        "meta_hora": 300.0,
+        "meta_dia": 2094.0,
         "hours": [
          190.0,
          310.0,
@@ -57714,9 +57714,9 @@
         ],
         "rework": 0.0,
         "total": 1746.0,
-        "delta": -1395.0,
+        "delta": -348.0,
         "downtime": 0.0,
-        "proficiency": 0.5038961038961038
+        "proficiency": 0.7558441558441558
        },
        {
         "name": "Baking Conv",

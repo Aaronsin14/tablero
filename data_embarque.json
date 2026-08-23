@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-23T10:10:15",
+ "generated_at": "2026-08-23T10:27:36",
  "current_sheet": "25-Ago-2026",
  "current_date": "2026-08-25",
  "stages": [
@@ -271,8 +271,8 @@
    "part_number": "411714014",
    "sub_ensamble": "14400131",
    "demanda": 800.0,
-   "producido": 927.0,
-   "pct": 115.9,
+   "producido": 822.0,
+   "pct": 102.8,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "verde"
@@ -353,8 +353,8 @@
    "demanda": 500.0,
    "producido": 371.0,
    "pct": 74.2,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "rojo"
   },
   {
@@ -401,17 +401,17 @@
    "part_number": "43709804 (21 Bandas)",
    "sub_ensamble": "14400131",
    "demanda": 300.0,
-   "producido": 312.0,
-   "pct": 104.0,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "producido": 304.0,
+   "pct": 101.3,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {
    "part_number": "42",
    "sub_ensamble": "21",
    "demanda": 23810.0,
-   "producido": 22.555,
+   "producido": 14.6925,
    "pct": 0.1,
    "stage_key": "packaged",
    "stage_col": 23,
@@ -421,21 +421,21 @@
    "part_number": "63",
    "sub_ensamble": "21",
    "demanda": 1.0496162701458174,
-   "producido": 1.0740476190476191,
-   "pct": 102.3,
+   "producido": 0.6996428571428572,
+   "pct": 66.7,
    "stage_key": "packaged",
    "stage_col": 23,
-   "status": "verde"
+   "status": "rojo"
   }
  ],
  "kpis": {
   "partes_activos": 34,
   "total_demanda": 47621.049616270146,
-  "total_producido": 24138.629047619048,
-  "empacado": 23455.629047619048,
-  "pct_cumplimiento": 49.3,
-  "exceso_total": -23482.0,
-  "atrasados": 3
+  "total_producido": 24017.39214285714,
+  "empacado": 23342.39214285714,
+  "pct_cumplimiento": 49.0,
+  "exceso_total": -23604.0,
+  "atrasados": 4
  },
  "weeks_available": [
   {

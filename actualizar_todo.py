@@ -8,13 +8,13 @@ Actualiza LOS TRES dashboards y sube todo a GitHub.
 
 USO:
   python actualizar_todo.py            (una vez)
-  python actualizar_todo.py --watch    (cada 15 minutos)
+  python actualizar_todo.py --watch    (cada 5 minutos)
 """
 import subprocess, sys, time, datetime
 from pathlib import Path
 import extract, extract_hora, extract_embarque
 
-REFRESH_SECONDS = 900
+REFRESH_SECONDS = 300  # 5 min
 HERE = Path(__file__).parent
 LOG = HERE / "actualizador_log.txt"
 

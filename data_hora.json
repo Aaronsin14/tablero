@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-24T08:32:36",
+ "generated_at": "2026-08-24T08:49:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -60396,7 +60396,7 @@
         "meta_dia": 4085.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60409,7 +60409,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -4085.0,
-        "downtime": 80.0,
+        "downtime": 200.0,
         "proficiency": 0.0
        },
        {
@@ -60419,7 +60419,7 @@
         "meta_dia": 3063.75,
         "hours": [
          0.0,
-         null,
+         203.0,
          null,
          null,
          null,
@@ -60429,11 +60429,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -3063.75,
-        "downtime": 320.0,
-        "proficiency": 0.0
+        "rework": 41.0,
+        "total": 203.0,
+        "delta": -2860.75,
+        "downtime": 520.0,
+        "proficiency": 0.07638758231420507
        },
        {
         "name": "Carga de bandas",
@@ -60442,7 +60442,7 @@
         "meta_dia": 612.75,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60465,7 +60465,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60488,7 +60488,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60511,7 +60511,7 @@
         "meta_dia": 408.50000000000006,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60557,7 +60557,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60580,7 +60580,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60603,7 +60603,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60626,7 +60626,7 @@
         "meta_dia": 3676.5,
         "hours": [
          0.0,
-         null,
+         80.0,
          null,
          null,
          null,
@@ -60637,10 +60637,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 80.0,
+        "delta": -3596.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02175982592139263
        },
        {
         "name": "Baking Conv",
@@ -60649,7 +60649,7 @@
         "meta_dia": 490.2,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60695,7 +60695,7 @@
         "meta_dia": 1021.25,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60718,7 +60718,7 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60764,7 +60764,7 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60787,7 +60787,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -60798,10 +60798,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Boxing",

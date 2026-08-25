@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-24T21:00:39",
+ "generated_at": "2026-08-24T21:07:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -60890,7 +60890,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -60910,14 +60910,14 @@
          0.0,
          20.0,
          22.0,
-         null,
+         50.0,
          null
         ],
         "rework": 3.0,
-        "total": 102.0,
-        "delta": -171.5,
+        "total": 152.0,
+        "delta": -121.5,
         "downtime": 0.0,
-        "proficiency": 0.3709090909090909
+        "proficiency": 0.5527272727272727
        },
        {
         "name": "Swager",
@@ -60930,14 +60930,14 @@
          50.0,
          20.0,
          22.0,
-         null,
+         50.0,
          null
         ],
         "rework": 0.0,
-        "total": 152.0,
-        "delta": -395.0,
+        "total": 202.0,
+        "delta": -345.0,
         "downtime": 0.0,
-        "proficiency": 0.27636363636363637
+        "proficiency": 0.36727272727272725
        },
        {
         "name": "Embedder",
@@ -60950,14 +60950,14 @@
          32.0,
          24.0,
          39.0,
-         null,
+         35.0,
          null
         ],
         "rework": 7.0,
-        "total": 144.0,
-        "delta": -129.5,
+        "total": 179.0,
+        "delta": -94.5,
         "downtime": 0.0,
-        "proficiency": 0.5236363636363637
+        "proficiency": 0.6509090909090909
        },
        {
         "name": "Inspeccion",
@@ -60970,14 +60970,14 @@
          32.0,
          24.0,
          39.0,
-         0.0,
+         35.0,
          0.0
         ],
         "rework": 7.0,
-        "total": 144.0,
-        "delta": -129.5,
+        "total": 179.0,
+        "delta": -94.5,
         "downtime": 0.0,
-        "proficiency": 0.5236363636363637
+        "proficiency": 0.6509090909090909
        },
        {
         "name": "Drawdown",

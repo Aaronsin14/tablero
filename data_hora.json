@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-24T19:25:43",
+ "generated_at": "2026-08-24T19:33:04",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -60948,16 +60948,16 @@
          10.0,
          39.0,
          32.0,
-         null,
+         24.0,
          null,
          null,
          null
         ],
-        "rework": 5.0,
-        "total": 81.0,
-        "delta": -192.5,
+        "rework": 6.0,
+        "total": 105.0,
+        "delta": -168.5,
         "downtime": 0.0,
-        "proficiency": 0.29454545454545455
+        "proficiency": 0.3818181818181818
        },
        {
         "name": "Inspeccion",
@@ -60968,16 +60968,16 @@
          10.0,
          39.0,
          32.0,
-         0.0,
+         24.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 5.0,
-        "total": 81.0,
-        "delta": -192.5,
+        "rework": 6.0,
+        "total": 105.0,
+        "delta": -168.5,
         "downtime": 0.0,
-        "proficiency": 0.29454545454545455
+        "proficiency": 0.3818181818181818
        },
        {
         "name": "Drawdown",
@@ -61103,7 +61103,7 @@
         "name": "Prepping",
         "maquinas": 1,
         "meta_hora": 300.0,
-        "meta_dia": 547.0,
+        "meta_dia": 683.75,
         "hours": [
          212.0,
          300.0,

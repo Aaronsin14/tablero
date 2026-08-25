@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-25T15:45:52",
+ "generated_at": "2026-08-25T16:01:18",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -61690,7 +61690,7 @@
          0.0,
          0.0,
          70.0,
-         null
+         0.0
         ],
         "rework": 1.0,
         "total": 840.0,
@@ -61713,13 +61713,13 @@
          56.0,
          40.0,
          55.0,
-         null
+         70.0
         ],
         "rework": 11.0,
-        "total": 505.0,
-        "delta": -312.0,
+        "total": 575.0,
+        "delta": -242.0,
         "downtime": 0.0,
-        "proficiency": 0.6181150550795593
+        "proficiency": 0.7037943696450428
        },
        {
         "name": "Swager",
@@ -61736,13 +61736,13 @@
          56.0,
          40.0,
          45.0,
-         null
+         70.0
         ],
         "rework": 0.0,
-        "total": 495.0,
-        "delta": -322.0,
+        "total": 565.0,
+        "delta": -252.0,
         "downtime": 0.0,
-        "proficiency": 0.605875152998776
+        "proficiency": 0.6915544675642594
        },
        {
         "name": "Embedder",
@@ -61759,13 +61759,13 @@
          40.0,
          47.0,
          56.0,
-         null
+         67.0
         ],
         "rework": 17.0,
-        "total": 453.0,
-        "delta": -364.0,
+        "total": 520.0,
+        "delta": -297.0,
         "downtime": 0.0,
-        "proficiency": 0.554467564259486
+        "proficiency": 0.6364749082007344
        },
        {
         "name": "Inspeccion",
@@ -61782,13 +61782,13 @@
          40.0,
          47.0,
          56.0,
-         0.0
+         67.0
         ],
         "rework": 17.0,
-        "total": 453.0,
-        "delta": -364.0,
+        "total": 520.0,
+        "delta": -297.0,
         "downtime": 0.0,
-        "proficiency": 0.554467564259486
+        "proficiency": 0.6364749082007344
        },
        {
         "name": "Drawdown",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-25T08:20:56",
+ "generated_at": "2026-08-25T08:28:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -61682,7 +61682,7 @@
         "meta_dia": 612.75,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -61705,28 +61705,6 @@
         "meta_dia": 817.0,
         "hours": [
          80.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 80.0,
-        "delta": -737.0,
-        "downtime": 0.0,
-        "proficiency": 0.09791921664626684
-       },
-       {
-        "name": "Swager",
-        "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
-        "hours": [
          80.0,
          null,
          null,
@@ -61735,14 +61713,36 @@
          null,
          null,
          null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 160.0,
+        "delta": -657.0,
+        "downtime": 0.0,
+        "proficiency": 0.19583843329253367
+       },
+       {
+        "name": "Swager",
+        "maquinas": 2,
+        "meta_hora": 100.0,
+        "meta_dia": 817.0,
+        "hours": [
+         80.0,
+         80.0,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 80.0,
-        "delta": -737.0,
+        "total": 160.0,
+        "delta": -657.0,
         "downtime": 0.0,
-        "proficiency": 0.09791921664626684
+        "proficiency": 0.19583843329253367
        },
        {
         "name": "Embedder",
@@ -61751,7 +61751,7 @@
         "meta_dia": 817.0000000000001,
         "hours": [
          54.0,
-         null,
+         84.0,
          null,
          null,
          null,
@@ -61761,11 +61761,11 @@
          null,
          null
         ],
-        "rework": 5.0,
-        "total": 54.0,
-        "delta": -763.0,
+        "rework": 7.0,
+        "total": 138.0,
+        "delta": -679.0,
         "downtime": 0.0,
-        "proficiency": 0.06609547123623011
+        "proficiency": 0.1689106487148103
        },
        {
         "name": "Inspeccion",
@@ -61774,7 +61774,7 @@
         "meta_dia": 817.0,
         "hours": [
          54.0,
-         0.0,
+         84.0,
          0.0,
          0.0,
          0.0,
@@ -61784,11 +61784,11 @@
          0.0,
          0.0
         ],
-        "rework": 5.0,
-        "total": 54.0,
-        "delta": -763.0,
+        "rework": 7.0,
+        "total": 138.0,
+        "delta": -679.0,
         "downtime": 0.0,
-        "proficiency": 0.06609547123623011
+        "proficiency": 0.1689106487148103
        },
        {
         "name": "Drawdown",
@@ -61797,7 +61797,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          50.0,
-         null,
+         78.0,
          null,
          null,
          null,
@@ -61808,10 +61808,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -3136.3,
+        "total": 128.0,
+        "delta": -3058.3,
         "downtime": 0.0,
-        "proficiency": 0.015692182154850454
+        "proficiency": 0.04017198631641716
        },
        {
         "name": "Sidehole Soft Vu",
@@ -61820,7 +61820,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -61843,7 +61843,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         111.0,
          null,
          null,
          null,
@@ -61854,10 +61854,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 111.0,
+        "delta": -706.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.13586291309669524
        },
        {
         "name": "Baking Rot",

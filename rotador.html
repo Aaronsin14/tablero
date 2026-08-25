@@ -14,16 +14,6 @@
   /* indicador de cual dashboard se ve */
   .tag{position:fixed;bottom:12px;right:14px;background:rgba(15,37,66,.85);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;z-index:9999;letter-spacing:.5px}
   .tag b{color:#7fd1a3}
-  /* overlay "toca para iniciar" -- los navegadores no dejan entrar a pantalla
-     completa con JS sin que un humano toque la pantalla primero. Este overlay
-     se quita solo despues del primer toque/clic. */
-  .fs-overlay{position:fixed;inset:0;background:#0f2542;z-index:99999;
-    display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;
-    color:#fff;font-family:'Segoe UI',system-ui,sans-serif;cursor:pointer}
-  .fs-overlay .btn{background:#1f9d55;color:#fff;border:0;border-radius:12px;
-    padding:18px 36px;font-size:22px;font-weight:800;cursor:pointer}
-  .fs-overlay .hint{font-size:13px;color:#9fb4cf}
-  .fs-overlay.hidden{display:none}
 </style>
 </head>
 <body>
@@ -36,15 +26,9 @@
   </div>
   <div class="tag" id="tag">Mostrando: <b id="tagname">Hora a Hora</b></div>
 
-  <div class="fs-overlay" id="fsOverlay">
-    <button class="btn" id="fsBtn">▶ Iniciar pantalla completa</button>
-    <div class="hint">(Si ya usas modo kiosco de Chrome, este mensaje no debería salir)</div>
-  </div>
-
 <script>
   // ===== CONFIGURACION =====
   const INTERVALO_MIN = 3;              // cambiar cada 3 minutos
-  const RECARGA_PAGINA_HORAS = 1;       // recarga TODA la pagina cada 1 hora
   const dashboards = [
     { id:"f1", nombre:"Hora a Hora" },
     { id:"f2", nombre:"Embarque por Proceso" },
@@ -92,34 +76,12 @@
   animarBarra();
   setInterval(siguiente, INTERVALO_MS);
 
-  // Pantalla completa: los navegadores exigen un toque/clic humano antes de
-  // dejar entrar a fullscreen por JS. Si ya esta en modo kiosco (--kiosk) o
-  // ya en fullscreen, el overlay ni siquiera aparece. Si no, se queda un
-  // boton simple que activa fullscreen con el primer toque y desaparece.
-  const overlay = document.getElementById("fsOverlay");
-  function yaEnPantallaCompleta(){
-    return !!(document.fullscreenElement || window.innerHeight === screen.height);
-  }
-  function activarFullscreen(){
-    const el = document.documentElement;
-    const req = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
-    if(req) req.call(el).catch(()=>{});
-    overlay.classList.add("hidden");
-  }
-  if(yaEnPantallaCompleta()){
-    overlay.classList.add("hidden");
-  } else {
-    overlay.addEventListener("click", activarFullscreen);
-    document.getElementById("fsBtn").addEventListener("click", activarFullscreen);
-  }
-
-  // RECARGA COMPLETA DE LA PAGINA cada cierto tiempo. Esto es aparte de la
-  // recarga de cada iframe al rotar: aqui se recarga rotador.html EN SI
-  // MISMO, para que si alguna vez subimos una correccion de codigo (como
-  // esta), la TV la recoja sola en menos de 1 hora en vez de quedarse
-  // corriendo para siempre el JavaScript viejo que ya tenia cargado en
-  // memoria desde que se prendio.
-  setTimeout(()=>{ location.reload(); }, RECARGA_PAGINA_HORAS * 60 * 60 * 1000);
+  // NOTA: se quito la recarga automatica por hora que teniamos aqui, porque
+  // cada vez que la pagina se recarga, el navegador sale de pantalla completa
+  // por seguridad (asi funcionan TODOS los navegadores, no hay forma de
+  // evitarlo con codigo) -- eso obligaba a alguien a ir a tocar la TV cada
+  // hora, lo cual es peor que el problema que resolvia. Si en el futuro subo
+  // una correccion de codigo, hay que refrescar la TV una vez a mano.
 
 
 </script>

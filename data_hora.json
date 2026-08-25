@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-25T03:19:21",
+ "generated_at": "2026-08-25T03:26:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -61243,16 +61243,16 @@
          240.0,
          170.0,
          205.0,
-         null,
+         145.0,
          null,
          null,
          null
         ],
-        "rework": 260.0,
-        "total": 820.0,
-        "delta": -1343.8000000000002,
+        "rework": 342.0,
+        "total": 965.0,
+        "delta": -1198.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.34352744030163385
+        "proficiency": 0.4042731462086301
        },
        {
         "name": "Carga de bandas",
@@ -61306,37 +61306,37 @@
          100.0,
          50.0,
          100.0,
-         null,
+         75.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 350.0,
-        "delta": -138.60000000000002,
+        "total": 425.0,
+        "delta": -63.60000000000002,
         "downtime": 0.0,
-        "proficiency": 0.6493506493506493
+        "proficiency": 0.7884972170686456
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 90.0,
-        "meta_dia": 628.2,
+        "meta_hora": 100.0,
+        "meta_dia": 698.0,
         "hours": [
          100.0,
          100.0,
          50.0,
          100.0,
-         null,
+         70.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 350.0,
-        "delta": -278.20000000000005,
+        "total": 420.0,
+        "delta": -278.0,
         "downtime": 0.0,
-        "proficiency": 0.5050505050505051
+        "proficiency": 0.5454545454545454
        },
        {
         "name": "Inspeccion",

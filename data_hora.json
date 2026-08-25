@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-25T17:14:43",
+ "generated_at": "2026-08-25T17:22:07",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -62445,8 +62445,8 @@
         "meta_hora": 350.0,
         "meta_dia": 1914.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         400.0,
          null,
          null,
          null,
@@ -62454,10 +62454,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 400.0,
+        "delta": -1514.5,
+        "downtime": 24.0,
+        "proficiency": 0.22408963585434175
        }
       ]
      },

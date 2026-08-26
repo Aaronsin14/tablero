@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-26T10:09:04",
+ "generated_at": "2026-08-26T10:19:23",
  "current_sheet": "01-Sep-2026",
  "current_date": "2026-09-01",
  "stages": [
@@ -49,6 +49,11 @@
    "key": "moldeo",
    "label": "Moldeo",
    "uph": 310
+  },
+  {
+   "key": "inpeccion_de_pines_y_cable_guia_primera_inspeccion_de_calidad",
+   "label": "Inpeccion de pines y cable Guia - Primera Inspeccion de Calidad",
+   "uph": null
   },
   {
    "key": "hydrophilic_mariner",
@@ -228,8 +233,8 @@
    "demanda": 270.0,
    "producido": 420.0,
    "pct": 155.6,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 18,
+   "stage_key": "inpeccion_de_pines_y_cable_guia_primera_inspeccion_de_calidad",
+   "stage_col": 17,
    "status": "verde"
   },
   {

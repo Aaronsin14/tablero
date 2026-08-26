@@ -46,7 +46,7 @@ from openpyxl import load_workbook
 # Ruta confirmada con Get-Item (archivo real .xlsx, 4.29 MB, sincronizado).
 # ----------------------------------------------------------------------------
 EXCEL_PATH = Path(
-    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\1-NEW FILES\C4\1. %Avance de embarque Diario.xlsx"
+    r"C:\Users\aaron.lara\OneDrive - Biomerics\BALA-CENTRAL - 1. Producción\%Avance de embarque Diario.xlsx"
 )
 PLANT_NAME = "AngioDynamics"
 OUTPUT_JSON = Path(__file__).parent / "data_embarque.json"
@@ -211,6 +211,16 @@ def find_target_sheets(wb):
     return out
 
 
+def hoja_valida(ws):
+    """Confirma que la hoja tenga encabezados de verdad (columna 'Total'
+    localizable) antes de usarla. Si la hoja no esta armada (le falta la fila
+    de encabezados, como pasa cuando alguien copia/pega una hoja nueva sin
+    terminar de prepararla), regresa False para que build_payload la salte
+    en vez de mostrar numeros basura."""
+    col_total = find_named_column(ws, ["Total"])
+    return col_total is not None
+
+
 def build_payload():
     if not EXCEL_PATH.exists():
         raise FileNotFoundError(f"No se encontro el Excel en: {EXCEL_PATH}")
@@ -225,13 +235,29 @@ def build_payload():
     # decir: el dia mismo de la fecha AUN muestra esa hoja; hasta el dia
     # SIGUIENTE brinca a la siguiente fecha). Si no hay ninguna fecha futura
     # o de hoy, se usa la mas reciente ya pasada.
+    #
+    # Ademas: si la hoja candidata esta mal armada (le falta la columna
+    # "Total", como pasa con plantillas nuevas sin terminar de preparar), se
+    # SALTA y se prueba con la siguiente mas cercana, en vez de mostrar
+    # numeros basura en el tablero.
     futuras = sorted([t for t in targets if t[1] >= hoy], key=lambda t: t[1])
-    if futuras:
-        current_name, current_date = futuras[0]
-    else:
-        pasadas = sorted(targets, key=lambda t: t[1])
-        current_name, current_date = pasadas[-1]
-    ws = wb[current_name]
+    pasadas = sorted([t for t in targets if t[1] < hoy], key=lambda t: t[1], reverse=True)
+    orden_candidatos = futuras + pasadas  # primero futuras (mas cercana primero), luego pasadas
+
+    current_name, current_date, ws = None, None, None
+    hojas_invalidas = []
+    for name, date in orden_candidatos:
+        candidata = wb[name]
+        if hoja_valida(candidata):
+            current_name, current_date, ws = name, date, candidata
+            break
+        hojas_invalidas.append(name)
+
+    if ws is None:
+        raise KeyError(
+            "Ninguna hoja de fecha tiene encabezados validos (columna 'Total'). "
+            f"Hojas revisadas y descartadas: {hojas_invalidas}"
+        )
 
     col_total = find_named_column(ws, ["Total"])
     stages = read_stage_columns(ws, col_total)
@@ -270,6 +296,7 @@ def build_payload():
             "atrasados": atrasados,
         },
         "weeks_available": weeks_available,
+        "hojas_saltadas": hojas_invalidas,
     }
     return payload
 
@@ -279,6 +306,9 @@ def write_json():
     OUTPUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"[{datetime.datetime.now():%H:%M:%S}] data_embarque.json: "
           f"hoja '{payload['current_sheet']}', {payload['kpis']['partes_activos']} partes activas")
+    if payload["hojas_saltadas"]:
+        print(f"[AVISO] Se saltaron hojas sin encabezados validos (revisalas en el Excel): "
+              f"{payload['hojas_saltadas']}")
 
 
 def main():

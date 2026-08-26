@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-26T14:56:28",
+ "generated_at": "2026-08-26T15:06:44",
  "current_sheet": "08-sep-2026",
  "current_date": "2026-09-08",
  "stages": [
@@ -51,6 +51,11 @@
    "uph": 310
   },
   {
+   "key": "inpeccion_de_pines_y_cable_guia_primera_inspeccion_de_calidad",
+   "label": "Inpeccion de pines y cable Guia - Primera Inspeccion de Calidad",
+   "uph": null
+  },
+  {
    "key": "hydrophilic_mariner",
    "label": "Hydrophilic Mariner",
    "uph": 30
@@ -64,6 +69,11 @@
    "key": "pouch",
    "label": "Pouch",
    "uph": 350
+  },
+  {
+   "key": "para_sellado",
+   "label": "Para Sellado",
+   "uph": null
   },
   {
    "key": "boxing",
@@ -104,7 +114,7 @@
    "producido": 865.0,
    "pct": 108.1,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -121,10 +131,10 @@
    "part_number": "40720406",
    "sub_ensamble": "14400113",
    "demanda": 500.0,
-   "producido": 550.0,
-   "pct": 110.0,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 533.0,
+   "pct": 106.6,
+   "stage_key": "pouch",
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -201,10 +211,10 @@
    "part_number": "411714014",
    "sub_ensamble": "14400131",
    "demanda": 825.0,
-   "producido": 249.0,
-   "pct": 30.2,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 17,
+   "producido": 248.0,
+   "pct": 30.1,
+   "stage_key": "para_sellado",
+   "stage_col": 21,
    "status": "rojo"
   },
   {
@@ -311,10 +321,10 @@
  "kpis": {
   "partes_activos": 23,
   "total_demanda": 21164.0,
-  "total_producido": 16376.0,
+  "total_producido": 16358.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": -4788.0,
+  "exceso_total": -4806.0,
   "atrasados": 7
  },
  "weeks_available": [

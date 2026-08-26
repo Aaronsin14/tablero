@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-25T21:29:49",
+ "generated_at": "2026-08-25T21:37:05",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -62290,14 +62290,14 @@
          310.0,
          166.0,
          247.0,
-         null,
+         60.0,
          null
         ],
         "rework": 0.0,
-        "total": 1033.0,
-        "delta": -1428.5,
+        "total": 1093.0,
+        "delta": -1368.5,
         "downtime": 0.0,
-        "proficiency": 0.41737373737373734
+        "proficiency": 0.4416161616161616
        },
        {
         "name": "Baking Conv",
@@ -62310,7 +62310,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -62320,7 +62320,7 @@
         "proficiency": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Mariner",
         "maquinas": 1,
         "meta_hora": 30.0,
         "meta_dia": 164.1,
@@ -62328,16 +62328,16 @@
          0.0,
          0.0,
          0.0,
+         30.0,
+         30.0,
          0.0,
-         0.0,
-         null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -164.1,
+        "total": 60.0,
+        "delta": -104.1,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3636363636363636
        },
        {
         "name": "Prepping",
@@ -62345,19 +62345,19 @@
         "meta_hora": 150.0,
         "meta_dia": 683.75,
         "hours": [
-         300.0,
-         300.0,
-         300.0,
+         200.0,
+         200.0,
+         200.0,
          221.0,
-         300.0,
-         null,
+         200.0,
+         200.0,
          null
         ],
         "rework": 0.0,
-        "total": 1421.0,
-        "delta": 600.5,
+        "total": 1221.0,
+        "delta": 400.5,
         "downtime": 0.0,
-        "proficiency": 1.7224242424242424
+        "proficiency": 1.48
        },
        {
         "name": "Rofing",
@@ -62370,7 +62370,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -62410,7 +62410,7 @@
          300.0,
          300.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -62430,14 +62430,14 @@
          287.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null
         ],
         "rework": 0.0,
-        "total": 1187.0,
-        "delta": -454.0,
+        "total": 1487.0,
+        "delta": -154.0,
         "downtime": 0.0,
-        "proficiency": 0.7193939393939394
+        "proficiency": 0.9012121212121212
        },
        {
         "name": "Boxing",

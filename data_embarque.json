@@ -1,98 +1,13 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-26T11:44:43",
+ "generated_at": "2026-08-26T13:02:59",
  "current_sheet": "01-Sep-2026",
  "current_date": "2026-09-01",
  "stages": [
   {
-   "key": "wip_welder",
-   "label": "Wip Welder",
-   "uph": null
-  },
-  {
-   "key": "embedder",
-   "label": "Embedder",
-   "uph": 45
-  },
-  {
-   "key": "drawdown",
-   "label": "Drawdown",
-   "uph": 130
-  },
-  {
-   "key": "sidehole",
-   "label": "Sidehole",
-   "uph": 100
-  },
-  {
-   "key": "automated_slitting_unifuse",
-   "label": "Automated Slitting Unifuse",
-   "uph": null
-  },
-  {
-   "key": "handrilling_6f",
-   "label": "Handrilling 6F",
-   "uph": 20
-  },
-  {
-   "key": "baking",
-   "label": "Baking",
-   "uph": 150
-  },
-  {
-   "key": "prepping",
-   "label": "Prepping",
-   "uph": 350
-  },
-  {
-   "key": "moldeo",
-   "label": "Moldeo",
-   "uph": 310
-  },
-  {
-   "key": "inpeccion_de_pines_y_cable_guia_primera_inspeccion_de_calidad",
-   "label": "Inpeccion de pines y cable Guia - Primera Inspeccion de Calidad",
-   "uph": null
-  },
-  {
-   "key": "hydrophilic_mariner",
-   "label": "Hydrophilic Mariner",
-   "uph": 30
-  },
-  {
-   "key": "baking_mariner",
-   "label": "Baking Mariner",
-   "uph": 150
-  },
-  {
-   "key": "inspeccion_pines_y_cable_guia",
-   "label": "INSPECCION PINES Y CABLE GUIA",
-   "uph": null
-  },
-  {
-   "key": "inspeccion_final_de_qc",
-   "label": "INSPECCION FINAL DE QC",
-   "uph": null
-  },
-  {
-   "key": "pouch",
-   "label": "Pouch",
-   "uph": 350
-  },
-  {
-   "key": "en_sellado",
-   "label": "EN SELLADO",
-   "uph": null
-  },
-  {
-   "key": "boxing",
-   "label": "Boxing",
-   "uph": 400
-  },
-  {
-   "key": "packaged",
-   "label": "Packaged",
+   "key": "div_0",
+   "label": "#DIV/0!",
    "uph": null
   }
  ],
@@ -101,311 +16,281 @@
    "part_number": "40708506",
    "sub_ensamble": "14400114",
    "demanda": 600.0,
-   "producido": 634.0,
-   "pct": 105.7,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "verde"
+   "producido": 1.0566666666666666,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40722105",
    "sub_ensamble": "14400109",
    "demanda": 1500.0,
-   "producido": 1570.0,
-   "pct": 104.7,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.0466666666666666,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732001",
    "sub_ensamble": "14400113",
    "demanda": 65.0,
-   "producido": 69.0,
-   "pct": 106.2,
-   "stage_key": "handrilling_6f",
-   "stage_col": 13,
-   "status": "verde"
+   "producido": 1.0615384615384615,
+   "pct": 1.6,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732101",
    "sub_ensamble": "14400113",
    "demanda": 1300.0,
-   "producido": 1308.0,
-   "pct": 100.6,
-   "stage_key": "boxing",
-   "stage_col": 24,
-   "status": "verde"
+   "producido": 1.0061538461538462,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732701",
    "sub_ensamble": "14400109",
    "demanda": 4000.0,
-   "producido": 4250.0,
-   "pct": 106.2,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.0625,
+   "pct": 0.0,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732702",
    "sub_ensamble": "14400109",
    "demanda": 2000.0,
-   "producido": 2125.0,
-   "pct": 106.2,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.0625,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40722102",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 525.0,
-   "pct": 105.0,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.05,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732703",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 530.0,
-   "pct": 106.0,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.06,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40733401",
    "sub_ensamble": "14400109",
    "demanda": 400.0,
-   "producido": 385.0,
-   "pct": 96.2,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "ambar"
+   "producido": 0.9625,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40722701",
    "sub_ensamble": "14400106",
    "demanda": 965.0,
-   "producido": 985.0,
-   "pct": 102.1,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "verde"
+   "producido": 1.0207253886010363,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40722703",
    "sub_ensamble": "14400101",
    "demanda": 1300.0,
-   "producido": 1343.0,
-   "pct": 103.3,
-   "stage_key": "boxing",
-   "stage_col": 24,
-   "status": "verde"
+   "producido": 1.033076923076923,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40733301",
    "sub_ensamble": "14400101",
    "demanda": 500.0,
-   "producido": 521.0,
-   "pct": 104.2,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "verde"
+   "producido": 1.042,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "411732704",
    "sub_ensamble": "14400131",
    "demanda": 800.0,
-   "producido": 858.0,
-   "pct": 107.2,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 18,
-   "status": "verde"
-  },
-  {
-   "part_number": "411732704",
-   "sub_ensamble": "14400131",
-   "demanda": 270.0,
-   "producido": 420.0,
-   "pct": 155.6,
-   "stage_key": "inpeccion_de_pines_y_cable_guia_primera_inspeccion_de_calidad",
-   "stage_col": 17,
-   "status": "verde"
-  },
-  {
-   "part_number": "411714014",
-   "sub_ensamble": "14400131",
-   "demanda": 400.0,
-   "producido": 249.0,
-   "pct": 62.3,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
+   "producido": 1.255,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
    "status": "rojo"
   },
   {
    "part_number": "411722707",
    "sub_ensamble": "14400139",
    "demanda": 245.0,
-   "producido": 246.0,
-   "pct": 100.4,
-   "stage_key": "boxing",
-   "stage_col": 24,
-   "status": "verde"
+   "producido": 1.0040816326530613,
+   "pct": 0.4,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40732301",
    "sub_ensamble": "14400122",
    "demanda": 3000.0,
-   "producido": 2940.0,
-   "pct": 98.0,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "ambar"
+   "producido": 0.98,
+   "pct": 0.0,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "40714001",
    "sub_ensamble": "14400131",
    "demanda": 3000.0,
-   "producido": 3220.0,
-   "pct": 107.3,
-   "stage_key": "baking",
-   "stage_col": 14,
-   "status": "verde"
+   "producido": 1.0733333333333333,
+   "pct": 0.0,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "42401813",
    "sub_ensamble": "N/A",
    "demanda": 95.0,
-   "producido": 97.0,
-   "pct": 102.1,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "verde"
+   "producido": 1.0210526315789474,
+   "pct": 1.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "42401810",
    "sub_ensamble": "N/A",
    "demanda": 100.0,
-   "producido": 91.0,
-   "pct": 91.0,
-   "stage_key": "packaged",
-   "stage_col": 25,
-   "status": "ambar"
+   "producido": 0.91,
+   "pct": 0.9,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "42401813",
    "sub_ensamble": "N/A",
    "demanda": 88.0,
-   "producido": 79.0,
-   "pct": 89.8,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "ambar"
-  },
-  {
-   "part_number": "42401810",
-   "sub_ensamble": "N/A",
-   "demanda": 140.0,
-   "producido": 94.0,
-   "pct": 67.1,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 21,
+   "producido": 0.8522727272727273,
+   "pct": 1.0,
+   "stage_key": "div_0",
+   "stage_col": 27,
    "status": "rojo"
   },
   {
    "part_number": "42401815",
    "sub_ensamble": "N/A",
-   "demanda": 75.0,
-   "producido": 66.0,
-   "pct": 88.0,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "ambar"
+   "demanda": 70.0,
+   "producido": 0.9428571428571428,
+   "pct": 1.3,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709001",
    "sub_ensamble": "14400116",
    "demanda": 1000.0,
-   "producido": 1093.0,
-   "pct": 109.3,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "verde"
+   "producido": 1.093,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709002",
    "sub_ensamble": "14400116",
    "demanda": 500.0,
-   "producido": 395.0,
-   "pct": 79.0,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "producido": 0.79,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
    "status": "rojo"
   },
   {
    "part_number": "43709701",
    "sub_ensamble": "14400116",
    "demanda": 260.0,
-   "producido": 286.0,
-   "pct": 110.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "verde"
+   "producido": 1.1,
+   "pct": 0.4,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709801",
    "sub_ensamble": "14400114",
    "demanda": 830.0,
-   "producido": 913.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
-   "status": "verde"
+   "producido": 1.1,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709802",
    "sub_ensamble": "14400114",
    "demanda": 250.0,
-   "producido": 275.0,
-   "pct": 110.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "verde"
+   "producido": 1.1,
+   "pct": 0.4,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709803",
    "sub_ensamble": "14400114",
    "demanda": 1000.0,
-   "producido": 1871.0,
-   "pct": 187.1,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "verde"
+   "producido": 0.933,
+   "pct": 0.1,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   },
   {
    "part_number": "43709901",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 550.0,
-   "pct": 110.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "verde"
+   "producido": 1.1,
+   "pct": 0.2,
+   "stage_key": "div_0",
+   "stage_col": 27,
+   "status": "rojo"
   }
  ],
  "kpis": {
-  "partes_activos": 30,
-  "total_demanda": 26183.0,
-  "total_producido": 27988.0,
-  "empacado": 10461.0,
-  "pct_cumplimiento": 40.0,
-  "exceso_total": 1805.0,
-  "atrasados": 3
+  "partes_activos": 27,
+  "total_demanda": 25368.0,
+  "total_producido": 27.71892542039881,
+  "empacado": 0,
+  "pct_cumplimiento": 0.0,
+  "exceso_total": -25340.0,
+  "atrasados": 27
  },
  "weeks_available": [
   {

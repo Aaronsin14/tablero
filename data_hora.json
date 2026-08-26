@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-26T15:16:35",
+ "generated_at": "2026-08-26T15:23:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -62883,14 +62883,14 @@
          550.0,
          450.0,
          700.0,
-         null,
-         null
+         700.0,
+         150.0
         ],
-        "rework": 53.0,
-        "total": 4250.0,
-        "delta": 165.0,
+        "rework": 54.0,
+        "total": 5100.0,
+        "delta": 1015.0,
         "downtime": 0.0,
-        "proficiency": 1.040391676866585
+        "proficiency": 1.2484700122399022
        },
        {
         "name": "Welder",
@@ -62906,14 +62906,14 @@
          318.0,
          125.0,
          285.0,
-         null,
-         null
+         305.0,
+         90.0
         ],
-        "rework": 251.0,
-        "total": 1813.0,
-        "delta": -1046.5,
+        "rework": 291.0,
+        "total": 2208.0,
+        "delta": -651.5,
         "downtime": 0.0,
-        "proficiency": 0.6340269277845778
+        "proficiency": 0.7721629655534185
        },
        {
         "name": "Carga de bandas",
@@ -62929,7 +62929,7 @@
          130.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -62952,14 +62952,14 @@
          50.0,
          30.0,
          30.0,
-         null,
+         20.0,
          null
         ],
         "rework": 2.0,
-        "total": 181.0,
-        "delta": -636.0,
-        "downtime": 0.5888888888888889,
-        "proficiency": 0.2216753796083145
+        "total": 201.0,
+        "delta": -616.0,
+        "downtime": 0.0,
+        "proficiency": 0.2460220318237454
        },
        {
         "name": "Swager",
@@ -62975,14 +62975,14 @@
          50.0,
          30.0,
          28.0,
-         null,
+         20.0,
          null
         ],
         "rework": 2.0,
-        "total": 181.0,
-        "delta": -636.0,
+        "total": 201.0,
+        "delta": -616.0,
         "downtime": 0.0,
-        "proficiency": 0.2215422276621787
+        "proficiency": 0.2460220318237454
        },
        {
         "name": "Embedder",
@@ -62998,14 +62998,14 @@
          19.0,
          25.0,
          28.0,
-         null,
+         30.0,
          null
         ],
-        "rework": 16.0,
-        "total": 138.0,
-        "delta": -270.5,
+        "rework": 17.0,
+        "total": 168.0,
+        "delta": -240.5,
         "downtime": 0.0,
-        "proficiency": 0.3378212974296206
+        "proficiency": 0.4112607099143207
        },
        {
         "name": "Inspeccion",
@@ -63021,14 +63021,14 @@
          19.0,
          25.0,
          28.0,
-         0.0,
+         30.0,
          0.0
         ],
-        "rework": 16.0,
-        "total": 138.0,
-        "delta": -270.5,
+        "rework": 17.0,
+        "total": 168.0,
+        "delta": -240.5,
         "downtime": 0.0,
-        "proficiency": 0.3378212974296206
+        "proficiency": 0.4112607099143207
        },
        {
         "name": "Drawdown",
@@ -63251,14 +63251,14 @@
          300.0,
          300.0,
          300.0,
-         null,
+         44.0,
          null
         ],
         "rework": 0.0,
-        "total": 2400.0,
-        "delta": -51.0,
+        "total": 2444.0,
+        "delta": -7.0,
         "downtime": 0.0,
-        "proficiency": 0.9791921664626684
+        "proficiency": 0.9971440228478172
        },
        {
         "name": "Pouch",

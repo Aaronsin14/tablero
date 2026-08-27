@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-08-27T10:57:22",
+ "generated_at": "2026-08-27T11:04:41",
  "current_sheet": "08-sep-2026",
  "current_date": "2026-09-08",
  "stages": [
@@ -66,6 +66,16 @@
    "uph": 150
   },
   {
+   "key": "inspeccion_pines_y_cable_guia",
+   "label": "INSPECCION PINES Y CABLE GUIA",
+   "uph": null
+  },
+  {
+   "key": "inspeccion_final_de_qc",
+   "label": "INSPECCION FINAL DE QC",
+   "uph": null
+  },
+  {
    "key": "pouch",
    "label": "Pouch",
    "uph": 350
@@ -113,7 +123,7 @@
    "demanda": 800.0,
    "producido": 865.0,
    "pct": 108.1,
-   "stage_key": "pouch",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 20,
    "status": "verde"
   },
@@ -133,7 +143,7 @@
    "demanda": 500.0,
    "producido": 533.0,
    "pct": 106.6,
-   "stage_key": "pouch",
+   "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 20,
    "status": "verde"
   },
@@ -224,7 +234,7 @@
    "producido": 248.0,
    "pct": 30.1,
    "stage_key": "para_sellado",
-   "stage_col": 21,
+   "stage_col": 23,
    "status": "rojo"
   },
   {
@@ -261,10 +271,10 @@
    "part_number": "42401816",
    "sub_ensamble": "NA",
    "demanda": 168.0,
-   "producido": 185.0,
-   "pct": 110.1,
-   "stage_key": "embedder",
-   "stage_col": 9,
+   "producido": 183.0,
+   "pct": 108.9,
+   "stage_key": "automated_slitting_unifuse",
+   "stage_col": 12,
    "status": "verde"
   },
   {
@@ -351,10 +361,10 @@
  "kpis": {
   "partes_activos": 26,
   "total_demanda": 21664.0,
-  "total_producido": 18586.0,
+  "total_producido": 18584.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": -3078.0,
+  "exceso_total": -3080.0,
   "atrasados": 6
  },
  "weeks_available": [

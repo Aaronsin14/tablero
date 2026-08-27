@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-27T14:28:10",
+ "generated_at": "2026-08-27T14:38:24",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -64122,21 +64122,21 @@
          400.0,
          400.0,
          350.0,
-         null,
+         450.0,
          null,
          null
         ],
         "rework": 53.0,
-        "total": 2873.0,
-        "delta": -1212.0,
+        "total": 3323.0,
+        "delta": -762.0,
         "downtime": 0.0,
-        "proficiency": 0.7033047735618115
+        "proficiency": 0.8134638922888616
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 335.0,
-        "meta_dia": 2736.95,
+        "meta_hora": 285.0,
+        "meta_dia": 2328.45,
         "hours": [
          131.0,
          256.0,
@@ -64145,15 +64145,15 @@
          281.0,
          305.0,
          177.0,
-         null,
+         280.0,
          null,
          null
         ],
-        "rework": 138.0,
-        "total": 1593.0,
-        "delta": -1143.9499999999998,
+        "rework": 170.0,
+        "total": 1873.0,
+        "delta": -455.4499999999998,
         "downtime": 570.0,
-        "proficiency": 0.6810202478477645
+        "proficiency": 0.9412001180897104
        },
        {
         "name": "Carga de bandas",
@@ -64204,8 +64204,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          18.0,
          30.0,
@@ -64220,9 +64220,9 @@
         ],
         "rework": 2.0,
         "total": 237.0,
-        "delta": -580.0,
+        "delta": -171.5,
         "downtime": 0.0,
-        "proficiency": 0.2900856793145655
+        "proficiency": 0.580171358629131
        },
        {
         "name": "Embedder",
@@ -64283,7 +64283,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -64306,7 +64306,7 @@
          100.0,
          100.0,
          75.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -64329,7 +64329,7 @@
          0.0,
          100.0,
          50.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -64352,7 +64352,7 @@
          150.0,
          150.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -64375,15 +64375,15 @@
          31.0,
          30.0,
          20.0,
-         null,
+         20.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 101.0,
-        "delta": -389.2,
+        "total": 121.0,
+        "delta": -369.2,
         "downtime": 0.0,
-        "proficiency": 0.20603835169318646
+        "proficiency": 0.24683802529579765
        },
        {
         "name": "Hidrofilico",

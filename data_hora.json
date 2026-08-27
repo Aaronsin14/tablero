@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-27T07:26:53",
+ "generated_at": "2026-08-27T07:34:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -64115,7 +64115,7 @@
         "meta_hora": 500.0,
         "meta_dia": 4085.0,
         "hours": [
-         null,
+         400.0,
          null,
          null,
          null,
@@ -64127,18 +64127,18 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -4085.0,
+        "total": 400.0,
+        "delta": -3685.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.09791921664626684
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 355.0,
+        "meta_dia": 2900.35,
         "hours": [
-         null,
+         131.0,
          null,
          null,
          null,
@@ -64149,11 +64149,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -3022.9,
-        "downtime": 0.0,
-        "proficiency": 0
+        "rework": 16.0,
+        "total": 131.0,
+        "delta": -2769.35,
+        "downtime": 60.0,
+        "proficiency": 0.045868748851092885
        },
        {
         "name": "Carga de bandas",
@@ -64276,7 +64276,7 @@
         "meta_hora": 390.0,
         "meta_dia": 3186.2999999999997,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -64288,10 +64288,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -3186.3,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Sidehole Soft Vu",
@@ -64299,7 +64299,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -64311,10 +64311,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -817.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Sidehole Accu Vu",
@@ -64322,7 +64322,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -64334,10 +64334,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -817.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Baking Rot",
@@ -64345,7 +64345,7 @@
         "meta_hora": 450.0,
         "meta_dia": 3676.5,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -64357,10 +64357,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -3676.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Baking Conv",
@@ -64368,7 +64368,7 @@
         "meta_hora": 60.0,
         "meta_dia": 490.2,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -64380,10 +64380,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Hand Drilling",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-26T18:17:01",
+ "generated_at": "2026-08-26T18:24:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -63427,17 +63427,17 @@
         "hours": [
          10.0,
          48.0,
-         null,
+         48.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 2.0,
-        "total": 58.0,
-        "delta": -598.4,
+        "rework": 4.0,
+        "total": 106.0,
+        "delta": -550.4,
         "downtime": 0.0,
-        "proficiency": 0.08787878787878788
+        "proficiency": 0.1606060606060606
        },
        {
         "name": "Inspeccion",
@@ -63447,17 +63447,17 @@
         "hours": [
          10.0,
          48.0,
-         0.0,
+         48.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 2.0,
-        "total": 58.0,
-        "delta": -215.5,
+        "rework": 4.0,
+        "total": 106.0,
+        "delta": -167.5,
         "downtime": 0.0,
-        "proficiency": 0.2109090909090909
+        "proficiency": 0.3854545454545455
        },
        {
         "name": "Drawdown",

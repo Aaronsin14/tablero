@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-26T19:07:56",
+ "generated_at": "2026-08-26T19:15:10",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -63388,16 +63388,16 @@
          10.0,
          50.0,
          45.0,
-         null,
+         25.0,
          null,
          null,
          null
         ],
         "rework": 4.0,
-        "total": 105.0,
-        "delta": -442.0,
+        "total": 130.0,
+        "delta": -417.0,
         "downtime": 0.0,
-        "proficiency": 0.1909090909090909
+        "proficiency": 0.23636363636363636
        },
        {
         "name": "Swager",
@@ -63408,16 +63408,16 @@
          10.0,
          50.0,
          45.0,
-         null,
+         25.0,
          null,
          null,
          null
         ],
         "rework": 1.0,
-        "total": 105.0,
-        "delta": -442.0,
+        "total": 130.0,
+        "delta": -417.0,
         "downtime": 0.0,
-        "proficiency": 0.1909090909090909
+        "proficiency": 0.23636363636363636
        },
        {
         "name": "Embedder",
@@ -63488,16 +63488,16 @@
          70.0,
          200.0,
          200.0,
-         null,
+         100.0,
          null,
          null,
          null
         ],
         "rework": 5.0,
-        "total": 470.0,
-        "delta": -77.0,
+        "total": 570.0,
+        "delta": 23.0,
         "downtime": 0.0,
-        "proficiency": 0.8545454545454545
+        "proficiency": 1.0363636363636364
        },
        {
         "name": "Sidehole Accu Vu",
@@ -63528,16 +63528,16 @@
          0.0,
          172.0,
          174.0,
-         0.0,
+         75.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 346.0,
-        "delta": -2115.5,
+        "total": 421.0,
+        "delta": -2040.5,
         "downtime": 0.0,
-        "proficiency": 0.13979797979797978
+        "proficiency": 0.1701010101010101
        },
        {
         "name": "Baking Conv",

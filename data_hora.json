@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-27T15:57:23",
+ "generated_at": "2026-08-27T16:04:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -64329,15 +64329,15 @@
          0.0,
          100.0,
          50.0,
-         0.0,
          100.0,
-         0.0
+         100.0,
+         50.0
         ],
         "rework": 0.0,
-        "total": 250.0,
-        "delta": -567.0,
+        "total": 400.0,
+        "delta": -417.0,
         "downtime": 0.0,
-        "proficiency": 0.30599755201958384
+        "proficiency": 0.4895960832313342
        },
        {
         "name": "Baking Rot",
@@ -64353,14 +64353,14 @@
          150.0,
          0.0,
          0.0,
-         null,
-         null
+         40.0,
+         75.0
         ],
         "rework": 0.0,
-        "total": 675.0,
-        "delta": -3001.5,
+        "total": 790.0,
+        "delta": -2886.5,
         "downtime": 0.0,
-        "proficiency": 0.1835985312117503
+        "proficiency": 0.21487828097375222
        },
        {
         "name": "Baking Conv",
@@ -64376,14 +64376,14 @@
          30.0,
          20.0,
          20.0,
-         null,
-         null
+         20.0,
+         14.0
         ],
         "rework": 0.0,
-        "total": 121.0,
-        "delta": -369.2,
+        "total": 155.0,
+        "delta": -335.2,
         "downtime": 0.0,
-        "proficiency": 0.24683802529579765
+        "proficiency": 0.31619747042023666
        },
        {
         "name": "Hidrofilico",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-28T16:54:37",
+ "generated_at": "2026-08-28T17:01:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -65846,7 +65846,7 @@
         "meta_dia": 410.25,
         "hours": [
          30.0,
-         null,
+         75.0,
          null,
          null,
          null,
@@ -65854,10 +65854,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 30.0,
-        "delta": -380.25,
+        "total": 105.0,
+        "delta": -305.25,
         "downtime": 0.0,
-        "proficiency": 0.07272727272727272
+        "proficiency": 0.2545454545454545
        },
        {
         "name": "Staker",
@@ -65866,18 +65866,18 @@
         "meta_dia": 273.5,
         "hours": [
          10.0,
-         null,
+         40.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 10.0,
-        "delta": -263.5,
+        "rework": 1.0,
+        "total": 50.0,
+        "delta": -223.5,
         "downtime": 0.0,
-        "proficiency": 0.03636363636363636
+        "proficiency": 0.18181818181818182
        },
        {
         "name": "Swager",
@@ -65886,18 +65886,18 @@
         "meta_dia": 547.0,
         "hours": [
          10.0,
-         null,
+         40.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 10.0,
-        "delta": -537.0,
+        "rework": 1.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.01818181818181818
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Embedder",
@@ -65906,7 +65906,7 @@
         "meta_dia": 273.5,
         "hours": [
          6.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65946,7 +65946,7 @@
         "meta_dia": 2133.3,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65966,18 +65966,18 @@
         "meta_dia": 547.0,
         "hours": [
          0.0,
-         null,
+         200.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "rework": 7.0,
+        "total": 200.0,
+        "delta": -347.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Sidehole Accu Vu",
@@ -65986,7 +65986,7 @@
         "meta_dia": 547.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66006,7 +66006,7 @@
         "meta_dia": 2461.5,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66026,7 +66026,7 @@
         "meta_dia": 328.2,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66046,7 +66046,7 @@
         "meta_dia": 164.1,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66066,7 +66066,7 @@
         "meta_dia": 547.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66086,7 +66086,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66126,7 +66126,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66145,8 +66145,8 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -66165,8 +66165,8 @@
         "meta_hora": 350.0,
         "meta_dia": 1914.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         285.0,
          null,
          null,
          null,
@@ -66174,10 +66174,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 285.0,
+        "delta": -1629.5,
+        "downtime": 44.0,
+        "proficiency": 0.17082917082917085
        }
       ]
      },

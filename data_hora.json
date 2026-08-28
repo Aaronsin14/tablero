@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-28T07:02:59",
+ "generated_at": "2026-08-28T07:40:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -65355,7 +65355,7 @@
         "meta_hora": 500.0,
         "meta_dia": 4085.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65367,18 +65367,18 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -4085.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 330.0,
+        "meta_dia": 2696.1,
         "hours": [
-         null,
+         162.0,
          null,
          null,
          null,
@@ -65389,11 +65389,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -3022.9,
+        "rework": 20.0,
+        "total": 162.0,
+        "delta": -2534.1,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.06008679203293646
        },
        {
         "name": "Carga de bandas",
@@ -65401,7 +65401,7 @@
         "meta_hora": 75.0,
         "meta_dia": 612.75,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65413,10 +65413,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -612.75,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Staker",
@@ -65424,7 +65424,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         40.0,
          null,
          null,
          null,
@@ -65436,10 +65436,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 40.0,
+        "delta": -777.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Swager",
@@ -65447,7 +65447,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         40.0,
          null,
          null,
          null,
@@ -65459,10 +65459,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 40.0,
+        "delta": -777.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Embedder",
@@ -65470,7 +65470,7 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9000000000001,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65482,10 +65482,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -571.9,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Inspeccion",
@@ -65493,22 +65493,22 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -571.9,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Drawdown",
@@ -65626,12 +65626,12 @@
         "proficiency": 0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hidrofilico",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
-         null,
+         30.0,
          null,
          null,
          null,
@@ -65643,10 +65643,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
+        "total": 30.0,
+        "delta": -460.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.061199510403916774
        },
        {
         "name": "Prepping",
@@ -65654,7 +65654,7 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65666,10 +65666,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -1225.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Rofing",
@@ -65677,7 +65677,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         550.0,
          null,
          null,
          null,
@@ -65689,10 +65689,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 550.0,
+        "delta": -1901.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.22439820481436148
        },
        {
         "name": "Moldeadora Milacron",
@@ -65723,7 +65723,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65735,10 +65735,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Pouch",
@@ -65769,7 +65769,7 @@
         "meta_hora": 350.0,
         "meta_dia": 2859.5,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -65781,10 +65781,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2859.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        }
       ]
      },

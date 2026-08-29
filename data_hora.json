@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-29T08:39:53",
+ "generated_at": "2026-08-29T08:47:13",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -66779,8 +66779,8 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0.0,
-         null,
+         50.0,
+         150.0,
          null,
          null,
          null,
@@ -66791,10 +66791,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 200.0,
+        "delta": -617.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2447980416156671
        },
        {
         "name": "Sidehole Accu Vu",
@@ -66803,7 +66803,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66826,7 +66826,7 @@
         "meta_dia": 3676.5,
         "hours": [
          52.0,
-         null,
+         50.0,
          null,
          null,
          null,
@@ -66837,10 +66837,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 52.0,
-        "delta": -3624.5,
+        "total": 102.0,
+        "delta": -3574.5,
         "downtime": 0.0,
-        "proficiency": 0.014143886848905208
+        "proficiency": 0.0277437780497756
        },
        {
         "name": "Baking Conv",
@@ -66849,7 +66849,7 @@
         "meta_dia": 490.2,
         "hours": [
          0.0,
-         null,
+         12.0,
          null,
          null,
          null,
@@ -66860,10 +66860,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "total": 12.0,
+        "delta": -478.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02447980416156671
        },
        {
         "name": "Hand Drilling",
@@ -66872,7 +66872,7 @@
         "meta_dia": 0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66894,8 +66894,8 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         null,
-         null,
+         250.0,
+         350.0,
          null,
          null,
          null,
@@ -66906,10 +66906,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -1225.5,
+        "total": 600.0,
+        "delta": -625.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.4895960832313342
        },
        {
         "name": "Rofing",
@@ -66917,8 +66917,8 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -66929,10 +66929,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Moldeadora Milacron",
@@ -66941,7 +66941,7 @@
         "meta_dia": 0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66964,7 +66964,7 @@
         "meta_dia": 2451.0,
         "hours": [
          200.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -66975,10 +66975,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -2251.0,
+        "total": 400.0,
+        "delta": -2051.0,
         "downtime": 0.0,
-        "proficiency": 0.08159934720522236
+        "proficiency": 0.1631986944104447
        },
        {
         "name": "Pouch",
@@ -66987,7 +66987,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -66998,10 +66998,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Boxing",

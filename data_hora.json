@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-29T15:05:16",
+ "generated_at": "2026-08-29T15:12:39",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -66603,14 +66603,14 @@
          400.0,
          250.0,
          425.0,
-         200.0,
+         450.0,
          null
         ],
         "rework": 54.0,
-        "total": 2775.0,
-        "delta": -1310.0,
+        "total": 3025.0,
+        "delta": -1060.0,
         "downtime": 0.0,
-        "proficiency": 0.6793145654834761
+        "proficiency": 0.7405140758873929
        },
        {
         "name": "Welder",
@@ -66626,14 +66626,14 @@
          365.0,
          180.0,
          295.0,
-         189.0,
+         274.0,
          null
         ],
-        "rework": 262.0,
-        "total": 2136.0,
-        "delta": -886.9000000000001,
+        "rework": 279.0,
+        "total": 2221.0,
+        "delta": -801.9000000000001,
         "downtime": 120.0,
-        "proficiency": 0.7289107289107288
+        "proficiency": 0.757917007917008
        },
        {
         "name": "Carga de bandas",
@@ -66649,14 +66649,14 @@
          0.0,
          0.0,
          100.0,
-         null,
+         174.0,
          null
         ],
         "rework": 0.0,
-        "total": 145.0,
-        "delta": -467.75,
+        "total": 319.0,
+        "delta": -293.75,
         "downtime": 0.0,
-        "proficiency": 0.23663810689514483
+        "proficiency": 0.5206038351693186
        },
        {
         "name": "Staker",
@@ -66672,14 +66672,14 @@
          20.0,
          12.0,
          0.0,
-         null,
+         8.0,
          null
         ],
         "rework": 2.0,
-        "total": 210.0,
-        "delta": -607.0,
-        "downtime": 0.0,
-        "proficiency": 0.25703794369645044
+        "total": 218.0,
+        "delta": -599.0,
+        "downtime": 270.0,
+        "proficiency": 0.3682432432432432
        },
        {
         "name": "Swager",
@@ -66695,14 +66695,14 @@
          20.0,
          12.0,
          0.0,
-         null,
+         8.0,
          null
         ],
         "rework": 1.0,
-        "total": 210.0,
-        "delta": -607.0,
-        "downtime": 0.0,
-        "proficiency": 0.25703794369645044
+        "total": 218.0,
+        "delta": -599.0,
+        "downtime": 300.0,
+        "proficiency": 0.3844797178130511
        },
        {
         "name": "Embedder",
@@ -66718,14 +66718,14 @@
          20.0,
          8.0,
          19.0,
-         null,
+         0.0,
          null
         ],
         "rework": 50.0,
         "total": 160.0,
         "delta": -411.9,
-        "downtime": 0.0,
-        "proficiency": 0.2797691904179052
+        "downtime": 240.0,
+        "proficiency": 0.29417172274315134
        },
        {
         "name": "Inspeccion",
@@ -66747,8 +66747,8 @@
         "rework": 50.0,
         "total": 160.0,
         "delta": -411.9,
-        "downtime": 0.0,
-        "proficiency": 0.2797691904179052
+        "downtime": 60.0,
+        "proficiency": 0.3187886033074318
        },
        {
         "name": "Drawdown",

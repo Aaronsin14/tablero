@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-28T19:26:49",
+ "generated_at": "2026-08-28T19:34:04",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -65847,17 +65847,17 @@
         "hours": [
          30.0,
          75.0,
-         null,
-         null,
+         75.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 105.0,
-        "delta": -305.25,
+        "total": 180.0,
+        "delta": -230.25,
         "downtime": 0.0,
-        "proficiency": 0.2545454545454545
+        "proficiency": 0.43636363636363634
        },
        {
         "name": "Staker",
@@ -65867,17 +65867,17 @@
         "hours": [
          10.0,
          40.0,
-         null,
+         30.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 1.0,
-        "total": 50.0,
-        "delta": -223.5,
+        "rework": 2.0,
+        "total": 80.0,
+        "delta": -193.5,
         "downtime": 0.0,
-        "proficiency": 0.18181818181818182
+        "proficiency": 0.2909090909090909
        },
        {
         "name": "Swager",
@@ -65887,17 +65887,17 @@
         "hours": [
          10.0,
          40.0,
-         null,
+         30.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 1.0,
-        "total": 50.0,
-        "delta": -497.0,
+        "rework": 2.0,
+        "total": 80.0,
+        "delta": -467.0,
         "downtime": 0.0,
-        "proficiency": 0.09090909090909091
+        "proficiency": 0.14545454545454545
        },
        {
         "name": "Embedder",
@@ -65947,8 +65947,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -65967,17 +65967,17 @@
         "hours": [
          0.0,
          200.0,
-         null,
-         null,
+         150.0,
+         100.0,
          null,
          null,
          null
         ],
-        "rework": 7.0,
-        "total": 200.0,
-        "delta": -347.0,
+        "rework": 8.0,
+        "total": 450.0,
+        "delta": -97.0,
         "downtime": 0.0,
-        "proficiency": 0.36363636363636365
+        "proficiency": 0.8181818181818181
        },
        {
         "name": "Sidehole Accu Vu",
@@ -65987,8 +65987,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -66007,8 +66007,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -66027,8 +66027,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -66047,8 +66047,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-28T21:15:18",
+ "generated_at": "2026-08-28T21:22:39",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -65810,14 +65810,14 @@
          250.0,
          200.0,
          250.0,
-         null,
+         250.0,
          null
         ],
         "rework": 0.0,
-        "total": 890.0,
-        "delta": -477.5,
+        "total": 1140.0,
+        "delta": -227.5,
         "downtime": 0.0,
-        "proficiency": 0.6472727272727272
+        "proficiency": 0.8290909090909091
        },
        {
         "name": "Welder",
@@ -65830,14 +65830,14 @@
          299.0,
          330.0,
          153.0,
-         null,
+         272.0,
          null
         ],
-        "rework": 178.0,
-        "total": 1195.0,
-        "delta": -856.25,
+        "rework": 211.0,
+        "total": 1467.0,
+        "delta": -584.25,
         "downtime": 100.0,
-        "proficiency": 0.6022047244094487
+        "proficiency": 0.7392755905511811
        },
        {
         "name": "Carga de bandas",
@@ -65951,7 +65951,7 @@
          0.0,
          0.0,
          415.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 415.0,
@@ -65991,7 +65991,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -66011,7 +66011,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -66031,7 +66031,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -66051,7 +66051,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -66071,13 +66071,13 @@
          150.0,
          150.0,
          150.0,
-         null
+         150.0
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": 79.5,
+        "total": 1050.0,
+        "delta": 229.5,
         "downtime": 0.0,
-        "proficiency": 1.0909090909090908
+        "proficiency": 1.2727272727272727
        },
        {
         "name": "Rofing",
@@ -66091,7 +66091,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -66151,7 +66151,7 @@
          300.0,
          223.0,
          276.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 1099.0,
@@ -66167,17 +66167,17 @@
         "hours": [
          0.0,
          285.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         350.0,
+         350.0,
+         350.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 285.0,
-        "delta": -1629.5,
+        "total": 1585.0,
+        "delta": -329.5,
         "downtime": 44.0,
-        "proficiency": 0.17082917082917085
+        "proficiency": 0.95004995004995
        }
       ]
      },

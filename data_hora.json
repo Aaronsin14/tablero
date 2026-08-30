@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-29T22:06:17",
+ "generated_at": "2026-08-29T22:13:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -67208,16 +67208,16 @@
          null,
          null,
          null,
-         null,
-         null,
-         null,
-         null
+         100.0,
+         100.0,
+         100.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 400.0,
+        "delta": -147.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.7272727272727273
        },
        {
         "name": "Sidehole Accu Vu",
@@ -67342,8 +67342,8 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 480.0,
-        "meta_dia": 2625.6,
+        "meta_hora": 0,
+        "meta_dia": 0,
         "hours": [
          null,
          null,
@@ -67355,9 +67355,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -2625.6,
+        "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Moldeadora Atlas",
@@ -67368,10 +67368,10 @@
          null,
          null,
          null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,

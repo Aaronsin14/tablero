@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-08-31T17:04:05",
+ "generated_at": "2026-08-31T17:11:26",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -69527,42 +69527,42 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
-         null,
-         null,
+         100.0,
+         275.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 10.0,
+        "total": 375.0,
+        "delta": -992.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.27272727272727276
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 375.0,
+        "meta_dia": 2051.25,
         "hours": [
-         null,
-         null,
+         97.0,
+         300.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 13.0,
+        "total": 397.0,
+        "delta": -1654.25,
+        "downtime": 138.0,
+        "proficiency": 0.203101518784972
        },
        {
         "name": "Carga de bandas",
@@ -69570,7 +69570,7 @@
         "meta_hora": 75.0,
         "meta_dia": 410.25,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -69590,7 +69590,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -69610,7 +69610,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -69630,7 +69630,7 @@
         "meta_hora": 120.0,
         "meta_dia": 656.4,
         "hours": [
-         null,
+         8.0,
          null,
          null,
          null,
@@ -69638,11 +69638,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -656.4,
+        "rework": 2.0,
+        "total": 8.0,
+        "delta": -648.4,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.012121212121212121
        },
        {
         "name": "Inspeccion",
@@ -69891,7 +69891,7 @@
         "meta_dia": 1914.5,
         "hours": [
          175.0,
-         null,
+         320.0,
          null,
          null,
          null,
@@ -69899,10 +69899,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 175.0,
-        "delta": -1739.5,
+        "total": 495.0,
+        "delta": -1419.5,
         "downtime": 0.0,
-        "proficiency": 0.0909090909090909
+        "proficiency": 0.2571428571428571
        }
       ]
      },

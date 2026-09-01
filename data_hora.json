@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-01T16:27:05",
+ "generated_at": "2026-09-01T16:34:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -70767,10 +70767,10 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
-         null,
+         200.0,
          null,
          null,
          null,
@@ -70779,18 +70779,18 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "total": 200.0,
+        "delta": -1167.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.14545454545454548
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 375.0,
+        "meta_dia": 2051.25,
         "hours": [
-         null,
+         93.0,
          null,
          null,
          null,
@@ -70798,11 +70798,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 13.0,
+        "total": 93.0,
+        "delta": -1958.25,
+        "downtime": 708.0,
+        "proficiency": 0.06161490683229813
        },
        {
         "name": "Carga de bandas",
@@ -70870,7 +70870,7 @@
         "meta_hora": 50.0,
         "meta_dia": 273.5,
         "hours": [
-         null,
+         8.0,
          null,
          null,
          null,
@@ -70878,11 +70878,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -273.5,
+        "rework": 2.0,
+        "total": 8.0,
+        "delta": -265.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02909090909090909
        },
        {
         "name": "Inspeccion",
@@ -70890,19 +70890,19 @@
         "meta_hora": 50.0,
         "meta_dia": 273.5,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         8.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -273.5,
+        "rework": 2.0,
+        "total": 8.0,
+        "delta": -265.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02909090909090909
        },
        {
         "name": "Drawdown",

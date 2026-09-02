@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-02T14:36:10",
+ "generated_at": "2026-09-02T14:43:31",
  "current_sheet": "08-sep-2026",
  "current_date": "2026-09-08",
  "stages": [
@@ -151,10 +151,10 @@
    "part_number": "40732101",
    "sub_ensamble": "14400113",
    "demanda": 715.0,
-   "producido": 714.0,
-   "pct": 99.9,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 705.0,
+   "pct": 98.6,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
@@ -181,8 +181,8 @@
    "part_number": "40732203",
    "sub_ensamble": "14400111",
    "demanda": 2000.0,
-   "producido": 1871.0,
-   "pct": 93.5,
+   "producido": 1770.0,
+   "pct": 88.5,
    "stage_key": "packaged",
    "stage_col": 25,
    "status": "ambar"
@@ -291,8 +291,8 @@
    "part_number": "40732301",
    "sub_ensamble": "14400122",
    "demanda": 2000.0,
-   "producido": 2099.0,
-   "pct": 105.0,
+   "producido": 2006.0,
+   "pct": 100.3,
    "stage_key": "prepping",
    "stage_col": 15,
    "status": "verde"
@@ -411,11 +411,11 @@
    "part_number": "43709705 (21 Bandas)",
    "sub_ensamble": "14400131",
    "demanda": 250.0,
-   "producido": 267.0,
-   "pct": 106.8,
+   "producido": 153.0,
+   "pct": 61.2,
    "stage_key": "moldeo",
    "stage_col": 16,
-   "status": "verde"
+   "status": "rojo"
   },
   {
    "part_number": "43709804",
@@ -431,11 +431,11 @@
  "kpis": {
   "partes_activos": 33,
   "total_demanda": 28234.0,
-  "total_producido": 29242.0,
-  "empacado": 3156.0,
-  "pct_cumplimiento": 11.2,
-  "exceso_total": 1008.0,
-  "atrasados": 0
+  "total_producido": 28925.0,
+  "empacado": 3055.0,
+  "pct_cumplimiento": 10.8,
+  "exceso_total": 691.0,
+  "atrasados": 1
  },
  "weeks_available": [
   {

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-02T15:34:17",
+ "generated_at": "2026-09-02T15:41:40",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -70742,8 +70742,8 @@
          400.0,
          400.0,
          400.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 1613.0,
@@ -71684,13 +71684,13 @@
          47.0,
          95.0,
          40.0,
-         null
+         36.0
         ],
         "rework": 4.0,
-        "total": 399.0,
-        "delta": -172.89999999999998,
+        "total": 435.0,
+        "delta": -136.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.6976744186046512
+        "proficiency": 0.7606224864486799
        },
        {
         "name": "Inspeccion",
@@ -71707,13 +71707,13 @@
          47.0,
          95.0,
          40.0,
-         null
+         36.0
         ],
         "rework": 4.0,
-        "total": 399.0,
-        "delta": -172.89999999999998,
+        "total": 435.0,
+        "delta": -136.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.6976744186046512
+        "proficiency": 0.7606224864486799
        },
        {
         "name": "Drawdown",
@@ -71937,13 +71937,13 @@
          300.0,
          216.0,
          200.0,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 2199.0,
-        "delta": -252.0,
+        "total": 2249.0,
+        "delta": -202.0,
         "downtime": 0.0,
-        "proficiency": 0.8971848225214197
+        "proficiency": 0.9175846593227255
        },
        {
         "name": "Pouch",
@@ -71953,20 +71953,20 @@
         "hours": [
          null,
          0.0,
-         300.0,
-         300.0,
-         171.0,
-         440.0,
-         484.0,
          0.0,
-         350.0,
-         250.0
+         0.0,
+         771.0,
+         0.0,
+         600.0,
+         284.0,
+         400.0,
+         110.0
         ],
         "rework": 0.0,
-        "total": 2295.0,
-        "delta": -156.0,
+        "total": 2165.0,
+        "delta": -286.0,
         "downtime": 0.0,
-        "proficiency": 0.9363525091799266
+        "proficiency": 0.8833129334965321
        },
        {
         "name": "Boxing",

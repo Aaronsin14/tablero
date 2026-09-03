@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-03T14:48:05",
+ "generated_at": "2026-09-03T14:55:21",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72807,15 +72807,15 @@
          425.0,
          425.0,
          425.0,
-         null,
+         425.0,
          null,
          null
         ],
         "rework": 3.0,
-        "total": 2850.0,
-        "delta": -213.75,
+        "total": 3275.0,
+        "delta": 211.25,
         "downtime": 0.0,
-        "proficiency": 0.9302325581395349
+        "proficiency": 1.0689514483884128
        },
        {
         "name": "Welder",
@@ -72830,15 +72830,15 @@
          66.0,
          195.0,
          50.0,
-         null,
+         110.0,
          null,
          null
         ],
-        "rework": 116.0,
-        "total": 887.0,
-        "delta": -1318.9,
+        "rework": 160.0,
+        "total": 997.0,
+        "delta": -1208.9,
         "downtime": 180.0,
-        "proficiency": 0.4214477466562136
+        "proficiency": 0.4737129689021928
        },
        {
         "name": "Carga de bandas",
@@ -73082,16 +73082,16 @@
          0.0,
          40.0,
          40.0,
-         null,
-         null,
+         0.0,
+         50.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 80.0,
-        "delta": -410.2,
+        "total": 130.0,
+        "delta": -360.2,
         "downtime": 0.0,
-        "proficiency": 0.1631986944104447
+        "proficiency": 0.2651978784169727
        },
        {
         "name": "Prepping",
@@ -73105,16 +73105,16 @@
          150.0,
          150.0,
          150.0,
-         null,
-         null,
+         150.0,
+         150.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 825.0,
-        "delta": -400.5,
+        "total": 1125.0,
+        "delta": -100.5,
         "downtime": 0.0,
-        "proficiency": 0.6731946144430845
+        "proficiency": 0.9179926560587516
        },
        {
         "name": "Rofing",
@@ -73128,8 +73128,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -73174,8 +73174,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -73197,16 +73197,16 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         250.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 736.0,
-        "delta": -1715.0,
+        "total": 986.0,
+        "delta": -1465.0,
         "downtime": 0.0,
-        "proficiency": 0.3002855977152183
+        "proficiency": 0.40228478172174625
        },
        {
         "name": "Boxing",

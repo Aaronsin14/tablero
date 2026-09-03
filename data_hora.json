@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-02T21:23:23",
+ "generated_at": "2026-09-02T21:30:41",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72036,13 +72036,13 @@
          375.0,
          240.0,
          200.0,
-         205.0
+         213.0
         ],
-        "rework": 119.0,
-        "total": 1832.0,
-        "delta": -219.25,
-        "downtime": 300.0,
-        "proficiency": 1.002119658119658
+        "rework": 124.0,
+        "total": 1840.0,
+        "delta": -211.25,
+        "downtime": 315.0,
+        "proficiency": 1.012989247311828
        },
        {
         "name": "Carga de bandas",
@@ -72055,14 +72055,14 @@
          0.0,
          0.0,
          0.0,
-         null,
+         100.0,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -410.25,
+        "total": 100.0,
+        "delta": -310.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.24242424242424246
        },
        {
         "name": "Staker",
@@ -72075,14 +72075,14 @@
          150.0,
          67.0,
          150.0,
-         null,
+         100.0,
          null
         ],
         "rework": 19.0,
-        "total": 558.0,
-        "delta": 11.0,
+        "total": 658.0,
+        "delta": 111.0,
         "downtime": 0.0,
-        "proficiency": 1.0145454545454546
+        "proficiency": 1.1963636363636363
        },
        {
         "name": "Swager",
@@ -72095,14 +72095,14 @@
          150.0,
          67.0,
          150.0,
-         null,
+         100.0,
          null
         ],
         "rework": 0.0,
-        "total": 558.0,
-        "delta": 11.0,
+        "total": 658.0,
+        "delta": 111.0,
         "downtime": 0.0,
-        "proficiency": 1.0145454545454546
+        "proficiency": 1.1963636363636363
        },
        {
         "name": "Embedder",

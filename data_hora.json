@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-02T23:12:36",
+ "generated_at": "2026-09-02T23:19:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72548,8 +72548,8 @@
        {
         "name": "Sidehole Soft Vu",
         "maquinas": 1,
-        "meta_hora": 100.0,
-        "meta_dia": 698.0,
+        "meta_hora": 0,
+        "meta_dia": 0,
         "hours": [
          0.0,
          null,
@@ -72562,9 +72562,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -698.0,
+        "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Sidehole Accu Vu",
@@ -72572,7 +72572,7 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
+         80.0,
          null,
          null,
          null,
@@ -72582,10 +72582,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 80.0,
+        "delta": -618.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10389610389610389
        },
        {
         "name": "Baking Rot",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-02T19:27:06",
+ "generated_at": "2026-09-02T19:34:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72107,22 +72107,22 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 100.0,
-        "meta_dia": 547.0,
+        "meta_hora": 110.0,
+        "meta_dia": 601.7,
         "hours": [
-         10.0,
-         null,
-         null,
-         null,
+         21.0,
+         99.0,
+         111.0,
+         111.0,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 10.0,
-        "delta": -537.0,
+        "rework": 16.0,
+        "total": 342.0,
+        "delta": -259.69999999999993,
         "downtime": 0.0,
-        "proficiency": 0.01818181818181818
+        "proficiency": 0.5652892561983471
        },
        {
         "name": "Inspeccion",
@@ -72130,19 +72130,19 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         10.0,
-         0.0,
-         0.0,
-         0.0,
+         21.0,
+         99.0,
+         111.0,
+         111.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 0.0,
-        "total": 10.0,
-        "delta": -537.0,
+        "rework": 12.0,
+        "total": 342.0,
+        "delta": -205.0,
         "downtime": 0.0,
-        "proficiency": 0.01818181818181818
+        "proficiency": 0.6218181818181818
        },
        {
         "name": "Drawdown",
@@ -72153,16 +72153,16 @@
          70.0,
          330.0,
          280.0,
-         null,
+         170.0,
          null,
          null,
          null
         ],
         "rework": 35.0,
-        "total": 680.0,
-        "delta": -1453.2999999999997,
+        "total": 850.0,
+        "delta": -1283.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.31701631701631705
+        "proficiency": 0.39627039627039623
        },
        {
         "name": "Sidehole Soft Vu",
@@ -72213,16 +72213,16 @@
          0.0,
          302.0,
          360.0,
-         60.0,
+         140.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 722.0,
-        "delta": -1739.5,
+        "total": 802.0,
+        "delta": -1659.5,
         "downtime": 0.0,
-        "proficiency": 0.2917171717171717
+        "proficiency": 0.324040404040404
        },
        {
         "name": "Baking Conv",

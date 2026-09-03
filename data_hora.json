@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-03T11:50:36",
+ "generated_at": "2026-09-03T11:57:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -73071,16 +73071,16 @@
         "proficiency": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hidrofilico",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         40.0,
          null,
          null,
          null,
@@ -73088,10 +73088,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
+        "total": 40.0,
+        "delta": -450.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.08159934720522236
        },
        {
         "name": "Prepping",
@@ -73102,19 +73102,19 @@
          150.0,
          75.0,
          150.0,
-         null,
-         null,
-         null,
+         150.0,
+         150.0,
+         0.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 375.0,
-        "delta": -850.5,
+        "total": 675.0,
+        "delta": -550.5,
         "downtime": 0.0,
-        "proficiency": 0.30599755201958384
+        "proficiency": 0.5507955936352509
        },
        {
         "name": "Rofing",
@@ -73125,8 +73125,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -73171,8 +73171,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -73194,8 +73194,8 @@
          null,
          736.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-03T15:24:24",
+ "generated_at": "2026-09-03T15:31:50",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72808,20 +72808,20 @@
          425.0,
          425.0,
          425.0,
-         null,
-         null
+         550.0,
+         487.0
         ],
-        "rework": 3.0,
-        "total": 3275.0,
-        "delta": 211.25,
+        "rework": 9.0,
+        "total": 4312.0,
+        "delta": 1248.25,
         "downtime": 0.0,
-        "proficiency": 1.0689514483884128
+        "proficiency": 1.4074255405956753
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 270.0,
-        "meta_dia": 2205.9,
+        "meta_hora": 275.0,
+        "meta_dia": 2246.75,
         "hours": [
          62.0,
          199.0,
@@ -72831,14 +72831,14 @@
          195.0,
          50.0,
          110.0,
-         null,
-         null
+         115.0,
+         114.0
         ],
-        "rework": 160.0,
-        "total": 997.0,
-        "delta": -1208.9,
-        "downtime": 180.0,
-        "proficiency": 0.4737129689021928
+        "rework": 269.0,
+        "total": 1226.0,
+        "delta": -1020.75,
+        "downtime": 1050.0,
+        "proficiency": 0.7452038141549215
        },
        {
         "name": "Carga de bandas",
@@ -73084,14 +73084,14 @@
          40.0,
          0.0,
          50.0,
-         null,
-         null
+         60.0,
+         40.0
         ],
         "rework": 0.0,
-        "total": 130.0,
-        "delta": -360.2,
+        "total": 230.0,
+        "delta": -260.2,
         "downtime": 0.0,
-        "proficiency": 0.2651978784169727
+        "proficiency": 0.46919624643002855
        },
        {
         "name": "Prepping",
@@ -73107,14 +73107,14 @@
          150.0,
          150.0,
          150.0,
-         null,
-         null
+         150.0,
+         75.0
         ],
         "rework": 0.0,
-        "total": 1125.0,
-        "delta": -100.5,
+        "total": 1350.0,
+        "delta": 124.5,
         "downtime": 0.0,
-        "proficiency": 0.9179926560587516
+        "proficiency": 1.1015911872705018
        },
        {
         "name": "Rofing",
@@ -73130,8 +73130,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -73176,8 +73176,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -73199,14 +73199,14 @@
          0.0,
          0.0,
          250.0,
-         null,
-         null
+         250.0,
+         238.0
         ],
         "rework": 0.0,
-        "total": 986.0,
-        "delta": -1465.0,
+        "total": 1474.0,
+        "delta": -977.0,
         "downtime": 0.0,
-        "proficiency": 0.40228478172174625
+        "proficiency": 0.6013871889024888
        },
        {
         "name": "Boxing",

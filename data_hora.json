@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-02T18:07:08",
+ "generated_at": "2026-09-02T18:14:26",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72007,22 +72007,22 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
          225.0,
          400.0,
-         null,
+         350.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 625.0,
-        "delta": -2110.0,
+        "rework": 22.0,
+        "total": 975.0,
+        "delta": -392.5,
         "downtime": 0.0,
-        "proficiency": 0.2272727272727273
+        "proficiency": 0.7090909090909091
        },
        {
         "name": "Welder",
@@ -72032,17 +72032,17 @@
         "hours": [
          105.0,
          350.0,
-         null,
+         357.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 33.0,
-        "total": 455.0,
-        "delta": -1596.25,
-        "downtime": 0.0,
-        "proficiency": 0.2206060606060606
+        "rework": 64.0,
+        "total": 812.0,
+        "delta": -1239.25,
+        "downtime": 30.0,
+        "proficiency": 0.39822222222222226
        },
        {
         "name": "Carga de bandas",
@@ -72052,7 +72052,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -72112,17 +72112,17 @@
         "hours": [
          41.0,
          134.0,
-         null,
+         150.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 20.0,
-        "total": 175.0,
-        "delta": -481.4,
+        "rework": 23.0,
+        "total": 325.0,
+        "delta": -331.4,
         "downtime": 0.0,
-        "proficiency": 0.26515151515151514
+        "proficiency": 0.49242424242424243
        },
        {
         "name": "Inspeccion",
@@ -72132,17 +72132,17 @@
         "hours": [
          41.0,
          134.0,
-         0.0,
+         150.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 12.0,
-        "total": 175.0,
-        "delta": -98.5,
+        "rework": 15.0,
+        "total": 325.0,
+        "delta": 51.5,
         "downtime": 0.0,
-        "proficiency": 0.6363636363636364
+        "proficiency": 1.1818181818181819
        },
        {
         "name": "Drawdown",

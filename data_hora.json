@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-04T17:28:57",
+ "generated_at": "2026-09-04T17:36:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -74490,19 +74490,19 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         null,
-         null,
+         275.0,
+         300.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 3.0,
+        "total": 575.0,
+        "delta": -2160.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2090909090909091
        },
        {
         "name": "Welder",
@@ -74510,19 +74510,19 @@
         "meta_hora": 400.0,
         "meta_dia": 2188.0,
         "hours": [
-         null,
-         null,
+         95.0,
+         310.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 58.0,
+        "total": 405.0,
+        "delta": -1783.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1840909090909091
        },
        {
         "name": "Carga de bandas",
@@ -74587,8 +74587,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
          null,
          null,
@@ -74600,7 +74600,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -656.4,
+        "delta": -273.5,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -74630,8 +74630,8 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         null,
-         null,
+         200.0,
+         390.0,
          null,
          null,
          null,
@@ -74639,10 +74639,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2133.2999999999997,
+        "total": 590.0,
+        "delta": -1543.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.275058275058275
        },
        {
         "name": "Sidehole Soft Vu",
@@ -74650,8 +74650,8 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -74670,8 +74670,8 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -74690,8 +74690,8 @@
         "meta_hora": 450.0,
         "meta_dia": 2461.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         225.0,
          null,
          null,
          null,
@@ -74699,10 +74699,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2461.5,
+        "total": 225.0,
+        "delta": -2236.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0909090909090909
        },
        {
         "name": "Baking Conv",
@@ -74710,8 +74710,8 @@
         "meta_hora": 60.0,
         "meta_dia": 328.2,
         "hours": [
-         null,
-         null,
+         0.0,
+         30.0,
          null,
          null,
          null,
@@ -74719,10 +74719,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -328.2,
+        "total": 30.0,
+        "delta": -298.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0909090909090909
        },
        {
         "name": "Hand Drilling",
@@ -74730,8 +74730,8 @@
         "meta_hora": 30.0,
         "meta_dia": 164.1,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -74750,8 +74750,8 @@
         "meta_hora": 150.0,
         "meta_dia": 683.75,
         "hours": [
-         null,
-         null,
+         300.0,
+         300.0,
          null,
          null,
          null,
@@ -74759,10 +74759,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -820.5,
+        "total": 600.0,
+        "delta": -220.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.7272727272727273
        },
        {
         "name": "Rofing",
@@ -74770,8 +74770,8 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         null,
-         null,
+         350.0,
+         350.0,
          null,
          null,
          null,
@@ -74779,19 +74779,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1641.0,
+        "total": 700.0,
+        "delta": -941.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.4242424242424242
        },
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 480.0,
-        "meta_dia": 2625.6,
+        "meta_hora": 0,
+        "meta_dia": 0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -74800,9 +74800,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -2625.6,
+        "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Moldeadora Atlas",
@@ -74810,8 +74810,8 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         300.0,
          null,
          null,
          null,
@@ -74819,10 +74819,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1641.0,
+        "total": 300.0,
+        "delta": -1341.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18181818181818182
        },
        {
         "name": "Pouch",
@@ -74830,8 +74830,8 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,

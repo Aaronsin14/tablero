@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-04T08:01:06",
+ "generated_at": "2026-09-04T08:11:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -74317,7 +74317,7 @@
         "meta_dia": 490.2,
         "hours": [
          15.0,
-         null,
+         10.0,
          null,
          null,
          null,
@@ -74328,10 +74328,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 15.0,
-        "delta": -475.2,
+        "total": 25.0,
+        "delta": -465.2,
         "downtime": 0.0,
-        "proficiency": 0.030599755201958387
+        "proficiency": 0.050999592003263976
        },
        {
         "name": "Prepping",
@@ -74340,7 +74340,7 @@
         "meta_dia": 1021.25,
         "hours": [
          0.0,
-         null,
+         150.0,
          null,
          null,
          null,
@@ -74351,10 +74351,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 150.0,
+        "delta": -1075.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783355
        },
        {
         "name": "Rofing",
@@ -74363,7 +74363,7 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -74409,7 +74409,7 @@
         "meta_dia": 2451.0,
         "hours": [
          266.0,
-         null,
+         273.0,
          null,
          null,
          null,
@@ -74420,10 +74420,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 266.0,
-        "delta": -2185.0,
+        "total": 539.0,
+        "delta": -1912.0,
         "downtime": 0.0,
-        "proficiency": 0.10852713178294573
+        "proficiency": 0.21991024071807425
        },
        {
         "name": "Pouch",
@@ -74432,7 +74432,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -74443,10 +74443,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Boxing",

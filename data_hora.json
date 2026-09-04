@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-04T07:43:03",
+ "generated_at": "2026-09-04T07:51:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -74201,7 +74201,7 @@
         "meta_hora": 390.0,
         "meta_dia": 3186.2999999999997,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -74213,10 +74213,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -3186.3,
+        "total": 50.0,
+        "delta": -3136.3,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.015692182154850454
        },
        {
         "name": "Sidehole Soft Vu",
@@ -74224,7 +74224,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -74236,10 +74236,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 50.0,
+        "delta": -767.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.061199510403916774
        },
        {
         "name": "Sidehole Accu Vu",
@@ -74247,7 +74247,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -74259,10 +74259,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -817.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Baking Rot",
@@ -74270,7 +74270,7 @@
         "meta_hora": 450.0,
         "meta_dia": 3676.5,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -74282,10 +74282,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -3676.5,
+        "total": 50.0,
+        "delta": -3626.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.013599891200870393
        },
        {
         "name": "Baking Conv",
@@ -74293,7 +74293,7 @@
         "meta_hora": 60.0,
         "meta_dia": 490.2,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -74305,10 +74305,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -490.2,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Hidrofilico",

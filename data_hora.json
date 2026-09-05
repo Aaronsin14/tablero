@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-04T19:26:46",
+ "generated_at": "2026-09-04T19:34:04",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -74633,7 +74633,7 @@
          200.0,
          390.0,
          null,
-         null,
+         0.0,
          null,
          null,
          null
@@ -74651,18 +74651,18 @@
         "meta_dia": 547.0,
         "hours": [
          0.0,
+         50.0,
+         null,
          0.0,
-         null,
-         null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "rework": 2.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Sidehole Accu Vu",
@@ -74672,8 +74672,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -74692,8 +74692,8 @@
         "hours": [
          0.0,
          225.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -74713,7 +74713,7 @@
          0.0,
          30.0,
          null,
-         null,
+         0.0,
          null,
          null,
          null
@@ -74732,8 +74732,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -74753,7 +74753,7 @@
          300.0,
          300.0,
          null,
-         null,
+         0.0,
          null,
          null,
          null
@@ -74772,17 +74772,17 @@
         "hours": [
          350.0,
          350.0,
-         null,
-         null,
+         350.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 700.0,
-        "delta": -941.0,
+        "total": 1050.0,
+        "delta": -591.0,
         "downtime": 0.0,
-        "proficiency": 0.4242424242424242
+        "proficiency": 0.6363636363636364
        },
        {
         "name": "Moldeadora Milacron",
@@ -74792,8 +74792,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -74813,7 +74813,7 @@
          0.0,
          300.0,
          null,
-         null,
+         0.0,
          null,
          null,
          null
@@ -74832,8 +74832,8 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null

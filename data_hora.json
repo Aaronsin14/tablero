@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-05T14:18:01",
+ "generated_at": "2026-09-05T14:25:22",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -75287,15 +75287,15 @@
          250.0,
          250.0,
          150.0,
-         null,
+         200.0,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 1150.0,
-        "delta": -2935.0,
+        "rework": 7.0,
+        "total": 1350.0,
+        "delta": -2735.0,
         "downtime": 240.0,
-        "proficiency": 0.3727714748784441
+        "proficiency": 0.4376012965964343
        },
        {
         "name": "Welder",
@@ -75310,15 +75310,15 @@
          275.0,
          250.0,
          190.0,
-         null,
+         340.0,
          null,
          null
         ],
-        "rework": 146.0,
-        "total": 1143.0,
-        "delta": -1675.65,
-        "downtime": 960.0,
-        "proficiency": 0.5369600450990064
+        "rework": 202.0,
+        "total": 1483.0,
+        "delta": -1335.65,
+        "downtime": 1290.0,
+        "proficiency": 0.7840493797788748
        },
        {
         "name": "Carga de bandas",
@@ -75455,8 +75455,8 @@
         "rework": 0.0,
         "total": 976.0,
         "delta": -2210.3,
-        "downtime": 0.0,
-        "proficiency": 0.30631139566268084
+        "downtime": 180.0,
+        "proficiency": 0.3490326502878804
        },
        {
         "name": "Sidehole Soft Vu",
@@ -75547,8 +75547,8 @@
         "rework": 0.0,
         "total": 219.0,
         "delta": -271.2,
-        "downtime": 0.0,
-        "proficiency": 0.44675642594859244
+        "downtime": 60.0,
+        "proficiency": 0.5090655509065551
        },
        {
         "name": "Hand Drilling",
@@ -75685,8 +75685,8 @@
         "rework": 0.0,
         "total": 221.0,
         "delta": -2230.0,
-        "downtime": 0.0,
-        "proficiency": 0.09016727866177071
+        "downtime": 240.0,
+        "proficiency": 0.17665867306155075
        },
        {
         "name": "Boxing",
@@ -75701,15 +75701,15 @@
          300.0,
          100.0,
          185.0,
-         null,
+         305.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 2045.0,
-        "delta": -814.5,
+        "total": 2350.0,
+        "delta": -509.5,
         "downtime": 0.0,
-        "proficiency": 0.7151599930057703
+        "proficiency": 0.8218219968525966
        }
       ]
      },

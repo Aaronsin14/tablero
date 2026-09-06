@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-06T01:45:10",
+ "generated_at": "2026-09-06T01:52:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -75882,16 +75882,16 @@
         "meta_hora": 300.0,
         "meta_dia": 0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         200.0,
+         200.0,
+         300.0,
+         200.0
         ],
         "rework": 0.0,
-        "total": 0.0,
+        "total": 900.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -75902,16 +75902,16 @@
         "meta_hora": 300.0,
         "meta_dia": 0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         300.0,
+         300.0,
+         300.0,
+         120.0,
+         300.0,
+         300.0,
+         300.0
         ],
         "rework": 0.0,
-        "total": 0.0,
+        "total": 1920.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -76266,9 +76266,9 @@
         "proficiency": 0
        },
        {
-        "name": "-1641",
+        "name": "-741",
         "maquinas": 1641,
-        "meta_hora": 0,
+        "meta_hora": 0.5454545454545454,
         "meta_dia": 0,
         "hours": [
          0.0,
@@ -76287,9 +76287,9 @@
         "proficiency": 0
        },
        {
-        "name": "-1641",
+        "name": "279",
         "maquinas": 1641,
-        "meta_hora": 0,
+        "meta_hora": 1.1636363636363636,
         "meta_dia": 0,
         "hours": [
          0.0,

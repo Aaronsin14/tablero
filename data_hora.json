@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-07T15:20:00",
+ "generated_at": "2026-09-07T15:27:59",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -77628,14 +77628,14 @@
          301.0,
          159.0,
          245.0,
-         null,
-         null
+         50.0,
+         25.0
         ],
         "rework": 241.0,
-        "total": 1352.0,
-        "delta": -1589.1999999999998,
+        "total": 1427.0,
+        "delta": -1514.1999999999998,
         "downtime": 0.0,
-        "proficiency": 0.45967632258941926
+        "proficiency": 0.48517611859105125
        },
        {
         "name": "Carga de bandas",
@@ -77720,14 +77720,14 @@
          53.0,
          30.0,
          36.0,
-         null,
+         42.0,
          null
         ],
-        "rework": 13.0,
-        "total": 234.0,
-        "delta": -337.9,
+        "rework": 14.0,
+        "total": 276.0,
+        "delta": -295.9,
         "downtime": 0.0,
-        "proficiency": 0.40916244098618637
+        "proficiency": 0.4826018534708865
        },
        {
         "name": "Inspeccion",
@@ -77743,14 +77743,14 @@
          53.0,
          30.0,
          36.0,
-         0.0,
+         42.0,
          0.0
         ],
-        "rework": 13.0,
-        "total": 234.0,
-        "delta": -337.9,
+        "rework": 14.0,
+        "total": 276.0,
+        "delta": -295.9,
         "downtime": 0.0,
-        "proficiency": 0.40916244098618637
+        "proficiency": 0.4826018534708865
        },
        {
         "name": "Drawdown",
@@ -77904,14 +77904,14 @@
          150.0,
          150.0,
          150.0,
-         1500.0,
-         null
+         190.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 2550.0,
-        "delta": 1324.5,
+        "total": 1340.0,
+        "delta": 114.5,
         "downtime": 0.0,
-        "proficiency": 2.08078335373317
+        "proficiency": 1.0934312525499796
        },
        {
         "name": "Rofing",
@@ -77928,13 +77928,13 @@
          500.0,
          1100.0,
          1100.0,
-         null
+         550.0
         ],
         "rework": 0.0,
-        "total": 5725.0,
-        "delta": 3274.0,
+        "total": 6275.0,
+        "delta": 3824.0,
         "downtime": 0.0,
-        "proficiency": 2.33578131374949
+        "proficiency": 2.560179518563851
        },
        {
         "name": "Moldeadora Milacron",
@@ -78017,10 +78017,10 @@
          400.0,
          400.0,
          75.0,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 1420.0,

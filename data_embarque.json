@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-07T16:14:12",
+ "generated_at": "2026-09-07T16:21:37",
  "current_sheet": "08-sep-2026",
  "current_date": "2026-09-08",
  "stages": [
@@ -133,8 +133,8 @@
    "demanda": 250.0,
    "producido": 246.0,
    "pct": 98.4,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
+   "stage_key": "pouch",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
@@ -253,8 +253,8 @@
    "demanda": 520.0,
    "producido": 539.0,
    "pct": 103.7,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 21,
+   "stage_key": "pouch",
+   "stage_col": 22,
    "status": "verde"
   },
   {

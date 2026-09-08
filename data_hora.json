@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-08T14:07:36",
+ "generated_at": "2026-09-08T14:15:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -79137,21 +79137,21 @@
         "meta_dia": 1021.25,
         "hours": [
          150.0,
-         200.0,
-         200.0,
-         200.0,
-         200.0,
-         200.0,
-         null,
-         null,
+         300.0,
+         150.0,
+         300.0,
+         300.0,
+         81.0,
+         150.0,
+         150.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1150.0,
-        "delta": -75.5,
+        "total": 1581.0,
+        "delta": 355.5,
         "downtime": 0.0,
-        "proficiency": 0.9383924928600571
+        "proficiency": 1.2900856793145654
        },
        {
         "name": "Rofing",
@@ -79164,17 +79164,17 @@
          550.0,
          800.0,
          1000.0,
+         1000.0,
          550.0,
-         null,
-         null,
+         595.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 3890.0,
-        "delta": 1439.0,
+        "total": 5485.0,
+        "delta": 3034.0,
         "downtime": 0.0,
-        "proficiency": 1.5871073031415748
+        "proficiency": 2.237862097103223
        },
        {
         "name": "Moldeadora Milacron",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-07T21:04:05",
+ "generated_at": "2026-09-07T21:11:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78052,14 +78052,14 @@
          375.0,
          250.0,
          325.0,
-         null,
+         375.0,
          null
         ],
-        "rework": 41.0,
-        "total": 1450.0,
-        "delta": 82.5,
+        "rework": 61.0,
+        "total": 1825.0,
+        "delta": 457.5,
         "downtime": 0.0,
-        "proficiency": 1.0545454545454545
+        "proficiency": 1.3272727272727272
        },
        {
         "name": "Welder",
@@ -78072,14 +78072,14 @@
          400.0,
          400.0,
          195.0,
-         null,
+         314.0,
          null
         ],
-        "rework": 110.0,
-        "total": 1525.0,
-        "delta": -663.0,
+        "rework": 147.0,
+        "total": 1839.0,
+        "delta": -349.0,
         "downtime": 35.0,
-        "proficiency": 0.7024952015355086
+        "proficiency": 0.8471401151631478
        },
        {
         "name": "Carga de bandas",
@@ -78092,7 +78092,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -78112,14 +78112,14 @@
          31.0,
          9.0,
          50.0,
-         0.0,
+         50.0,
          0.0
         ],
         "rework": 5.0,
-        "total": 140.0,
-        "delta": -270.25,
+        "total": 190.0,
+        "delta": -220.25,
         "downtime": 0.0,
-        "proficiency": 0.33939393939393936
+        "proficiency": 0.46060606060606063
        },
        {
         "name": "Swager",
@@ -78132,14 +78132,14 @@
          31.0,
          9.0,
          0.0,
-         0.0,
+         50.0,
          0.0
         ],
         "rework": 0.0,
-        "total": 90.0,
-        "delta": -457.0,
+        "total": 140.0,
+        "delta": -407.0,
         "downtime": 0.0,
-        "proficiency": 0.16363636363636364
+        "proficiency": 0.2545454545454545
        },
        {
         "name": "Embedder",
@@ -78272,14 +78272,14 @@
          40.0,
          30.0,
          40.0,
-         null,
+         56.0,
          null
         ],
-        "rework": 12.0,
-        "total": 146.0,
-        "delta": -182.2,
+        "rework": 13.0,
+        "total": 202.0,
+        "delta": -126.19999999999999,
         "downtime": 24.0,
-        "proficiency": 0.477124183006536
+        "proficiency": 0.6601307189542484
        },
        {
         "name": "Hand Drilling",
@@ -78310,16 +78310,16 @@
          300.0,
          300.0,
          300.0,
-         300.0,
-         300.0,
-         null,
-         null
+         460.0,
+         460.0,
+         460.0,
+         460.0
         ],
         "rework": 0.0,
-        "total": 1500.0,
-        "delta": 679.5,
+        "total": 2740.0,
+        "delta": 1919.5,
         "downtime": 0.0,
-        "proficiency": 1.8181818181818183
+        "proficiency": 3.3212121212121213
        },
        {
         "name": "Rofing",
@@ -78392,14 +78392,14 @@
          245.0,
          300.0,
          295.0,
-         null,
-         null
+         296.0,
+         40.0
         ],
         "rework": 0.0,
-        "total": 1085.0,
-        "delta": -556.0,
+        "total": 1421.0,
+        "delta": -220.0,
         "downtime": 24.0,
-        "proficiency": 0.7091503267973857
+        "proficiency": 0.9287581699346406
        },
        {
         "name": "Boxing",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-07T19:04:37",
+ "generated_at": "2026-09-07T19:12:07",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78090,7 +78090,7 @@
          24.0,
          75.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -78110,16 +78110,16 @@
          15.0,
          35.0,
          31.0,
-         null,
+         9.0,
          null,
          null,
          null
         ],
-        "rework": 5.0,
-        "total": 81.0,
-        "delta": -466.0,
+        "rework": 12.0,
+        "total": 90.0,
+        "delta": -457.0,
         "downtime": 0.0,
-        "proficiency": 0.14727272727272728
+        "proficiency": 0.16363636363636364
        },
        {
         "name": "Swager",
@@ -78130,16 +78130,16 @@
          15.0,
          35.0,
          31.0,
-         null,
+         9.0,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 81.0,
-        "delta": -466.0,
+        "rework": 1.0,
+        "total": 90.0,
+        "delta": -457.0,
         "downtime": 0.0,
-        "proficiency": 0.14727272727272728
+        "proficiency": 0.16363636363636364
        },
        {
         "name": "Embedder",
@@ -78150,16 +78150,16 @@
          8.0,
          39.0,
          43.0,
-         null,
+         23.0,
          null,
          null,
          null
         ],
-        "rework": 8.0,
-        "total": 90.0,
-        "delta": -566.4,
+        "rework": 9.0,
+        "total": 113.0,
+        "delta": -543.4,
         "downtime": 0.0,
-        "proficiency": 0.13636363636363635
+        "proficiency": 0.17121212121212123
        },
        {
         "name": "Inspeccion",
@@ -78170,16 +78170,16 @@
          8.0,
          39.0,
          43.0,
-         0.0,
+         23.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 8.0,
-        "total": 90.0,
-        "delta": -183.5,
+        "rework": 9.0,
+        "total": 113.0,
+        "delta": -160.5,
         "downtime": 0.0,
-        "proficiency": 0.32727272727272727
+        "proficiency": 0.41090909090909095
        },
        {
         "name": "Drawdown",
@@ -78250,16 +78250,16 @@
          0.0,
          90.0,
          250.0,
-         0.0,
+         300.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 340.0,
-        "delta": -2121.5,
+        "total": 640.0,
+        "delta": -1821.5,
         "downtime": 0.0,
-        "proficiency": 0.13737373737373737
+        "proficiency": 0.2585858585858586
        },
        {
         "name": "Baking Conv",
@@ -78270,16 +78270,16 @@
          0.0,
          36.0,
          40.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
-        "rework": 4.0,
-        "total": 76.0,
-        "delta": -252.2,
+        "rework": 8.0,
+        "total": 106.0,
+        "delta": -222.2,
         "downtime": 24.0,
-        "proficiency": 0.24836601307189543
+        "proficiency": 0.3464052287581699
        },
        {
         "name": "Hand Drilling",
@@ -78370,16 +78370,16 @@
          100.0,
          300.0,
          220.0,
-         null,
+         200.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 620.0,
-        "delta": -1021.0,
+        "total": 820.0,
+        "delta": -821.0,
         "downtime": 0.0,
-        "proficiency": 0.3757575757575758
+        "proficiency": 0.496969696969697
        },
        {
         "name": "Pouch",
@@ -78390,16 +78390,16 @@
          0.0,
          245.0,
          245.0,
-         null,
+         300.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 490.0,
-        "delta": -1151.0,
+        "total": 790.0,
+        "delta": -851.0,
         "downtime": 24.0,
-        "proficiency": 0.3202614379084967
+        "proficiency": 0.5163398692810458
        },
        {
         "name": "Boxing",

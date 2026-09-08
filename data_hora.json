@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-07T21:56:11",
+ "generated_at": "2026-09-07T22:03:46",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78073,13 +78073,13 @@
          400.0,
          195.0,
          314.0,
-         270.0
+         285.0
         ],
         "rework": 174.0,
-        "total": 2109.0,
-        "delta": -79.0,
+        "total": 2124.0,
+        "delta": -64.0,
         "downtime": 170.0,
-        "proficiency": 1.0246153846153847
+        "proficiency": 1.0319028340080971
        },
        {
         "name": "Carga de bandas",
@@ -78238,8 +78238,8 @@
         "rework": 0.0,
         "total": 110.0,
         "delta": -437.0,
-        "downtime": 0.0,
-        "proficiency": 0.2
+        "downtime": 324.0,
+        "proficiency": 11.000000000000039
        },
        {
         "name": "Baking Rot",
@@ -78258,8 +78258,8 @@
         "rework": 0.0,
         "total": 1267.0,
         "delta": -1194.5,
-        "downtime": 84.0,
-        "proficiency": 0.5593818984547462
+        "downtime": 168.0,
+        "proficiency": 0.6165450121654501
        },
        {
         "name": "Baking Conv",
@@ -78278,8 +78278,8 @@
         "rework": 13.0,
         "total": 202.0,
         "delta": -126.19999999999999,
-        "downtime": 24.0,
-        "proficiency": 0.6601307189542484
+        "downtime": 84.0,
+        "proficiency": 0.8211382113821138
        },
        {
         "name": "Hand Drilling",
@@ -78373,7 +78373,7 @@
          200.0,
          232.0,
          null,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 1052.0,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-08T09:27:19",
+ "generated_at": "2026-09-08T09:35:40",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78839,7 +78839,7 @@
         "hours": [
          325.0,
          375.0,
-         null,
+         320.0,
          null,
          null,
          null,
@@ -78848,11 +78848,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 700.0,
-        "delta": -2363.75,
+        "rework": 2.0,
+        "total": 1020.0,
+        "delta": -2043.75,
         "downtime": 0.0,
-        "proficiency": 0.2284781721746226
+        "proficiency": 0.3329253365973072
        },
        {
         "name": "Welder",
@@ -78862,7 +78862,7 @@
         "hours": [
          147.0,
          311.0,
-         null,
+         164.0,
          null,
          null,
          null,
@@ -78871,11 +78871,11 @@
          null,
          null
         ],
-        "rework": 91.0,
-        "total": 458.0,
-        "delta": -2483.2,
+        "rework": 113.0,
+        "total": 622.0,
+        "delta": -2319.2,
         "downtime": 0.0,
-        "proficiency": 0.155718754249966
+        "proficiency": 0.2114783081735346
        },
        {
         "name": "Carga de bandas",
@@ -79161,7 +79161,7 @@
         "hours": [
          440.0,
          550.0,
-         null,
+         550.0,
          null,
          null,
          null,
@@ -79171,10 +79171,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 990.0,
-        "delta": -1461.0,
+        "total": 1540.0,
+        "delta": -911.0,
         "downtime": 0.0,
-        "proficiency": 0.4039167686658507
+        "proficiency": 0.6283149734802123
        },
        {
         "name": "Moldeadora Milacron",
@@ -79230,7 +79230,7 @@
         "hours": [
          null,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

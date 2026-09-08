@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-07T21:33:45",
+ "generated_at": "2026-09-07T21:41:11",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78113,13 +78113,13 @@
          9.0,
          50.0,
          50.0,
-         0.0
+         30.0
         ],
-        "rework": 5.0,
-        "total": 190.0,
-        "delta": -220.25,
+        "rework": 6.0,
+        "total": 220.0,
+        "delta": -190.25,
         "downtime": 0.0,
-        "proficiency": 0.46060606060606063
+        "proficiency": 0.5333333333333333
        },
        {
         "name": "Swager",
@@ -78133,13 +78133,13 @@
          9.0,
          0.0,
          50.0,
-         0.0
+         30.0
         ],
         "rework": 0.0,
-        "total": 140.0,
-        "delta": -407.0,
+        "total": 170.0,
+        "delta": -377.0,
         "downtime": 0.0,
-        "proficiency": 0.2545454545454545
+        "proficiency": 0.3090909090909091
        },
        {
         "name": "Embedder",
@@ -78193,13 +78193,13 @@
          380.0,
          430.0,
          336.0,
-         null
+         130.0
         ],
         "rework": 14.0,
-        "total": 2196.0,
-        "delta": 62.70000000000027,
+        "total": 2326.0,
+        "delta": 192.70000000000027,
         "downtime": 0.0,
-        "proficiency": 1.0237762237762238
+        "proficiency": 1.0843822843822843
        },
        {
         "name": "Sidehole Soft Vu",
@@ -78213,7 +78213,7 @@
          0.0,
          100.0,
          50.0,
-         null
+         0.0
         ],
         "rework": 2.0,
         "total": 250.0,
@@ -78233,13 +78233,13 @@
          0.0,
          0.0,
          0.0,
-         0.0
+         110.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 110.0,
+        "delta": -437.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2
        },
        {
         "name": "Baking Rot",

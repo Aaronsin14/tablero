@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-08T15:03:28",
+ "generated_at": "2026-09-08T15:12:00",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78842,17 +78842,17 @@
          320.0,
          400.0,
          438.0,
-         250.0,
-         null,
-         null,
-         null,
+         500.0,
+         289.0,
+         375.0,
+         375.0,
          null
         ],
-        "rework": 52.0,
-        "total": 2108.0,
-        "delta": -955.75,
+        "rework": 53.0,
+        "total": 3397.0,
+        "delta": 333.25,
         "downtime": 0.0,
-        "proficiency": 0.688045695634435
+        "proficiency": 1.1087719298245613
        },
        {
         "name": "Welder",
@@ -78866,16 +78866,16 @@
          271.0,
          281.0,
          298.0,
-         null,
-         null,
-         null,
-         null
+         107.0,
+         160.0,
+         195.0,
+         20.0
         ],
-        "rework": 194.0,
-        "total": 1472.0,
-        "delta": -1469.1999999999998,
+        "rework": 226.0,
+        "total": 1954.0,
+        "delta": -987.1999999999998,
         "downtime": 0.0,
-        "proficiency": 0.5004759961920304
+        "proficiency": 0.6643546851625187
        },
        {
         "name": "Carga de bandas",
@@ -79167,14 +79167,14 @@
          1000.0,
          550.0,
          595.0,
-         null,
+         1100.0,
          null
         ],
         "rework": 0.0,
-        "total": 5485.0,
-        "delta": 3034.0,
+        "total": 6585.0,
+        "delta": 4134.0,
         "downtime": 0.0,
-        "proficiency": 2.237862097103223
+        "proficiency": 2.686658506731946
        },
        {
         "name": "Moldeadora Milacron",
@@ -79212,7 +79212,7 @@
          0.0,
          0.0,
          267.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -79236,7 +79236,7 @@
          300.0,
          275.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-09T14:29:43",
+ "generated_at": "2026-09-09T14:37:17",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -518,24 +518,24 @@
    "status": "verde"
   },
   {
-   "part_number": "43709604",
+   "part_number": "43709604 No se van nuevo modelo 250",
    "sub_ensamble": "14400131",
-   "demanda": 250.0,
+   "demanda": null,
    "producido": 59.0,
-   "pct": 23.6,
+   "pct": null,
    "stage_key": "sidehole",
    "stage_col": 11,
-   "status": "rojo"
+   "status": "sin_meta"
   }
  ],
  "kpis": {
   "partes_activos": 44,
-  "total_demanda": 35435.0,
+  "total_demanda": 35185.0,
   "total_producido": 33537.0,
   "empacado": 4815.0,
-  "pct_cumplimiento": 13.6,
-  "exceso_total": -1898.0,
-  "atrasados": 3
+  "pct_cumplimiento": 13.7,
+  "exceso_total": -1648.0,
+  "atrasados": 2
  },
  "weeks_available": [
   {

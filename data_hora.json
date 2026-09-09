@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-09T13:21:46",
+ "generated_at": "2026-09-09T13:29:18",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -80082,17 +80082,17 @@
          170.0,
          125.0,
          375.0,
-         null,
-         null,
+         350.0,
+         250.0,
          null,
          null,
          null
         ],
-        "rework": 10.0,
-        "total": 1170.0,
-        "delta": -1893.75,
+        "rework": 19.0,
+        "total": 1770.0,
+        "delta": -1293.75,
         "downtime": 0.0,
-        "proficiency": 0.3818849449204406
+        "proficiency": 0.5777233782129744
        },
        {
         "name": "Welder",
@@ -80105,17 +80105,17 @@
          174.0,
          288.0,
          186.0,
-         null,
-         null,
+         187.0,
+         100.0,
          null,
          null,
          null
         ],
-        "rework": 188.0,
-        "total": 1060.0,
-        "delta": -1881.1999999999998,
-        "downtime": 730.0,
-        "proficiency": 0.44282909303588586
+        "rework": 219.0,
+        "total": 1347.0,
+        "delta": -1594.1999999999998,
+        "downtime": 850.0,
+        "proficiency": 0.5847115509832009
        },
        {
         "name": "Carga de bandas",
@@ -80129,7 +80129,7 @@
          0.0,
          108.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -80152,16 +80152,16 @@
          0.0,
          25.0,
          30.0,
-         null,
+         28.0,
          null,
          null,
          null
         ],
         "rework": 1.0,
-        "total": 100.0,
-        "delta": -717.0,
+        "total": 128.0,
+        "delta": -689.0,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.15667074663402691
        },
        {
         "name": "Swager",
@@ -80175,16 +80175,16 @@
          0.0,
          25.0,
          30.0,
-         null,
+         28.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 102.0,
-        "delta": -510.75,
+        "total": 130.0,
+        "delta": -482.75,
         "downtime": 0.0,
-        "proficiency": 0.1664626682986536
+        "proficiency": 0.21215830273357814
        },
        {
         "name": "Embedder",
@@ -80198,16 +80198,16 @@
          19.0,
          9.0,
          44.0,
-         null,
+         22.0,
          null,
          null,
          null
         ],
         "rework": 9.0,
-        "total": 97.0,
-        "delta": -474.9,
+        "total": 119.0,
+        "delta": -452.9,
         "downtime": 0.0,
-        "proficiency": 0.16961007169085507
+        "proficiency": 0.20807833537331702
        },
        {
         "name": "Inspeccion",
@@ -80221,16 +80221,16 @@
          19.0,
          9.0,
          44.0,
-         0.0,
+         22.0,
          0.0,
          0.0,
          0.0
         ],
         "rework": 9.0,
-        "total": 97.0,
-        "delta": -474.9,
+        "total": 119.0,
+        "delta": -452.9,
         "downtime": 0.0,
-        "proficiency": 0.16961007169085507
+        "proficiency": 0.20807833537331702
        },
        {
         "name": "Drawdown",
@@ -80313,16 +80313,16 @@
          250.0,
          200.0,
          250.0,
-         30.0,
+         150.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1105.0,
-        "delta": -2571.5,
+        "total": 1225.0,
+        "delta": -2451.5,
         "downtime": 0.0,
-        "proficiency": 0.3005575955392357
+        "proficiency": 0.3331973344213246
        },
        {
         "name": "Baking Conv",
@@ -80336,16 +80336,16 @@
          30.0,
          30.0,
          30.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -340.2,
+        "total": 180.0,
+        "delta": -310.2,
         "downtime": 0.0,
-        "proficiency": 0.30599755201958384
+        "proficiency": 0.36719706242350064
        },
        {
         "name": "Hand Drilling",

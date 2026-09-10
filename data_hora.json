@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-10T15:23:56",
+ "generated_at": "2026-09-10T15:32:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -81326,13 +81326,13 @@
          267.0,
          350.0,
          314.0,
-         null
+         254.0
         ],
-        "rework": 67.0,
-        "total": 2516.0,
-        "delta": -1569.0,
+        "rework": 86.0,
+        "total": 2770.0,
+        "delta": -1315.0,
         "downtime": 0.0,
-        "proficiency": 0.6159118727050183
+        "proficiency": 0.6780905752753977
        },
        {
         "name": "Welder",
@@ -81349,13 +81349,13 @@
          145.0,
          264.0,
          236.0,
-         null
+         97.0
         ],
-        "rework": 257.0,
-        "total": 2092.0,
-        "delta": -849.1999999999998,
-        "downtime": 480.0,
-        "proficiency": 0.8104757477142414
+        "rework": 273.0,
+        "total": 2189.0,
+        "delta": -752.1999999999998,
+        "downtime": 540.0,
+        "proficiency": 0.863102279000079
        },
        {
         "name": "Carga de bandas",
@@ -81647,14 +81647,14 @@
          847.0,
          550.0,
          1100.0,
-         null,
-         null
+         900.0,
+         475.0
         ],
         "rework": 0.0,
-        "total": 5286.0,
-        "delta": 2835.0,
+        "total": 6661.0,
+        "delta": 4210.0,
         "downtime": 0.0,
-        "proficiency": 2.156670746634027
+        "proficiency": 2.7176662586699307
        },
        {
         "name": "Moldeadora Milacron",
@@ -81716,14 +81716,14 @@
          0.0,
          0.0,
          300.0,
-         null,
-         null
+         270.0,
+         180.0
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -2151.0,
+        "total": 750.0,
+        "delta": -1701.0,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.30599755201958384
        },
        {
         "name": "Boxing",
@@ -81740,13 +81740,13 @@
          0.0,
          0.0,
          420.0,
-         null
+         45.0
         ],
         "rework": 0.0,
-        "total": 436.0,
-        "delta": -2423.5,
+        "total": 481.0,
+        "delta": -2378.5,
         "downtime": 0.0,
-        "proficiency": 0.15247420877775836
+        "proficiency": 0.1682112257387655
        }
       ]
      },

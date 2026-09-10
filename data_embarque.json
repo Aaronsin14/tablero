@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-09T16:10:58",
+ "generated_at": "2026-09-09T18:17:43",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -211,11 +211,11 @@
    "part_number": "40735504",
    "sub_ensamble": "14400106",
    "demanda": 400.0,
-   "producido": 411.0,
-   "pct": 102.8,
-   "stage_key": "baking",
-   "stage_col": 14,
-   "status": "verde"
+   "producido": 366.0,
+   "pct": 91.5,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "ambar"
   },
   {
    "part_number": "411732701",
@@ -313,8 +313,8 @@
    "demanda": 300.0,
    "producido": 308.0,
    "pct": 102.7,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -331,11 +331,11 @@
    "part_number": "40707701",
    "sub_ensamble": "14400117",
    "demanda": 500.0,
-   "producido": 528.0,
-   "pct": 105.6,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
-   "status": "verde"
+   "producido": 446.0,
+   "pct": 89.2,
+   "stage_key": "boxing",
+   "stage_col": 22,
+   "status": "ambar"
   },
   {
    "part_number": "40732301",
@@ -431,11 +431,11 @@
    "part_number": "43709703",
    "sub_ensamble": "14400116",
    "demanda": 535.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
+   "producido": 589.0,
+   "pct": 110.1,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "verde"
   },
   {
    "part_number": "43709402",
@@ -511,11 +511,11 @@
    "part_number": "43709005",
    "sub_ensamble": "14400131",
    "demanda": 500.0,
-   "producido": 508.0,
-   "pct": 101.6,
-   "stage_key": "sidehole",
-   "stage_col": 11,
-   "status": "verde"
+   "producido": 497.0,
+   "pct": 99.4,
+   "stage_key": "baking",
+   "stage_col": 14,
+   "status": "ambar"
   },
   {
    "part_number": "43709604 No se van nuevo modelo 250",
@@ -531,11 +531,11 @@
  "kpis": {
   "partes_activos": 44,
   "total_demanda": 35185.0,
-  "total_producido": 33544.0,
+  "total_producido": 33995.0,
   "empacado": 4815.0,
   "pct_cumplimiento": 13.7,
-  "exceso_total": -1641.0,
-  "atrasados": 2
+  "exceso_total": -1190.0,
+  "atrasados": 1
  },
  "weeks_available": [
   {

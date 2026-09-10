@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-10T14:28:09",
+ "generated_at": "2026-09-10T14:35:53",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -81370,7 +81370,7 @@
          75.0,
          75.0,
          75.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -81393,7 +81393,7 @@
          47.0,
          28.0,
          30.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -81416,7 +81416,7 @@
          47.0,
          28.0,
          30.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -81439,15 +81439,15 @@
          30.0,
          43.0,
          22.0,
-         null,
+         16.0,
          null,
          null
         ],
-        "rework": 15.0,
-        "total": 198.0,
-        "delta": -373.9,
+        "rework": 24.0,
+        "total": 214.0,
+        "delta": -357.9,
         "downtime": 0.0,
-        "proficiency": 0.34621437314215775
+        "proficiency": 0.3741912921839482
        },
        {
         "name": "Inspeccion",
@@ -81462,15 +81462,15 @@
          30.0,
          43.0,
          22.0,
-         0.0,
+         16.0,
          0.0,
          0.0
         ],
-        "rework": 15.0,
-        "total": 198.0,
-        "delta": -373.9,
+        "rework": 24.0,
+        "total": 214.0,
+        "delta": -357.9,
         "downtime": 0.0,
-        "proficiency": 0.34621437314215775
+        "proficiency": 0.3741912921839482
        },
        {
         "name": "Drawdown",
@@ -81484,8 +81484,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -81507,16 +81507,16 @@
          0.0,
          160.0,
          10.0,
-         null,
-         null,
+         0.0,
+         100.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 170.0,
-        "delta": -647.0,
+        "total": 270.0,
+        "delta": -547.0,
         "downtime": 0.0,
-        "proficiency": 0.20807833537331702
+        "proficiency": 0.33047735618115054
        },
        {
         "name": "Sidehole Accu Vu",
@@ -81530,16 +81530,16 @@
          100.0,
          100.0,
          100.0,
-         null,
-         null,
+         50.0,
+         100.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 525.0,
-        "delta": -292.0,
+        "total": 675.0,
+        "delta": -142.0,
         "downtime": 0.0,
-        "proficiency": 0.6425948592411261
+        "proficiency": 0.8261933904528763
        },
        {
         "name": "Baking Rot",
@@ -81553,16 +81553,16 @@
          325.0,
          420.0,
          420.0,
-         null,
-         null,
+         250.0,
+         445.0,
          null,
          null
         ],
         "rework": 5.0,
-        "total": 1790.0,
-        "delta": -1886.5,
+        "total": 2485.0,
+        "delta": -1191.5,
         "downtime": 0.0,
-        "proficiency": 0.4868761049911601
+        "proficiency": 0.6759145926832586
        },
        {
         "name": "Baking Conv",
@@ -81576,16 +81576,16 @@
          0.0,
          30.0,
          60.0,
-         null,
-         null,
+         15.0,
+         60.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 90.0,
-        "delta": -400.2,
+        "total": 165.0,
+        "delta": -325.2,
         "downtime": 0.0,
-        "proficiency": 0.18359853121175032
+        "proficiency": 0.3365973072215422
        },
        {
         "name": "Hidrofilico",

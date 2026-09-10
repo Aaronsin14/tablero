@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-10T01:08:13",
+ "generated_at": "2026-09-10T06:22:02",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -121,8 +121,8 @@
    "part_number": "40720405",
    "sub_ensamble": "14400113",
    "demanda": 3000.0,
-   "producido": 3239.0,
-   "pct": 108.0,
+   "producido": 3215.0,
+   "pct": 107.2,
    "stage_key": "prepping",
    "stage_col": 15,
    "status": "verde"
@@ -251,10 +251,10 @@
    "part_number": "411732704 PO129566",
    "sub_ensamble": "14400131",
    "demanda": 275.0,
-   "producido": 295.0,
-   "pct": 107.3,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 290.0,
+   "pct": 105.5,
+   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -371,10 +371,10 @@
    "part_number": "40707603",
    "sub_ensamble": "14400121 SOFT TIP LARGO, INGRESAR DE ULTIMO A WELDER 8",
    "demanda": 300.0,
-   "producido": 285.0,
-   "pct": 95.0,
-   "stage_key": "pouch",
-   "stage_col": 21,
+   "producido": 254.0,
+   "pct": 84.7,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
@@ -431,11 +431,11 @@
    "part_number": "43709703",
    "sub_ensamble": "14400116",
    "demanda": 535.0,
-   "producido": 589.0,
-   "pct": 110.1,
-   "stage_key": "embedder",
-   "stage_col": 9,
-   "status": "verde"
+   "producido": 519.0,
+   "pct": 97.0,
+   "stage_key": "drawdown",
+   "stage_col": 10,
+   "status": "ambar"
   },
   {
    "part_number": "43709402",
@@ -443,18 +443,18 @@
    "demanda": 155.0,
    "producido": 152.0,
    "pct": 98.1,
-   "stage_key": "drawdown",
-   "stage_col": 10,
+   "stage_key": "sidehole",
+   "stage_col": 11,
    "status": "ambar"
   },
   {
    "part_number": "43709801",
    "sub_ensamble": "14400114",
    "demanda": 1615.0,
-   "producido": 1344.0,
-   "pct": 83.2,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 1294.0,
+   "pct": 80.1,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "ambar"
   },
   {
@@ -471,10 +471,10 @@
    "part_number": "43709803",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 455.0,
-   "pct": 91.0,
-   "stage_key": "sidehole",
-   "stage_col": 11,
+   "producido": 443.0,
+   "pct": 88.6,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "ambar"
   },
   {
@@ -511,10 +511,10 @@
    "part_number": "43709005",
    "sub_ensamble": "14400131",
    "demanda": 500.0,
-   "producido": 497.0,
-   "pct": 99.4,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "producido": 451.0,
+   "pct": 90.2,
+   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "ambar"
   },
   {
@@ -531,10 +531,10 @@
  "kpis": {
   "partes_activos": 44,
   "total_demanda": 35185.0,
-  "total_producido": 35868.0,
+  "total_producido": 35630.0,
   "empacado": 4815.0,
   "pct_cumplimiento": 13.7,
-  "exceso_total": 683.0,
+  "exceso_total": 445.0,
   "atrasados": 1
  },
  "weeks_available": [

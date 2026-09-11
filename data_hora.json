@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-11T17:03:25",
+ "generated_at": "2026-09-11T17:10:38",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83004,8 +83004,8 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 2735.0,
+        "meta_hora": 250.0,
+        "meta_dia": 1367.5,
         "hours": [
          225.0,
          500.0,
@@ -83017,9 +83017,9 @@
         ],
         "rework": 0.0,
         "total": 725.0,
-        "delta": -2010.0,
+        "delta": -642.5,
         "downtime": 0.0,
-        "proficiency": 0.2636363636363636
+        "proficiency": 0.5272727272727272
        },
        {
         "name": "Welder",
@@ -83048,7 +83048,7 @@
         "meta_dia": 410.25,
         "hours": [
          30.0,
-         null,
+         75.0,
          null,
          null,
          null,
@@ -83056,10 +83056,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 30.0,
-        "delta": -380.25,
+        "total": 105.0,
+        "delta": -305.25,
         "downtime": 0.0,
-        "proficiency": 0.07272727272727272
+        "proficiency": 0.2545454545454545
        },
        {
         "name": "Staker",
@@ -83068,7 +83068,7 @@
         "meta_dia": 547.0,
         "hours": [
          15.0,
-         null,
+         35.0,
          null,
          null,
          null,
@@ -83076,10 +83076,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 15.0,
-        "delta": -532.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.02727272727272727
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Swager",
@@ -83088,7 +83088,7 @@
         "meta_dia": 547.0,
         "hours": [
          15.0,
-         null,
+         35.0,
          null,
          null,
          null,
@@ -83096,10 +83096,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 15.0,
-        "delta": -532.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.02727272727272727
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Embedder",
@@ -83168,18 +83168,18 @@
         "meta_dia": 547.0,
         "hours": [
          50.0,
-         null,
+         191.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 50.0,
-        "delta": -497.0,
+        "rework": 4.0,
+        "total": 241.0,
+        "delta": -306.0,
         "downtime": 0.0,
-        "proficiency": 0.09090909090909091
+        "proficiency": 0.43818181818181823
        },
        {
         "name": "Sidehole Accu Vu",
@@ -83242,7 +83242,7 @@
         "proficiency": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hydrophilic Mariner",
         "maquinas": 1,
         "meta_hora": 30.0,
         "meta_dia": 164.1,
@@ -83328,7 +83328,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -83348,7 +83348,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -83356,10 +83356,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1641.0,
+        "total": 250.0,
+        "delta": -1391.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.15151515151515152
        },
        {
         "name": "Boxing",

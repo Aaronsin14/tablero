@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-11T12:02:42",
+ "generated_at": "2026-09-11T12:10:06",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -391,10 +391,10 @@
    "part_number": "42401816",
    "sub_ensamble": "NA",
    "demanda": 141.0,
-   "producido": 122.0,
-   "pct": 86.5,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 20,
+   "producido": 121.0,
+   "pct": 85.8,
+   "stage_key": "pouch",
+   "stage_col": 21,
    "status": "ambar"
   },
   {
@@ -498,16 +498,6 @@
    "status": "ambar"
   },
   {
-   "part_number": "43709304",
-   "sub_ensamble": "14400131",
-   "demanda": 250.0,
-   "producido": 250.0,
-   "pct": 100.0,
-   "stage_key": "drawdown",
-   "stage_col": 10,
-   "status": "verde"
-  },
-  {
    "part_number": "43709005",
    "sub_ensamble": "14400131",
    "demanda": 500.0,
@@ -516,25 +506,15 @@
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "ambar"
-  },
-  {
-   "part_number": "43709604 No se van nuevo modelo 250",
-   "sub_ensamble": "14400131",
-   "demanda": null,
-   "producido": 59.0,
-   "pct": null,
-   "stage_key": "sidehole",
-   "stage_col": 11,
-   "status": "sin_meta"
   }
  ],
  "kpis": {
-  "partes_activos": 44,
-  "total_demanda": 35185.0,
-  "total_producido": 35268.0,
+  "partes_activos": 42,
+  "total_demanda": 34935.0,
+  "total_producido": 34958.0,
   "empacado": 11643.0,
-  "pct_cumplimiento": 33.1,
-  "exceso_total": 83.0,
+  "pct_cumplimiento": 33.3,
+  "exceso_total": 23.0,
   "atrasados": 3
  },
  "weeks_available": [

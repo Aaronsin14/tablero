@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-11T11:40:31",
+ "generated_at": "2026-09-11T11:47:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -82722,7 +82722,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -82745,7 +82745,7 @@
          0.0,
          0.0,
          100.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -82753,10 +82753,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -717.0,
+        "total": 300.0,
+        "delta": -517.0,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.36719706242350064
        },
        {
         "name": "Sidehole Accu Vu",
@@ -82768,7 +82768,7 @@
          0.0,
          75.0,
          100.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -82776,10 +82776,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 225.0,
-        "delta": -592.0,
+        "total": 425.0,
+        "delta": -392.0,
         "downtime": 0.0,
-        "proficiency": 0.27539779681762544
+        "proficiency": 0.5201958384332925
        },
        {
         "name": "Baking Rot",
@@ -82791,18 +82791,18 @@
          158.0,
          206.0,
          245.0,
-         null,
+         460.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 695.0,
-        "delta": -2981.5,
+        "rework": 10.0,
+        "total": 1155.0,
+        "delta": -2521.5,
         "downtime": 0.0,
-        "proficiency": 0.18903848769209847
+        "proficiency": 0.3141574867401061
        },
        {
         "name": "Baking Conv",

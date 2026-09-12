@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-12T09:17:32",
+ "generated_at": "2026-09-12T09:24:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -84075,7 +84075,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -84098,7 +84098,7 @@
         "hours": [
          300.0,
          300.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -84119,9 +84119,9 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0.0,
-         0.0,
-         null,
+         350.0,
+         350.0,
+         400.0,
          null,
          null,
          null,
@@ -84131,10 +84131,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 1100.0,
+        "delta": -1351.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.44879640962872297
        },
        {
         "name": "Moldeadora Milacron",
@@ -84144,7 +84144,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -84167,7 +84167,7 @@
         "hours": [
          0.0,
          240.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -84177,10 +84177,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 240.0,
-        "delta": -2211.0,
+        "total": 490.0,
+        "delta": -1961.0,
         "downtime": 0.0,
-        "proficiency": 0.09791921664626684
+        "proficiency": 0.1999184006527948
        },
        {
         "name": "Pouch",
@@ -84190,7 +84190,7 @@
         "hours": [
          null,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -84609,17 +84609,17 @@
         "hours": [
          0.0,
          840.0,
-         null,
+         360.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 840.0,
-        "delta": -1074.5,
+        "total": 1200.0,
+        "delta": -714.5,
         "downtime": 0.0,
-        "proficiency": 0.43636363636363634
+        "proficiency": 0.6233766233766234
        }
       ]
      },

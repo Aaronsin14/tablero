@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-12T15:03:33",
+ "generated_at": "2026-09-12T15:10:49",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83805,20 +83805,20 @@
          450.0,
          250.0,
          400.0,
-         null,
+         421.0,
          null
         ],
-        "rework": 12.0,
-        "total": 2625.0,
-        "delta": -1460.0,
+        "rework": 27.0,
+        "total": 3046.0,
+        "delta": -1039.0,
         "downtime": 0.0,
-        "proficiency": 0.642594859241126
+        "proficiency": 0.7456548347613219
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 320.0,
-        "meta_dia": 2614.4,
+        "meta_hora": 270.0,
+        "meta_dia": 2205.9,
         "hours": [
          null,
          115.0,
@@ -83828,14 +83828,14 @@
          350.0,
          210.0,
          350.0,
-         0.0,
+         360.0,
          null
         ],
-        "rework": 142.0,
-        "total": 1808.0,
-        "delta": -806.4000000000001,
+        "rework": 160.0,
+        "total": 2168.0,
+        "delta": -37.90000000000009,
         "downtime": 235.0,
-        "proficiency": 0.7356371724624314
+        "proficiency": 1.045467971090496
        },
        {
         "name": "Carga de bandas",
@@ -83966,14 +83966,14 @@
          0.0,
          70.0,
          260.0,
-         null,
+         180.0,
          null
         ],
         "rework": 0.0,
-        "total": 863.0,
-        "delta": -2323.3,
+        "total": 1043.0,
+        "delta": -2143.3,
         "downtime": 360.0,
-        "proficiency": 0.35864189835016413
+        "proficiency": 0.43344553879399905
        },
        {
         "name": "Sidehole Soft Vu",
@@ -84041,8 +84041,8 @@
         "rework": 0.0,
         "total": 1891.0,
         "delta": -1785.5,
-        "downtime": 0.0,
-        "proficiency": 0.5143478852169183
+        "downtime": 480.0,
+        "proficiency": 0.7635776297193619
        },
        {
         "name": "Baking Conv",
@@ -84098,9 +84098,9 @@
         "hours": [
          300.0,
          300.0,
-         0.0,
-         0.0,
-         0.0,
+         245.0,
+         200.0,
+         240.0,
          0.0,
          0.0,
          0.0,
@@ -84108,10 +84108,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -625.5,
+        "total": 1285.0,
+        "delta": 59.5,
         "downtime": 385.0,
-        "proficiency": 2.281368821292776
+        "proficiency": 4.885931558935362
        },
        {
         "name": "Rofing",
@@ -84171,16 +84171,16 @@
          90.0,
          240.0,
          157.0,
-         25.0,
-         0.0,
-         null,
+         75.0,
+         120.0,
+         120.0,
          null
         ],
         "rework": 0.0,
-        "total": 1002.0,
-        "delta": -1449.0,
+        "total": 1292.0,
+        "delta": -1159.0,
         "downtime": 0.0,
-        "proficiency": 0.408812729498164
+        "proficiency": 0.5271317829457364
        },
        {
         "name": "Pouch",

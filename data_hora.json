@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-12T14:05:29",
+ "generated_at": "2026-09-12T14:12:44",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83804,21 +83804,21 @@
          450.0,
          450.0,
          250.0,
-         null,
+         400.0,
          null,
          null
         ],
         "rework": 12.0,
-        "total": 2225.0,
-        "delta": -1860.0,
+        "total": 2625.0,
+        "delta": -1460.0,
         "downtime": 0.0,
-        "proficiency": 0.5446756425948592
+        "proficiency": 0.642594859241126
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 320.0,
+        "meta_dia": 2614.4,
         "hours": [
          null,
          115.0,
@@ -83827,15 +83827,15 @@
          325.0,
          350.0,
          210.0,
-         null,
+         350.0,
          null,
          null
         ],
-        "rework": 115.0,
-        "total": 1458.0,
-        "delta": -1564.9,
+        "rework": 142.0,
+        "total": 1808.0,
+        "delta": -806.4000000000001,
         "downtime": 235.0,
-        "proficiency": 0.5130633807463406
+        "proficiency": 0.7356371724624314
        },
        {
         "name": "Carga de bandas",
@@ -83886,8 +83886,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
          0.0,
          37.0,
@@ -83902,9 +83902,9 @@
         ],
         "rework": 1.0,
         "total": 140.0,
-        "delta": -677.0,
+        "delta": -268.5,
         "downtime": 0.0,
-        "proficiency": 0.17135862913096694
+        "proficiency": 0.3427172582619339
        },
        {
         "name": "Embedder",
@@ -84612,14 +84612,14 @@
          360.0,
          325.0,
          305.0,
-         null,
-         null
+         480.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 1830.0,
-        "delta": -84.5,
+        "total": 2310.0,
+        "delta": 395.5,
         "downtime": 0.0,
-        "proficiency": 0.9506493506493507
+        "proficiency": 1.2
        }
       ]
      },

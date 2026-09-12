@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-12T15:18:06",
+ "generated_at": "2026-09-12T15:25:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83851,7 +83851,7 @@
          0.0,
          30.0,
          75.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -83873,15 +83873,15 @@
          20.0,
          17.0,
          15.0,
-         0.0,
-         0.0,
+         16.0,
+         25.0,
          null
         ],
-        "rework": 16.0,
-        "total": 130.0,
-        "delta": -687.0,
+        "rework": 27.0,
+        "total": 171.0,
+        "delta": -646.0,
         "downtime": 0.0,
-        "proficiency": 0.1591187270501836
+        "proficiency": 0.20930232558139536
        },
        {
         "name": "Swager",
@@ -83896,15 +83896,15 @@
          20.0,
          17.0,
          15.0,
-         0.0,
-         null,
+         26.0,
+         25.0,
          null
         ],
         "rework": 1.0,
-        "total": 140.0,
-        "delta": -268.5,
+        "total": 191.0,
+        "delta": -217.5,
         "downtime": 0.0,
-        "proficiency": 0.3427172582619339
+        "proficiency": 0.46756425948592406
        },
        {
         "name": "Embedder",
@@ -83920,14 +83920,14 @@
          19.0,
          15.0,
          10.0,
-         null,
+         7.0,
          null
         ],
-        "rework": 28.0,
-        "total": 165.0,
-        "delta": -406.9,
+        "rework": 34.0,
+        "total": 172.0,
+        "delta": -399.9,
         "downtime": 0.0,
-        "proficiency": 0.28851197761846475
+        "proficiency": 0.30075187969924816
        },
        {
         "name": "Inspeccion",
@@ -83943,14 +83943,14 @@
          19.0,
          15.0,
          10.0,
-         0.0,
+         7.0,
          0.0
         ],
-        "rework": 28.0,
-        "total": 165.0,
-        "delta": -406.9,
+        "rework": 34.0,
+        "total": 172.0,
+        "delta": -399.9,
         "downtime": 0.0,
-        "proficiency": 0.28851197761846475
+        "proficiency": 0.30075187969924816
        },
        {
         "name": "Drawdown",
@@ -83989,14 +83989,14 @@
          90.0,
          110.0,
          39.0,
-         null,
+         150.0,
          null
         ],
         "rework": 35.0,
-        "total": 1018.0,
-        "delta": 201.0,
+        "total": 1168.0,
+        "delta": 351.0,
         "downtime": 0.0,
-        "proficiency": 1.2460220318237454
+        "proficiency": 1.4296205630354957
        },
        {
         "name": "Sidehole Accu Vu",
@@ -84035,14 +84035,14 @@
          292.0,
          75.0,
          225.0,
-         null,
+         375.0,
          null
         ],
         "rework": 0.0,
-        "total": 1891.0,
-        "delta": -1785.5,
+        "total": 2266.0,
+        "delta": -1410.5,
         "downtime": 480.0,
-        "proficiency": 0.7635776297193619
+        "proficiency": 0.9150010094891983
        },
        {
         "name": "Baking Conv",
@@ -84123,18 +84123,18 @@
          350.0,
          200.0,
          350.0,
+         100.0,
          0.0,
          0.0,
          0.0,
          0.0,
-         null,
          null
         ],
         "rework": 0.0,
-        "total": 1250.0,
-        "delta": -1201.0,
+        "total": 1350.0,
+        "delta": -1101.0,
         "downtime": 265.0,
-        "proficiency": 1.1101243339253999
+        "proficiency": 1.1989342806394316
        },
        {
         "name": "Moldeadora Milacron",

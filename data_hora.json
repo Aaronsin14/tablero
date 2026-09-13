@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-13T10:24:39",
+ "generated_at": "2026-09-13T10:31:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85201,7 +85201,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         130.0,
          null,
          null,
          null,
@@ -85210,10 +85210,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3186.3,
+        "total": 130.0,
+        "delta": -3056.3,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.040799673602611185
        },
        {
         "name": "Sidehole Soft Vu",
@@ -85224,7 +85224,7 @@
          0.0,
          50.0,
          75.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -85232,11 +85232,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 125.0,
-        "delta": -692.0,
+        "rework": 3.0,
+        "total": 225.0,
+        "delta": -592.0,
         "downtime": 0.0,
-        "proficiency": 0.15299877600979192
+        "proficiency": 0.27539779681762544
        },
        {
         "name": "Sidehole Accu Vu",
@@ -85247,7 +85247,7 @@
          0.0,
          100.0,
          50.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -85256,10 +85256,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -667.0,
+        "total": 250.0,
+        "delta": -567.0,
         "downtime": 0.0,
-        "proficiency": 0.18359853121175032
+        "proficiency": 0.30599755201958384
        },
        {
         "name": "Baking Rot",
@@ -85270,7 +85270,7 @@
          150.0,
          150.0,
          75.0,
-         null,
+         32.0,
          null,
          null,
          null,
@@ -85279,10 +85279,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 375.0,
-        "delta": -3301.5,
+        "total": 407.0,
+        "delta": -3269.5,
         "downtime": 0.0,
-        "proficiency": 0.10199918400652794
+        "proficiency": 0.110703114375085
        },
        {
         "name": "Baking Conv",
@@ -85293,7 +85293,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85316,7 +85316,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85339,7 +85339,7 @@
          200.0,
          200.0,
          200.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -85348,10 +85348,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -625.5,
+        "total": 800.0,
+        "delta": -425.5,
         "downtime": 0.0,
-        "proficiency": 0.4895960832313342
+        "proficiency": 0.6527947776417788
        },
        {
         "name": "Rofing",
@@ -85362,7 +85362,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85385,7 +85385,7 @@
          300.0,
          200.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null,
@@ -85394,8 +85394,8 @@
          null
         ],
         "rework": 0.0,
-        "total": 800.0,
-        "delta": 800.0,
+        "total": 1100.0,
+        "delta": 1100.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -85408,7 +85408,7 @@
          175.0,
          200.0,
          240.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -85417,10 +85417,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 615.0,
-        "delta": -1836.0,
+        "total": 815.0,
+        "delta": -1636.0,
         "downtime": 0.0,
-        "proficiency": 0.25091799265605874
+        "proficiency": 0.3325173398612811
        },
        {
         "name": "Pouch",
@@ -85431,7 +85431,7 @@
          null,
          200.0,
          246.0,
-         null,
+         0.0,
          null,
          null,
          null,

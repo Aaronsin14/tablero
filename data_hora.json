@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-13T17:18:58",
+ "generated_at": "2026-09-13T17:26:11",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85340,18 +85340,18 @@
          200.0,
          200.0,
          200.0,
-         300.0,
-         300.0,
+         200.0,
+         200.0,
          260.0,
-         300.0,
-         300.0,
+         200.0,
+         200.0,
          300.0
         ],
         "rework": 0.0,
-        "total": 2560.0,
-        "delta": 1334.5,
+        "total": 2160.0,
+        "delta": 934.5,
         "downtime": 0.0,
-        "proficiency": 2.0889432884536925
+        "proficiency": 1.762545899632803
        },
        {
         "name": "Rofing",
@@ -85628,7 +85628,7 @@
         "meta_dia": 2133.3,
         "hours": [
          null,
-         91.0,
+         241.0,
          null,
          null,
          null,
@@ -85636,10 +85636,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 91.0,
-        "delta": -2042.2999999999997,
+        "total": 241.0,
+        "delta": -1892.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.04242424242424243
+        "proficiency": 0.11235431235431236
        },
        {
         "name": "Sidehole Soft Vu",
@@ -85708,7 +85708,7 @@
         "meta_dia": 328.2,
         "hours": [
          null,
-         null,
+         40.0,
          null,
          null,
          null,
@@ -85716,10 +85716,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -328.2,
+        "total": 40.0,
+        "delta": -288.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1212121212121212
        },
        {
         "name": "Hand Drilling",
@@ -85748,7 +85748,7 @@
         "meta_dia": 683.75,
         "hours": [
          null,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -85756,10 +85756,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -820.5,
+        "total": 200.0,
+        "delta": -620.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.24242424242424246
        },
        {
         "name": "Rofing",
@@ -85788,26 +85788,6 @@
         "meta_dia": 2625.6,
         "hours": [
          null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2625.6,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 1641.0,
-        "hours": [
-         null,
          264.0,
          null,
          null,
@@ -85817,9 +85797,29 @@
         ],
         "rework": 0.0,
         "total": 264.0,
-        "delta": -1377.0,
+        "delta": -2361.6,
         "downtime": 0.0,
-        "proficiency": 0.16
+        "proficiency": 0.1
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 1,
+        "meta_hora": 300.0,
+        "meta_dia": 1641.0,
+        "hours": [
+         null,
+         0.0,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 0.0,
+        "delta": -1641.0,
+        "downtime": 0.0,
+        "proficiency": 0.0
        },
        {
         "name": "Pouch",

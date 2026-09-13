@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-13T09:48:03",
+ "generated_at": "2026-09-13T09:55:23",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85200,7 +85200,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85223,7 +85223,7 @@
         "hours": [
          0.0,
          50.0,
-         null,
+         75.0,
          null,
          null,
          null,
@@ -85233,10 +85233,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 50.0,
-        "delta": -767.0,
+        "total": 125.0,
+        "delta": -692.0,
         "downtime": 0.0,
-        "proficiency": 0.061199510403916774
+        "proficiency": 0.15299877600979192
        },
        {
         "name": "Sidehole Accu Vu",
@@ -85246,30 +85246,7 @@
         "hours": [
          0.0,
          100.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 100.0,
-        "delta": -717.0,
-        "downtime": 0.0,
-        "proficiency": 0.12239902080783355
-       },
-       {
-        "name": "Baking Rot",
-        "maquinas": 3,
-        "meta_hora": 450.0,
-        "meta_dia": 3676.5,
-        "hours": [
-         0.0,
-         150.0,
-         null,
+         50.0,
          null,
          null,
          null,
@@ -85280,9 +85257,32 @@
         ],
         "rework": 0.0,
         "total": 150.0,
-        "delta": -3526.5,
+        "delta": -667.0,
         "downtime": 0.0,
-        "proficiency": 0.040799673602611185
+        "proficiency": 0.18359853121175032
+       },
+       {
+        "name": "Baking Rot",
+        "maquinas": 3,
+        "meta_hora": 450.0,
+        "meta_dia": 3676.5,
+        "hours": [
+         150.0,
+         150.0,
+         75.0,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 375.0,
+        "delta": -3301.5,
+        "downtime": 0.0,
+        "proficiency": 0.10199918400652794
        },
        {
         "name": "Baking Conv",
@@ -85292,7 +85292,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85315,7 +85315,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85336,9 +85336,9 @@
         "meta_hora": 150.0,
         "meta_dia": 1021.25,
         "hours": [
-         300.0,
-         300.0,
-         null,
+         200.0,
+         200.0,
+         200.0,
          null,
          null,
          null,
@@ -85361,7 +85361,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85384,7 +85384,7 @@
         "hours": [
          300.0,
          200.0,
-         null,
+         300.0,
          null,
          null,
          null,
@@ -85394,8 +85394,8 @@
          null
         ],
         "rework": 0.0,
-        "total": 500.0,
-        "delta": 500.0,
+        "total": 800.0,
+        "delta": 800.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -85407,7 +85407,7 @@
         "hours": [
          175.0,
          200.0,
-         null,
+         240.0,
          null,
          null,
          null,
@@ -85417,10 +85417,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 375.0,
-        "delta": -2076.0,
+        "total": 615.0,
+        "delta": -1836.0,
         "downtime": 0.0,
-        "proficiency": 0.15299877600979192
+        "proficiency": 0.25091799265605874
        },
        {
         "name": "Pouch",
@@ -85430,7 +85430,7 @@
         "hours": [
          null,
          200.0,
-         null,
+         246.0,
          null,
          null,
          null,
@@ -85440,10 +85440,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -2251.0,
+        "total": 446.0,
+        "delta": -2005.0,
         "downtime": 0.0,
-        "proficiency": 0.08159934720522236
+        "proficiency": 0.18196654426764586
        },
        {
         "name": "Boxing",

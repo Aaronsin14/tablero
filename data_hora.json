@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-14T09:32:47",
+ "generated_at": "2026-09-14T09:40:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -80964,7 +80964,7 @@
         "hours": [
          0.0,
          250.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -80974,10 +80974,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 250.0,
-        "delta": -3835.0,
+        "total": 500.0,
+        "delta": -3585.0,
         "downtime": 0.0,
-        "proficiency": 0.06119951040391677
+        "proficiency": 0.12239902080783353
        },
        {
         "name": "Welder",
@@ -80987,7 +80987,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -81263,7 +81263,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         75.0,
          null,
          null,
          null,
@@ -81273,10 +81273,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 75.0,
+        "delta": -1150.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.061199510403916774
        },
        {
         "name": "Rofing",
@@ -81286,7 +81286,30 @@
         "hours": [
          0.0,
          600.0,
+         550.0,
          null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 1150.0,
+        "delta": -1301.0,
+        "downtime": 0.0,
+        "proficiency": 0.46919624643002855
+       },
+       {
+        "name": "Moldeadora Milacron",
+        "maquinas": 1,
+        "meta_hora": 0,
+        "meta_dia": 0,
+        "hours": [
+         0.0,
+         300.0,
+         300.0,
          null,
          null,
          null,
@@ -81297,30 +81320,7 @@
         ],
         "rework": 0.0,
         "total": 600.0,
-        "delta": -1851.0,
-        "downtime": 0.0,
-        "proficiency": 0.2447980416156671
-       },
-       {
-        "name": "Moldeadora Milacron",
-        "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         0.0,
-         300.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 300.0,
-        "delta": 300.0,
+        "delta": 600.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -81332,7 +81332,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -81355,7 +81355,7 @@
         "hours": [
          null,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

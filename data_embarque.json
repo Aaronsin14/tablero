@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-13T23:16:38",
+ "generated_at": "2026-09-13T23:24:00",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -133,8 +133,8 @@
    "demanda": 2000.0,
    "producido": 2179.0,
    "pct": 108.9,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -201,11 +201,11 @@
    "part_number": "40712008",
    "sub_ensamble": "14400105",
    "demanda": 425.0,
-   "producido": 426.0,
-   "pct": 100.2,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "verde"
+   "producido": 415.0,
+   "pct": 97.6,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
+   "status": "ambar"
   },
   {
    "part_number": "40735504",
@@ -493,8 +493,8 @@
    "demanda": 300.0,
    "producido": 263.0,
    "pct": 87.7,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
@@ -511,10 +511,10 @@
  "kpis": {
   "partes_activos": 42,
   "total_demanda": 34918.0,
-  "total_producido": 33589.0,
+  "total_producido": 33578.0,
   "empacado": 16341.0,
   "pct_cumplimiento": 46.8,
-  "exceso_total": -1329.0,
+  "exceso_total": -1340.0,
   "atrasados": 4
  },
  "weeks_available": [

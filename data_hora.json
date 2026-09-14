@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-14T08:12:01",
+ "generated_at": "2026-09-14T08:19:08",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -81308,7 +81308,30 @@
         "meta_dia": 0,
         "hours": [
          0.0,
+         300.0,
          null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 300.0,
+        "delta": 300.0,
+        "downtime": 0.0,
+        "proficiency": 0
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 1,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
+        "hours": [
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -81320,18 +81343,18 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0
+        "delta": -2451.0,
+        "downtime": 0.25,
+        "proficiency": 0.0
        },
        {
-        "name": "Moldeadora Atlas",
+        "name": "Pouch",
         "maquinas": 1,
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         0.0,
          null,
+         0.0,
          null,
          null,
          null,
@@ -81346,29 +81369,6 @@
         "delta": -2451.0,
         "downtime": 0.0,
         "proficiency": 0.0
-       },
-       {
-        "name": "Pouch",
-        "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
-        "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
-        "downtime": 0.0,
-        "proficiency": 0
        },
        {
         "name": "Boxing",

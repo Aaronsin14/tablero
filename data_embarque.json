@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-14T11:31:51",
+ "generated_at": "2026-09-14T11:41:56",
  "current_sheet": "15-Sep-2026",
  "current_date": "2026-09-15",
  "stages": [
@@ -61,6 +61,11 @@
    "uph": 150
   },
   {
+   "key": "lotes_plan_de_recuperaci",
+   "label": "Lotes / Plan de recuperació",
+   "uph": null
+  },
+  {
    "key": "pouch_inspeccion_pines_y_cable_guia",
    "label": "PouchINSPECCION PINES Y CABLE GUIA",
    "uph": 350
@@ -91,10 +96,10 @@
    "part_number": "40708501",
    "sub_ensamble": "14400109",
    "demanda": 1790.0,
-   "producido": 1822.0,
-   "pct": 101.8,
+   "producido": 1821.0,
+   "pct": 101.7,
    "stage_key": "pouch",
-   "stage_col": 21,
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -114,7 +119,7 @@
    "producido": 494.0,
    "pct": 107.4,
    "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -124,7 +129,7 @@
    "producido": 3211.0,
    "pct": 107.0,
    "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -134,7 +139,7 @@
    "producido": 1936.0,
    "pct": 96.8,
    "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -144,7 +149,7 @@
    "producido": 425.0,
    "pct": 106.2,
    "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -154,7 +159,7 @@
    "producido": 4943.0,
    "pct": 98.9,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -174,7 +179,7 @@
    "producido": 2176.0,
    "pct": 108.8,
    "stage_key": "pouch",
-   "stage_col": 21,
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -184,7 +189,7 @@
    "producido": 420.0,
    "pct": 105.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "verde"
   },
   {
@@ -204,7 +209,7 @@
    "producido": 415.0,
    "pct": 97.6,
    "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 20,
+   "stage_col": 21,
    "status": "ambar"
   },
   {
@@ -214,7 +219,7 @@
    "producido": 360.0,
    "pct": 90.0,
    "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -224,7 +229,7 @@
    "producido": 130.0,
    "pct": 81.2,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -234,7 +239,7 @@
    "producido": 273.0,
    "pct": 91.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -244,7 +249,7 @@
    "producido": 115.0,
    "pct": 89.8,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -254,7 +259,7 @@
    "producido": 235.0,
    "pct": 85.5,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -264,7 +269,7 @@
    "producido": 420.0,
    "pct": 84.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -274,7 +279,7 @@
    "producido": 924.0,
    "pct": 92.4,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -284,7 +289,7 @@
    "producido": 450.0,
    "pct": 90.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -294,7 +299,7 @@
    "producido": 1800.0,
    "pct": 90.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -304,7 +309,7 @@
    "producido": 780.0,
    "pct": 97.5,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -314,7 +319,7 @@
    "producido": 280.0,
    "pct": 93.3,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -324,7 +329,7 @@
    "producido": 995.0,
    "pct": 99.5,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -334,7 +339,7 @@
    "producido": 465.0,
    "pct": 93.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -344,7 +349,7 @@
    "producido": 1990.0,
    "pct": 79.6,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "rojo"
   },
   {
@@ -354,7 +359,7 @@
    "producido": 770.0,
    "pct": 110.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "verde"
   },
   {
@@ -364,7 +369,7 @@
    "producido": 328.0,
    "pct": 82.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -374,7 +379,7 @@
    "producido": 280.0,
    "pct": 93.3,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -384,7 +389,7 @@
    "producido": 575.0,
    "pct": 82.1,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -394,7 +399,7 @@
    "producido": 118.0,
    "pct": 83.7,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -404,7 +409,7 @@
    "producido": 125.0,
    "pct": 100.8,
    "stage_key": "pouch",
-   "stage_col": 21,
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -414,7 +419,7 @@
    "producido": 101.0,
    "pct": 101.0,
    "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_col": 23,
    "status": "verde"
   },
   {
@@ -434,7 +439,7 @@
    "producido": 3713.0,
    "pct": 694.0,
    "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -454,7 +459,7 @@
    "producido": 1055.0,
    "pct": 65.3,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "rojo"
   },
   {
@@ -494,7 +499,7 @@
    "producido": 254.0,
    "pct": 84.7,
    "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -504,17 +509,17 @@
    "producido": 470.0,
    "pct": 94.0,
    "stage_key": "packaged",
-   "stage_col": 23,
+   "stage_col": 24,
    "status": "ambar"
   }
  ],
  "kpis": {
   "partes_activos": 42,
   "total_demanda": 34918.0,
-  "total_producido": 36436.0,
+  "total_producido": 36435.0,
   "empacado": 17816.0,
   "pct_cumplimiento": 51.0,
-  "exceso_total": 1518.0,
+  "exceso_total": 1517.0,
   "atrasados": 3
  },
  "weeks_available": [

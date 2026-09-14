@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-14T08:55:53",
+ "generated_at": "2026-09-14T09:03:17",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -80963,7 +80963,7 @@
         "meta_dia": 4085.0,
         "hours": [
          0.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -80974,17 +80974,18 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -4085.0,
+        "total": 250.0,
+        "delta": -3835.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.06119951040391677
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 215.0,
+        "meta_dia": 1756.55,
         "hours": [
+         0.0,
          0.0,
          null,
          null,
@@ -80993,12 +80994,11 @@
          null,
          null,
          null,
-         null,
          null
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -3022.9,
+        "delta": -1756.55,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -81051,8 +81051,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 0,
+        "meta_dia": 0,
         "hours": [
          0.0,
          0.0,
@@ -81067,9 +81067,9 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -817.0,
+        "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0
        },
        {
         "name": "Embedder",
@@ -81078,7 +81078,7 @@
         "meta_dia": 571.9000000000001,
         "hours": [
          0.0,
-         22.0,
+         24.0,
          null,
          null,
          null,
@@ -81089,10 +81089,10 @@
          null
         ],
         "rework": 2.0,
-        "total": 22.0,
-        "delta": -549.9,
+        "total": 24.0,
+        "delta": -547.9,
         "downtime": 0.0,
-        "proficiency": 0.03846826368246197
+        "proficiency": 0.041965378562685784
        },
        {
         "name": "Inspeccion",
@@ -81101,7 +81101,7 @@
         "meta_dia": 571.9,
         "hours": [
          0.0,
-         22.0,
+         24.0,
          0.0,
          0.0,
          0.0,
@@ -81285,7 +81285,7 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         0.0,
+         600.0,
          null,
          null,
          null,
@@ -81296,10 +81296,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 600.0,
+        "delta": -1851.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2447980416156671
        },
        {
         "name": "Moldeadora Milacron",

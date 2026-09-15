@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-15T00:41:47",
+ "generated_at": "2026-09-15T00:49:11",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -81891,7 +81891,7 @@
         "meta_dia": 349.0,
         "hours": [
          60.0,
-         null,
+         60.0,
          null,
          null,
          null,
@@ -81900,10 +81900,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 60.0,
-        "delta": -289.0,
+        "total": 120.0,
+        "delta": -229.0,
         "downtime": 0.0,
-        "proficiency": 0.15584415584415584
+        "proficiency": 0.3116883116883117
        },
        {
         "name": "Inspeccion",
@@ -81912,7 +81912,7 @@
         "meta_dia": 349.0,
         "hours": [
          24.0,
-         null,
+         42.0,
          null,
          null,
          null,
@@ -81921,10 +81921,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 24.0,
-        "delta": -325.0,
+        "total": 66.0,
+        "delta": -283.0,
         "downtime": 0.0,
-        "proficiency": 0.06233766233766234
+        "proficiency": 0.17142857142857143
        },
        {
         "name": "Drawdown",
@@ -81932,8 +81932,8 @@
         "meta_hora": 390.0,
         "meta_dia": 2722.2000000000003,
         "hours": [
-         null,
-         null,
+         260.0,
+         260.0,
          null,
          null,
          null,
@@ -81942,10 +81942,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2722.2000000000003,
+        "total": 520.0,
+        "delta": -2202.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.17316017316017318
        },
        {
         "name": "Sidehole Soft Vu",
@@ -81953,8 +81953,8 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
-         null,
+         30.0,
+         37.0,
          null,
          null,
          null,
@@ -81963,10 +81963,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 67.0,
+        "delta": -631.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.087012987012987
        },
        {
         "name": "Sidehole Accu Vu",
@@ -81974,8 +81974,8 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -81995,8 +81995,8 @@
         "meta_hora": 450.0,
         "meta_dia": 3141.0,
         "hours": [
-         null,
-         null,
+         297.0,
+         156.0,
          null,
          null,
          null,
@@ -82005,10 +82005,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3141.0,
+        "total": 453.0,
+        "delta": -2688.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.13073593073593073
        },
        {
         "name": "Baking Conv",
@@ -82016,8 +82016,8 @@
         "meta_hora": 60.0,
         "meta_dia": 418.8,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -82037,8 +82037,8 @@
         "meta_hora": 30.0,
         "meta_dia": 209.4,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -82058,8 +82058,8 @@
         "meta_hora": 150.0,
         "meta_dia": 872.5,
         "hours": [
-         null,
-         null,
+         150.0,
+         150.0,
          null,
          null,
          null,
@@ -82068,10 +82068,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1047.0,
+        "total": 300.0,
+        "delta": -747.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2597402597402597
        },
        {
         "name": "Rofing",
@@ -82079,8 +82079,8 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -82100,8 +82100,8 @@
         "meta_hora": 480.0,
         "meta_dia": 3350.4,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,

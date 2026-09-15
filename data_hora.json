@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-14T21:45:42",
+ "generated_at": "2026-09-14T21:53:08",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -81418,13 +81418,13 @@
          125.0,
          200.0,
          500.0,
-         0.0
+         135.0
         ],
         "rework": 0.0,
-        "total": 1350.0,
-        "delta": -1385.0,
+        "total": 1485.0,
+        "delta": -1250.0,
         "downtime": 0.0,
-        "proficiency": 0.49090909090909096
+        "proficiency": 0.54
        },
        {
         "name": "Welder",
@@ -81518,13 +81518,13 @@
          15.0,
          29.0,
          43.0,
-         null
+         23.0
         ],
-        "rework": 23.0,
-        "total": 163.0,
-        "delta": -493.4,
+        "rework": 29.0,
+        "total": 186.0,
+        "delta": -470.4,
         "downtime": 0.0,
-        "proficiency": 0.24696969696969698
+        "proficiency": 0.28181818181818186
        },
        {
         "name": "Inspeccion",
@@ -81538,13 +81538,13 @@
          15.0,
          29.0,
          43.0,
-         0.0
+         23.0
         ],
-        "rework": 23.0,
-        "total": 163.0,
-        "delta": -110.5,
+        "rework": 29.0,
+        "total": 186.0,
+        "delta": -87.5,
         "downtime": 0.0,
-        "proficiency": 0.5927272727272728
+        "proficiency": 0.6763636363636364
        },
        {
         "name": "Drawdown",
@@ -81678,13 +81678,13 @@
          0.0,
          0.0,
          0.0,
-         0.0
+         400.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -820.5,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 400.0,
+        "delta": -420.5,
+        "downtime": 294.0,
+        "proficiency": 4.444444444444447
        },
        {
         "name": "Rofing",
@@ -81718,13 +81718,13 @@
          300.0,
          172.0,
          0.0,
-         null
+         200.0
         ],
         "rework": 0.0,
-        "total": 1201.0,
-        "delta": -1424.6,
+        "total": 1401.0,
+        "delta": -1224.6,
         "downtime": 0.0,
-        "proficiency": 0.45492424242424245
+        "proficiency": 0.5306818181818181
        },
        {
         "name": "Moldeadora Atlas",
@@ -81777,14 +81777,14 @@
          960.0,
          30.0,
          760.0,
-         null,
-         null
+         600.0,
+         405.0
         ],
         "rework": 0.0,
-        "total": 1973.0,
-        "delta": 58.5,
+        "total": 2978.0,
+        "delta": 1063.5,
         "downtime": 0.0,
-        "proficiency": 1.024935064935065
+        "proficiency": 1.5470129870129872
        }
       ]
      },

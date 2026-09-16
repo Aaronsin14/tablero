@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-16T08:52:50",
+ "generated_at": "2026-09-16T09:02:18",
  "current_sheet": "22-Sep-2026",
  "current_date": "2026-09-22",
  "stages": [
@@ -350,12 +350,22 @@
   {
    "part_number": "43709702",
    "sub_ensamble": "14400116",
-   "demanda": 470.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
+   "demanda": 1240.0,
+   "producido": 683.0,
+   "pct": 55.1,
+   "stage_key": "pouch",
+   "stage_col": 21,
    "status": "rojo"
+  },
+  {
+   "part_number": "43709703",
+   "sub_ensamble": "14400116",
+   "demanda": 535.0,
+   "producido": 503.0,
+   "pct": 94.0,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
+   "status": "ambar"
   },
   {
    "part_number": "43709701",
@@ -366,6 +376,16 @@
    "stage_key": "wip_welder",
    "stage_col": 8,
    "status": "rojo"
+  },
+  {
+   "part_number": "43709402",
+   "sub_ensamble": "14400116",
+   "demanda": 155.0,
+   "producido": 129.0,
+   "pct": 83.2,
+   "stage_key": "pouch",
+   "stage_col": 21,
+   "status": "ambar"
   },
   {
    "part_number": "43709801",
@@ -380,12 +400,12 @@
   {
    "part_number": "43709802",
    "sub_ensamble": "14400114",
-   "demanda": null,
+   "demanda": 1450.0,
    "producido": 1341.0,
-   "pct": null,
+   "pct": 92.5,
    "stage_key": "prepping",
    "stage_col": 15,
-   "status": "sin_meta"
+   "status": "ambar"
   },
   {
    "part_number": "43709204",
@@ -409,12 +429,12 @@
   }
  ],
  "kpis": {
-  "partes_activos": 32,
-  "total_demanda": 31013.0,
-  "total_producido": 33872.0,
+  "partes_activos": 34,
+  "total_demanda": 33923.0,
+  "total_producido": 35187.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": 2859.0,
+  "exceso_total": 1264.0,
   "atrasados": 4
  },
  "weeks_available": [

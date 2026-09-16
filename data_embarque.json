@@ -1,9 +1,9 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-15T23:57:28",
- "current_sheet": "15-Sep-2026",
- "current_date": "2026-09-15",
+ "generated_at": "2026-09-16T00:04:51",
+ "current_sheet": "22-Sep-2026",
+ "current_date": "2026-09-22",
  "stages": [
   {
    "key": "wip_welder",
@@ -61,21 +61,6 @@
    "uph": 150
   },
   {
-   "key": "lotes_plan_de_recuperaci",
-   "label": "Lotes / Plan de recuperació",
-   "uph": null
-  },
-  {
-   "key": "pouch_inspeccion_pines_y_cable_guia",
-   "label": "PouchINSPECCION PINES Y CABLE GUIA",
-   "uph": 350
-  },
-  {
-   "key": "inspeccion_final_de_qc",
-   "label": "INSPECCION FINAL DE QC",
-   "uph": null
-  },
-  {
    "key": "pouch",
    "label": "Pouch",
    "uph": 350
@@ -93,443 +78,243 @@
  ],
  "parts": [
   {
-   "part_number": "40708501",
-   "sub_ensamble": "14400109",
-   "demanda": 1790.0,
-   "producido": 1750.0,
-   "pct": 97.8,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40708604",
-   "sub_ensamble": "14400112",
+   "part_number": "40708507",
+   "sub_ensamble": "14400145",
    "demanda": 250.0,
-   "producido": 241.0,
-   "pct": 96.4,
-   "stage_key": "moldeo",
-   "stage_col": 16,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40720401",
-   "sub_ensamble": "14400113",
-   "demanda": 460.0,
-   "producido": 494.0,
-   "pct": 107.4,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
+   "producido": 256.0,
+   "pct": 102.4,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "verde"
   },
   {
-   "part_number": "40720405",
-   "sub_ensamble": "14400113",
-   "demanda": 3000.0,
-   "producido": 3207.0,
-   "pct": 106.9,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
+   "part_number": "40719503",
+   "sub_ensamble": "14400115",
+   "demanda": 250.0,
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "baking",
+   "stage_col": 14,
+   "status": "verde"
+  },
+  {
+   "part_number": "40719708",
+   "sub_ensamble": "14400109",
+   "demanda": 1000.0,
+   "producido": 995.0,
+   "pct": 99.5,
+   "stage_key": "baking",
+   "stage_col": 14,
+   "status": "ambar"
+  },
+  {
+   "part_number": "40722706",
+   "sub_ensamble": "14400139",
+   "demanda": 250.0,
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "drawdown",
+   "stage_col": 10,
    "status": "verde"
   },
   {
    "part_number": "40722104",
    "sub_ensamble": "14400109",
-   "demanda": 2000.0,
-   "producido": 1936.0,
-   "pct": 96.8,
-   "stage_key": "boxing",
-   "stage_col": 23,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40734204",
-   "sub_ensamble": "14400114",
-   "demanda": 400.0,
-   "producido": 425.0,
-   "pct": 106.2,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 21,
-   "status": "verde"
-  },
-  {
-   "part_number": "40732201",
-   "sub_ensamble": "14400111",
-   "demanda": 5000.0,
-   "producido": 5053.0,
-   "pct": 101.1,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "verde"
-  },
-  {
-   "part_number": "40732204",
-   "sub_ensamble": "14400113",
-   "demanda": 1000.0,
-   "producido": 1079.0,
-   "pct": 107.9,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "verde"
-  },
-  {
-   "part_number": "40732702",
-   "sub_ensamble": "14400109",
-   "demanda": 2000.0,
-   "producido": 2138.0,
-   "pct": 106.9,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "verde"
-  },
-  {
-   "part_number": "40732707",
-   "sub_ensamble": "14400109",
-   "demanda": 400.0,
-   "producido": 420.0,
-   "pct": 105.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "verde"
-  },
-  {
-   "part_number": "40733401",
-   "sub_ensamble": "14400109",
-   "demanda": 650.0,
-   "producido": 711.0,
-   "pct": 109.4,
+   "demanda": 700.0,
+   "producido": 745.0,
+   "pct": 106.4,
    "stage_key": "moldeo",
    "stage_col": 16,
    "status": "verde"
   },
   {
-   "part_number": "40712008",
-   "sub_ensamble": "14400105",
-   "demanda": 425.0,
-   "producido": 380.0,
-   "pct": 89.4,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40735504",
-   "sub_ensamble": "14400106",
-   "demanda": 400.0,
-   "producido": 360.0,
-   "pct": 90.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "411732701",
-   "sub_ensamble": "14400109",
-   "demanda": 160.0,
-   "producido": 130.0,
-   "pct": 81.2,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "411722703",
-   "sub_ensamble": "14400101",
-   "demanda": 300.0,
-   "producido": 275.0,
-   "pct": 91.7,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "411722709",
-   "sub_ensamble": "14400137",
-   "demanda": 128.0,
-   "producido": 115.0,
-   "pct": 89.8,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "411732704 PO129566",
-   "sub_ensamble": "14400131",
-   "demanda": 275.0,
-   "producido": 235.0,
-   "pct": 85.5,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40707201",
-   "sub_ensamble": "14400122",
-   "demanda": 500.0,
-   "producido": 420.0,
-   "pct": 84.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40707103",
-   "sub_ensamble": "14400125",
-   "demanda": 1000.0,
-   "producido": 920.0,
-   "pct": 92.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40711502",
-   "sub_ensamble": "14400122",
-   "demanda": 500.0,
-   "producido": 450.0,
-   "pct": 90.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40732301",
-   "sub_ensamble": "14400122",
-   "demanda": 2000.0,
-   "producido": 1800.0,
-   "pct": 90.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40711402",
-   "sub_ensamble": "14400119",
-   "demanda": 800.0,
-   "producido": 780.0,
-   "pct": 97.5,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40711403",
-   "sub_ensamble": "14400119",
-   "demanda": 300.0,
-   "producido": 280.0,
-   "pct": 93.3,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40723501",
-   "sub_ensamble": "14400120",
-   "demanda": 1000.0,
-   "producido": 990.0,
-   "pct": 99.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40707701",
-   "sub_ensamble": "14400117",
-   "demanda": 500.0,
-   "producido": 465.0,
-   "pct": 93.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "40732301",
-   "sub_ensamble": "14400122",
-   "demanda": 2500.0,
-   "producido": 1990.0,
-   "pct": 79.6,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "rojo"
-  },
-  {
-   "part_number": "40734301",
-   "sub_ensamble": "14400122",
-   "demanda": 700.0,
-   "producido": 770.0,
-   "pct": 110.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
+   "part_number": "40732205",
+   "sub_ensamble": "14400116",
+   "demanda": 980.0,
+   "producido": 1077.0,
+   "pct": 109.9,
+   "stage_key": "baking",
+   "stage_col": 14,
    "status": "verde"
   },
   {
-   "part_number": "40714024",
-   "sub_ensamble": "14400131",
-   "demanda": 400.0,
-   "producido": 325.0,
-   "pct": 81.2,
-   "stage_key": "packaged",
-   "stage_col": 24,
+   "part_number": "40712006",
+   "sub_ensamble": "14400105",
+   "demanda": 1000.0,
+   "producido": 996.0,
+   "pct": 99.6,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "ambar"
   },
   {
-   "part_number": "40707603",
-   "sub_ensamble": "14400121 SOFT TIP LARGO, INGRESAR DE ULTIMO A WELDER 8",
-   "demanda": 300.0,
-   "producido": 280.0,
-   "pct": 93.3,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
+   "part_number": "40712007",
+   "sub_ensamble": "14400105",
+   "demanda": 450.0,
+   "producido": 486.0,
+   "pct": 108.0,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
+   "part_number": "40722703",
+   "sub_ensamble": "14400101",
+   "demanda": 1750.0,
+   "producido": 1788.0,
+   "pct": 102.2,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
+   "part_number": "40709203",
+   "sub_ensamble": "14400101",
+   "demanda": 250.0,
+   "producido": 1003.0,
+   "pct": 401.2,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
+   "part_number": "411732703",
+   "sub_ensamble": "14400114",
+   "demanda": 750.0,
+   "producido": 818.0,
+   "pct": 109.1,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
+   "part_number": "450722631",
+   "sub_ensamble": "14400128",
+   "demanda": 900.0,
+   "producido": 990.0,
+   "pct": 110.0,
+   "stage_key": "drawdown",
+   "stage_col": 10,
+   "status": "verde"
+  },
+  {
+   "part_number": "40732301",
+   "sub_ensamble": "14400122",
+   "demanda": 6000.0,
+   "producido": 6485.0,
+   "pct": 108.1,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
+   "part_number": "40714011",
+   "sub_ensamble": "14400131",
+   "demanda": 1000.0,
+   "producido": 1100.0,
+   "pct": 110.0,
+   "stage_key": "baking",
+   "stage_col": 14,
+   "status": "verde"
+  },
+  {
+   "part_number": "40714021",
+   "sub_ensamble": "14400131",
+   "demanda": 1500.0,
+   "producido": 1638.0,
+   "pct": 109.2,
+   "stage_key": "baking",
+   "stage_col": 14,
+   "status": "verde"
   },
   {
    "part_number": "40723502",
    "sub_ensamble": "14400117",
-   "demanda": 700.0,
-   "producido": 575.0,
-   "pct": 82.1,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
+   "demanda": 1500.0,
+   "producido": 1602.0,
+   "pct": 106.8,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
   },
   {
    "part_number": "42401816",
    "sub_ensamble": "NA",
-   "demanda": 141.0,
-   "producido": 118.0,
-   "pct": 83.7,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "42401822",
-   "sub_ensamble": "NA",
-   "demanda": 124.0,
-   "producido": 123.0,
-   "pct": 99.2,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "42401804",
-   "sub_ensamble": "NA",
-   "demanda": 100.0,
-   "producido": 101.0,
-   "pct": 101.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "verde"
-  },
-  {
-   "part_number": "42401810",
-   "sub_ensamble": "NA",
-   "demanda": 140.0,
-   "producido": 145.0,
-   "pct": 103.6,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "verde"
+   "demanda": 171.0,
+   "producido": 60.0,
+   "pct": 35.1,
+   "stage_key": "automated_slitting_unifuse",
+   "stage_col": 12,
+   "status": "rojo"
   },
   {
    "part_number": "43709702",
    "sub_ensamble": "14400116",
-   "demanda": 770.0,
-   "producido": 683.0,
-   "pct": 88.7,
-   "stage_key": "pouch",
-   "stage_col": 22,
-   "status": "ambar"
+   "demanda": 470.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
   },
   {
-   "part_number": "43709703",
+   "part_number": "43709701",
    "sub_ensamble": "14400116",
-   "demanda": 535.0,
-   "producido": 503.0,
-   "pct": 94.0,
-   "stage_key": "pouch_inspeccion_pines_y_cable_guia",
-   "stage_col": 20,
-   "status": "ambar"
-  },
-  {
-   "part_number": "43709402",
-   "sub_ensamble": "14400116",
-   "demanda": 155.0,
-   "producido": 129.0,
-   "pct": 83.2,
-   "stage_key": "pouch",
-   "stage_col": 22,
-   "status": "ambar"
+   "demanda": 440.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
   },
   {
    "part_number": "43709801",
    "sub_ensamble": "14400114",
-   "demanda": 1615.0,
-   "producido": 1055.0,
-   "pct": 65.3,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "rojo"
+   "demanda": 1000.0,
+   "producido": 1100.0,
+   "pct": 110.0,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "verde"
   },
   {
    "part_number": "43709802",
    "sub_ensamble": "14400114",
-   "demanda": 90.0,
-   "producido": 66.0,
-   "pct": 73.3,
+   "demanda": null,
+   "producido": 1341.0,
+   "pct": null,
    "stage_key": "prepping",
    "stage_col": 15,
-   "status": "rojo"
+   "status": "sin_meta"
   },
   {
-   "part_number": "43709803",
-   "sub_ensamble": "14400114",
-   "demanda": 500.0,
-   "producido": 443.0,
-   "pct": 88.6,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "ambar"
-  },
-  {
-   "part_number": "43709901",
-   "sub_ensamble": "14400114",
-   "demanda": 250.0,
-   "producido": 211.0,
-   "pct": 84.4,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "ambar"
-  },
-  {
-   "part_number": "43709920",
-   "sub_ensamble": "14400114",
-   "demanda": 300.0,
-   "producido": 250.0,
-   "pct": 83.3,
-   "stage_key": "packaged",
-   "stage_col": 24,
-   "status": "ambar"
-  },
-  {
-   "part_number": "43709005",
+   "part_number": "43709204",
    "sub_ensamble": "14400131",
-   "demanda": 500.0,
-   "producido": 370.0,
-   "pct": 74.0,
-   "stage_key": "packaged",
-   "stage_col": 24,
+   "demanda": 250.0,
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "verde"
+  },
+  {
+   "part_number": "43709902",
+   "sub_ensamble": "14400131",
+   "demanda": 250.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
    "status": "rojo"
   }
  ],
  "kpis": {
-  "partes_activos": 43,
-  "total_demanda": 35058.0,
-  "total_producido": 33191.0,
-  "empacado": 23063.0,
-  "pct_cumplimiento": 65.8,
-  "exceso_total": -1867.0,
+  "partes_activos": 23,
+  "total_demanda": 21111.0,
+  "total_producido": 23305.0,
+  "empacado": 0,
+  "pct_cumplimiento": 0.0,
+  "exceso_total": 2194.0,
   "atrasados": 4
  },
  "weeks_available": [

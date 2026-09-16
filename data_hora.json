@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-16T08:32:29",
+ "generated_at": "2026-09-16T08:42:12",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83604,7 +83604,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          0.0,
-         null,
+         130.0,
          null,
          null,
          null,
@@ -83615,10 +83615,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3186.3,
+        "total": 130.0,
+        "delta": -3056.3,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.040799673602611185
        },
        {
         "name": "Sidehole Soft Vu",
@@ -83627,7 +83627,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         115.0,
          null,
          null,
          null,
@@ -83638,10 +83638,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 115.0,
+        "delta": -702.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.14075887392900857
        },
        {
         "name": "Sidehole Accu Vu",
@@ -83650,7 +83650,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -83673,7 +83673,7 @@
         "meta_dia": 3676.5,
         "hours": [
          0.0,
-         null,
+         260.0,
          null,
          null,
          null,
@@ -83684,10 +83684,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 260.0,
+        "delta": -3416.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.07071943424452605
        },
        {
         "name": "Baking Conv",

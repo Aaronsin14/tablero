@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-17T16:33:11",
+ "generated_at": "2026-09-17T16:42:55",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85232,7 +85232,7 @@
         "meta_hora": 120.0,
         "meta_dia": 656.4,
         "hours": [
-         null,
+         8.0,
          null,
          null,
          null,
@@ -85240,11 +85240,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -656.4,
+        "rework": 3.0,
+        "total": 8.0,
+        "delta": -648.4,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.012121212121212121
        },
        {
         "name": "Inspeccion",
@@ -85252,19 +85252,19 @@
         "meta_hora": 50.0,
         "meta_dia": 273.5,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         8.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -273.5,
+        "rework": 3.0,
+        "total": 8.0,
+        "delta": -265.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02909090909090909
        },
        {
         "name": "Drawdown",
@@ -85292,7 +85292,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         83.0,
          null,
          null,
          null,
@@ -85301,10 +85301,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 83.0,
+        "delta": -464.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1509090909090909
        },
        {
         "name": "Sidehole Accu Vu",
@@ -85312,7 +85312,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -85321,10 +85321,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Baking Rot",
@@ -85372,7 +85372,7 @@
         "meta_hora": 30.0,
         "meta_dia": 164.1,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,

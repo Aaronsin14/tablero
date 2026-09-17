@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-17T16:23:21",
+ "generated_at": "2026-09-17T16:33:11",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85172,7 +85172,7 @@
         "meta_hora": 75.0,
         "meta_dia": 410.25,
         "hours": [
-         null,
+         13.0,
          null,
          null,
          null,
@@ -85181,10 +85181,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -410.25,
+        "total": 13.0,
+        "delta": -397.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.03151515151515152
        },
        {
         "name": "Staker",
@@ -85192,7 +85192,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         15.0,
          null,
          null,
          null,
@@ -85200,11 +85200,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "rework": 2.0,
+        "total": 15.0,
+        "delta": -532.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02727272727272727
        },
        {
         "name": "Swager",
@@ -85212,7 +85212,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         15.0,
          null,
          null,
          null,
@@ -85221,10 +85221,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 15.0,
+        "delta": -532.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02727272727272727
        },
        {
         "name": "Embedder",
@@ -85272,7 +85272,7 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         null,
+         230.0,
          null,
          null,
          null,
@@ -85281,10 +85281,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2133.2999999999997,
+        "total": 230.0,
+        "delta": -1903.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10722610722610723
        },
        {
         "name": "Sidehole Soft Vu",
@@ -85332,7 +85332,7 @@
         "meta_hora": 450.0,
         "meta_dia": 2461.5,
         "hours": [
-         null,
+         70.0,
          null,
          null,
          null,
@@ -85341,10 +85341,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2461.5,
+        "total": 70.0,
+        "delta": -2391.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.02828282828282828
        },
        {
         "name": "Baking Conv",
@@ -85352,7 +85352,7 @@
         "meta_hora": 60.0,
         "meta_dia": 328.2,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -85361,10 +85361,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -328.2,
+        "total": 50.0,
+        "delta": -278.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.15151515151515152
        },
        {
         "name": "Hand Drilling",
@@ -85432,26 +85432,6 @@
         "meta_hora": 480.0,
         "meta_dia": 2625.6,
         "hours": [
-         0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2625.6,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "Moldeadora Atlas",
-        "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 1641.0,
-        "hours": [
          61.0,
          null,
          null,
@@ -85462,9 +85442,29 @@
         ],
         "rework": 0.0,
         "total": 61.0,
-        "delta": -1580.0,
+        "delta": -2564.6,
         "downtime": 0.0,
-        "proficiency": 0.03696969696969697
+        "proficiency": 0.02310606060606061
+       },
+       {
+        "name": "Moldeadora Atlas",
+        "maquinas": 1,
+        "meta_hora": 300.0,
+        "meta_dia": 1641.0,
+        "hours": [
+         0.0,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 0.0,
+        "delta": -1641.0,
+        "downtime": 0.0,
+        "proficiency": 0.0
        },
        {
         "name": "Pouch",

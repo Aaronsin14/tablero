@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-17T08:44:01",
+ "generated_at": "2026-09-17T09:29:50",
  "current_sheet": "22-Sep-2026",
  "current_date": "2026-09-22",
  "stages": [
@@ -183,8 +183,8 @@
    "demanda": 400.0,
    "producido": 370.0,
    "pct": 92.5,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
@@ -363,8 +363,8 @@
    "demanda": 171.0,
    "producido": 162.0,
    "pct": 94.7,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "ambar"
   },
   {
@@ -373,16 +373,16 @@
    "demanda": 1240.0,
    "producido": 1200.0,
    "pct": 96.8,
-   "stage_key": "inspeccion_pines_y_cable_guia",
-   "stage_col": 19,
+   "stage_key": "inspeccion_final_de_qc",
+   "stage_col": 20,
    "status": "ambar"
   },
   {
    "part_number": "43709703",
    "sub_ensamble": "14400116",
    "demanda": 535.0,
-   "producido": 418.0,
-   "pct": 78.1,
+   "producido": 425.0,
+   "pct": 79.4,
    "stage_key": "packaged",
    "stage_col": 23,
    "status": "rojo"
@@ -401,10 +401,10 @@
    "part_number": "43709402",
    "sub_ensamble": "14400116",
    "demanda": 155.0,
-   "producido": 129.0,
-   "pct": 83.2,
-   "stage_key": "inspeccion_final_de_qc",
-   "stage_col": 20,
+   "producido": 128.0,
+   "pct": 82.6,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
@@ -421,21 +421,21 @@
    "part_number": "43709802",
    "sub_ensamble": "14400114",
    "demanda": 1540.0,
-   "producido": 1273.0,
-   "pct": 82.7,
-   "stage_key": "pouch",
-   "stage_col": 21,
+   "producido": 1268.0,
+   "pct": 82.3,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
    "part_number": "43709803",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 440.0,
-   "pct": 88.0,
-   "stage_key": "pouch",
-   "stage_col": 21,
-   "status": "ambar"
+   "producido": 360.0,
+   "pct": 72.0,
+   "stage_key": "boxing",
+   "stage_col": 22,
+   "status": "rojo"
   },
   {
    "part_number": "43709901",
@@ -471,11 +471,11 @@
  "kpis": {
   "partes_activos": 38,
   "total_demanda": 35363.0,
-  "total_producido": 36636.0,
-  "empacado": 5769.0,
-  "pct_cumplimiento": 16.3,
-  "exceso_total": 1273.0,
-  "atrasados": 2
+  "total_producido": 36557.0,
+  "empacado": 6146.0,
+  "pct_cumplimiento": 17.4,
+  "exceso_total": 1194.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

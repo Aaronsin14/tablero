@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-16T22:10:05",
+ "generated_at": "2026-09-16T22:17:28",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83949,8 +83949,8 @@
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 547.0,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
          25.0,
          80.0,
@@ -83962,9 +83962,9 @@
         ],
         "rework": 10.0,
         "total": 397.0,
-        "delta": -150.0,
+        "delta": 123.5,
         "downtime": 0.0,
-        "proficiency": 0.7218181818181819
+        "proficiency": 1.4436363636363638
        },
        {
         "name": "Swager",
@@ -84150,7 +84150,7 @@
         "name": "Prepping",
         "maquinas": 1,
         "meta_hora": 150.0,
-        "meta_dia": 683.75,
+        "meta_dia": 547.0,
         "hours": [
          300.0,
          400.0,

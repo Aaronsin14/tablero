@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-16T18:36:46",
+ "generated_at": "2026-09-16T18:44:10",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -83989,8 +83989,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 50.0,
+        "meta_dia": 273.5,
         "hours": [
          6.0,
          88.0,
@@ -84002,9 +84002,9 @@
         ],
         "rework": 9.0,
         "total": 147.0,
-        "delta": -509.4,
+        "delta": -126.5,
         "downtime": 0.0,
-        "proficiency": 0.22272727272727272
+        "proficiency": 0.5345454545454545
        },
        {
         "name": "Inspeccion",
@@ -84035,7 +84035,7 @@
          130.0,
          260.0,
          260.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -84075,7 +84075,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -84095,7 +84095,7 @@
          0.0,
          225.0,
          286.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -84155,16 +84155,16 @@
          300.0,
          400.0,
          361.0,
-         null,
+         361.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1061.0,
-        "delta": 240.5,
+        "total": 1422.0,
+        "delta": 601.5,
         "downtime": 0.0,
-        "proficiency": 1.2860606060606061
+        "proficiency": 1.7236363636363636
        },
        {
         "name": "Rofing",
@@ -84175,7 +84175,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -84255,16 +84255,16 @@
          0.0,
          0.0,
          660.0,
-         null,
+         720.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 660.0,
-        "delta": -1254.5,
+        "total": 1380.0,
+        "delta": -534.5,
         "downtime": 0.0,
-        "proficiency": 0.34285714285714286
+        "proficiency": 0.7168831168831169
        }
       ]
      },

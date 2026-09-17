@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-16T20:20:21",
+ "generated_at": "2026-09-16T20:27:38",
  "current_sheet": "22-Sep-2026",
  "current_date": "2026-09-22",
  "stages": [
@@ -313,8 +313,8 @@
    "demanda": 6000.0,
    "producido": 6390.0,
    "pct": 106.5,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "stage_key": "inspeccion_pines_y_cable_guia",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -383,8 +383,8 @@
    "demanda": 535.0,
    "producido": 503.0,
    "pct": 94.0,
-   "stage_key": "pouch",
-   "stage_col": 21,
+   "stage_key": "boxing",
+   "stage_col": 22,
    "status": "ambar"
   },
   {
@@ -433,8 +433,8 @@
    "demanda": 500.0,
    "producido": 443.0,
    "pct": 88.6,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "ambar"
   },
   {

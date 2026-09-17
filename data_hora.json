@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-16T21:25:56",
+ "generated_at": "2026-09-16T21:33:21",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -84037,14 +84037,14 @@
          260.0,
          260.0,
          260.0,
-         260.0,
-         null
+         280.0,
+         230.0
         ],
         "rework": 3.0,
-        "total": 1430.0,
-        "delta": -703.2999999999997,
+        "total": 1680.0,
+        "delta": -453.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.6666666666666666
+        "proficiency": 0.7832167832167832
        },
        {
         "name": "Sidehole Soft Vu",
@@ -84058,13 +84058,13 @@
          100.0,
          180.0,
          165.0,
-         null
+         116.0
         ],
         "rework": 0.0,
-        "total": 845.0,
-        "delta": 298.0,
+        "total": 961.0,
+        "delta": 414.0,
         "downtime": 0.0,
-        "proficiency": 1.5363636363636362
+        "proficiency": 1.747272727272727
        },
        {
         "name": "Sidehole Accu Vu",
@@ -84078,7 +84078,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -84118,13 +84118,13 @@
          50.0,
          90.0,
          80.0,
-         null
+         100.0
         ],
-        "rework": 0.0,
-        "total": 431.0,
-        "delta": 102.80000000000001,
+        "rework": 2.0,
+        "total": 531.0,
+        "delta": 202.8,
         "downtime": 0.0,
-        "proficiency": 1.306060606060606
+        "proficiency": 1.6090909090909091
        },
        {
         "name": "Hand Drilling",
@@ -84138,7 +84138,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -84178,7 +84178,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -84232,19 +84232,19 @@
         "meta_hora": 300.0,
         "meta_dia": 1641.0,
         "hours": [
-         300.0,
-         151.0,
-         418.0,
-         230.0,
-         300.0,
-         300.0,
-         null
+         307.0,
+         307.0,
+         307.0,
+         307.0,
+         307.0,
+         307.0,
+         307.0
         ],
         "rework": 0.0,
-        "total": 1699.0,
-        "delta": 58.0,
+        "total": 2149.0,
+        "delta": 508.0,
         "downtime": 0.0,
-        "proficiency": 1.0296969696969698
+        "proficiency": 1.3024242424242425
        },
        {
         "name": "Boxing",
@@ -84258,13 +84258,13 @@
          720.0,
          270.0,
          370.0,
-         null
+         240.0
         ],
         "rework": 0.0,
-        "total": 2020.0,
-        "delta": 105.5,
+        "total": 2260.0,
+        "delta": 345.5,
         "downtime": 0.0,
-        "proficiency": 1.0493506493506493
+        "proficiency": 1.1740259740259742
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-17T12:18:19",
+ "generated_at": "2026-09-17T12:25:40",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -84802,17 +84802,17 @@
          35.0,
          35.0,
          20.0,
-         null,
+         20.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 9.0,
-        "total": 135.0,
-        "delta": -436.9,
+        "rework": 15.0,
+        "total": 155.0,
+        "delta": -416.9,
         "downtime": 0.0,
-        "proficiency": 0.23605525441510755
+        "proficiency": 0.2710264032173457
        },
        {
         "name": "Inspeccion",
@@ -84825,17 +84825,17 @@
          35.0,
          35.0,
          20.0,
-         0.0,
+         20.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 9.0,
-        "total": 135.0,
-        "delta": -436.9,
+        "rework": 15.0,
+        "total": 155.0,
+        "delta": -416.9,
         "downtime": 0.0,
-        "proficiency": 0.23605525441510755
+        "proficiency": 0.2710264032173457
        },
        {
         "name": "Drawdown",
@@ -84939,18 +84939,18 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         40.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "total": 40.0,
+        "delta": -450.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08159934720522236
        },
        {
         "name": "Hand Drilling",
@@ -84962,8 +84962,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -84978,25 +84978,25 @@
        {
         "name": "Prepping",
         "maquinas": 1,
-        "meta_hora": 150.0,
+        "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
          200.0,
          300.0,
          200.0,
          400.0,
-         null,
-         null,
+         500.0,
+         500.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1100.0,
-        "delta": -125.5,
+        "total": 2100.0,
+        "delta": -351.0,
         "downtime": 0.0,
-        "proficiency": 0.8975928192574459
+        "proficiency": 0.8567931456548348
        },
        {
         "name": "Rofing",
@@ -85008,41 +85008,41 @@
          660.0,
          550.0,
          550.0,
-         null,
-         null,
+         550.0,
+         490.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 2310.0,
-        "delta": -141.0,
+        "total": 3350.0,
+        "delta": 899.0,
         "downtime": 0.0,
-        "proficiency": 0.9424724602203183
+        "proficiency": 1.3667890656874746
        },
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
          0.0,
          137.0,
          300.0,
          170.0,
-         null,
-         null,
+         260.0,
+         224.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 607.0,
-        "delta": 607.0,
+        "total": 1091.0,
+        "delta": -1360.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.445124439004488
        },
        {
         "name": "Moldeadora Atlas",
@@ -85054,18 +85054,18 @@
          300.0,
          260.0,
          300.0,
-         null,
-         null,
+         300.0,
+         250.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1140.0,
-        "delta": -1311.0,
+        "total": 1690.0,
+        "delta": -761.0,
         "downtime": 0.0,
-        "proficiency": 0.46511627906976744
+        "proficiency": 0.689514483884129
        },
        {
         "name": "Pouch",
@@ -85077,18 +85077,18 @@
          0.0,
          109.0,
          200.0,
-         null,
-         null,
+         260.0,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 309.0,
-        "delta": -2142.0,
+        "total": 869.0,
+        "delta": -1582.0,
         "downtime": 0.0,
-        "proficiency": 0.12607099143206854
+        "proficiency": 0.35454916360669114
        },
        {
         "name": "Boxing",

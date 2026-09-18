@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-17T19:58:44",
+ "generated_at": "2026-09-18T06:32:54",
  "current_sheet": "22-Sep-2026",
  "current_date": "2026-09-22",
  "stages": [
@@ -191,8 +191,8 @@
    "part_number": "40732201",
    "sub_ensamble": "14400111",
    "demanda": 2000.0,
-   "producido": 2097.0,
-   "pct": 104.8,
+   "producido": 2013.0,
+   "pct": 100.6,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "verde"
@@ -201,8 +201,8 @@
    "part_number": "40732204",
    "sub_ensamble": "14400113",
    "demanda": 1000.0,
-   "producido": 1082.0,
-   "pct": 108.2,
+   "producido": 1017.0,
+   "pct": 101.7,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "verde"
@@ -311,8 +311,8 @@
    "part_number": "40732301",
    "sub_ensamble": "14400122",
    "demanda": 6000.0,
-   "producido": 6443.0,
-   "pct": 107.4,
+   "producido": 6391.0,
+   "pct": 106.5,
    "stage_key": "inspeccion_pines_y_cable_guia",
    "stage_col": 19,
    "status": "verde"
@@ -341,8 +341,8 @@
    "part_number": "40723502",
    "sub_ensamble": "14400117",
    "demanda": 1500.0,
-   "producido": 1604.0,
-   "pct": 106.9,
+   "producido": 1558.0,
+   "pct": 103.9,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "verde"
@@ -381,8 +381,8 @@
    "part_number": "43709702",
    "sub_ensamble": "14400116",
    "demanda": 1240.0,
-   "producido": 1201.0,
-   "pct": 96.9,
+   "producido": 992.0,
+   "pct": 80.0,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "ambar"
@@ -411,18 +411,18 @@
    "part_number": "43709402",
    "sub_ensamble": "14400116",
    "demanda": 155.0,
-   "producido": 128.0,
-   "pct": 82.6,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "producido": 125.0,
+   "pct": 80.6,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "ambar"
   },
   {
    "part_number": "43709801",
    "sub_ensamble": "14400114",
    "demanda": 1000.0,
-   "producido": 943.0,
-   "pct": 94.3,
+   "producido": 934.0,
+   "pct": 93.4,
    "stage_key": "boxing",
    "stage_col": 22,
    "status": "ambar"
@@ -443,8 +443,8 @@
    "demanda": 500.0,
    "producido": 360.0,
    "pct": 72.0,
-   "stage_key": "boxing",
-   "stage_col": 22,
+   "stage_key": "packaged",
+   "stage_col": 23,
    "status": "rojo"
   },
   {
@@ -471,20 +471,20 @@
    "part_number": "43709902",
    "sub_ensamble": "14400131",
    "demanda": 250.0,
-   "producido": 275.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
-   "status": "verde"
+   "producido": 230.0,
+   "pct": 92.0,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "ambar"
   }
  ],
  "kpis": {
   "partes_activos": 39,
   "total_demanda": 35438.0,
-  "total_producido": 37771.0,
-  "empacado": 7080.0,
-  "pct_cumplimiento": 20.0,
-  "exceso_total": 2333.0,
+  "total_producido": 37258.0,
+  "empacado": 7565.0,
+  "pct_cumplimiento": 21.3,
+  "exceso_total": 1820.0,
   "atrasados": 4
  },
  "weeks_available": [

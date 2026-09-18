@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T15:15:51",
+ "generated_at": "2026-09-18T15:22:02",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86091,14 +86091,14 @@
          130.0,
          90.0,
          190.0,
-         null,
-         null
+         180.0,
+         245.0
         ],
         "rework": 9.0,
-        "total": 1252.0,
-        "delta": -1934.3000000000002,
+        "total": 1677.0,
+        "delta": -1509.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.39293224115745534
+        "proficiency": 0.5263157894736842
        },
        {
         "name": "Sidehole Soft Vu",
@@ -86114,14 +86114,14 @@
          200.0,
          50.0,
          200.0,
-         null,
-         null
+         100.0,
+         200.0
         ],
         "rework": 3.0,
-        "total": 815.0,
-        "delta": -2.0,
+        "total": 1115.0,
+        "delta": 298.0,
         "downtime": 0.0,
-        "proficiency": 0.9975520195838433
+        "proficiency": 1.364749082007344
        },
        {
         "name": "Sidehole Accu Vu",
@@ -86137,14 +86137,14 @@
          0.0,
          0.0,
          0.0,
-         null,
+         150.0,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 150.0,
+        "delta": -667.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18359853121175032
        },
        {
         "name": "Baking Rot",
@@ -86160,14 +86160,14 @@
          150.0,
          150.0,
          150.0,
-         null,
-         null
+         125.0,
+         0.0
         ],
         "rework": 1.0,
-        "total": 802.0,
-        "delta": -2874.5,
+        "total": 927.0,
+        "delta": -2749.5,
         "downtime": 0.0,
-        "proficiency": 0.21814225486196112
+        "proficiency": 0.2521419828641371
        },
        {
         "name": "Baking Conv",
@@ -86344,14 +86344,14 @@
          315.0,
          0.0,
          400.0,
-         null,
-         null
+         240.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 1742.0,
-        "delta": -1117.5,
+        "total": 1982.0,
+        "delta": -877.5,
         "downtime": 0.0,
-        "proficiency": 0.6091974121349887
+        "proficiency": 0.6931281692603602
        }
       ]
      },

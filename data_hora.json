@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T07:09:49",
+ "generated_at": "2026-09-18T07:16:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85922,7 +85922,7 @@
         "meta_hora": 500.0,
         "meta_dia": 4085.0,
         "hours": [
-         null,
+         450.0,
          null,
          null,
          null,
@@ -85934,10 +85934,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -4085.0,
+        "total": 450.0,
+        "delta": -3635.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.11015911872705018
        },
        {
         "name": "Welder",
@@ -85945,8 +85945,8 @@
         "meta_hora": 400.0,
         "meta_dia": 3268.0,
         "hours": [
-         null,
-         null,
+         137.0,
+         0.0,
          null,
          null,
          null,
@@ -85956,11 +85956,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -3268.0,
+        "rework": 29.0,
+        "total": 137.0,
+        "delta": -3131.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.04192166462668299
        },
        {
         "name": "Carga de bandas",
@@ -86037,7 +86037,7 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9000000000001,
         "hours": [
-         20.0,
+         22.0,
          null,
          null,
          null,
@@ -86048,11 +86048,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 20.0,
-        "delta": -551.9,
+        "rework": 3.0,
+        "total": 22.0,
+        "delta": -549.9,
         "downtime": 0.0,
-        "proficiency": 0.03497114880223815
+        "proficiency": 0.03846826368246197
        },
        {
         "name": "Inspeccion",
@@ -86060,7 +86060,7 @@
         "meta_hora": 70.0,
         "meta_dia": 571.9,
         "hours": [
-         null,
+         22.0,
          null,
          null,
          null,
@@ -86071,11 +86071,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -571.9,
+        "rework": 3.0,
+        "total": 22.0,
+        "delta": -549.9,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03846826368246197
        },
        {
         "name": "Drawdown",
@@ -86336,7 +86336,7 @@
         "meta_hora": 350.0,
         "meta_dia": 2859.5,
         "hours": [
-         16.0,
+         17.0,
          null,
          null,
          null,
@@ -86348,10 +86348,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 16.0,
-        "delta": -2843.5,
+        "total": 17.0,
+        "delta": -2842.5,
         "downtime": 0.0,
-        "proficiency": 0.005595383808358104
+        "proficiency": 0.005945095296380486
        }
       ]
      },

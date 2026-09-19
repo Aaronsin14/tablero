@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T21:13:35",
+ "generated_at": "2026-09-18T21:19:42",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86417,14 +86417,14 @@
          100.0,
          70.0,
          65.0,
-         null,
+         75.0,
          null
         ],
         "rework": 0.0,
-        "total": 235.0,
-        "delta": -175.25,
+        "total": 310.0,
+        "delta": -100.25,
         "downtime": 0.0,
-        "proficiency": 0.5696969696969697
+        "proficiency": 0.7515151515151516
        },
        {
         "name": "Staker",
@@ -86437,14 +86437,14 @@
          43.0,
          0.0,
          50.0,
-         0.0,
+         40.0,
          0.0
         ],
         "rework": 15.0,
-        "total": 158.0,
-        "delta": -389.0,
+        "total": 198.0,
+        "delta": -349.0,
         "downtime": 0.0,
-        "proficiency": 0.2872727272727273
+        "proficiency": 0.36
        },
        {
         "name": "Swager",
@@ -86457,14 +86457,14 @@
          43.0,
          0.0,
          50.0,
-         null,
+         40.0,
          null
         ],
         "rework": 0.0,
-        "total": 158.0,
-        "delta": -389.0,
+        "total": 198.0,
+        "delta": -349.0,
         "downtime": 0.0,
-        "proficiency": 0.2872727272727273
+        "proficiency": 0.36
        },
        {
         "name": "Embedder",
@@ -86477,14 +86477,14 @@
          21.0,
          18.0,
          10.0,
-         null,
+         50.0,
          null
         ],
-        "rework": 17.0,
-        "total": 87.0,
-        "delta": -569.4,
+        "rework": 19.0,
+        "total": 137.0,
+        "delta": -519.4,
         "downtime": 0.0,
-        "proficiency": 0.1318181818181818
+        "proficiency": 0.20757575757575758
        },
        {
         "name": "Inspeccion",
@@ -86497,14 +86497,14 @@
          21.0,
          18.0,
          10.0,
-         0.0,
+         50.0,
          0.0
         ],
-        "rework": 17.0,
-        "total": 87.0,
-        "delta": -186.5,
+        "rework": 19.0,
+        "total": 137.0,
+        "delta": -136.5,
         "downtime": 0.0,
-        "proficiency": 0.31636363636363635
+        "proficiency": 0.4981818181818182
        },
        {
         "name": "Drawdown",
@@ -86518,13 +86518,13 @@
          150.0,
          230.0,
          230.0,
-         null
+         96.0
         ],
         "rework": 8.0,
-        "total": 1060.0,
-        "delta": -1073.2999999999997,
+        "total": 1156.0,
+        "delta": -977.2999999999997,
         "downtime": 24.0,
-        "proficiency": 0.506450071667463
+        "proficiency": 0.5523172479694219
        },
        {
         "name": "Sidehole Soft Vu",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-19T14:41:22",
+ "generated_at": "2026-09-19T14:47:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78810,18 +78810,18 @@
          100.0,
          100.0,
          130.0,
-         30.0,
+         160.0,
          290.0,
          260.0,
          260.0,
-         190.0,
+         404.0,
          null
         ],
         "rework": 0.0,
-        "total": 1360.0,
-        "delta": -1826.3000000000002,
+        "total": 1704.0,
+        "delta": -1482.3000000000002,
         "downtime": 300.0,
-        "proficiency": 0.5362141702479991
+        "proficiency": 0.6718448133107283
        },
        {
         "name": "Sidehole Soft Vu",
@@ -78952,14 +78952,14 @@
          300.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null
         ],
         "rework": 0.0,
-        "total": 2400.0,
-        "delta": -51.0,
+        "total": 2700.0,
+        "delta": 249.0,
         "downtime": 0.0,
-        "proficiency": 0.9791921664626684
+        "proficiency": 1.1015911872705018
        },
        {
         "name": "Rofing",
@@ -79044,14 +79044,14 @@
          300.0,
          300.0,
          300.0,
-         null,
+         1000.0,
          null
         ],
         "rework": 0.0,
-        "total": 1200.0,
-        "delta": -1251.0,
+        "total": 2200.0,
+        "delta": -251.0,
         "downtime": 180.0,
-        "proficiency": 0.7736943907156674
+        "proficiency": 1.4184397163120566
        },
        {
         "name": "Boxing",
@@ -79060,21 +79060,21 @@
         "meta_dia": 2859.5,
         "hours": [
          20.0,
-         400.0,
-         416.0,
-         416.0,
+         409.0,
+         415.0,
+         415.0,
          451.0,
-         416.0,
-         416.0,
-         416.0,
-         416.0,
+         415.0,
+         415.0,
+         415.0,
+         415.0,
          null
         ],
         "rework": 0.0,
-        "total": 3367.0,
-        "delta": 507.5,
-        "downtime": 40.0,
-        "proficiency": 1.2820968458462907
+        "total": 3370.0,
+        "delta": 510.5,
+        "downtime": 0.0,
+        "proficiency": 1.1785277146354258
        }
       ]
      },

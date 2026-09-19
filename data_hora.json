@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T18:14:43",
+ "generated_at": "2026-09-18T18:20:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86594,7 +86594,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -86614,7 +86614,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -86634,17 +86634,17 @@
         "hours": [
          300.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -220.5,
+        "total": 900.0,
+        "delta": 79.5,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 1.0909090909090908
        },
        {
         "name": "Rofing",
@@ -86674,17 +86674,17 @@
         "hours": [
          150.0,
          200.0,
-         54.0,
+         100.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 404.0,
-        "delta": -2221.6,
+        "total": 450.0,
+        "delta": -2175.6,
         "downtime": 0.0,
-        "proficiency": 0.15303030303030302
+        "proficiency": 0.17045454545454544
        },
        {
         "name": "Moldeadora Atlas",
@@ -86694,17 +86694,17 @@
         "hours": [
          100.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 300.0,
-        "total": 400.0,
-        "delta": -1241.0,
+        "rework": 0.0,
+        "total": 700.0,
+        "delta": -941.0,
         "downtime": 0.0,
-        "proficiency": 0.24242424242424246
+        "proficiency": 0.4242424242424242
        },
        {
         "name": "Pouch",

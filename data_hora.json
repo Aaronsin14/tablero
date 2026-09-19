@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-19T13:52:11",
+ "generated_at": "2026-09-19T13:58:21",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78721,7 +78721,7 @@
          40.0,
          30.0,
          30.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -78766,16 +78766,16 @@
          32.0,
          34.0,
          30.0,
-         null,
+         35.0,
          null,
          null,
          null
         ],
-        "rework": 25.0,
-        "total": 141.0,
-        "delta": -430.9,
+        "rework": 31.0,
+        "total": 176.0,
+        "delta": -395.9,
         "downtime": 0.0,
-        "proficiency": 0.24654659905577897
+        "proficiency": 0.30774610945969577
        },
        {
         "name": "Inspeccion",
@@ -78789,16 +78789,16 @@
          32.0,
          34.0,
          30.0,
-         0.0,
+         35.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 25.0,
-        "total": 141.0,
-        "delta": -430.9,
+        "rework": 31.0,
+        "total": 176.0,
+        "delta": -395.9,
         "downtime": 0.0,
-        "proficiency": 0.24654659905577897
+        "proficiency": 0.30774610945969577
        },
        {
         "name": "Drawdown",
@@ -78859,7 +78859,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -78905,7 +78905,7 @@
          0.0,
          null,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -78928,7 +78928,7 @@
          0.0,
          null,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -78974,7 +78974,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -79043,15 +79043,15 @@
          300.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": -1551.0,
+        "total": 1200.0,
+        "delta": -1251.0,
         "downtime": 0.0,
-        "proficiency": 0.36719706242350064
+        "proficiency": 0.4895960832313342
        },
        {
         "name": "Boxing",
@@ -79066,15 +79066,15 @@
          195.0,
          400.0,
          320.0,
-         null,
+         400.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 2130.0,
-        "delta": -729.5,
-        "downtime": 50.0,
-        "proficiency": 0.8294930875576036
+        "total": 2530.0,
+        "delta": -329.5,
+        "downtime": 40.0,
+        "proficiency": 0.9633813543187156
        }
       ]
      },

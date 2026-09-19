@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-19T08:50:27",
+ "generated_at": "2026-09-19T08:56:37",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78990,8 +78990,8 @@
         "meta_hora": 0,
         "meta_dia": 0,
         "hours": [
-         null,
-         null,
+         0.0,
+         300.0,
          null,
          null,
          null,
@@ -79002,8 +79002,8 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
+        "total": 300.0,
+        "delta": 300.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -79014,7 +79014,7 @@
         "meta_dia": 2451.0,
         "hours": [
          160.0,
-         null,
+         300.0,
          null,
          null,
          null,
@@ -79025,10 +79025,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 160.0,
-        "delta": -2291.0,
+        "total": 460.0,
+        "delta": -1991.0,
         "downtime": 0.0,
-        "proficiency": 0.06527947776417789
+        "proficiency": 0.1876784985720114
        },
        {
         "name": "Pouch",

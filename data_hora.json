@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-19T13:16:06",
+ "generated_at": "2026-09-19T13:27:45",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -78651,16 +78651,16 @@
          275.0,
          275.0,
          275.0,
-         null,
+         275.0,
          null,
          null,
          null
         ],
-        "rework": 39.0,
-        "total": 1325.0,
-        "delta": -2760.0,
+        "rework": 40.0,
+        "total": 1600.0,
+        "delta": -2485.0,
         "downtime": 0.0,
-        "proficiency": 0.3243574051407589
+        "proficiency": 0.39167686658506734
        },
        {
         "name": "Welder",
@@ -78674,16 +78674,16 @@
          347.0,
          300.0,
          280.0,
-         null,
+         151.0,
          null,
          null,
          null
         ],
-        "rework": 129.0,
-        "total": 1415.0,
-        "delta": -1607.9,
+        "rework": 271.0,
+        "total": 1566.0,
+        "delta": -1456.9,
         "downtime": 150.0,
-        "proficiency": 0.48671006354748003
+        "proficiency": 0.538648734639826
        },
        {
         "name": "Carga de bandas",
@@ -78987,8 +78987,8 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
          0.0,
          300.0,
@@ -79003,9 +79003,9 @@
         ],
         "rework": 0.0,
         "total": 1776.0,
-        "delta": 1776.0,
+        "delta": -675.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.7246022031823746
        },
        {
         "name": "Moldeadora Atlas",
@@ -79073,8 +79073,8 @@
         "rework": 0.0,
         "total": 2130.0,
         "delta": -729.5,
-        "downtime": 30.0,
-        "proficiency": 0.7934438442913019
+        "downtime": 50.0,
+        "proficiency": 0.8294930875576036
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T21:01:15",
+ "generated_at": "2026-09-18T21:07:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86517,14 +86517,14 @@
          200.0,
          150.0,
          230.0,
-         0.0,
+         230.0,
          null
         ],
         "rework": 8.0,
-        "total": 830.0,
-        "delta": -1303.2999999999997,
+        "total": 1060.0,
+        "delta": -1073.2999999999997,
         "downtime": 24.0,
-        "proficiency": 0.3965599617773531
+        "proficiency": 0.506450071667463
        },
        {
         "name": "Sidehole Soft Vu",
@@ -86537,14 +86537,14 @@
          150.0,
          100.0,
          125.0,
-         null,
+         125.0,
          null
         ],
         "rework": 0.0,
-        "total": 575.0,
-        "delta": 28.0,
+        "total": 700.0,
+        "delta": 153.0,
         "downtime": 0.0,
-        "proficiency": 1.0454545454545454
+        "proficiency": 1.2727272727272727
        },
        {
         "name": "Sidehole Accu Vu",
@@ -86557,14 +86557,14 @@
          55.0,
          0.0,
          100.0,
-         null,
+         100.0,
          null
         ],
         "rework": 0.0,
-        "total": 305.0,
-        "delta": -242.0,
+        "total": 405.0,
+        "delta": -142.0,
         "downtime": 30.0,
-        "proficiency": 0.61
+        "proficiency": 0.81
        },
        {
         "name": "Baking Rot",
@@ -86577,14 +86577,14 @@
          203.0,
          50.0,
          215.0,
-         null,
+         225.0,
          null
         ],
         "rework": 0.0,
-        "total": 723.0,
-        "delta": -1738.5,
+        "total": 948.0,
+        "delta": -1513.5,
         "downtime": 0.0,
-        "proficiency": 0.29212121212121217
+        "proficiency": 0.38303030303030305
        },
        {
         "name": "Baking Conv",
@@ -86677,14 +86677,14 @@
          52.0,
          300.0,
          0.0,
-         null,
+         200.0,
          null
         ],
         "rework": 0.0,
-        "total": 702.0,
-        "delta": -1923.6,
+        "total": 902.0,
+        "delta": -1723.6,
         "downtime": 30.0,
-        "proficiency": 0.29250000000000004
+        "proficiency": 0.37583333333333335
        },
        {
         "name": "Moldeadora Atlas",
@@ -86697,14 +86697,14 @@
          300.0,
          300.0,
          54.0,
-         null,
+         200.0,
          null
         ],
         "rework": 0.0,
-        "total": 1054.0,
-        "delta": -587.0,
+        "total": 1254.0,
+        "delta": -387.0,
         "downtime": 0.0,
-        "proficiency": 0.6387878787878788
+        "proficiency": 0.76
        },
        {
         "name": "Pouch",

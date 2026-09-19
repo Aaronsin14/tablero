@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-18T20:11:47",
+ "generated_at": "2026-09-18T20:17:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86376,15 +86376,15 @@
          125.0,
          250.0,
          211.0,
-         null,
+         250.0,
          null,
          null
         ],
-        "rework": 40.0,
-        "total": 711.0,
-        "delta": -2024.0,
+        "rework": 54.0,
+        "total": 961.0,
+        "delta": -1774.0,
         "downtime": 0.0,
-        "proficiency": 0.2585454545454546
+        "proficiency": 0.34945454545454546
        },
        {
         "name": "Welder",
@@ -86396,15 +86396,15 @@
          225.0,
          232.0,
          380.0,
-         null,
+         280.0,
          null,
          null
         ],
-        "rework": 122.0,
-        "total": 907.0,
-        "delta": -1281.0,
+        "rework": 150.0,
+        "total": 1187.0,
+        "delta": -1001.0,
         "downtime": 452.0,
-        "proficiency": 0.49744058500914073
+        "proficiency": 0.6510054844606947
        },
        {
         "name": "Carga de bandas",
@@ -86637,14 +86637,14 @@
          300.0,
          300.0,
          650.0,
-         null,
+         651.0,
          null
         ],
         "rework": 0.0,
-        "total": 1850.0,
-        "delta": 1029.5,
+        "total": 2501.0,
+        "delta": 1680.5,
         "downtime": 0.0,
-        "proficiency": 2.2424242424242427
+        "proficiency": 3.0315151515151517
        },
        {
         "name": "Rofing",
@@ -86696,15 +86696,15 @@
          300.0,
          300.0,
          300.0,
-         null,
+         54.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1000.0,
-        "delta": -641.0,
+        "total": 1054.0,
+        "delta": -587.0,
         "downtime": 0.0,
-        "proficiency": 0.6060606060606061
+        "proficiency": 0.6387878787878788
        },
        {
         "name": "Pouch",
@@ -86733,18 +86733,18 @@
         "meta_dia": 1914.5,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         400.0,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
+        "total": 600.0,
+        "delta": -1314.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3116883116883117
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-20T16:30:39",
+ "generated_at": "2026-09-20T16:36:46",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -72881,294 +72881,88 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": [
        {
-        "name": "0.7774785801713586",
-        "maquinas": 5,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         500.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 650.0,
-        "total": 0.0,
-        "delta": 200.0,
-        "downtime": 500.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.4753636389513535",
-        "maquinas": 131,
-        "meta_hora": 0,
-        "meta_dia": 25.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         400.0,
-         10.0,
-         17.0,
-         21.0
-        ],
-        "rework": 1078.0,
-        "total": 35.0,
-        "delta": 275.0,
-        "downtime": 400.0,
-        "proficiency": 22.0
-       },
-       {
-        "name": "0.6691146470828233",
+        "name": "5",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 500.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         125.0,
+         200.0,
+         200.0,
+         125.0
         ],
-        "rework": 200.0,
-        "total": 0.0,
+        "rework": 502.0,
+        "total": 200.0,
         "delta": 0.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 135.0
        },
        {
-        "name": "0.15181995187606812",
+        "name": "131",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 4.0,
+        "meta_dia": 400.0,
         "hours": [
          null,
          null,
-         2.0,
-         100.0,
-         4.0,
-         4.0,
-         3.0
+         null,
+         110.0,
+         303.0,
+         290.0,
+         375.0
         ],
-        "rework": 126.0,
-        "total": 3.0,
-        "delta": 40.0,
-        "downtime": 45.0,
-        "proficiency": 1.0
-       },
-       {
-        "name": "#DIV/0!",
-        "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 126.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 45.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.283266305298129",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 8.0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         120.0,
-         2.0,
-         5.0,
-         3.0
-        ],
-        "rework": 91.0,
-        "total": 0.0,
-        "delta": 29.0,
-        "downtime": 43.0,
-        "proficiency": 5.0
+        "rework": 491.0,
+        "total": 275.0,
+        "delta": 25.0,
+        "downtime": 22.0,
+        "proficiency": 351.0
        }
       ]
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": [
        {
-        "name": "0.4848484848484849",
+        "name": "19",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 40.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 300.0,
-        "total": 0.0,
-        "delta": 75.0,
-        "downtime": 75.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.41090909090909095",
-        "maquinas": 19,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
          null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 175.0,
-        "total": 0.0,
-        "delta": 30.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.41090909090909095",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 160.0,
-        "total": 0.0,
-        "delta": 30.0,
-        "downtime": 30.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.28181818181818186",
-        "maquinas": 58,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         10.0,
+         20.0,
          50.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
+         45.0,
+         30.0,
+         30.0
         ],
-        "rework": 177.0,
-        "total": 0.0,
-        "delta": 36.0,
-        "downtime": 36.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.6763636363636364",
-        "maquinas": 29,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 177.0,
-        "total": 0.0,
-        "delta": 35.0,
-        "downtime": 37.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.210164835164835",
-        "maquinas": 30,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         390.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1185.0,
-        "total": 0.0,
-        "delta": 260.0,
-        "downtime": 220.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.9218181818181819",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 287.0,
-        "total": 0.0,
-        "delta": 50.0,
-        "downtime": 53.0,
-        "proficiency": 0.0
+        "rework": 102.0,
+        "total": 30.0,
+        "delta": 0.0,
+        "downtime": 0.0,
+        "proficiency": 30.0
        }
       ]
      }
@@ -73630,25 +73424,25 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": []
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": []
      }
@@ -74110,575 +73904,88 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": [
        {
-        "name": "0.9478580171358629",
-        "maquinas": 14,
-        "meta_hora": 0,
-        "meta_dia": 1.0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         500.0,
-         0.0,
-         0.0,
-         23.0
-        ],
-        "rework": 975.0,
-        "total": 29.0,
-        "delta": 225.0,
-        "downtime": 325.0,
-        "proficiency": 20.0
-       },
-       {
-        "name": "0.6597890074022265",
-        "maquinas": 213,
-        "meta_hora": 0,
-        "meta_dia": 17.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         400.0,
-         12.0,
-         13.0,
-         16.0
-        ],
-        "rework": 1115.0,
-        "total": 26.0,
-        "delta": 300.0,
-        "downtime": 400.0,
-        "proficiency": 28.0
-       },
-       {
-        "name": "0.7327621379028968",
+        "name": "14",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 325.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         225.0,
+         250.0,
+         250.0,
+         250.0
         ],
-        "rework": 89.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 554.0,
+        "total": 225.0,
+        "delta": 1.0,
+        "downtime": 20.0,
+        "proficiency": 245.0
        },
        {
-        "name": "0.6560587515299878",
-        "maquinas": 2,
-        "meta_hora": 0,
-        "meta_dia": 2.0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         50.0,
-         0.0,
-         2.0,
-         1.0
-        ],
-        "rework": 256.0,
-        "total": 2.0,
-        "delta": 81.0,
-        "downtime": 30.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "1.0526315789473684",
+        "name": "213",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 400.0,
         "hours": [
          null,
          null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 256.0,
-        "total": 0.0,
-        "delta": 81.0,
-        "downtime": 30.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5483476132190943",
-        "maquinas": 12,
-        "meta_hora": 0,
-        "meta_dia": 3.0,
-        "hours": [
          null,
-         null,
-         10.0,
-         50.0,
-         0.0,
-         5.0,
-         4.0
-        ],
-        "rework": 191.0,
-        "total": 1.0,
-        "delta": 34.0,
-        "downtime": 94.0,
-        "proficiency": 6.0
-       },
-       {
-        "name": "0.5483476132190943",
-        "maquinas": 6,
-        "meta_hora": 0,
-        "meta_dia": 3.0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         0.0,
-         5.0,
-         4.0
-        ],
-        "rework": 191.0,
-        "total": 1.0,
-        "delta": 34.0,
-        "downtime": 94.0,
-        "proficiency": 6.0
-       },
-       {
-        "name": "0.6866898910962559",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         390.0,
-         0.0,
-         0.0,
-         3.0
-        ],
-        "rework": 1098.0,
-        "total": 0.0,
-        "delta": 307.0,
-        "downtime": 327.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.9645042839657283",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 500.0,
-        "total": 0.0,
-        "delta": 180.0,
-        "downtime": 165.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.25703794369645044",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5298517611859105",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         450.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 586.0,
-        "total": 0.0,
-        "delta": 305.0,
-        "downtime": 220.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.10199918400652795",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         60.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 261.0,
-        "total": 0.0,
-        "delta": 90.0,
-        "downtime": 80.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "#DIV/0!",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         30.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.4443084455324358",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         150.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1422.0,
-        "total": 0.0,
-        "delta": 361.0,
-        "downtime": 361.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.234190126478988",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.7250101999184007",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         480.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 935.0,
-        "total": 0.0,
-        "delta": 200.0,
-        "downtime": 300.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.8690330477356181",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 820.0,
-        "total": 0.0,
-        "delta": 207.0,
-        "downtime": 220.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.9673602611179111",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1228.0,
-        "total": 0.0,
-        "delta": 307.0,
-        "downtime": 307.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.529812904353908",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
+         125.0,
          350.0,
-         0.0,
-         0.0,
-         0.0
+         240.0,
+         400.0
         ],
-        "rework": 1380.0,
-        "total": 0.0,
-        "delta": 270.0,
-        "downtime": 370.0,
-        "proficiency": 0.0
+        "rework": 475.0,
+        "total": 300.0,
+        "delta": 17.0,
+        "downtime": 28.0,
+        "proficiency": 345.0
        }
       ]
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": [
        {
-        "name": "1.064039408866995",
-        "maquinas": 134,
-        "meta_hora": 0,
-        "meta_dia": 54.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         340.0,
-         26.0,
-         44.0,
-         24.0,
-         43.0
-        ],
-        "rework": 1279.0,
-        "total": 51.0,
-        "delta": 350.0,
-        "downtime": 285.0,
-        "proficiency": 38.0
-       },
-       {
-        "name": "0.2642424242424242",
+        "name": "134",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 285.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         175.0,
+         370.0,
+         202.0,
+         223.0,
+         309.0
         ],
-        "rework": 225.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.4436363636363638",
-        "maquinas": 10,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 208.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.7218181818181819",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         85.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 208.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.3272727272727272",
-        "maquinas": 44,
-        "meta_hora": 0,
-        "meta_dia": 1.0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         50.0,
-         1.0,
-         2.0,
-         3.0,
-         2.0
-        ],
-        "rework": 179.0,
-        "total": 2.0,
-        "delta": 31.0,
-        "downtime": 37.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "1.3272727272727272",
-        "maquinas": 22,
-        "meta_hora": 0,
-        "meta_dia": 1.0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         1.0,
-         2.0,
-         3.0,
-         2.0
-        ],
-        "rework": 179.0,
-        "total": 2.0,
-        "delta": 31.0,
-        "downtime": 37.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "0.9995337995337995",
-        "maquinas": 3,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         195.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 970.0,
-        "total": 0.0,
-        "delta": 175.0,
-        "downtime": 270.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.747272727272727",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 470.0,
-        "total": 0.0,
-        "delta": 50.0,
-        "downtime": 100.0,
-        "proficiency": 0.0
+        "rework": 536.0,
+        "total": 350.0,
+        "delta": 54.0,
+        "downtime": 38.0,
+        "proficiency": 250.0
        }
       ]
      }
@@ -75140,638 +74447,88 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": [
        {
-        "name": "1.0986536107711138",
-        "maquinas": 55,
+        "name": "55",
+        "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 16.0,
+        "meta_dia": 375.0,
         "hours": [
          null,
          null,
-         2.0,
+         null,
          250.0,
-         16.0,
-         18.0,
-         0.0
+         325.0,
+         325.0,
+         250.0
         ],
-        "rework": 1150.0,
-        "total": 10.0,
-        "delta": 145.0,
-        "downtime": 375.0,
-        "proficiency": 10.0
+        "rework": 296.0,
+        "total": 145.0,
+        "delta": 16.0,
+        "downtime": 10.0,
+        "proficiency": 250.0
        },
        {
-        "name": "0.6406622431231077",
-        "maquinas": 259,
-        "meta_hora": 0,
-        "meta_dia": 46.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         400.0,
-         6.0,
-         22.0,
-         24.0
-        ],
-        "rework": 960.0,
-        "total": 47.0,
-        "delta": 272.0,
-        "downtime": 355.0,
-        "proficiency": 29.0
-       },
-       {
-        "name": "1.1913504691962464",
+        "name": "259",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 355.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 125.0,
-        "total": 0.0,
-        "delta": 24.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.6621787025703795",
-        "maquinas": 7,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
          null,
-         null,
-         2.0,
-         100.0,
-         2.0,
-         9.0,
-         2.0
-        ],
-        "rework": 138.0,
-        "total": 2.0,
-        "delta": 44.0,
-        "downtime": 30.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "0.6560587515299878",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 138.0,
-        "total": 0.0,
-        "delta": 44.0,
-        "downtime": 30.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.40916244098618637",
-        "maquinas": 42,
-        "meta_hora": 0,
-        "meta_dia": 12.0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         120.0,
-         3.0,
-         4.0,
-         9.0
-        ],
-        "rework": 84.0,
-        "total": 1.0,
-        "delta": 31.0,
-        "downtime": 41.0,
-        "proficiency": 8.0
-       },
-       {
-        "name": "0.40916244098618637",
-        "maquinas": 21,
-        "meta_hora": 0,
-        "meta_dia": 12.0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         3.0,
-         4.0,
-         9.0
-        ],
-        "rework": 84.0,
-        "total": 1.0,
-        "delta": 31.0,
-        "downtime": 41.0,
-        "proficiency": 8.0
-       },
-       {
-        "name": "0.1974076515080187",
-        "maquinas": 7,
-        "meta_hora": 0,
-        "meta_dia": 1.0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         390.0,
-         0.0,
-         6.0,
-         12.0
-        ],
-        "rework": 1562.0,
-        "total": 0.0,
-        "delta": 453.0,
-        "downtime": 453.0,
-        "proficiency": 5.0
-       },
-       {
-        "name": "1.4112607099143206",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 412.0,
-        "total": 0.0,
-        "delta": 125.0,
-        "downtime": 160.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.6181150550795593",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 314.0,
-        "total": 0.0,
-        "delta": 100.0,
-        "downtime": 100.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.6536107711138311",
-        "maquinas": 10,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         450.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 879.0,
-        "total": 0.0,
-        "delta": 150.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.1631986944104447",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         60.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 230.0,
-        "total": 0.0,
-        "delta": 98.0,
-        "downtime": 90.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "#DIV/0!",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         30.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.2545899632802937",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         150.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1241.0,
-        "total": 0.0,
-        "delta": 411.0,
-        "downtime": 411.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "2.3631170950632394",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
+         122.0,
          300.0,
-         0.0,
-         0.0,
-         0.0
+         208.0,
+         330.0
         ],
-        "rework": 1078.0,
-        "total": 0.0,
-        "delta": 269.0,
-        "downtime": 269.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.7413300693594451",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         480.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 372.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 250.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.9424724602203183",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 800.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.8637290901672787",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1109.0,
-        "total": 0.0,
-        "delta": 300.0,
-        "downtime": 300.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.0442385032348314",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         350.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 735.0,
-        "total": 0.0,
-        "delta": 120.0,
-        "downtime": 960.0,
-        "proficiency": 0.0
+        "rework": 507.0,
+        "total": 272.0,
+        "delta": 46.0,
+        "downtime": 29.0,
+        "proficiency": 260.0
        }
       ]
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": [
        {
-        "name": "0.8395454545454545",
-        "maquinas": 199,
-        "meta_hora": 0,
-        "meta_dia": 30.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         325.0,
-         40.0,
-         41.0,
-         24.0,
-         29.0
-        ],
-        "rework": 1425.0,
-        "total": 53.0,
-        "delta": 260.0,
-        "downtime": 220.0,
-        "proficiency": 27.0
-       },
-       {
-        "name": "0.3612121212121212",
+        "name": "199",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 220.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         248.0,
+         342.0,
+         300.0,
+         200.0,
+         335.0
         ],
-        "rework": 300.0,
-        "total": 0.0,
-        "delta": 75.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5388235294117647",
-        "maquinas": 20,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 160.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.4163636363636363",
-        "maquinas": 3,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         70.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 160.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.2545454545454546",
-        "maquinas": 80,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         50.0,
-         6.0,
-         2.0,
-         0.0,
-         0.0
-        ],
-        "rework": 184.0,
-        "total": 0.0,
-        "delta": 49.0,
-        "downtime": 43.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.610909090909091",
-        "maquinas": 40,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         5.0,
-         2.0,
-         0.0,
-         0.0
-        ],
-        "rework": 184.0,
-        "total": 0.0,
-        "delta": 49.0,
-        "downtime": 43.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.3748251748251747",
-        "maquinas": 24,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         195.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 975.0,
-        "total": 0.0,
-        "delta": 195.0,
-        "downtime": 195.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.5672727272727272",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 75.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.18",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 398.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5999999999999999",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         150.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 575.0,
-        "total": 0.0,
-        "delta": 170.0,
-        "downtime": 155.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.7703703703703704",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         60.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 312.0,
-        "total": 0.0,
-        "delta": 60.0,
-        "downtime": 60.0,
-        "proficiency": 0.0
+        "rework": 520.0,
+        "total": 260.0,
+        "delta": 30.0,
+        "downtime": 27.0,
+        "proficiency": 310.0
        }
       ]
      }
@@ -76233,577 +74990,88 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": [
        {
-        "name": "1.13390452876377",
-        "maquinas": 113,
-        "meta_hora": 0,
-        "meta_dia": 14.0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         500.0,
-         0.0,
-         0.0,
-         5.0
-        ],
-        "rework": 711.0,
-        "total": 35.0,
-        "delta": 250.0,
-        "downtime": 250.0,
-        "proficiency": 7.0
-       },
-       {
-        "name": "0.7325741890959282",
-        "maquinas": 298,
-        "meta_hora": 0,
-        "meta_dia": 28.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         400.0,
-         16.0,
-         31.0,
-         22.0
-        ],
-        "rework": 907.0,
-        "total": 53.0,
-        "delta": 280.0,
-        "downtime": 372.0,
-        "proficiency": 13.0
-       },
-       {
-        "name": "0.47001223990208074",
+        "name": "113",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 250.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         125.0,
+         125.0,
+         250.0,
+         211.0
         ],
-        "rework": 170.0,
-        "total": 0.0,
-        "delta": 65.0,
-        "downtime": 75.0,
-        "proficiency": 0.0
+        "rework": 542.0,
+        "total": 250.0,
+        "delta": 14.0,
+        "downtime": 7.0,
+        "proficiency": 250.0
        },
        {
-        "name": "0.3929008567931456",
-        "maquinas": 4,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         100.0,
-         1.0,
-         7.0,
-         7.0
-        ],
-        "rework": 108.0,
-        "total": 0.0,
-        "delta": 50.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.3929008567931456",
+        "name": "298",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 372.0,
         "hours": [
          null,
          null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
+         null,
+         70.0,
+         225.0,
+         232.0,
+         380.0
         ],
-        "rework": 108.0,
-        "total": 0.0,
-        "delta": 50.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.4756076237104389",
-        "maquinas": 24,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         120.0,
-         3.0,
-         6.0,
-         4.0
-        ],
-        "rework": 77.0,
-        "total": 4.0,
-        "delta": 10.0,
-        "downtime": 50.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "0.4773561811505508",
-        "maquinas": 10,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         3.0,
-         6.0,
-         4.0
-        ],
-        "rework": 77.0,
-        "total": 4.0,
-        "delta": 10.0,
-        "downtime": 50.0,
-        "proficiency": 2.0
-       },
-       {
-        "name": "0.5263157894736842",
-        "maquinas": 9,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         390.0,
-         0.0,
-         3.0,
-         3.0
-        ],
-        "rework": 600.0,
-        "total": 2.0,
-        "delta": 230.0,
-        "downtime": 230.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.364749082007344",
-        "maquinas": 3,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 450.0,
-        "total": 0.0,
-        "delta": 125.0,
-        "downtime": 125.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.2447980416156671",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 205.0,
-        "total": 0.0,
-        "delta": 100.0,
-        "downtime": 100.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.25350197198422414",
-        "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
-         450.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 508.0,
-        "total": 0.0,
-        "delta": 215.0,
-        "downtime": 225.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.9281925744594043",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         60.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "#DIV/0!",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         30.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.2672378620971032",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         150.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1200.0,
-        "total": 0.0,
-        "delta": 650.0,
-        "downtime": 651.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "2.2782537739698085",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "#DIV/0!",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         480.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 702.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 200.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5487556099551204",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         300.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 1000.0,
-        "total": 0.0,
-        "delta": 54.0,
-        "downtime": 200.0,
-        "proficiency": 0.0
+        "rework": 530.0,
+        "total": 280.0,
+        "delta": 28.0,
+        "downtime": 13.0,
+        "proficiency": 280.0
        }
       ]
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": [
        {
-        "name": "1.0370300751879697",
-        "maquinas": 176,
-        "meta_hora": 0,
-        "meta_dia": 27.0,
-        "hours": [
-         null,
-         null,
-         8.0,
-         340.0,
-         38.0,
-         32.0,
-         52.0,
-         27.0
-        ],
-        "rework": 1245.0,
-        "total": 37.0,
-        "delta": 345.0,
-        "downtime": 275.0,
-        "proficiency": 30.0
-       },
-       {
-        "name": "0.7515151515151516",
+        "name": "176",
         "maquinas": 0,
         "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_dia": 275.0,
         "hours": [
          null,
          null,
-         1.0,
-         75.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 150.0,
-        "total": 0.0,
-        "delta": 75.0,
-        "downtime": 75.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.40545454545454546",
-        "maquinas": 19,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
          null,
-         null,
-         2.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 180.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.40545454545454546",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         2.0,
-         85.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 180.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.2409090909090909",
-        "maquinas": 54,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         10.0,
-         50.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 197.0,
-        "total": 0.0,
-        "delta": 40.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5781818181818182",
-        "maquinas": 27,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         50.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 195.0,
-        "total": 0.0,
-        "delta": 42.0,
-        "downtime": 40.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.5523172479694219",
-        "maquinas": 8,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
          205.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 625.0,
-        "total": 0.0,
-        "delta": 330.0,
-        "downtime": 290.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "1.5909090909090908",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": 50.0,
-        "downtime": 50.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.96",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         1.0,
-         100.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
-        ],
-        "rework": 391.0,
-        "total": 0.0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
-       },
-       {
-        "name": "0.4707070707070707",
-        "maquinas": 0,
-        "meta_hora": 0,
-        "meta_dia": 0,
-        "hours": [
-         null,
-         null,
-         3.0,
+         325.0,
          225.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
+         165.0,
+         325.0
         ],
-        "rework": 1304.0,
-        "total": 0.0,
-        "delta": 225.0,
-        "downtime": 195.0,
-        "proficiency": 0.0
+        "rework": 534.0,
+        "total": 345.0,
+        "delta": 27.0,
+        "downtime": 30.0,
+        "proficiency": 219.0
        }
       ]
      }
@@ -77265,25 +75533,25 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": []
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": []
      }
@@ -77384,13 +75652,13 @@
          0.0,
          47.0,
          40.0,
-         0.0,
+         20.0,
          50.0,
          50.0,
          50.0
         ],
-        "rework": 7.0,
-        "total": 317.0,
+        "rework": 8.0,
+        "total": 337.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -77407,13 +75675,13 @@
          0.0,
          47.0,
          40.0,
-         0.0,
+         20.0,
          50.0,
          50.0,
          50.0
         ],
-        "rework": 21.0,
-        "total": 317.0,
+        "rework": 23.0,
+        "total": 337.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -77433,10 +75701,10 @@
          30.0,
          22.0,
          25.0,
-         30.0
+         36.0
         ],
-        "rework": 37.0,
-        "total": 242.0,
+        "rework": 43.0,
+        "total": 248.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -77456,10 +75724,10 @@
          30.0,
          22.0,
          25.0,
-         30.0
+         36.0
         ],
-        "rework": 37.0,
-        "total": 242.0,
+        "rework": 43.0,
+        "total": 248.0,
         "delta": 0,
         "downtime": 0,
         "proficiency": 0
@@ -77745,25 +76013,25 @@
      "B": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "H5",
-       "H6",
-       "H7"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "3:36-4 pm",
+       "4-5 pm",
+       "5-6 pm",
+       "6-7 pm"
       ],
       "procesos": []
      },
      "C": {
       "hour_labels": [
        "H1",
-       "H2",
-       "Cantidad de estaciones",
-       "Meta",
-       "Re-work",
-       "Re-work",
-       "Re-work",
-       "Re-work"
+       "Proceso",
+       "Justificacion Cambio Run Rate",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual",
+       "Actual"
       ],
       "procesos": []
      }

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-21T10:19:57",
+ "generated_at": "2026-09-21T10:26:26",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -84576,13 +84576,13 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 4085.0,
+        "meta_hora": 375.0,
+        "meta_dia": 3063.75,
         "hours": [
          0.0,
          400.0,
          295.0,
-         null,
+         375.0,
          null,
          null,
          null,
@@ -84590,11 +84590,11 @@
          null,
          null
         ],
-        "rework": 18.0,
-        "total": 695.0,
-        "delta": -3390.0,
+        "rework": 21.0,
+        "total": 1070.0,
+        "delta": -1993.75,
         "downtime": 0.0,
-        "proficiency": 0.17013463892288863
+        "proficiency": 0.3492452060383517
        },
        {
         "name": "Welder",
@@ -84605,7 +84605,7 @@
          0.0,
          178.0,
          171.0,
-         null,
+         246.0,
          null,
          null,
          null,
@@ -84613,11 +84613,11 @@
          null,
          null
         ],
-        "rework": 40.0,
-        "total": 349.0,
-        "delta": -1570.95,
+        "rework": 49.0,
+        "total": 595.0,
+        "delta": -1324.95,
         "downtime": 0.0,
-        "proficiency": 0.1817755670720592
+        "proficiency": 0.30990390374749344
        },
        {
         "name": "Carga de bandas",
@@ -84743,7 +84743,7 @@
          0.0,
          210.0,
          213.0,
-         null,
+         330.0,
          null,
          null,
          null,
@@ -84752,10 +84752,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 423.0,
-        "delta": -2763.3,
+        "total": 753.0,
+        "delta": -2433.3,
         "downtime": 0.0,
-        "proficiency": 0.13275586103003484
+        "proficiency": 0.2363242632520478
        },
        {
         "name": "Sidehole Soft Vu",
@@ -84766,7 +84766,7 @@
          0.0,
          100.0,
          82.0,
-         null,
+         50.0,
          null,
          null,
          null,
@@ -84775,10 +84775,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 182.0,
-        "delta": -635.0,
+        "total": 232.0,
+        "delta": -585.0,
         "downtime": 0.0,
-        "proficiency": 0.22276621787025705
+        "proficiency": 0.2839657282741738
        },
        {
         "name": "Sidehole Accu Vu",
@@ -84789,7 +84789,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -84812,7 +84812,7 @@
          0.0,
          0.0,
          75.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -84821,10 +84821,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 75.0,
-        "delta": -3601.5,
+        "total": 275.0,
+        "delta": -3401.5,
         "downtime": 0.0,
-        "proficiency": 0.020399836801305592
+        "proficiency": 0.07479940160478717
        },
        {
         "name": "Baking Conv",
@@ -84835,7 +84835,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         40.0,
          null,
          null,
          null,
@@ -84844,10 +84844,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "total": 40.0,
+        "delta": -450.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08159934720522236
        },
        {
         "name": "Hand Drilling",

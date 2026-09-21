@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-21T17:13:05",
+ "generated_at": "2026-09-21T17:19:17",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85137,7 +85137,7 @@
          null,
          null
         ],
-        "rework": 7.0,
+        "rework": 11.0,
         "total": 28.0,
         "delta": -628.4,
         "downtime": 0.0,
@@ -85157,7 +85157,7 @@
          0.0,
          0.0
         ],
-        "rework": 7.0,
+        "rework": 11.0,
         "total": 28.0,
         "delta": -245.5,
         "downtime": 0.0,
@@ -85230,7 +85230,7 @@
         "meta_dia": 2461.5,
         "hours": [
          111.0,
-         0.0,
+         150.0,
          null,
          null,
          null,
@@ -85238,10 +85238,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 111.0,
-        "delta": -2350.5,
+        "total": 261.0,
+        "delta": -2200.5,
         "downtime": 0.0,
-        "proficiency": 0.04484848484848485
+        "proficiency": 0.10545454545454545
        },
        {
         "name": "Baking Conv",
@@ -85270,18 +85270,18 @@
         "meta_dia": 164.1,
         "hours": [
          85.0,
-         null,
+         65.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 10.0,
-        "total": 85.0,
-        "delta": -79.1,
+        "rework": 20.0,
+        "total": 150.0,
+        "delta": -14.099999999999994,
         "downtime": 0.0,
-        "proficiency": 0.5151515151515151
+        "proficiency": 0.9090909090909091
        },
        {
         "name": "Prepping",
@@ -85350,7 +85350,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -85370,7 +85370,7 @@
         "meta_dia": 1641.0,
         "hours": [
          300.0,
-         null,
+         300.0,
          null,
          null,
          null,
@@ -85378,10 +85378,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -1341.0,
+        "total": 600.0,
+        "delta": -1041.0,
         "downtime": 0.0,
-        "proficiency": 0.18181818181818182
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Boxing",

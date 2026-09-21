@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-21T17:06:55",
+ "generated_at": "2026-09-21T17:13:05",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85130,18 +85130,18 @@
         "meta_dia": 656.4,
         "hours": [
          6.0,
-         null,
+         22.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 4.0,
-        "total": 6.0,
-        "delta": -650.4,
+        "rework": 7.0,
+        "total": 28.0,
+        "delta": -628.4,
         "downtime": 0.0,
-        "proficiency": 0.00909090909090909
+        "proficiency": 0.04242424242424243
        },
        {
         "name": "Inspeccion",
@@ -85150,18 +85150,18 @@
         "meta_dia": 273.5,
         "hours": [
          6.0,
-         0.0,
+         22.0,
          0.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 4.0,
-        "total": 6.0,
-        "delta": -267.5,
+        "rework": 7.0,
+        "total": 28.0,
+        "delta": -245.5,
         "downtime": 0.0,
-        "proficiency": 0.021818181818181816
+        "proficiency": 0.10181818181818182
        },
        {
         "name": "Drawdown",
@@ -85250,7 +85250,7 @@
         "meta_dia": 328.2,
         "hours": [
          40.0,
-         null,
+         71.0,
          null,
          null,
          null,
@@ -85258,10 +85258,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 40.0,
-        "delta": -288.2,
+        "total": 111.0,
+        "delta": -217.2,
         "downtime": 0.0,
-        "proficiency": 0.1212121212121212
+        "proficiency": 0.33636363636363636
        },
        {
         "name": "Hydrophilic Mariner",
@@ -85330,7 +85330,7 @@
         "meta_dia": 2625.6,
         "hours": [
          100.0,
-         null,
+         271.0,
          null,
          null,
          null,
@@ -85338,10 +85338,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -2525.6,
+        "total": 371.0,
+        "delta": -2254.6,
         "downtime": 0.0,
-        "proficiency": 0.03787878787878788
+        "proficiency": 0.14053030303030303
        },
        {
         "name": "Moldeadora Atlas",

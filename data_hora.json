@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-22T08:13:31",
+ "generated_at": "2026-09-22T08:20:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86119,7 +86119,7 @@
         "meta_dia": 1021.25,
         "hours": [
          150.0,
-         null,
+         20.0,
          null,
          null,
          null,
@@ -86130,10 +86130,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -1075.5,
+        "total": 170.0,
+        "delta": -1055.5,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.138718890248878
        },
        {
         "name": "Rofing",
@@ -86142,7 +86142,7 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -86165,7 +86165,7 @@
         "meta_dia": 0,
         "hours": [
          60.0,
-         null,
+         150.0,
          null,
          null,
          null,
@@ -86176,8 +86176,8 @@
          null
         ],
         "rework": 0.0,
-        "total": 60.0,
-        "delta": 60.0,
+        "total": 210.0,
+        "delta": 210.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -86188,7 +86188,7 @@
         "meta_dia": 2451.0,
         "hours": [
          300.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -86211,7 +86211,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         null,
+         396.0,
          null,
          null,
          null,
@@ -86222,10 +86222,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 396.0,
+        "delta": -2055.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.16156670746634028
        },
        {
         "name": "Boxing",

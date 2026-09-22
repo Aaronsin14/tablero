@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-21T18:15:11",
+ "generated_at": "2026-09-21T18:21:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -84999,16 +84999,16 @@
          400.0,
          400.0,
          315.0,
-         null,
-         null,
-         null,
-         null
+         400.0,
+         400.0,
+         400.0,
+         445.0
         ],
         "rework": 0.0,
-        "total": 1805.0,
-        "delta": -1054.5,
+        "total": 3450.0,
+        "delta": 590.5,
         "downtime": 0.0,
-        "proficiency": 0.6312292358803987
+        "proficiency": 1.2065046336772163
        }
       ]
      },
@@ -85031,17 +85031,17 @@
         "hours": [
          100.0,
          300.0,
-         null,
+         325.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 28.0,
-        "total": 400.0,
-        "delta": -2335.0,
+        "rework": 75.0,
+        "total": 725.0,
+        "delta": -2010.0,
         "downtime": 0.0,
-        "proficiency": 0.14545454545454548
+        "proficiency": 0.2636363636363636
        },
        {
         "name": "Welder",
@@ -85051,17 +85051,17 @@
         "hours": [
          80.0,
          200.0,
-         null,
+         200.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 8.0,
-        "total": 280.0,
-        "delta": -1908.0,
+        "rework": 18.0,
+        "total": 480.0,
+        "delta": -1708.0,
         "downtime": 576.0,
-        "proficiency": 0.16279069767441862
+        "proficiency": 0.27906976744186046
        },
        {
         "name": "Carga de bandas",
@@ -85389,19 +85389,19 @@
         "meta_hora": 350.0,
         "meta_dia": 1914.5,
         "hours": [
-         null,
-         null,
-         null,
+         135.0,
+         400.0,
+         200.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
+        "total": 735.0,
+        "delta": -1179.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3818181818181818
        }
       ]
      },

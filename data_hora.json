@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-22T02:55:36",
+ "generated_at": "2026-09-22T03:01:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85445,19 +85445,19 @@
         "meta_dia": 523.5,
         "hours": [
          75.0,
-         null,
-         null,
-         null,
+         75.0,
+         75.0,
+         75.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 75.0,
-        "delta": -448.5,
+        "total": 300.0,
+        "delta": -223.5,
         "downtime": 0.0,
-        "proficiency": 0.12987012987012986
+        "proficiency": 0.5194805194805194
        },
        {
         "name": "Staker",
@@ -85466,19 +85466,19 @@
         "meta_dia": 698.0,
         "hours": [
          40.0,
-         null,
-         null,
-         null,
+         40.0,
+         40.0,
+         40.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 40.0,
-        "delta": -658.0,
+        "total": 160.0,
+        "delta": -538.0,
         "downtime": 0.0,
-        "proficiency": 0.051948051948051945
+        "proficiency": 0.20779220779220778
        },
        {
         "name": "Swager",
@@ -85487,19 +85487,19 @@
         "meta_dia": 593.3,
         "hours": [
          40.0,
-         null,
-         null,
-         null,
+         40.0,
+         40.0,
+         40.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 40.0,
-        "delta": -553.3000000000001,
+        "total": 160.0,
+        "delta": -433.30000000000007,
         "downtime": 0.0,
-        "proficiency": 0.061115355233002294
+        "proficiency": 0.24446142093200918
        },
        {
         "name": "Embedder",
@@ -85508,19 +85508,19 @@
         "meta_dia": 349.0,
         "hours": [
          30.0,
-         null,
-         null,
-         null,
+         50.0,
+         35.0,
+         50.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 2.0,
-        "total": 30.0,
-        "delta": -319.0,
+        "rework": 5.0,
+        "total": 165.0,
+        "delta": -184.0,
         "downtime": 0.0,
-        "proficiency": 0.07792207792207792
+        "proficiency": 0.42857142857142855
        },
        {
         "name": "Inspeccion",
@@ -85529,19 +85529,19 @@
         "meta_dia": 349.0,
         "hours": [
          30.0,
-         null,
-         null,
-         null,
+         50.0,
+         35.0,
+         50.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 2.0,
-        "total": 30.0,
-        "delta": -319.0,
+        "rework": 5.0,
+        "total": 165.0,
+        "delta": -184.0,
         "downtime": 0.0,
-        "proficiency": 0.07792207792207792
+        "proficiency": 0.42857142857142855
        },
        {
         "name": "Drawdown",
@@ -85550,19 +85550,19 @@
         "meta_dia": 1814.8000000000002,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         140.0,
+         50.0,
+         72.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1814.8000000000002,
+        "total": 262.0,
+        "delta": -1552.8000000000002,
         "downtime": 120.0,
-        "proficiency": 0.0
+        "proficiency": 0.14327378782355085
        },
        {
         "name": "Sidehole Soft Vu",
@@ -85571,19 +85571,19 @@
         "meta_dia": 698.0,
         "hours": [
          120.0,
-         null,
-         null,
-         null,
+         220.0,
+         110.0,
+         130.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 120.0,
-        "delta": -578.0,
+        "total": 580.0,
+        "delta": -118.0,
         "downtime": 0.0,
-        "proficiency": 0.15584415584415584
+        "proficiency": 0.7532467532467533
        },
        {
         "name": "Sidehole Accu Vu",
@@ -85592,9 +85592,9 @@
         "meta_dia": 0,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -85613,19 +85613,19 @@
         "meta_dia": 3141.0,
         "hours": [
          150.0,
-         null,
-         null,
-         null,
+         300.0,
+         135.0,
+         65.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -2991.0,
+        "total": 650.0,
+        "delta": -2491.0,
         "downtime": 120.0,
-        "proficiency": 0.04739336492890995
+        "proficiency": 0.20537124802527645
        },
        {
         "name": "Baking Conv",
@@ -85634,9 +85634,9 @@
         "meta_dia": 418.8,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -85654,20 +85654,20 @@
         "meta_hora": 30.0,
         "meta_dia": 209.4,
         "hours": [
-         null,
-         null,
-         null,
-         null,
+         40.0,
+         40.0,
+         40.0,
+         40.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -209.4,
+        "total": 160.0,
+        "delta": -49.400000000000006,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.6926406926406926
        },
        {
         "name": "Prepping",
@@ -85676,9 +85676,9 @@
         "meta_dia": 872.5,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -85697,9 +85697,9 @@
         "meta_dia": 2094.0,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -85718,9 +85718,9 @@
         "meta_dia": 0,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -85739,19 +85739,19 @@
         "meta_dia": 2094.0,
         "hours": [
          22.0,
-         null,
-         null,
-         null,
+         0.0,
+         270.0,
+         270.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 22.0,
-        "delta": -2072.0,
-        "downtime": 60.0,
-        "proficiency": 0.010945273631840795
+        "total": 562.0,
+        "delta": -1532.0,
+        "downtime": 140.0,
+        "proficiency": 0.3490683229813664
        },
        {
         "name": "Pouch",
@@ -85760,19 +85760,19 @@
         "meta_dia": 2094.0,
         "hours": [
          300.0,
-         null,
-         null,
-         null,
+         300.0,
+         0.0,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -1794.0,
+        "total": 900.0,
+        "delta": -1194.0,
         "downtime": 0.0,
-        "proficiency": 0.12987012987012986
+        "proficiency": 0.38961038961038963
        },
        {
         "name": "Boxing",

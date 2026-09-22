@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-22T15:05:06",
+ "generated_at": "2026-09-22T15:12:52",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -86097,12 +86097,12 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -86119,21 +86119,21 @@
         "meta_dia": 1021.25,
         "hours": [
          150.0,
-         20.0,
+         170.0,
+         80.0,
+         160.0,
+         170.0,
+         200.0,
          150.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
+         150.0,
+         200.0,
          null
         ],
         "rework": 0.0,
-        "total": 320.0,
-        "delta": -905.5,
+        "total": 1430.0,
+        "delta": 204.5,
         "downtime": 0.0,
-        "proficiency": 0.26111791105671156
+        "proficiency": 1.1668706650346798
        },
        {
         "name": "Rofing",
@@ -86143,20 +86143,20 @@
         "hours": [
          0.0,
          0.0,
-         0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
+         550.0,
+         550.0,
+         1000.0,
+         550.0,
+         550.0,
+         1100.0,
+         1100.0,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 5400.0,
+        "delta": 2949.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 2.2031823745410035
        },
        {
         "name": "Moldeadora Milacron",
@@ -86213,19 +86213,19 @@
          null,
          396.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         464.0,
+         227.0,
+         0.0,
          null
         ],
         "rework": 0.0,
-        "total": 396.0,
-        "delta": -2055.0,
+        "total": 1087.0,
+        "delta": -1364.0,
         "downtime": 0.0,
-        "proficiency": 0.16156670746634028
+        "proficiency": 0.44349245206038357
        },
        {
         "name": "Boxing",

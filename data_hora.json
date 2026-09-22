@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-21T20:13:12",
+ "generated_at": "2026-09-21T20:19:28",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -85033,15 +85033,15 @@
          300.0,
          325.0,
          250.0,
-         null,
+         200.0,
          null,
          null
         ],
-        "rework": 95.0,
-        "total": 975.0,
-        "delta": -1760.0,
+        "rework": 112.0,
+        "total": 1175.0,
+        "delta": -1560.0,
         "downtime": 0.0,
-        "proficiency": 0.35454545454545455
+        "proficiency": 0.42727272727272725
        },
        {
         "name": "Welder",
@@ -85053,15 +85053,15 @@
          200.0,
          200.0,
          310.0,
-         null,
+         310.0,
          null,
          null
         ],
-        "rework": 48.0,
-        "total": 790.0,
-        "delta": -1398.0,
+        "rework": 64.0,
+        "total": 1100.0,
+        "delta": -1088.0,
         "downtime": 576.0,
-        "proficiency": 0.4593023255813954
+        "proficiency": 0.6395348837209303
        },
        {
         "name": "Carga de bandas",
@@ -85092,16 +85092,16 @@
          10.0,
          30.0,
          30.0,
-         0.0,
+         23.0,
          0.0,
          null,
          null
         ],
         "rework": 7.0,
-        "total": 70.0,
-        "delta": -477.0,
+        "total": 93.0,
+        "delta": -454.0,
         "downtime": 0.0,
-        "proficiency": 0.12727272727272726
+        "proficiency": 0.1690909090909091
        },
        {
         "name": "Swager",
@@ -85112,16 +85112,16 @@
          10.0,
          30.0,
          30.0,
-         null,
-         null,
+         23.0,
+         0.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 70.0,
-        "delta": -477.0,
+        "total": 93.0,
+        "delta": -454.0,
         "downtime": 0.0,
-        "proficiency": 0.12727272727272726
+        "proficiency": 0.1690909090909091
        },
        {
         "name": "Embedder",
@@ -85132,16 +85132,16 @@
          6.0,
          22.0,
          24.0,
-         null,
-         null,
+         14.0,
+         14.0,
          null,
          null
         ],
-        "rework": 17.0,
-        "total": 52.0,
-        "delta": -604.4,
+        "rework": 24.0,
+        "total": 80.0,
+        "delta": -576.4,
         "downtime": 0.0,
-        "proficiency": 0.0787878787878788
+        "proficiency": 0.1212121212121212
        },
        {
         "name": "Inspeccion",
@@ -85152,16 +85152,16 @@
          6.0,
          22.0,
          24.0,
-         0.0,
-         0.0,
+         14.0,
+         14.0,
          0.0,
          0.0
         ],
-        "rework": 17.0,
-        "total": 52.0,
-        "delta": -221.5,
+        "rework": 24.0,
+        "total": 80.0,
+        "delta": -193.5,
         "downtime": 0.0,
-        "proficiency": 0.1890909090909091
+        "proficiency": 0.2909090909090909
        },
        {
         "name": "Drawdown",
@@ -85173,15 +85173,15 @@
          360.0,
          360.0,
          270.0,
-         200.0,
+         243.0,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 1307.0,
-        "delta": -826.2999999999997,
+        "rework": 7.0,
+        "total": 1350.0,
+        "delta": -783.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.6093240093240093
+        "proficiency": 0.6293706293706294
        },
        {
         "name": "Sidehole Soft Vu",
@@ -85232,16 +85232,16 @@
          111.0,
          150.0,
          126.0,
-         null,
-         null,
+         150.0,
+         150.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 387.0,
-        "delta": -2074.5,
+        "total": 687.0,
+        "delta": -1774.5,
         "downtime": 0.0,
-        "proficiency": 0.15636363636363634
+        "proficiency": 0.2775757575757576
        },
        {
         "name": "Baking Conv",
@@ -85252,16 +85252,16 @@
          40.0,
          71.0,
          62.0,
-         null,
-         null,
+         34.0,
+         0.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 173.0,
-        "delta": -155.2,
+        "total": 207.0,
+        "delta": -121.19999999999999,
         "downtime": 0.0,
-        "proficiency": 0.5242424242424242
+        "proficiency": 0.6272727272727272
        },
        {
         "name": "Hydrophilic Mariner",

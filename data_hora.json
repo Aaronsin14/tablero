@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-23T16:07:46",
+ "generated_at": "2026-09-23T16:14:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87456,16 +87456,16 @@
          0.0,
          360.0,
          null,
-         null,
-         null,
-         null,
-         null
+         350.0,
+         300.0,
+         320.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 360.0,
-        "delta": -2091.0,
+        "total": 1580.0,
+        "delta": -871.0,
         "downtime": 0.0,
-        "proficiency": 0.14687882496940025
+        "proficiency": 0.6446348429212566
        },
        {
         "name": "Boxing",
@@ -87549,7 +87549,7 @@
         "meta_hora": 75.0,
         "meta_dia": 410.25,
         "hours": [
-         null,
+         30.0,
          null,
          null,
          null,
@@ -87558,10 +87558,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -410.25,
+        "total": 30.0,
+        "delta": -380.25,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.07272727272727272
        },
        {
         "name": "Staker",
@@ -87569,7 +87569,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         10.0,
          null,
          null,
          null,
@@ -87577,11 +87577,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "rework": 1.0,
+        "total": 10.0,
+        "delta": -537.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.01818181818181818
        },
        {
         "name": "Swager",
@@ -87589,7 +87589,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         10.0,
          null,
          null,
          null,
@@ -87598,10 +87598,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 10.0,
+        "delta": -537.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.01818181818181818
        },
        {
         "name": "Embedder",
@@ -87649,7 +87649,7 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         null,
+         190.0,
          null,
          null,
          null,
@@ -87658,10 +87658,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2133.2999999999997,
+        "total": 190.0,
+        "delta": -1943.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08857808857808858
        },
        {
         "name": "Sidehole Soft Vu",
@@ -87669,7 +87669,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -87689,7 +87689,7 @@
         "meta_hora": 100.0,
         "meta_dia": 547.0,
         "hours": [
-         null,
+         50.0,
          null,
          null,
          null,
@@ -87698,10 +87698,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 50.0,
+        "delta": -497.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.09090909090909091
        },
        {
         "name": "Baking Rot",
@@ -87709,7 +87709,7 @@
         "meta_hora": 450.0,
         "meta_dia": 2461.5,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -87769,7 +87769,7 @@
         "meta_hora": 150.0,
         "meta_dia": 683.75,
         "hours": [
-         null,
+         300.0,
          null,
          null,
          null,
@@ -87778,10 +87778,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -820.5,
+        "total": 300.0,
+        "delta": -520.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.36363636363636365
        },
        {
         "name": "Rofing",

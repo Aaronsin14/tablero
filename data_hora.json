@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-23T15:14:50",
+ "generated_at": "2026-09-23T15:21:37",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87064,17 +87064,17 @@
          370.0,
          500.0,
          326.0,
-         null,
-         null,
-         null,
-         null,
+         375.0,
+         325.0,
+         375.0,
+         375.0,
          null
         ],
-        "rework": 19.0,
-        "total": 1971.0,
-        "delta": -2114.0,
+        "rework": 45.0,
+        "total": 3421.0,
+        "delta": -664.0,
         "downtime": 0.0,
-        "proficiency": 0.4824969400244798
+        "proficiency": 0.837454100367197
        },
        {
         "name": "Welder",
@@ -87087,17 +87087,17 @@
          283.0,
          298.0,
          305.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         285.0,
+         101.0,
+         293.0,
+         259.0,
+         20.0
         ],
-        "rework": 163.0,
-        "total": 1288.0,
-        "delta": -1980.0,
+        "rework": 302.0,
+        "total": 2246.0,
+        "delta": -1022.0,
         "downtime": 0.0,
-        "proficiency": 0.39412484700122397
+        "proficiency": 0.6872705018359854
        },
        {
         "name": "Carga de bandas",
@@ -87113,14 +87113,14 @@
          51.0,
          60.0,
          82.0,
-         null,
+         80.0,
          null
         ],
         "rework": 0.0,
-        "total": 555.0,
-        "delta": -57.75,
+        "total": 635.0,
+        "delta": 22.25,
         "downtime": 0.0,
-        "proficiency": 0.9057527539779682
+        "proficiency": 1.036311709506324
        },
        {
         "name": "Staker",
@@ -87136,14 +87136,14 @@
          35.0,
          22.0,
          26.0,
-         null,
+         26.0,
          null
         ],
         "rework": 14.0,
-        "total": 271.0,
-        "delta": -546.0,
+        "total": 297.0,
+        "delta": -520.0,
         "downtime": 0.42916666666666664,
-        "proficiency": 0.3318466110811121
+        "proficiency": 0.3636842933250564
        },
        {
         "name": "Swager",
@@ -87159,14 +87159,14 @@
          35.0,
          22.0,
          26.0,
-         null,
+         26.0,
          null
         ],
         "rework": 2.0,
-        "total": 224.0,
-        "delta": -593.0,
+        "total": 250.0,
+        "delta": -567.0,
         "downtime": 0.0,
-        "proficiency": 0.27417380660954715
+        "proficiency": 0.30599755201958384
        },
        {
         "name": "Embedder",
@@ -87182,14 +87182,14 @@
          37.0,
          27.0,
          29.0,
-         null,
+         32.0,
          null
         ],
         "rework": 5.0,
-        "total": 215.0,
-        "delta": -356.9,
+        "total": 247.0,
+        "delta": -324.9,
         "downtime": 0.4534722222222222,
-        "proficiency": 0.37597463013222515
+        "proficiency": 0.43193364484957963
        },
        {
         "name": "Inspeccion",
@@ -87205,14 +87205,14 @@
          37.0,
          27.0,
          29.0,
-         0.0,
+         32.0,
          0.0
         ],
         "rework": 5.0,
-        "total": 215.0,
-        "delta": -356.9,
+        "total": 247.0,
+        "delta": -324.9,
         "downtime": 0.0,
-        "proficiency": 0.3759398496240602
+        "proficiency": 0.4318936877076412
        },
        {
         "name": "Drawdown",
@@ -87363,17 +87363,17 @@
          165.0,
          300.0,
          300.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         270.0,
+         188.0,
+         350.0,
+         360.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 915.0,
-        "delta": -310.5,
+        "total": 2183.0,
+        "delta": 957.5,
         "downtime": 0.0,
-        "proficiency": 0.7466340269277846
+        "proficiency": 1.781313749490004
        },
        {
         "name": "Rofing",
@@ -87386,17 +87386,17 @@
          353.0,
          1000.0,
          550.0,
-         null,
-         null,
-         null,
-         null,
+         880.0,
+         550.0,
+         550.0,
+         275.0,
          null
         ],
         "rework": 0.0,
-        "total": 3553.0,
-        "delta": 1102.0,
+        "total": 5808.0,
+        "delta": 3357.0,
         "downtime": 0.0,
-        "proficiency": 1.4496124031007753
+        "proficiency": 2.3696450428396574
        },
        {
         "name": "Moldeadora Milacron",
@@ -87476,19 +87476,19 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         400.0,
+         440.0,
+         200.0,
+         400.0,
+         400.0,
+         330.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2859.5,
+        "total": 2170.0,
+        "delta": -689.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.758873929008568
        }
       ]
      },

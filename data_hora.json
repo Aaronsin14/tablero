@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-23T09:53:17",
+ "generated_at": "2026-09-23T09:59:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87360,7 +87360,7 @@
         "hours": [
          0.0,
          150.0,
-         150.0,
+         165.0,
          300.0,
          null,
          null,
@@ -87370,10 +87370,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -625.5,
+        "total": 615.0,
+        "delta": -610.5,
         "downtime": 0.0,
-        "proficiency": 0.4895960832313342
+        "proficiency": 0.5018359853121175
        },
        {
         "name": "Rofing",
@@ -87384,7 +87384,7 @@
          1100.0,
          550.0,
          353.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -87428,9 +87428,9 @@
         "meta_dia": 2451.0,
         "hours": [
          260.0,
+         163.0,
          0.0,
-         null,
-         null,
+         230.0,
          null,
          null,
          null,
@@ -87439,10 +87439,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 260.0,
-        "delta": -2191.0,
+        "total": 653.0,
+        "delta": -1798.0,
         "downtime": 0.0,
-        "proficiency": 0.10607915136678907
+        "proficiency": 0.266421868625051
        },
        {
         "name": "Pouch",
@@ -87452,8 +87452,8 @@
         "hours": [
          null,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,

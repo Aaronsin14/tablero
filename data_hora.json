@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-24T17:26:58",
+ "generated_at": "2026-09-24T17:33:14",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -88749,8 +88749,8 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         null,
-         null,
+         150.0,
+         200.0,
          null,
          null,
          null,
@@ -88758,30 +88758,30 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "total": 350.0,
+        "delta": -2385.0,
+        "downtime": 84.0,
+        "proficiency": 0.14583333333333334
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 400.0,
-        "meta_dia": 2188.0,
+        "meta_hora": 375.0,
+        "meta_dia": 2051.25,
         "hours": [
-         null,
-         null,
+         60.0,
+         200.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
+        "rework": 42.0,
+        "total": 260.0,
+        "delta": -1791.25,
+        "downtime": 480.0,
+        "proficiency": 0.15407407407407409
        },
        {
         "name": "Carga de bandas",
@@ -88951,17 +88951,17 @@
         "hours": [
          100.0,
          389.0,
-         0.0,
+         177.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 489.0,
-        "delta": -1972.5,
+        "total": 666.0,
+        "delta": -1795.5,
         "downtime": 0.0,
-        "proficiency": 0.19757575757575757
+        "proficiency": 0.2690909090909091
        },
        {
         "name": "Baking Conv",

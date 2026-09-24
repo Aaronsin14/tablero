@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-24T15:51:58",
+ "generated_at": "2026-09-24T15:58:31",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -88405,8 +88405,8 @@
         "rework": 0.0,
         "total": 331.0,
         "delta": -486.0,
-        "downtime": 0.33958333333333335,
-        "proficiency": 0.405281137004734
+        "downtime": 0.0,
+        "proficiency": 0.405140758873929
        },
        {
         "name": "Embedder",
@@ -88422,14 +88422,14 @@
          38.0,
          20.0,
          35.0,
-         48.0,
-         23.0
+         44.0,
+         35.0
         ],
         "rework": 27.0,
-        "total": 257.0,
-        "delta": -314.9,
+        "total": 265.0,
+        "delta": -306.9,
         "downtime": 0.0,
-        "proficiency": 0.4493792621087603
+        "proficiency": 0.46336772162965556
        },
        {
         "name": "Inspeccion",
@@ -88445,14 +88445,14 @@
          38.0,
          20.0,
          35.0,
-         48.0,
-         23.0
+         44.0,
+         35.0
         ],
         "rework": 27.0,
-        "total": 257.0,
-        "delta": -314.9,
+        "total": 265.0,
+        "delta": -306.9,
         "downtime": 0.0,
-        "proficiency": 0.4493792621087603
+        "proficiency": 0.46336772162965556
        },
        {
         "name": "Drawdown",
@@ -88846,8 +88846,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 656.4,
+        "meta_hora": 70.0,
+        "meta_dia": 382.90000000000003,
         "hours": [
          null,
          null,
@@ -88859,7 +88859,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -656.4,
+        "delta": -382.9,
         "downtime": 0.0,
         "proficiency": 0.0
        },

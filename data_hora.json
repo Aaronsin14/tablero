@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-24T00:24:18",
+ "generated_at": "2026-09-24T00:30:30",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87904,7 +87904,7 @@
         "meta_dia": 2408.1000000000004,
         "hours": [
          225.0,
-         null,
+         275.0,
          null,
          null,
          null,
@@ -87912,11 +87912,11 @@
          null,
          null
         ],
-        "rework": 22.0,
-        "total": 225.0,
-        "delta": -2183.1000000000004,
+        "rework": 52.0,
+        "total": 500.0,
+        "delta": -1908.1000000000004,
         "downtime": 0.0,
-        "proficiency": 0.08469791078486731
+        "proficiency": 0.18821757952192733
        },
        {
         "name": "Carga de bandas",
@@ -87924,8 +87924,8 @@
         "meta_hora": 75.0,
         "meta_dia": 523.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -87945,8 +87945,8 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
-         null,
+         50.0,
+         50.0,
          null,
          null,
          null,
@@ -87955,10 +87955,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 100.0,
+        "delta": -598.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12987012987012986
        },
        {
         "name": "Swager",
@@ -87966,8 +87966,8 @@
         "meta_hora": 90.0,
         "meta_dia": 628.2,
         "hours": [
-         null,
-         null,
+         50.0,
+         50.0,
          null,
          null,
          null,
@@ -87976,19 +87976,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -628.2,
+        "total": 100.0,
+        "delta": -528.2,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1443001443001443
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 837.6,
+        "meta_hora": 50.0,
+        "meta_dia": 349.0,
         "hours": [
-         10.0,
-         10.0,
+         40.0,
+         50.0,
          null,
          null,
          null,
@@ -87997,10 +87997,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 20.0,
-        "delta": -817.6,
+        "total": 90.0,
+        "delta": -259.0,
         "downtime": 0.0,
-        "proficiency": 0.021645021645021644
+        "proficiency": 0.23376623376623373
        },
        {
         "name": "Inspeccion",

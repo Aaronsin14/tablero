@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Actualiza LOS TRES dashboards y sube todo a GitHub.
+Actualiza LOS CUATRO dashboards y sube todo a GitHub.
   - extract.py            -> data.json            (produccion / legacy)
-  - extract_hora.py       -> data_hora.json       (hora a hora)
+  - extract_hora.py       -> data_hora.json       (hora a hora AngioDynamics)
   - extract_embarque.py   -> data_embarque.json   (embarque por proceso)
+  - extract_hr_c1.py      -> data_hr_c1.json      (hora a hora Celda C1)
 
 USO:
   python actualizar_todo.py            (una vez)
@@ -12,7 +13,7 @@ USO:
 """
 import subprocess, sys, time, datetime
 from pathlib import Path
-import extract, extract_hora, extract_embarque
+import extract, extract_hora, extract_embarque, extract_hr_c1
 
 REFRESH_SECONDS = 300  # 5 min
 HERE = Path(__file__).parent
@@ -42,16 +43,18 @@ def run(cmd):
     )
 
 def ciclo():
-    # 1) generar los tres json
+    # 1) generar los cuatro json
     try: extract.write_json()
     except Exception as e: log(f"ERROR produccion: {e}")
     try: extract_hora.write_json()
     except Exception as e: log(f"ERROR hora a hora: {e}")
     try: extract_embarque.write_json()
     except Exception as e: log(f"ERROR embarque por proceso: {e}")
+    try: extract_hr_c1.write_json()
+    except Exception as e: log(f"ERROR hora a hora C1: {e}")
     # 2) subir a github
     run(["git","pull","--no-edit","-X","ours"])
-    run(["git","add","data.json","data_hora.json","data_embarque.json"])
+    run(["git","add","data.json","data_hora.json","data_embarque.json","data_hr_c1.json"])
     st=run(["git","status","--porcelain"])
     if not st.stdout.strip():
         log("Sin cambios."); return
@@ -62,7 +65,7 @@ def ciclo():
 
 def main():
     watch="--watch" in sys.argv
-    log("=== Actualizador TRIPLE iniciado "+("(watch)" if watch else "(una vez)")+" ===")
+    log("=== Actualizador CUADRUPLE iniciado "+("(watch)" if watch else "(una vez)")+" ===")
     while True:
         try: ciclo()
         except Exception as e: log(f"ERROR: {e}")

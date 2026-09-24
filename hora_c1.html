@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hora a Hora — Celda C1</title>
+<style>
+  :root{
+    --navy:#0f2542; --navy2:#13325c;
+    --grey:#6b7a8d; --line:#e4e8ee; --bg:#eef1f5; --card:#ffffff; --txt:#1d2b3a;
+    --blue:#eaf2fb; --blue-line:#c9dcf2;
+    --mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{background:var(--bg);font-family:var(--sans);color:var(--txt);font-size:14px;
+       display:flex;flex-direction:column;overflow:hidden}
+
+  header.top{background:var(--navy);color:#fff;padding:16px 24px;display:flex;
+    align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;flex:0 0 auto}
+  header.top h1{margin:0;font-size:24px;font-weight:800}
+  header.top .sub{font-size:12px;color:#9fb4cf;font-weight:700;margin-top:2px}
+  .pills{display:flex;gap:10px}
+  .pill{background:var(--navy2);border-radius:10px;padding:7px 16px;text-align:center;min-width:100px}
+  .pill .k{font-size:9px;letter-spacing:1.5px;color:#8aa3c4;font-weight:700}
+  .pill .v{font-size:15px;font-weight:800;margin-top:2px;font-family:var(--mono)}
+
+  .selectors{background:var(--card);padding:12px 24px;display:flex;gap:26px;align-items:center;
+    border-bottom:1px solid var(--line);flex:0 0 auto;flex-wrap:wrap}
+  .selectors label{font-size:11px;font-weight:800;color:var(--grey);letter-spacing:.6px;margin-right:8px}
+  .selectors select{font-size:14px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);
+    background:#fff;font-weight:700;color:var(--navy)}
+  .fuente{margin-left:auto;font-size:12px;color:var(--grey)}
+  .fuente b{color:var(--txt)}
+
+  .aviso{background:#fff7e0;color:#7a5b00;font-size:12px;font-weight:700;padding:8px 24px;
+    border-bottom:1px solid #f0dfa0;flex:0 0 auto}
+
+  main{flex:1 1 auto;overflow:auto;padding:16px 24px}
+  table{border-collapse:collapse;width:100%;background:var(--card);border-radius:10px;overflow:hidden}
+  th,td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
+  th{background:var(--navy2);color:#fff;font-size:12px;font-weight:800;letter-spacing:.3px}
+  th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--card);z-index:2;min-width:170px}
+  th:first-child{background:var(--navy);z-index:3}
+  td:last-child,td:nth-last-child(2){background:var(--blue);font-weight:800}
+  tr:nth-child(even) td{background-color:#f7f9fb}
+  tr:nth-child(even) td:last-child, tr:nth-child(even) td:nth-last-child(2){background-color:var(--blue)}
+
+  .real{font-size:15px;font-weight:800;font-family:var(--mono);color:var(--navy)}
+  .scrap{font-size:10px;color:#b23b3b;font-weight:700;margin-top:2px}
+  .dot{color:#c3cad3;font-weight:400}
+  .cell{display:flex;flex-direction:column;align-items:center;gap:1px}
+
+  footer.foot{flex:0 0 auto;padding:8px 24px;font-size:11px;color:var(--grey);text-align:center}
+</style>
+</head>
+<body>
+
+  <header class="top">
+    <div>
+      <h1>HORA A HORA — CELDA C1</h1>
+      <div class="sub">INFUSION · XCELA · SMART PORT · BOXING — PRODUCCIÓN POR HORA</div>
+    </div>
+    <div class="pills">
+      <div class="pill"><div class="k">SEMANA</div><div class="v" id="pillSemana">--</div></div>
+      <div class="pill"><div class="k">DÍA</div><div class="v" id="pillDia">--</div></div>
+      <div class="pill"><div class="k">TURNO</div><div class="v" id="pillTurno">--</div></div>
+    </div>
+  </header>
+
+  <div class="selectors">
+    <div><label>SEMANA</label><select id="selSemana"></select></div>
+    <div><label>DÍA</label><select id="selDia"></select></div>
+    <div><label>TURNO</label><select id="selTurno"></select></div>
+    <div class="fuente">Fuente: <b id="fuenteTxt">--</b></div>
+  </div>
+
+  <div class="aviso">⚠️ Todavía no hay metas/UPH definidas para estos procesos — por ahora solo se muestran los números tal cual (Real y Scrap), sin colores de cumplimiento.</div>
+
+  <main>
+    <table id="tabla"></table>
+  </main>
+
+  <footer class="foot" id="footInfo">—</footer>
+
+<script>
+  let DATA = null;
+  let CUR_WEEK=null, CUR_DIA=null, CUR_TURNO=null;
+  let PAUSA_HASTA = 0;
+  function pausarAuto(){ PAUSA_HASTA = Date.now() + 10*60*1000; }
+
+  function fechaProduccion(){
+    const n = new Date();
+    const min = n.getHours()*60 + n.getMinutes();
+    if(min < 6*60) n.setDate(n.getDate() - 1);
+    return n;
+  }
+  function hoyDia(){
+    const m=["DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO"];
+    return m[fechaProduccion().getDay()];
+  }
+  function turnoActivo(){
+    const n=new Date();
+    const min = n.getHours()*60 + n.getMinutes();
+    if(min>=6*60 && min<15*60+36) return "A";
+    if(min>=15*60+36 && min<22*60) return "B";
+    return "C";
+  }
+  function semanaWWdeHoy(){
+    const d=fechaProduccion();
+    const target=new Date(d.valueOf());
+    const dayNr=(d.getDay()+6)%7;
+    target.setDate(target.getDate()-dayNr+3);
+    const firstThursday=new Date(target.getFullYear(),0,4);
+    const diff=target-firstThursday;
+    const week=1+Math.round(diff/(7*24*3600*1000));
+    const key="WW"+week;
+    return DATA.weeks[key] ? key : null;
+  }
+
+  function tieneDatos(k){
+    return k && DATA.weeks[k] && Object.keys(DATA.weeks[k].dias||{}).length>0;
+  }
+
+  function sincronizarConReloj(){
+    let wk = semanaWWdeHoy();
+    if(!tieneDatos(wk)) wk = DATA.week_order.find(tieneDatos) || DATA.week_order[0];
+    const dias = Object.keys(DATA.weeks[wk].dias||{});
+    const hd = hoyDia();
+    const dia = dias.includes(hd) ? hd : dias[0];
+    const turno = turnoActivo();
+    const cambio = (wk!==CUR_WEEK || dia!==CUR_DIA || turno!==CUR_TURNO);
+    CUR_WEEK=wk; CUR_DIA=dia; CUR_TURNO=turno;
+    return cambio;
+  }
+
+  function poblarSelectores(){
+    const selSemana=document.getElementById('selSemana');
+    selSemana.innerHTML = DATA.week_order.map(w=>`<option value="${w}" ${w===CUR_WEEK?'selected':''}>${w}${tieneDatos(w)?'':' (sin datos)'}</option>`).join('');
+  }
+
+  function poblarDiaTurno(){
+    const dias = Object.keys(DATA.weeks[CUR_WEEK].dias||{});
+    const selDia=document.getElementById('selDia');
+    selDia.innerHTML = dias.map(d=>`<option value="${d}" ${d===CUR_DIA?'selected':''}>${d.charAt(0)+d.slice(1).toLowerCase()}</option>`).join('');
+    const selTurno=document.getElementById('selTurno');
+    const turnosDelDia = new Set();
+    (DATA.weeks[CUR_WEEK].dias[CUR_DIA]||[]).forEach(p=>Object.keys(p.turnos).forEach(t=>turnosDelDia.add(t)));
+    const letras=['A','B','C'].filter(l=>turnosDelDia.has(l));
+    selTurno.innerHTML = letras.map(l=>`<option value="${l}" ${l===CUR_TURNO?'selected':''}>Turno ${l}</option>`).join('');
+  }
+
+  function celda(v){
+    if(v===null||v===undefined) return `<span class="dot">·</span>`;
+    return Math.round(v).toLocaleString('es-MX');
+  }
+
+  function render(){
+    if(!DATA) return;
+    document.getElementById('pillSemana').textContent = CUR_WEEK||'--';
+    document.getElementById('pillDia').textContent = CUR_DIA ? (CUR_DIA.charAt(0)+CUR_DIA.slice(1).toLowerCase()) : '--';
+    document.getElementById('pillTurno').textContent = CUR_TURNO ? 'Turno '+CUR_TURNO : '--';
+    document.getElementById('fuenteTxt').textContent = `${DATA.source_file} · ${new Date(DATA.generated_at).toLocaleString('es-MX')}`;
+
+    poblarSelectores();
+    poblarDiaTurno();
+
+    const procesos = (DATA.weeks[CUR_WEEK] && DATA.weeks[CUR_WEEK].dias[CUR_DIA]) || [];
+    const filas = procesos.filter(p=>p.turnos[CUR_TURNO]);
+    if(!filas.length){
+      document.getElementById('tabla').innerHTML = `<tr><td style="padding:30px;text-align:center;color:#8aa3c4">Sin datos para ${CUR_DIA} · Turno ${CUR_TURNO} en ${CUR_WEEK}</td></tr>`;
+      document.getElementById('footInfo').textContent = '—';
+      return;
+    }
+    const horas = filas[0].turnos[CUR_TURNO].hour_labels;
+
+    let head = `<tr><th>PROCESO</th>` + horas.map(h=>`<th>${h}</th>`).join('') + `<th>TOTAL REAL</th><th>TOTAL SCRAP</th></tr>`;
+    let body = filas.map(p=>{
+      const t = p.turnos[CUR_TURNO];
+      const cells = t.real.map((v,i)=>{
+        const s = t.scrap[i];
+        return `<td><div class="cell"><span class="real">${celda(v)}</span>${(s&&s>0)?`<span class="scrap">scrap ${Math.round(s)}</span>`:''}</div></td>`;
+      }).join('');
+      return `<tr><td>${p.name}</td>${cells}<td>${celda(t.total_real)}</td><td>${celda(t.total_scrap)}</td></tr>`;
+    }).join('');
+    document.getElementById('tabla').innerHTML = head + body;
+    document.getElementById('footInfo').textContent =
+      `Mostrando ${filas.length} proceso(s) · ${CUR_WEEK} · ${CUR_DIA} · Turno ${CUR_TURNO}`;
+  }
+
+  async function loadData(){
+    try{
+      const res = await fetch("data_hr_c1.json?_="+Date.now(), {cache:"no-store"});
+      if(!res.ok) throw new Error("no json");
+      return await res.json();
+    }catch(e){ return SAMPLE; }
+  }
+
+  document.getElementById('selSemana').addEventListener('change', e=>{
+    pausarAuto();
+    CUR_WEEK = e.target.value;
+    const dias = Object.keys(DATA.weeks[CUR_WEEK].dias||{});
+    CUR_DIA = dias[0]; CUR_TURNO = null;
+    const turnosDelDia = new Set();
+    (DATA.weeks[CUR_WEEK].dias[CUR_DIA]||[]).forEach(p=>Object.keys(p.turnos).forEach(t=>turnosDelDia.add(t)));
+    CUR_TURNO = ['A','B','C'].find(l=>turnosDelDia.has(l));
+    render();
+  });
+  document.getElementById('selDia').addEventListener('change', e=>{
+    pausarAuto();
+    CUR_DIA = e.target.value;
+    const turnosDelDia = new Set();
+    (DATA.weeks[CUR_WEEK].dias[CUR_DIA]||[]).forEach(p=>Object.keys(p.turnos).forEach(t=>turnosDelDia.add(t)));
+    CUR_TURNO = ['A','B','C'].find(l=>turnosDelDia.has(l));
+    render();
+  });
+  document.getElementById('selTurno').addEventListener('change', e=>{
+    pausarAuto();
+    CUR_TURNO = e.target.value;
+    render();
+  });
+
+  (async function(){
+    DATA = await loadData();
+    sincronizarConReloj();
+    render();
+
+    setInterval(async ()=>{
+      const fresh = await loadData();
+      if(fresh.generated_at !== DATA.generated_at){
+        DATA = fresh;
+        if(Date.now() >= PAUSA_HASTA) sincronizarConReloj();
+        render();
+      }
+    }, 5*60*1000);
+
+    setInterval(()=>{
+      if(Date.now() < PAUSA_HASTA) return;
+      if(sincronizarConReloj()) render();
+    }, 60*1000);
+  })();
+
+const SAMPLE = {"plant":"Celda C1","source_file":"Hr_Hr_C1.xlsx","generated_at":"2026-09-14T09:00:00","weeks":{"WW1":{"label":"WW1","dias":{"LUNES":[{"name":"INFUSION","turnos":{"A":{"hour_labels":["6-7 am","7-8 am","8-9 am","9-10 am","10-11 am","11-12 am","12-1 pm","1-2 pm","2-3 pm","3 - 3:36 pm"],"real":[5,5,5,null,null,null,null,null,null,null],"scrap":[0,0,0,null,null,null,null,null,null,null],"total_real":15,"total_scrap":0}}}]}},"WW2":{"label":"WW2","dias":{}}},"week_order":["WW1","WW2"],"dias_orden":["LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO","DOMINGO"]};
+</script>
+</body>
+</html>

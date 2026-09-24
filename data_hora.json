@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-23T21:30:45",
+ "generated_at": "2026-09-23T21:36:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87514,14 +87514,14 @@
          337.0,
          275.0,
          385.0,
-         null,
-         null
+         385.0,
+         250.0
         ],
-        "rework": 78.0,
-        "total": 1437.0,
-        "delta": -1298.0,
+        "rework": 95.0,
+        "total": 2072.0,
+        "delta": -663.0,
         "downtime": 0.0,
-        "proficiency": 0.5225454545454545
+        "proficiency": 0.7534545454545455
        },
        {
         "name": "Welder",
@@ -87534,14 +87534,14 @@
          250.0,
          320.0,
          240.0,
-         null,
-         null
+         365.0,
+         285.0
         ],
-        "rework": 74.0,
-        "total": 1105.0,
-        "delta": -946.25,
+        "rework": 109.0,
+        "total": 1755.0,
+        "delta": -296.25,
         "downtime": 60.0,
-        "proficiency": 0.5482170542635659
+        "proficiency": 0.8706976744186047
        },
        {
         "name": "Carga de bandas",
@@ -87649,19 +87649,19 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         190.0,
-         320.0,
-         320.0,
-         237.0,
-         260.0,
-         130.0,
+         236.0,
+         366.0,
+         366.0,
+         283.0,
+         306.0,
+         306.0,
          0.0
         ],
         "rework": 72.0,
-        "total": 1457.0,
-        "delta": -676.2999999999997,
+        "total": 1863.0,
+        "delta": -270.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.6792540792540793
+        "proficiency": 0.8685314685314686
        },
        {
         "name": "Sidehole Soft Vu",
@@ -87714,14 +87714,14 @@
          400.0,
          225.0,
          340.0,
-         300.0,
+         375.0,
          null
         ],
         "rework": 2.0,
-        "total": 1480.0,
-        "delta": -981.5,
+        "total": 1555.0,
+        "delta": -906.5,
         "downtime": 0.0,
-        "proficiency": 0.597979797979798
+        "proficiency": 0.6282828282828283
        },
        {
         "name": "Baking Conv",

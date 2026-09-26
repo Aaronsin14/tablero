@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-25T21:18:57",
+ "generated_at": "2026-09-25T21:25:23",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -98880,13 +98880,13 @@
          90.0,
          0.0,
          300.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 690.0,
         "delta": -1771.5,
-        "downtime": 0.0,
-        "proficiency": 0.2787878787878788
+        "downtime": 204.0,
+        "proficiency": 0.35114503816793885
        },
        {
         "name": "Baking Conv",
@@ -98900,13 +98900,13 @@
          77.0,
          70.0,
          30.0,
-         null
+         30.0
         ],
         "rework": 0.0,
-        "total": 357.0,
-        "delta": 28.80000000000001,
+        "total": 387.0,
+        "delta": 58.80000000000001,
         "downtime": 0.0,
-        "proficiency": 1.0818181818181818
+        "proficiency": 1.1727272727272726
        },
        {
         "name": "Hidrofilico",
@@ -98940,13 +98940,13 @@
          300.0,
          548.0,
          605.0,
-         null
+         605.0
         ],
         "rework": 0.0,
-        "total": 2353.0,
-        "delta": 1532.5,
+        "total": 2958.0,
+        "delta": 2137.5,
         "downtime": 0.0,
-        "proficiency": 2.852121212121212
+        "proficiency": 3.585454545454546
        },
        {
         "name": "Rofing",

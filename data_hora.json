@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-26T08:03:45",
+ "generated_at": "2026-09-26T08:10:08",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99511,7 +99511,7 @@
         "meta_dia": 612.75,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -99534,7 +99534,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         30.0,
          null,
          null,
          null,
@@ -99545,10 +99545,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 30.0,
+        "delta": -787.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.03671970624235006
        },
        {
         "name": "Swager",
@@ -99557,7 +99557,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         30.0,
          null,
          null,
          null,
@@ -99568,10 +99568,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 30.0,
+        "delta": -787.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.03671970624235006
        },
        {
         "name": "Embedder",
@@ -99626,7 +99626,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          100.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -99637,10 +99637,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -3086.3,
+        "total": 350.0,
+        "delta": -2836.3,
         "downtime": 0.0,
-        "proficiency": 0.03138436430970091
+        "proficiency": 0.10984527508395318
        },
        {
         "name": "Sidehole Soft Vu",
@@ -99649,7 +99649,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -99672,7 +99672,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -99695,7 +99695,7 @@
         "meta_dia": 3676.5,
         "hours": [
          0.0,
-         null,
+         150.0,
          null,
          null,
          null,
@@ -99706,10 +99706,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 150.0,
+        "delta": -3526.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.040799673602611185
        },
        {
         "name": "Baking Conv",
@@ -99718,7 +99718,7 @@
         "meta_dia": 490.2,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

@@ -1,19 +1,19 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-09-27T07:14:06",
+ "generated_at": "2026-09-27T07:20:19",
  "current_sheet": "29-Sep-2026",
  "current_date": "2026-09-29",
  "stages": [
   {
-   "key": "wip_welder",
-   "label": "Wip Welder",
-   "uph": null
-  },
-  {
    "key": "embedder",
    "label": "Embedder",
    "uph": 45
+  },
+  {
+   "key": "delta",
+   "label": "Delta",
+   "uph": null
   },
   {
    "key": "drawdown",
@@ -284,7 +284,7 @@
    "producido": 440.0,
    "pct": 110.0,
    "stage_key": "embedder",
-   "stage_col": 9,
+   "stage_col": 8,
    "status": "verde"
   }
  ],

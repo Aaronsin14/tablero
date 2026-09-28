@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-28T17:13:39",
+ "generated_at": "2026-09-28T17:19:57",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -102370,15 +102370,15 @@
          375.0,
          170.0,
          0.0,
-         null,
-         null,
-         null
+         203.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 1625.0,
-        "delta": -1234.5,
+        "total": 1828.0,
+        "delta": -1031.5,
         "downtime": 0.0,
-        "proficiency": 0.5682811680363701
+        "proficiency": 0.6392726001049135
        }
       ]
      },
@@ -102460,18 +102460,18 @@
         "meta_dia": 547.0,
         "hours": [
          15.0,
-         null,
+         50.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 15.0,
-        "delta": -532.0,
+        "rework": 3.0,
+        "total": 65.0,
+        "delta": -482.0,
         "downtime": 0.0,
-        "proficiency": 0.02727272727272727
+        "proficiency": 0.11818181818181818
        },
        {
         "name": "Swager",
@@ -102480,7 +102480,7 @@
         "meta_dia": 547.0,
         "hours": [
          15.0,
-         null,
+         50.0,
          null,
          null,
          null,
@@ -102488,10 +102488,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 15.0,
-        "delta": -532.0,
+        "total": 65.0,
+        "delta": -482.0,
         "downtime": 0.0,
-        "proficiency": 0.02727272727272727
+        "proficiency": 0.11818181818181818
        },
        {
         "name": "Embedder",
@@ -102720,7 +102720,7 @@
         "meta_dia": 1641.0,
         "hours": [
          100.0,
-         null,
+         200.0,
          null,
          null,
          null,
@@ -102728,10 +102728,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -1541.0,
+        "total": 300.0,
+        "delta": -1341.0,
         "downtime": 0.0,
-        "proficiency": 0.060606060606060615
+        "proficiency": 0.18181818181818182
        },
        {
         "name": "Pouch",
@@ -102740,7 +102740,7 @@
         "meta_dia": 1641.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

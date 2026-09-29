@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-29T15:02:45",
+ "generated_at": "2026-09-29T15:09:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -103311,15 +103311,15 @@
          18.0,
          25.0,
          24.0,
-         null,
+         30.0,
          null,
          null
         ],
         "rework": 8.0,
-        "total": 155.0,
-        "delta": -416.9,
+        "total": 185.0,
+        "delta": -386.9,
         "downtime": 0.5944444444444444,
-        "proficiency": 0.27105927340893954
+        "proficiency": 0.3235223585848634
        },
        {
         "name": "Inspeccion",
@@ -103334,15 +103334,15 @@
          18.0,
          25.0,
          24.0,
-         0.0,
+         30.0,
          0.0,
          0.0
         ],
         "rework": 8.0,
-        "total": 155.0,
-        "delta": -416.9,
+        "total": 185.0,
+        "delta": -386.9,
         "downtime": 0.0,
-        "proficiency": 0.2710264032173457
+        "proficiency": 0.3234831264207029
        },
        {
         "name": "Drawdown",
@@ -103356,16 +103356,16 @@
          290.0,
          260.0,
          165.0,
-         null,
-         null,
+         191.0,
+         52.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 948.0,
-        "delta": -2238.3,
+        "total": 1191.0,
+        "delta": -1995.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.2975237736559646
+        "proficiency": 0.3737877789285378
        },
        {
         "name": "Sidehole Soft Vu",
@@ -103379,16 +103379,16 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         150.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 152.0,
-        "delta": -665.0,
+        "total": 302.0,
+        "delta": -515.0,
         "downtime": 0.41597222222222224,
-        "proficiency": 0.1862045204164534
+        "proficiency": 0.36995898135374294
        },
        {
         "name": "Sidehole Accu Vu",
@@ -103402,8 +103402,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -103425,16 +103425,16 @@
          71.0,
          220.0,
          221.0,
-         null,
-         null,
+         118.0,
+         193.0,
          null,
          null
         ],
         "rework": 8.0,
-        "total": 543.0,
-        "delta": -3133.5,
+        "total": 854.0,
+        "delta": -2822.5,
         "downtime": 0.0,
-        "proficiency": 0.14769481844145246
+        "proficiency": 0.2322861417108663
        },
        {
         "name": "Baking Conv",
@@ -103448,16 +103448,16 @@
          40.0,
          65.0,
          60.0,
-         null,
-         null,
+         25.0,
+         55.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 186.0,
-        "delta": -304.2,
+        "total": 266.0,
+        "delta": -224.2,
         "downtime": 0.0,
-        "proficiency": 0.37943696450428394
+        "proficiency": 0.5426356589147286
        },
        {
         "name": "Hand Drilling",

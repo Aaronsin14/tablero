@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-30T17:13:48",
+ "generated_at": "2026-09-30T17:20:08",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87610,18 +87610,18 @@
         "meta_dia": 656.4,
         "hours": [
          0.0,
-         25.0,
+         31.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 2.0,
-        "total": 25.0,
-        "delta": -631.4,
+        "rework": 3.0,
+        "total": 31.0,
+        "delta": -625.4,
         "downtime": 0.0,
-        "proficiency": 0.03787878787878788
+        "proficiency": 0.046969696969696974
        },
        {
         "name": "Inspeccion",
@@ -87630,18 +87630,18 @@
         "meta_dia": 273.5,
         "hours": [
          0.0,
-         25.0,
+         31.0,
          0.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 2.0,
-        "total": 25.0,
-        "delta": -248.5,
+        "rework": 3.0,
+        "total": 31.0,
+        "delta": -242.5,
         "downtime": 0.0,
-        "proficiency": 0.09090909090909091
+        "proficiency": 0.11272727272727273
        },
        {
         "name": "Drawdown",
@@ -87690,7 +87690,7 @@
         "meta_dia": 547.0,
         "hours": [
          0.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -87698,10 +87698,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -547.0,
+        "total": 100.0,
+        "delta": -447.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18181818181818182
        },
        {
         "name": "Baking Rot",
@@ -87810,7 +87810,7 @@
         "meta_dia": 2625.6,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

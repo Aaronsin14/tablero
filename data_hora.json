@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-30T05:38:21",
+ "generated_at": "2026-09-30T05:44:44",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104163,16 +104163,16 @@
          200.0,
          170.0,
          200.0,
-         null,
-         null,
-         null,
-         null
+         200.0,
+         175.0,
+         175.0,
+         160.0
         ],
         "rework": 0.0,
-        "total": 770.0,
-        "delta": -1044.8000000000002,
+        "total": 1480.0,
+        "delta": -334.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.38461538461538464
+        "proficiency": 0.7392607392607393
        },
        {
         "name": "Sidehole Soft Vu",
@@ -104184,16 +104184,16 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         100.0,
+         100.0,
+         75.0,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 275.0,
+        "delta": -423.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.35714285714285715
        },
        {
         "name": "Sidehole Accu Vu",
@@ -104205,9 +104205,9 @@
          100.0,
          87.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -104226,16 +104226,16 @@
          330.0,
          300.0,
          326.0,
-         null,
-         null,
-         null,
-         null
+         348.0,
+         225.0,
+         150.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 1211.0,
-        "delta": -1930.0,
+        "total": 2184.0,
+        "delta": -957.0,
         "downtime": 0.0,
-        "proficiency": 0.3494949494949495
+        "proficiency": 0.6303030303030303
        },
        {
         "name": "Baking Conv",
@@ -104247,10 +104247,10 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -104371,7 +104371,7 @@
         "hours": [
          300.0,
          300.0,
-         300.0,
+         344.0,
          0.0,
          null,
          null,
@@ -104379,10 +104379,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": -1194.0,
+        "total": 944.0,
+        "delta": -1150.0,
         "downtime": 0.0,
-        "proficiency": 0.38961038961038963
+        "proficiency": 0.40865800865800866
        },
        {
         "name": "Boxing",

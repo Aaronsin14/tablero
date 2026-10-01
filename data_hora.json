@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-30T20:17:47",
+ "generated_at": "2026-09-30T20:24:05",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87553,7 +87553,7 @@
          0.0,
          30.0,
          9.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -87573,15 +87573,15 @@
          39.0,
          32.0,
          10.0,
-         null,
+         24.0,
          null,
          null
         ],
         "rework": 8.0,
-        "total": 101.0,
-        "delta": -446.0,
+        "total": 125.0,
+        "delta": -422.0,
         "downtime": 0.0,
-        "proficiency": 0.18363636363636363
+        "proficiency": 0.22727272727272727
        },
        {
         "name": "Swager",
@@ -87593,15 +87593,15 @@
          39.0,
          32.0,
          10.0,
-         null,
+         24.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 101.0,
-        "delta": -446.0,
+        "total": 125.0,
+        "delta": -422.0,
         "downtime": 0.0,
-        "proficiency": 0.18363636363636363
+        "proficiency": 0.22727272727272727
        },
        {
         "name": "Embedder",
@@ -87753,15 +87753,15 @@
          60.0,
          70.0,
          70.0,
-         null,
+         100.0,
          null,
          null
         ],
         "rework": 5.0,
-        "total": 250.0,
-        "delta": 85.9,
+        "total": 350.0,
+        "delta": 185.9,
         "downtime": 0.0,
-        "proficiency": 1.5151515151515151
+        "proficiency": 2.121212121212121
        },
        {
         "name": "Prepping",
@@ -87773,15 +87773,15 @@
          300.0,
          200.0,
          200.0,
-         null,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1000.0,
-        "delta": 179.5,
+        "total": 1200.0,
+        "delta": 379.5,
         "downtime": 0.0,
-        "proficiency": 1.2121212121212122
+        "proficiency": 1.4545454545454546
        },
        {
         "name": "Rofing",
@@ -87793,7 +87793,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -87813,15 +87813,15 @@
          0.0,
          261.0,
          0.0,
-         null,
+         150.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 261.0,
-        "delta": -1380.0,
+        "total": 411.0,
+        "delta": -1230.0,
         "downtime": 0.0,
-        "proficiency": 0.15818181818181817
+        "proficiency": 0.2490909090909091
        },
        {
         "name": "Moldeadora Atlas",
@@ -87833,15 +87833,15 @@
          100.0,
          200.0,
          200.0,
-         null,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 500.0,
-        "delta": -1141.0,
+        "total": 700.0,
+        "delta": -941.0,
         "downtime": 0.0,
-        "proficiency": 0.30303030303030304
+        "proficiency": 0.4242424242424242
        },
        {
         "name": "Pouch",
@@ -87853,7 +87853,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null
         ],

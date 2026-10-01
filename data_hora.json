@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-01T11:37:45",
+ "generated_at": "2026-10-01T11:44:09",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -88302,8 +88302,8 @@
          325.0,
          450.0,
          370.0,
-         250.0,
-         250.0,
+         450.0,
+         450.0,
          null,
          null,
          null,
@@ -88311,10 +88311,10 @@
          null
         ],
         "rework": 22.0,
-        "total": 1645.0,
-        "delta": -2440.0,
+        "total": 2045.0,
+        "delta": -2040.0,
         "downtime": 0.0,
-        "proficiency": 0.40269277845777235
+        "proficiency": 0.5006119951040392
        },
        {
         "name": "Welder",
@@ -88325,19 +88325,19 @@
          90.0,
          160.0,
          85.0,
-         null,
-         null,
+         210.0,
+         125.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 51.0,
-        "total": 335.0,
-        "delta": -2769.6,
+        "rework": 102.0,
+        "total": 670.0,
+        "delta": -2434.6,
         "downtime": 0.0,
-        "proficiency": 0.10790439992269535
+        "proficiency": 0.2158087998453907
        },
        {
         "name": "Carga de bandas",
@@ -88347,9 +88347,9 @@
         "hours": [
          0.0,
          40.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         53.0,
          null,
          null,
          null,
@@ -88357,10 +88357,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 40.0,
-        "delta": -572.75,
+        "total": 93.0,
+        "delta": -519.75,
         "downtime": 0.3347222222222222,
-        "proficiency": 0.06532408286858915
+        "proficiency": 0.15187849266946976
        },
        {
         "name": "Staker",
@@ -88370,20 +88370,20 @@
         "hours": [
          30.0,
          30.0,
-         null,
-         null,
-         null,
+         30.0,
+         35.0,
+         35.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 60.0,
-        "delta": -757.0,
+        "rework": 1.0,
+        "total": 160.0,
+        "delta": -657.0,
         "downtime": 0.0,
-        "proficiency": 0.07343941248470012
+        "proficiency": 0.19583843329253367
        },
        {
         "name": "Swager",
@@ -88393,9 +88393,9 @@
         "hours": [
          31.0,
          30.0,
-         null,
-         null,
-         null,
+         30.0,
+         35.0,
+         35.0,
          null,
          null,
          null,
@@ -88403,10 +88403,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 61.0,
-        "delta": -756.0,
+        "total": 161.0,
+        "delta": -656.0,
         "downtime": 0.0,
-        "proficiency": 0.07466340269277846
+        "proficiency": 0.19706242350061198
        },
        {
         "name": "Embedder",
@@ -88416,8 +88416,8 @@
         "hours": [
          10.0,
          20.0,
-         null,
-         null,
+         30.0,
+         33.0,
          null,
          null,
          null,
@@ -88425,11 +88425,11 @@
          null,
          null
         ],
-        "rework": 8.0,
-        "total": 30.0,
-        "delta": -541.9,
+        "rework": 9.0,
+        "total": 93.0,
+        "delta": -478.9,
         "downtime": 0.0,
-        "proficiency": 0.05245672320335723
+        "proficiency": 0.1626158419304074
        },
        {
         "name": "Inspeccion",
@@ -88439,8 +88439,8 @@
         "hours": [
          10.0,
          20.0,
-         0.0,
-         0.0,
+         30.0,
+         33.0,
          0.0,
          0.0,
          0.0,
@@ -88448,11 +88448,11 @@
          0.0,
          0.0
         ],
-        "rework": 8.0,
-        "total": 30.0,
-        "delta": -541.9,
+        "rework": 9.0,
+        "total": 93.0,
+        "delta": -478.9,
         "downtime": 0.0,
-        "proficiency": 0.05245672320335723
+        "proficiency": 0.1626158419304074
        },
        {
         "name": "Drawdown",

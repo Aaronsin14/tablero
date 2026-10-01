@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-01T15:44:50",
+ "generated_at": "2026-10-01T15:51:13",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -88400,13 +88400,13 @@
          8.0,
          10.0,
          8.0,
-         null
+         18.0
         ],
         "rework": 0.0,
-        "total": 222.0,
-        "delta": -595.0,
+        "total": 240.0,
+        "delta": -577.0,
         "downtime": 0.47708333333333336,
-        "proficiency": 0.2718581180917717
+        "proficiency": 0.2939006682073207
        },
        {
         "name": "Embedder",
@@ -88423,13 +88423,13 @@
          31.0,
          10.0,
          19.0,
-         0.0
+         5.0
         ],
-        "rework": 13.0,
-        "total": 233.0,
-        "delta": -338.9,
-        "downtime": 0.0,
-        "proficiency": 0.4074138835460745
+        "rework": 15.0,
+        "total": 238.0,
+        "delta": -333.9,
+        "downtime": 0.9541666666666667,
+        "proficiency": 0.4162376907649813
        },
        {
         "name": "Inspeccion",
@@ -88446,13 +88446,13 @@
          31.0,
          10.0,
          19.0,
-         0.0
+         5.0
         ],
-        "rework": 13.0,
-        "total": 233.0,
-        "delta": -338.9,
+        "rework": 15.0,
+        "total": 238.0,
+        "delta": -333.9,
         "downtime": 0.0,
-        "proficiency": 0.4074138835460745
+        "proficiency": 0.41615667074663404
        },
        {
         "name": "Drawdown",
@@ -88490,15 +88490,15 @@
          68.0,
          0.0,
          0.0,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 618.0,
         "delta": -199.0,
-        "downtime": 0.0,
-        "proficiency": 0.7564259485924113
+        "downtime": 0.4777777777777778,
+        "proficiency": 0.7571639251276234
        },
        {
         "name": "Sidehole Accu Vu",
@@ -88606,14 +88606,14 @@
          150.0,
          150.0,
          150.0,
-         null,
-         null
+         43.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 1050.0,
-        "delta": -175.5,
+        "total": 1093.0,
+        "delta": -132.5,
         "downtime": 0.0,
-        "proficiency": 0.8567931456548348
+        "proficiency": 0.8918808649530805
        },
        {
         "name": "Rofing",
@@ -88626,17 +88626,17 @@
          550.0,
          550.0,
          550.0,
-         550.0,
-         550.0,
-         550.0,
-         null,
-         null
+         430.0,
+         230.0,
+         250.0,
+         0.0,
+         75.0
         ],
         "rework": 0.0,
-        "total": 4300.0,
-        "delta": 1849.0,
+        "total": 3635.0,
+        "delta": 1184.0,
         "downtime": 0.0,
-        "proficiency": 1.7543859649122806
+        "proficiency": 1.4830681354549162
        },
        {
         "name": "Moldeadora Milacron",
@@ -88652,14 +88652,14 @@
          0.0,
          250.0,
          300.0,
-         null,
-         null
+         300.0,
+         130.0
         ],
         "rework": 0.0,
-        "total": 550.0,
-        "delta": -1901.0,
+        "total": 980.0,
+        "delta": -1471.0,
         "downtime": 0.0,
-        "proficiency": 0.22439820481436148
+        "proficiency": 0.3998368013055896
        },
        {
         "name": "Moldeadora Atlas",
@@ -88675,14 +88675,14 @@
          200.0,
          215.0,
          215.0,
-         null,
-         null
+         200.0,
+         150.0
         ],
         "rework": 0.0,
-        "total": 1730.0,
-        "delta": -721.0,
+        "total": 2080.0,
+        "delta": -371.0,
         "downtime": 0.0,
-        "proficiency": 0.7058343533251734
+        "proficiency": 0.8486332109343125
        },
        {
         "name": "Pouch",
@@ -88698,8 +88698,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 920.0,

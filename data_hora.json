@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-09-30T21:14:51",
+ "generated_at": "2026-09-30T21:21:12",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -87514,14 +87514,14 @@
          300.0,
          275.0,
          425.0,
-         null,
-         null
+         450.0,
+         200.0
         ],
         "rework": 4.0,
-        "total": 1300.0,
-        "delta": -1435.0,
+        "total": 1950.0,
+        "delta": -785.0,
         "downtime": 0.0,
-        "proficiency": 0.4727272727272728
+        "proficiency": 0.7090909090909091
        },
        {
         "name": "Welder",
@@ -87534,14 +87534,14 @@
          335.0,
          370.0,
          225.0,
-         null,
-         null
+         340.0,
+         0.0
         ],
-        "rework": 95.0,
-        "total": 1390.0,
-        "delta": -661.25,
+        "rework": 114.0,
+        "total": 1730.0,
+        "delta": -321.25,
         "downtime": 0.0,
-        "proficiency": 0.673939393939394
+        "proficiency": 0.8387878787878789
        },
        {
         "name": "Carga de bandas",
@@ -87655,13 +87655,13 @@
          130.0,
          130.0,
          360.0,
-         null
+         100.0
         ],
         "rework": 0.0,
-        "total": 927.0,
-        "delta": -1206.2999999999997,
+        "total": 1027.0,
+        "delta": -1106.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.4321678321678321
+        "proficiency": 0.47878787878787876
        },
        {
         "name": "Sidehole Soft Vu",
@@ -87715,7 +87715,7 @@
          327.0,
          400.0,
          345.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 1798.0,
@@ -87735,7 +87735,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -87754,14 +87754,14 @@
          70.0,
          70.0,
          30.0,
-         null,
+         60.0,
          null
         ],
-        "rework": 5.0,
-        "total": 280.0,
-        "delta": 115.9,
+        "rework": 8.0,
+        "total": 340.0,
+        "delta": 175.9,
         "downtime": 0.0,
-        "proficiency": 1.6969696969696968
+        "proficiency": 2.0606060606060606
        },
        {
         "name": "Prepping",
@@ -87770,18 +87770,18 @@
         "meta_dia": 683.75,
         "hours": [
          300.0,
+         200.0,
+         200.0,
          300.0,
-         200.0,
-         200.0,
-         200.0,
-         200.0,
-         null
+         550.0,
+         550.0,
+         550.0
         ],
         "rework": 0.0,
-        "total": 1400.0,
-        "delta": 579.5,
+        "total": 2650.0,
+        "delta": 1829.5,
         "downtime": 0.0,
-        "proficiency": 1.6969696969696968
+        "proficiency": 3.212121212121212
        },
        {
         "name": "Rofing",
@@ -87795,7 +87795,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -87814,14 +87814,14 @@
          261.0,
          0.0,
          150.0,
-         null,
+         90.0,
          null
         ],
         "rework": 0.0,
-        "total": 411.0,
-        "delta": -1230.0,
+        "total": 501.0,
+        "delta": -1140.0,
         "downtime": 0.0,
-        "proficiency": 0.2490909090909091
+        "proficiency": 0.30363636363636365
        },
        {
         "name": "Moldeadora Atlas",
@@ -87834,7 +87834,7 @@
          200.0,
          200.0,
          200.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -87875,7 +87875,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 660.0,

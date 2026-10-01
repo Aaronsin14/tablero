@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-01T11:50:29",
+ "generated_at": "2026-10-01T11:56:55",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -88326,18 +88326,18 @@
          160.0,
          85.0,
          210.0,
-         125.0,
+         293.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 102.0,
-        "total": 670.0,
-        "delta": -2434.6,
+        "rework": 147.0,
+        "total": 838.0,
+        "delta": -2266.6,
         "downtime": 0.0,
-        "proficiency": 0.2158087998453907
+        "proficiency": 0.2699220511499066
        },
        {
         "name": "Carga de bandas",
@@ -88359,8 +88359,8 @@
         "rework": 0.0,
         "total": 93.0,
         "delta": -519.75,
-        "downtime": 0.3347222222222222,
-        "proficiency": 0.15187849266946976
+        "downtime": 0.0,
+        "proficiency": 0.15177478580171358
        },
        {
         "name": "Staker",
@@ -88418,7 +88418,7 @@
          20.0,
          30.0,
          33.0,
-         null,
+         40.0,
          null,
          null,
          null,
@@ -88426,10 +88426,10 @@
          null
         ],
         "rework": 9.0,
-        "total": 93.0,
-        "delta": -478.9,
+        "total": 133.0,
+        "delta": -438.9,
         "downtime": 0.0,
-        "proficiency": 0.1626158419304074
+        "proficiency": 0.23255813953488372
        },
        {
         "name": "Inspeccion",
@@ -88441,7 +88441,7 @@
          20.0,
          30.0,
          33.0,
-         0.0,
+         40.0,
          0.0,
          0.0,
          0.0,
@@ -88449,10 +88449,10 @@
          0.0
         ],
         "rework": 9.0,
-        "total": 93.0,
-        "delta": -478.9,
+        "total": 133.0,
+        "delta": -438.9,
         "downtime": 0.0,
-        "proficiency": 0.1626158419304074
+        "proficiency": 0.23255813953488372
        },
        {
         "name": "Drawdown",
@@ -88462,20 +88462,20 @@
         "hours": [
          50.0,
          360.0,
-         null,
-         null,
-         null,
+         186.0,
+         92.0,
+         138.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 410.0,
-        "delta": -2776.3,
+        "rework": 3.0,
+        "total": 826.0,
+        "delta": -2360.3,
         "downtime": 0.0,
-        "proficiency": 0.12867589366977372
+        "proficiency": 0.2592348491981295
        },
        {
         "name": "Sidehole Soft Vu",
@@ -88485,9 +88485,9 @@
         "hours": [
          0.0,
          200.0,
-         null,
-         null,
-         null,
+         150.0,
+         200.0,
+         68.0,
          null,
          null,
          null,
@@ -88495,10 +88495,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -617.0,
+        "total": 618.0,
+        "delta": -199.0,
         "downtime": 0.0,
-        "proficiency": 0.2447980416156671
+        "proficiency": 0.7564259485924113
        },
        {
         "name": "Sidehole Accu Vu",
@@ -88508,9 +88508,9 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -88531,9 +88531,9 @@
         "hours": [
          50.0,
          125.0,
-         null,
-         null,
-         null,
+         140.0,
+         150.0,
+         45.0,
          null,
          null,
          null,
@@ -88541,10 +88541,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 175.0,
-        "delta": -3501.5,
+        "total": 510.0,
+        "delta": -3166.5,
         "downtime": 0.0,
-        "proficiency": 0.04759961920304638
+        "proficiency": 0.138718890248878
        },
        {
         "name": "Baking Conv",
@@ -88554,9 +88554,9 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,

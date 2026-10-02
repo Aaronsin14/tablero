@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-02T05:48:07",
+ "generated_at": "2026-10-02T05:54:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -89150,13 +89150,13 @@
          330.0,
          305.0,
          205.0,
-         null
+         165.0
         ],
-        "rework": 223.0,
-        "total": 1900.0,
-        "delta": -263.8000000000002,
+        "rework": 245.0,
+        "total": 2065.0,
+        "delta": -98.80000000000018,
         "downtime": 0.0,
-        "proficiency": 0.795978215333054
+        "proficiency": 0.8651026392961877
        },
        {
         "name": "Carga de bandas",
@@ -89170,7 +89170,7 @@
          75.0,
          50.0,
          0.0,
-         null,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -89191,14 +89191,14 @@
          40.0,
          40.0,
          40.0,
-         null,
+         30.0,
          null
         ],
         "rework": 0.0,
-        "total": 220.0,
-        "delta": -478.0,
+        "total": 250.0,
+        "delta": -448.0,
         "downtime": 0.0,
-        "proficiency": 0.2857142857142857
+        "proficiency": 0.3246753246753247
        },
        {
         "name": "Swager",
@@ -89212,14 +89212,14 @@
          40.0,
          40.0,
          40.0,
-         null,
+         30.0,
          null
         ],
         "rework": 0.0,
-        "total": 220.0,
-        "delta": -408.20000000000005,
+        "total": 250.0,
+        "delta": -378.20000000000005,
         "downtime": 0.0,
-        "proficiency": 0.31746031746031744
+        "proficiency": 0.3607503607503607
        },
        {
         "name": "Embedder",
@@ -89233,14 +89233,14 @@
          31.0,
          35.0,
          35.0,
-         null,
+         33.0,
          null
         ],
         "rework": 0.0,
-        "total": 202.0,
-        "delta": -147.0,
+        "total": 235.0,
+        "delta": -114.0,
         "downtime": 0.0,
-        "proficiency": 0.5246753246753246
+        "proficiency": 0.6103896103896104
        },
        {
         "name": "Inspeccion",
@@ -89254,14 +89254,14 @@
          31.0,
          35.0,
          35.0,
-         null,
+         33.0,
          null
         ],
         "rework": 0.0,
-        "total": 202.0,
-        "delta": -147.0,
+        "total": 235.0,
+        "delta": -114.0,
         "downtime": 0.0,
-        "proficiency": 0.5246753246753246
+        "proficiency": 0.6103896103896104
        },
        {
         "name": "Drawdown",
@@ -89275,14 +89275,14 @@
          200.0,
          170.0,
          180.0,
-         130.0,
-         141.0
+         230.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 1406.0,
-        "delta": -408.8000000000002,
+        "total": 1615.0,
+        "delta": -199.80000000000018,
         "downtime": 0.0,
-        "proficiency": 0.7022977022977024
+        "proficiency": 0.8066933066933067
        },
        {
         "name": "Sidehole Soft Vu",
@@ -89296,8 +89296,8 @@
          70.0,
          100.0,
          80.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 430.0,
@@ -89338,14 +89338,14 @@
          150.0,
          75.0,
          150.0,
-         0.0,
-         0.0
+         150.0,
+         50.0
         ],
         "rework": 0.0,
-        "total": 1125.0,
-        "delta": -969.0,
+        "total": 1325.0,
+        "delta": -769.0,
         "downtime": 0.0,
-        "proficiency": 0.48701298701298695
+        "proficiency": 0.5735930735930735
        },
        {
         "name": "Baking Conv",
@@ -89380,14 +89380,14 @@
          12.0,
          12.0,
          12.0,
-         null,
-         null
+         12.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 72.0,
-        "delta": -137.4,
+        "total": 84.0,
+        "delta": -125.4,
         "downtime": 0.0,
-        "proficiency": 0.3116883116883117
+        "proficiency": 0.3636363636363636
        },
        {
         "name": "Prepping",

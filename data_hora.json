@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-02T15:36:09",
+ "generated_at": "2026-10-02T15:42:31",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -98256,13 +98256,13 @@
          143.0,
          260.0,
          285.0,
-         77.0
+         142.0
         ],
-        "rework": 307.0,
-        "total": 2101.0,
-        "delta": -758.5,
-        "downtime": 0.0,
-        "proficiency": 0.7347438363350237
+        "rework": 310.0,
+        "total": 2166.0,
+        "delta": -693.5,
+        "downtime": 500.0,
+        "proficiency": 0.8681652693810749
        },
        {
         "name": "Carga de bandas",
@@ -98278,14 +98278,14 @@
          50.0,
          0.0,
          75.0,
-         null,
-         null
+         75.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 290.0,
-        "delta": -322.75,
+        "total": 365.0,
+        "delta": -247.75,
         "downtime": 0.0,
-        "proficiency": 0.47327621379028967
+        "proficiency": 0.5956752345981232
        },
        {
         "name": "Staker",
@@ -98300,15 +98300,15 @@
          45.0,
          50.0,
          40.0,
-         120.0,
-         null,
-         null
+         70.0,
+         72.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 358.0,
-        "delta": -459.0,
+        "total": 380.0,
+        "delta": -437.0,
         "downtime": 0.0,
-        "proficiency": 0.43818849449204406
+        "proficiency": 0.46511627906976744
        },
        {
         "name": "Swager",
@@ -98323,15 +98323,15 @@
          45.0,
          50.0,
          40.0,
-         120.0,
-         null,
-         null
+         70.0,
+         72.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 358.0,
-        "delta": -459.0,
+        "total": 380.0,
+        "delta": -437.0,
         "downtime": 0.0,
-        "proficiency": 0.43818849449204406
+        "proficiency": 0.46511627906976744
        },
        {
         "name": "Embedder",
@@ -98346,15 +98346,15 @@
          24.0,
          58.0,
          48.0,
-         null,
-         null,
-         null
+         48.0,
+         78.0,
+         22.0
         ],
         "rework": 2.0,
-        "total": 203.0,
-        "delta": -368.9,
+        "total": 351.0,
+        "delta": -220.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.35495716034271724
+        "proficiency": 0.6137436614792796
        },
        {
         "name": "Inspeccion",
@@ -98369,15 +98369,15 @@
          24.0,
          58.0,
          48.0,
-         0.0,
-         0.0,
-         0.0
+         48.0,
+         78.0,
+         22.0
         ],
         "rework": 2.0,
-        "total": 203.0,
-        "delta": -368.9,
+        "total": 351.0,
+        "delta": -220.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.35495716034271724
+        "proficiency": 0.6137436614792796
        },
        {
         "name": "Drawdown",
@@ -98392,15 +98392,15 @@
          95.0,
          63.0,
          190.0,
-         null,
-         null,
-         null
+         150.0,
+         155.0,
+         103.0
         ],
         "rework": 0.0,
-        "total": 1030.0,
-        "delta": -2156.3,
+        "total": 1438.0,
+        "delta": -1748.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.3232589523899193
+        "proficiency": 0.45130715877349903
        },
        {
         "name": "Sidehole Soft Vu",
@@ -98415,15 +98415,15 @@
          155.0,
          150.0,
          100.0,
-         null,
-         null,
-         null
+         100.0,
+         47.0,
+         0.0
         ],
         "rework": 3.0,
-        "total": 1001.0,
-        "delta": 184.0,
+        "total": 1148.0,
+        "delta": 331.0,
         "downtime": 0.0,
-        "proficiency": 1.2252141982864138
+        "proficiency": 1.4051407588739289
        },
        {
         "name": "Sidehole Accu Vu",
@@ -98438,15 +98438,15 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null
+         0.0,
+         50.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -667.0,
+        "total": 200.0,
+        "delta": -617.0,
         "downtime": 0.0,
-        "proficiency": 0.18359853121175032
+        "proficiency": 0.2447980416156671
        },
        {
         "name": "Baking Rot",
@@ -98461,15 +98461,15 @@
          270.0,
          212.0,
          75.0,
-         null,
-         null,
-         null
+         228.0,
+         150.0,
+         78.0
         ],
         "rework": 0.0,
-        "total": 992.0,
-        "delta": -2684.5,
+        "total": 1448.0,
+        "delta": -2228.5,
         "downtime": 0.0,
-        "proficiency": 0.2698218414252686
+        "proficiency": 0.3938528491772066
        },
        {
         "name": "Baking Conv",
@@ -98484,9 +98484,9 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -98508,14 +98508,14 @@
          64.0,
          30.0,
          50.0,
-         null,
-         null
+         48.0,
+         30.0
         ],
         "rework": 0.0,
-        "total": 301.0,
-        "delta": 55.900000000000006,
+        "total": 379.0,
+        "delta": 133.9,
         "downtime": 0.0,
-        "proficiency": 1.2280701754385965
+        "proficiency": 1.5463076295389635
        },
        {
         "name": "Prepping",

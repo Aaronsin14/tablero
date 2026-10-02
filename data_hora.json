@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-02T15:23:35",
+ "generated_at": "2026-10-02T15:29:54",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -98232,14 +98232,14 @@
          467.0,
          0.0,
          250.0,
-         null,
-         null
+         500.0,
+         277.0
         ],
-        "rework": 21.0,
-        "total": 2512.0,
-        "delta": -1573.0,
+        "rework": 27.0,
+        "total": 3289.0,
+        "delta": -796.0,
         "downtime": 0.0,
-        "proficiency": 0.6149326805385557
+        "proficiency": 0.805140758873929
        },
        {
         "name": "Welder",
@@ -98255,14 +98255,14 @@
          187.0,
          143.0,
          260.0,
-         null,
-         null
+         285.0,
+         77.0
         ],
-        "rework": 278.0,
-        "total": 1739.0,
-        "delta": -1120.5,
+        "rework": 307.0,
+        "total": 2101.0,
+        "delta": -758.5,
         "downtime": 0.0,
-        "proficiency": 0.6081482776709215
+        "proficiency": 0.7347438363350237
        },
        {
         "name": "Carga de bandas",
@@ -98277,15 +98277,15 @@
          50.0,
          50.0,
          0.0,
-         null,
+         75.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 215.0,
-        "delta": -397.75,
+        "total": 290.0,
+        "delta": -322.75,
         "downtime": 0.0,
-        "proficiency": 0.3508771929824562
+        "proficiency": 0.47327621379028967
        },
        {
         "name": "Staker",
@@ -98300,15 +98300,15 @@
          45.0,
          50.0,
          40.0,
-         null,
+         120.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 238.0,
-        "delta": -579.0,
+        "total": 358.0,
+        "delta": -459.0,
         "downtime": 0.0,
-        "proficiency": 0.2913096695226438
+        "proficiency": 0.43818849449204406
        },
        {
         "name": "Swager",
@@ -98323,15 +98323,15 @@
          45.0,
          50.0,
          40.0,
-         null,
+         120.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 238.0,
-        "delta": -579.0,
+        "total": 358.0,
+        "delta": -459.0,
         "downtime": 0.0,
-        "proficiency": 0.2913096695226438
+        "proficiency": 0.43818849449204406
        },
        {
         "name": "Embedder",

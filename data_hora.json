@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-03T03:56:35",
+ "generated_at": "2026-10-03T04:02:56",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99173,20 +99173,20 @@
         "meta_hora": 50.0,
         "meta_dia": 349.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         50.0,
+         62.0,
+         60.0,
+         88.0,
+         70.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -349.0,
+        "total": 330.0,
+        "delta": -19.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.8571428571428571
        },
        {
         "name": "Drawdown",
@@ -99299,11 +99299,11 @@
         "meta_hora": 30.0,
         "meta_dia": 209.4,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -99321,19 +99321,19 @@
         "meta_dia": 872.5,
         "hours": [
          0.0,
-         100.0,
-         null,
-         null,
-         null,
+         150.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -947.0,
+        "total": 150.0,
+        "delta": -897.0,
         "downtime": 0.0,
-        "proficiency": 0.08658008658008658
+        "proficiency": 0.12987012987012986
        },
        {
         "name": "Rofing",
@@ -99341,11 +99341,11 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -99362,20 +99362,20 @@
         "meta_hora": 480.0,
         "meta_dia": 3350.4,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         210.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -3350.4,
+        "rework": 238.0,
+        "total": 210.0,
+        "delta": -3140.4,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.056818181818181816
        },
        {
         "name": "Moldeadora Atlas",
@@ -99383,20 +99383,20 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         200.0,
+         220.0,
+         230.0,
+         250.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 900.0,
+        "delta": -1194.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.38961038961038963
        },
        {
         "name": "Pouch",
@@ -99404,20 +99404,20 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         300.0,
+         240.0,
+         210.0,
+         0.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 750.0,
+        "delta": -1344.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3246753246753247
        },
        {
         "name": "Boxing",

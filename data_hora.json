@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-03T03:50:13",
+ "generated_at": "2026-10-03T03:56:35",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99195,19 +99195,19 @@
         "meta_dia": 2722.2000000000003,
         "hours": [
          130.0,
-         null,
-         null,
-         null,
-         null,
+         230.0,
+         230.0,
+         190.0,
+         130.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 130.0,
-        "delta": -2592.2000000000003,
+        "total": 910.0,
+        "delta": -1812.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.043290043290043295
+        "proficiency": 0.303030303030303
        },
        {
         "name": "Sidehole Soft Vu",
@@ -99215,20 +99215,20 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         84.0,
+         150.0,
+         150.0,
+         100.0,
+         200.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -698.0,
+        "total": 684.0,
+        "delta": -14.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.8883116883116883
        },
        {
         "name": "Sidehole Accu Vu",
@@ -99236,11 +99236,11 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -99257,20 +99257,20 @@
         "meta_hora": 450.0,
         "meta_dia": 3141.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         150.0,
+         144.0,
+         60.0,
+         150.0,
+         150.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3141.0,
+        "total": 654.0,
+        "delta": -2487.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18874458874458874
        },
        {
         "name": "Baking Conv",
@@ -99278,11 +99278,11 @@
         "meta_hora": 60.0,
         "meta_dia": 418.8,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null
@@ -99320,8 +99320,8 @@
         "meta_hora": 150.0,
         "meta_dia": 872.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         100.0,
          null,
          null,
          null,
@@ -99330,10 +99330,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1047.0,
+        "total": 100.0,
+        "delta": -947.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08658008658008658
        },
        {
         "name": "Rofing",

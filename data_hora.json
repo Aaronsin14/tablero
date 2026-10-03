@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-03T05:45:15",
+ "generated_at": "2026-10-03T05:51:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99075,13 +99075,13 @@
          305.0,
          315.0,
          212.0,
-         115.0
+         165.0
         ],
-        "rework": 291.0,
-        "total": 2068.0,
-        "delta": -95.80000000000018,
+        "rework": 302.0,
+        "total": 2118.0,
+        "delta": -45.80000000000018,
         "downtime": 0.0,
-        "proficiency": 0.8663594470046082
+        "proficiency": 0.8873062421449518
        },
        {
         "name": "Carga de bandas",
@@ -99191,8 +99191,8 @@
        {
         "name": "Drawdown",
         "maquinas": 3,
-        "meta_hora": 390.0,
-        "meta_dia": 2722.2000000000003,
+        "meta_hora": 260.0,
+        "meta_dia": 1814.8000000000002,
         "hours": [
          130.0,
          230.0,
@@ -99201,13 +99201,13 @@
          130.0,
          260.0,
          260.0,
-         null
+         270.0
         ],
         "rework": 0.0,
-        "total": 1430.0,
-        "delta": -1292.2000000000003,
+        "total": 1700.0,
+        "delta": -114.80000000000018,
         "downtime": 0.0,
-        "proficiency": 0.4761904761904762
+        "proficiency": 0.849150849150849
        },
        {
         "name": "Sidehole Soft Vu",
@@ -99222,13 +99222,13 @@
          200.0,
          120.0,
          200.0,
-         null
+         152.0
         ],
         "rework": 0.0,
-        "total": 1004.0,
-        "delta": 306.0,
+        "total": 1156.0,
+        "delta": 458.0,
         "downtime": 0.0,
-        "proficiency": 1.3038961038961039
+        "proficiency": 1.5012987012987011
        },
        {
         "name": "Sidehole Accu Vu",
@@ -99243,7 +99243,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -99259,18 +99259,18 @@
         "hours": [
          150.0,
          144.0,
-         60.0,
+         146.0,
          150.0,
          150.0,
          150.0,
          175.0,
-         null
+         0.0
         ],
         "rework": 0.0,
-        "total": 979.0,
-        "delta": -2162.0,
+        "total": 1065.0,
+        "delta": -2076.0,
         "downtime": 0.0,
-        "proficiency": 0.28253968253968254
+        "proficiency": 0.30735930735930733
        },
        {
         "name": "Baking Conv",
@@ -99285,7 +99285,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -99306,7 +99306,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -99322,18 +99322,18 @@
         "hours": [
          0.0,
          150.0,
+         150.0,
+         150.0,
+         150.0,
          0.0,
          0.0,
-         0.0,
-         0.0,
-         0.0,
-         null
+         300.0
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -897.0,
+        "total": 900.0,
+        "delta": -147.0,
         "downtime": 0.0,
-        "proficiency": 0.12987012987012986
+        "proficiency": 0.7792207792207793
        },
        {
         "name": "Rofing",
@@ -99348,7 +99348,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -99363,19 +99363,19 @@
         "meta_dia": 3350.4,
         "hours": [
          210.0,
+         238.0,
          0.0,
          0.0,
          0.0,
-         0.0,
-         0.0,
-         0.0,
+         200.0,
+         19.0,
          null
         ],
-        "rework": 238.0,
-        "total": 210.0,
-        "delta": -3140.4,
+        "rework": 0.0,
+        "total": 667.0,
+        "delta": -2683.4,
         "downtime": 0.0,
-        "proficiency": 0.056818181818181816
+        "proficiency": 0.18046536796536794
        },
        {
         "name": "Moldeadora Atlas",

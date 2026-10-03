@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-03T06:04:10",
+ "generated_at": "2026-10-03T06:10:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99075,13 +99075,13 @@
          305.0,
          315.0,
          212.0,
-         165.0
+         285.0
         ],
-        "rework": 302.0,
-        "total": 2118.0,
-        "delta": -45.80000000000018,
+        "rework": 317.0,
+        "total": 2238.0,
+        "delta": 74.19999999999982,
         "downtime": 0.0,
-        "proficiency": 0.8873062421449518
+        "proficiency": 0.9375785504817763
        },
        {
         "name": "Carga de bandas",
@@ -99369,7 +99369,7 @@
          0.0,
          200.0,
          19.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 667.0,
@@ -99390,7 +99390,7 @@
          250.0,
          60.0,
          100.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 1060.0,
@@ -99407,17 +99407,17 @@
          300.0,
          240.0,
          210.0,
+         257.0,
          0.0,
          0.0,
          0.0,
-         0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
-        "total": 750.0,
-        "delta": -1344.0,
+        "total": 1007.0,
+        "delta": -1087.0,
         "downtime": 0.0,
-        "proficiency": 0.3246753246753247
+        "proficiency": 0.4359307359307359
        },
        {
         "name": "Boxing",
@@ -99429,16 +99429,16 @@
          400.0,
          165.0,
          355.0,
-         null,
-         null,
-         null,
-         null
+         400.0,
+         400.0,
+         380.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 1320.0,
-        "delta": -1123.0,
+        "total": 2500.0,
+        "delta": 57.0,
         "downtime": 0.0,
-        "proficiency": 0.4897959183673469
+        "proficiency": 0.9276437847866419
        }
       ]
      }

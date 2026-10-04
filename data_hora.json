@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-03T17:54:34",
+ "generated_at": "2026-10-03T18:01:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -99956,7 +99956,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -99976,7 +99976,7 @@
         "hours": [
          144.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -99996,7 +99996,7 @@
         "hours": [
          144.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -100016,17 +100016,17 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         93.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -656.4,
+        "rework": 5.0,
+        "total": 93.0,
+        "delta": -563.4,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.14090909090909093
        },
        {
         "name": "Inspeccion",
@@ -100036,17 +100036,17 @@
         "hours": [
          0.0,
          0.0,
-         0.0,
+         93.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -273.5,
+        "rework": 5.0,
+        "total": 93.0,
+        "delta": -180.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.3381818181818182
        },
        {
         "name": "Drawdown",
@@ -100056,17 +100056,17 @@
         "hours": [
          170.0,
          150.0,
-         null,
+         157.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 320.0,
-        "delta": -1813.2999999999997,
+        "total": 477.0,
+        "delta": -1656.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.14918414918414918
+        "proficiency": 0.2223776223776224
        },
        {
         "name": "Sidehole Soft Vu",
@@ -100076,7 +100076,7 @@
         "hours": [
          50.0,
          32.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -100096,17 +100096,17 @@
         "hours": [
          100.0,
          100.0,
-         null,
+         69.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -347.0,
+        "total": 269.0,
+        "delta": -278.0,
         "downtime": 0.0,
-        "proficiency": 0.36363636363636365
+        "proficiency": 0.4890909090909091
        },
        {
         "name": "Baking Rot",
@@ -100116,17 +100116,17 @@
         "hours": [
          113.0,
          60.0,
-         null,
+         102.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 173.0,
-        "delta": -2288.5,
+        "total": 275.0,
+        "delta": -2186.5,
         "downtime": 0.0,
-        "proficiency": 0.06989898989898989
+        "proficiency": 0.1111111111111111
        },
        {
         "name": "Baking Conv",
@@ -100176,17 +100176,17 @@
         "hours": [
          350.0,
          350.0,
-         null,
+         350.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 700.0,
-        "delta": -120.5,
+        "total": 1050.0,
+        "delta": 229.5,
         "downtime": 0.0,
-        "proficiency": 0.8484848484848484
+        "proficiency": 1.2727272727272727
        },
        {
         "name": "Rofing",
@@ -100236,7 +100236,7 @@
         "hours": [
          150.0,
          130.0,
-         null,
+         0.0,
          null,
          null,
          null,

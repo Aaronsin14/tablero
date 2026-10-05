@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-05T15:35:09",
+ "generated_at": "2026-10-05T15:41:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -102003,14 +102003,14 @@
          50.0,
          50.0,
          20.0,
-         null,
-         null
+         40.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 350.0,
-        "delta": -262.75,
+        "total": 390.0,
+        "delta": -222.75,
         "downtime": 0.0,
-        "proficiency": 0.5711954304365565
+        "proficiency": 0.6364749082007344
        },
        {
         "name": "Staker",
@@ -102026,14 +102026,14 @@
          40.0,
          20.0,
          36.0,
-         null,
-         null
+         30.0,
+         20.0
         ],
-        "rework": 8.0,
-        "total": 231.0,
-        "delta": -586.0,
+        "rework": 11.0,
+        "total": 281.0,
+        "delta": -536.0,
         "downtime": 0.0,
-        "proficiency": 0.2827417380660955
+        "proficiency": 0.34394124847001223
        },
        {
         "name": "Swager",
@@ -102049,14 +102049,14 @@
          40.0,
          20.0,
          36.0,
-         null,
-         null
+         30.0,
+         20.0
         ],
         "rework": 0.0,
-        "total": 231.0,
-        "delta": -586.0,
+        "total": 281.0,
+        "delta": -536.0,
         "downtime": 0.0,
-        "proficiency": 0.2827417380660955
+        "proficiency": 0.34394124847001223
        },
        {
         "name": "Embedder",
@@ -102072,14 +102072,14 @@
          48.0,
          20.0,
          29.0,
-         null,
-         null
+         25.0,
+         11.0
         ],
-        "rework": 19.0,
-        "total": 241.0,
-        "delta": -330.9,
+        "rework": 22.0,
+        "total": 277.0,
+        "delta": -294.9,
         "downtime": 0.0,
-        "proficiency": 0.4214023430669698
+        "proficiency": 0.4843504109109984
        },
        {
         "name": "Inspeccion",
@@ -102095,14 +102095,14 @@
          48.0,
          20.0,
          29.0,
-         0.0,
-         0.0
+         25.0,
+         11.0
         ],
-        "rework": 19.0,
-        "total": 241.0,
-        "delta": -330.9,
+        "rework": 22.0,
+        "total": 277.0,
+        "delta": -294.9,
         "downtime": 0.0,
-        "proficiency": 0.4214023430669698
+        "proficiency": 0.4843504109109984
        },
        {
         "name": "Drawdown",
@@ -102118,14 +102118,14 @@
          102.0,
          112.0,
          160.0,
-         null,
-         null
+         190.0,
+         155.0
         ],
         "rework": 0.0,
-        "total": 1012.0,
-        "delta": -2174.3,
+        "total": 1357.0,
+        "delta": -1829.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.3176097668141732
+        "proficiency": 0.42588582368264133
        },
        {
         "name": "Sidehole Soft Vu",
@@ -102141,14 +102141,14 @@
          100.0,
          59.0,
          52.0,
-         null,
-         null
+         100.0,
+         51.0
         ],
         "rework": 0.0,
-        "total": 686.0,
-        "delta": -131.0,
+        "total": 837.0,
+        "delta": 20.0,
         "downtime": 0.0,
-        "proficiency": 0.8396572827417381
+        "proficiency": 1.0244798041615666
        },
        {
         "name": "Sidehole Accu Vu",
@@ -102164,8 +102164,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -102187,14 +102187,14 @@
          180.0,
          137.0,
          425.0,
-         null,
-         null
+         285.0,
+         103.0
         ],
         "rework": 0.0,
-        "total": 1667.0,
-        "delta": -2009.5,
+        "total": 2055.0,
+        "delta": -1621.5,
         "downtime": 0.0,
-        "proficiency": 0.4534203726370189
+        "proficiency": 0.5589555283557731
        },
        {
         "name": "Baking Conv",
@@ -102210,8 +102210,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-05T10:50:42",
+ "generated_at": "2026-10-05T10:57:02",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -101952,7 +101952,7 @@
          250.0,
          250.0,
          370.0,
-         null,
+         431.0,
          null,
          null,
          null,
@@ -101960,11 +101960,11 @@
          null,
          null
         ],
-        "rework": 4.0,
-        "total": 870.0,
-        "delta": -3215.0,
+        "rework": 6.0,
+        "total": 1301.0,
+        "delta": -2784.0,
         "downtime": 0.0,
-        "proficiency": 0.21297429620563035
+        "proficiency": 0.3184822521419829
        },
        {
         "name": "Welder",
@@ -102032,8 +102032,8 @@
         "rework": 4.0,
         "total": 95.0,
         "delta": -722.0,
-        "downtime": 0.28125,
-        "proficiency": 0.1163124366307654
+        "downtime": 0.0,
+        "proficiency": 0.11627906976744186
        },
        {
         "name": "Swager",
@@ -102205,7 +102205,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -102249,9 +102249,9 @@
         "meta_dia": 1021.25,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         300.0,
+         150.0,
+         200.0,
          null,
          null,
          null,
@@ -102260,10 +102260,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1225.5,
+        "total": 650.0,
+        "delta": -575.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.5303957568339454
        },
        {
         "name": "Rofing",
@@ -102272,9 +102272,9 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         null,
-         null,
-         null,
+         550.0,
+         550.0,
+         200.0,
          null,
          null,
          null,
@@ -102283,10 +102283,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 1300.0,
+        "delta": -1151.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.5303957568339454
        },
        {
         "name": "Moldeadora Milacron",
@@ -102295,9 +102295,9 @@
         "meta_dia": 0,
         "hours": [
          80.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -102321,7 +102321,7 @@
          0.0,
          0.0,
          0.0,
-         0.0,
+         null,
          null,
          null,
          null,
@@ -102344,7 +102344,7 @@
          560.0,
          268.0,
          0.0,
-         0.0,
+         null,
          null,
          null,
          null,

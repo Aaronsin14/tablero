@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-06T15:49:09",
+ "generated_at": "2026-10-06T15:55:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -103492,18 +103492,18 @@
          150.0,
          100.0,
          372.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         300.0,
+         300.0,
+         156.0,
+         300.0,
+         450.0,
+         262.0
         ],
         "rework": 0.0,
-        "total": 922.0,
-        "delta": -303.5,
+        "total": 2690.0,
+        "delta": 1464.5,
         "downtime": 0.0,
-        "proficiency": 0.7523459812321501
+        "proficiency": 2.1950224398204816
        },
        {
         "name": "Rofing",
@@ -103515,18 +103515,18 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         550.0,
+         550.0,
+         550.0,
+         450.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 2100.0,
+        "delta": -351.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.8567931456548348
        },
        {
         "name": "Moldeadora Milacron",
@@ -103538,16 +103538,16 @@
          230.0,
          100.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         200.0,
+         60.0,
+         245.0,
+         250.0,
+         186.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 590.0,
-        "delta": 590.0,
+        "total": 1531.0,
+        "delta": 1531.0,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -103560,19 +103560,19 @@
          200.0,
          200.0,
          0.0,
-         0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         200.0,
+         200.0,
+         200.0,
+         200.0,
+         200.0,
+         125.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -2051.0,
+        "total": 1625.0,
+        "delta": -826.0,
         "downtime": 0.0,
-        "proficiency": 0.1631986944104447
+        "proficiency": 0.6629946960424317
        },
        {
         "name": "Pouch",
@@ -103584,18 +103584,18 @@
          300.0,
          185.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         300.0,
+         0.0,
+         148.0,
+         270.0,
+         197.0
         ],
         "rework": 0.0,
-        "total": 485.0,
-        "delta": -1966.0,
+        "total": 1400.0,
+        "delta": -1051.0,
         "downtime": 0.0,
-        "proficiency": 0.19787841697266423
+        "proficiency": 0.5711954304365565
        },
        {
         "name": "Boxing",
@@ -103996,10 +103996,10 @@
        {
         "name": "Boxing",
         "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 1914.5,
+        "meta_hora": 400.0,
+        "meta_dia": 2188.0,
         "hours": [
-         null,
+         366.0,
          null,
          null,
          null,
@@ -104008,10 +104008,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
+        "total": 366.0,
+        "delta": -1822.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.16636363636363638
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-06T03:24:43",
+ "generated_at": "2026-10-06T03:31:26",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -102797,16 +102797,16 @@
          285.0,
          250.0,
          245.0,
-         null,
+         320.0,
          null,
          null,
          null
         ],
-        "rework": 140.0,
-        "total": 1075.0,
-        "delta": -1088.8000000000002,
+        "rework": 180.0,
+        "total": 1395.0,
+        "delta": -768.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.4503560955173858
+        "proficiency": 0.5844155844155844
        },
        {
         "name": "Carga de bandas",
@@ -102942,18 +102942,18 @@
         "hours": [
          100.0,
          100.0,
-         null,
-         null,
+         150.0,
+         80.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -498.0,
+        "total": 430.0,
+        "delta": -268.0,
         "downtime": 0.0,
-        "proficiency": 0.2597402597402597
+        "proficiency": 0.5584415584415584
        },
        {
         "name": "Sidehole Accu Vu",
@@ -103087,20 +103087,20 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
+         200.0,
          0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0,
-         0.0
+         250.0,
+         200.0,
+         null,
+         null,
+         null,
+         null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2094.0,
+        "total": 650.0,
+        "delta": -1444.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.2813852813852814
        },
        {
         "name": "Moldeadora Atlas",

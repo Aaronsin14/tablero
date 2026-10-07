@@ -1,7 +1,7 @@
 {
  "plant": "Celda C1",
  "source_file": "Hr_Hr_C1 - (1).xlsx",
- "generated_at": "2026-10-07T14:36:34",
+ "generated_at": "2026-10-07T14:43:01",
  "weeks": {
   "WW1": {
    "label": "WW1",
@@ -139063,11 +139063,11 @@
          0.0,
          0.0,
          100.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         100.0,
+         50.0,
+         100.0,
+         50.0,
+         0.0
         ],
         "scrap": [
          1.0,
@@ -139075,14 +139075,14 @@
          0.0,
          0.0,
          1.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         1.0,
+         0.0
         ],
-        "total_real": 250.0,
-        "total_scrap": 2.0
+        "total_real": 550.0,
+        "total_scrap": 3.0
        },
        "B": {
         "hour_labels": [
@@ -139173,11 +139173,11 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "scrap": [
          0.0,
@@ -139185,11 +139185,11 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "total_real": 0.0,
         "total_scrap": 0.0
@@ -139393,11 +139393,11 @@
          100.0,
          200.0,
          200.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         100.0,
+         200.0,
+         200.0,
+         200.0
         ],
         "scrap": [
          0.0,
@@ -139405,13 +139405,13 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
-        "total_real": 800.0,
+        "total_real": 1500.0,
         "total_scrap": 0.0
        },
        "B": {

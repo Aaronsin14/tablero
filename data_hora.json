@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-07T16:11:34",
+ "generated_at": "2026-10-07T16:17:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104736,14 +104736,14 @@
          430.0,
          320.0,
          400.0,
-         null,
-         null
+         350.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 2870.0,
-        "delta": 1644.5,
+        "total": 3470.0,
+        "delta": 2244.5,
         "downtime": 0.0,
-        "proficiency": 2.3419012647898816
+        "proficiency": 2.831497348021216
        },
        {
         "name": "Rofing",
@@ -104759,8 +104759,8 @@
          550.0,
          375.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 3732.0,
@@ -104782,14 +104782,14 @@
          220.0,
          300.0,
          30.0,
-         null,
-         null
+         150.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 1087.0,
-        "delta": -1364.0,
+        "total": 1337.0,
+        "delta": -1114.0,
         "downtime": 0.0,
-        "proficiency": 0.44349245206038357
+        "proficiency": 0.5454916360669114
        },
        {
         "name": "Moldeadora Atlas",
@@ -104805,14 +104805,14 @@
          220.0,
          214.0,
          214.0,
-         null,
-         null
+         100.0,
+         50.0
         ],
         "rework": 0.0,
-        "total": 1648.0,
-        "delta": -803.0,
+        "total": 1798.0,
+        "delta": -653.0,
         "downtime": 0.0,
-        "proficiency": 0.6723786209710322
+        "proficiency": 0.733578131374949
        },
        {
         "name": "Pouch",
@@ -104827,15 +104827,15 @@
          200.0,
          400.0,
          390.0,
-         292.0,
-         null,
+         270.0,
+         350.0,
          null
         ],
         "rework": 0.0,
-        "total": 1401.0,
-        "delta": -1050.0,
+        "total": 1729.0,
+        "delta": -722.0,
         "downtime": 0.0,
-        "proficiency": 0.5716034271725826
+        "proficiency": 0.7054263565891473
        },
        {
         "name": "Boxing",
@@ -104879,7 +104879,7 @@
         "meta_hora": 500.0,
         "meta_dia": 2735.0,
         "hours": [
-         null,
+         325.0,
          null,
          null,
          null,
@@ -104887,11 +104887,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2735.0,
+        "rework": 6.0,
+        "total": 325.0,
+        "delta": -2410.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.1181818181818182
        },
        {
         "name": "Welder",
@@ -104899,7 +104899,7 @@
         "meta_hora": 400.0,
         "meta_dia": 2188.0,
         "hours": [
-         null,
+         66.0,
          null,
          null,
          null,
@@ -104907,11 +104907,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2188.0,
+        "rework": 11.0,
+        "total": 66.0,
+        "delta": -2122.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.03
        },
        {
         "name": "Carga de bandas",
@@ -105000,12 +105000,12 @@
         "meta_dia": 273.5,
         "hours": [
          8.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 8.0,

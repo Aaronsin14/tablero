@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-07T04:51:46",
+ "generated_at": "2026-10-07T04:58:07",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104059,7 +104059,7 @@
          75.0,
          75.0,
          75.0,
-         null,
+         0.0,
          null,
          null
         ],
@@ -104080,15 +104080,15 @@
          20.0,
          35.0,
          35.0,
-         null,
+         35.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 174.0,
-        "delta": -524.0,
+        "total": 209.0,
+        "delta": -489.0,
         "downtime": 0.0,
-        "proficiency": 0.22597402597402597
+        "proficiency": 0.2714285714285714
        },
        {
         "name": "Swager",
@@ -104101,15 +104101,15 @@
          20.0,
          35.0,
          35.0,
-         null,
+         35.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 174.0,
-        "delta": -419.30000000000007,
+        "total": 209.0,
+        "delta": -384.30000000000007,
         "downtime": 0.0,
-        "proficiency": 0.26585179526355995
+        "proficiency": 0.31932773109243695
        },
        {
         "name": "Embedder",
@@ -104122,15 +104122,15 @@
          9.0,
          38.0,
          44.0,
-         null,
+         43.0,
          null,
          null
         ],
         "rework": 3.0,
-        "total": 159.0,
-        "delta": -190.0,
+        "total": 202.0,
+        "delta": -147.0,
         "downtime": 0.0,
-        "proficiency": 0.41298701298701296
+        "proficiency": 0.5246753246753246
        },
        {
         "name": "Inspeccion",
@@ -104143,15 +104143,15 @@
          9.0,
          38.0,
          44.0,
-         null,
+         43.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 159.0,
-        "delta": -190.0,
+        "total": 202.0,
+        "delta": -147.0,
         "downtime": 0.0,
-        "proficiency": 0.41298701298701296
+        "proficiency": 0.5246753246753246
        },
        {
         "name": "Drawdown",

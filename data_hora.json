@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-07T10:17:13",
+ "generated_at": "2026-10-07T10:23:34",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104478,7 +104478,7 @@
          0.0,
          68.0,
          30.0,
-         null,
+         75.0,
          null,
          null,
          null,
@@ -104487,10 +104487,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 98.0,
-        "delta": -514.75,
+        "total": 173.0,
+        "delta": -439.75,
         "downtime": 0.0,
-        "proficiency": 0.15993472052223584
+        "proficiency": 0.2823337413300694
        },
        {
         "name": "Staker",
@@ -104501,7 +104501,7 @@
          0.0,
          21.0,
          0.0,
-         null,
+         30.0,
          null,
          null,
          null,
@@ -104510,10 +104510,10 @@
          null
         ],
         "rework": 5.0,
-        "total": 21.0,
-        "delta": -796.0,
+        "total": 51.0,
+        "delta": -766.0,
         "downtime": 0.0,
-        "proficiency": 0.025703794369645042
+        "proficiency": 0.06242350061199511
        },
        {
         "name": "Swager",
@@ -104524,7 +104524,7 @@
          0.0,
          21.0,
          0.0,
-         null,
+         30.0,
          null,
          null,
          null,
@@ -104533,10 +104533,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 21.0,
-        "delta": -387.5,
+        "total": 51.0,
+        "delta": -357.5,
         "downtime": 0.0,
-        "proficiency": 0.051407588739290085
+        "proficiency": 0.12484700122399021
        },
        {
         "name": "Embedder",
@@ -104546,8 +104546,8 @@
         "hours": [
          10.0,
          29.0,
-         0.0,
-         null,
+         14.0,
+         20.0,
          null,
          null,
          null,
@@ -104556,10 +104556,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 39.0,
-        "delta": -532.9,
+        "total": 73.0,
+        "delta": -498.9,
         "downtime": 0.0,
-        "proficiency": 0.0681937401643644
+        "proficiency": 0.12764469312816926
        },
        {
         "name": "Inspeccion",
@@ -104569,8 +104569,8 @@
         "hours": [
          10.0,
          29.0,
-         0.0,
-         0.0,
+         14.0,
+         20.0,
          0.0,
          0.0,
          0.0,
@@ -104579,10 +104579,10 @@
          0.0
         ],
         "rework": 0.0,
-        "total": 39.0,
-        "delta": -532.9,
+        "total": 73.0,
+        "delta": -498.9,
         "downtime": 0.0,
-        "proficiency": 0.0681937401643644
+        "proficiency": 0.12764469312816926
        },
        {
         "name": "Drawdown",

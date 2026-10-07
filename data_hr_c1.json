@@ -1,7 +1,7 @@
 {
  "plant": "Celda C1",
  "source_file": "Hr_Hr_C1 - (1).xlsx",
- "generated_at": "2026-10-07T11:01:47",
+ "generated_at": "2026-10-07T11:08:06",
  "weeks": {
   "WW1": {
    "label": "WW1",
@@ -139062,7 +139062,7 @@
          100.0,
          0.0,
          0.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -139074,15 +139074,15 @@
          0.0,
          0.0,
          0.0,
-         null,
+         1.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "total_real": 150.0,
-        "total_scrap": 1.0
+        "total_real": 250.0,
+        "total_scrap": 2.0
        },
        "B": {
         "hour_labels": [
@@ -139170,9 +139170,9 @@
         "real": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -139182,9 +139182,9 @@
         "scrap": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
@@ -139280,9 +139280,9 @@
         "real": [
          30.0,
          40.0,
-         null,
-         null,
-         null,
+         30.0,
+         40.0,
+         40.0,
          null,
          null,
          null,
@@ -139292,17 +139292,17 @@
         "scrap": [
          0.0,
          1.0,
-         null,
-         null,
-         null,
+         0.0,
+         2.0,
+         6.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "total_real": 70.0,
-        "total_scrap": 1.0
+        "total_real": 180.0,
+        "total_scrap": 9.0
        },
        "B": {
         "hour_labels": [
@@ -139390,9 +139390,9 @@
         "real": [
          100.0,
          200.0,
-         null,
-         null,
-         null,
+         100.0,
+         200.0,
+         200.0,
          null,
          null,
          null,
@@ -139402,16 +139402,16 @@
         "scrap": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "total_real": 300.0,
+        "total_real": 800.0,
         "total_scrap": 0.0
        },
        "B": {
@@ -139499,10 +139499,10 @@
         ],
         "real": [
          0.0,
-         0.0,
-         null,
-         null,
-         null,
+         33.0,
+         12.0,
+         40.0,
+         56.0,
          null,
          null,
          null,
@@ -139512,16 +139512,16 @@
         "scrap": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "total_real": 0.0,
+        "total_real": 141.0,
         "total_scrap": 0.0
        },
        "B": {
@@ -139610,9 +139610,9 @@
         "real": [
          0.0,
          54.0,
-         null,
-         null,
-         null,
+         54.0,
+         36.0,
+         0.0,
          null,
          null,
          null,
@@ -139622,16 +139622,16 @@
         "scrap": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "total_real": 54.0,
+        "total_real": 144.0,
         "total_scrap": 0.0
        },
        "B": {

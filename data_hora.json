@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-07T08:22:58",
+ "generated_at": "2026-10-07T08:29:14",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104590,8 +104590,8 @@
         "meta_hora": 390.0,
         "meta_dia": 3186.2999999999997,
         "hours": [
-         0.0,
-         150.0,
+         100.0,
+         280.0,
          null,
          null,
          null,
@@ -104602,10 +104602,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -3036.3,
+        "total": 380.0,
+        "delta": -2806.3,
         "downtime": 0.0,
-        "proficiency": 0.047076546464551366
+        "proficiency": 0.11926058437686345
        },
        {
         "name": "Sidehole Soft Vu",
@@ -104614,7 +104614,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -104625,10 +104625,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 100.0,
+        "delta": -717.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783355
        },
        {
         "name": "Sidehole Accu Vu",
@@ -104637,7 +104637,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -104660,7 +104660,7 @@
         "meta_dia": 3676.5,
         "hours": [
          0.0,
-         null,
+         280.0,
          null,
          null,
          null,
@@ -104671,10 +104671,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3676.5,
+        "total": 280.0,
+        "delta": -3396.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0761593907248742
        },
        {
         "name": "Baking Conv",
@@ -104683,7 +104683,7 @@
         "meta_dia": 490.2,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-08T04:10:03",
+ "generated_at": "2026-10-08T04:16:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -105354,23 +105354,23 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 100.0,
-        "meta_dia": 697.9999999999999,
+        "meta_hora": 50.0,
+        "meta_dia": 349.0,
         "hours": [
          41.0,
          40.0,
-         null,
-         null,
+         26.0,
+         30.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 81.0,
-        "delta": -617.0,
+        "rework": 6.0,
+        "total": 137.0,
+        "delta": -212.0,
         "downtime": 0.0,
-        "proficiency": 0.10519480519480519
+        "proficiency": 0.3558441558441558
        },
        {
         "name": "Inspeccion",
@@ -105380,18 +105380,18 @@
         "hours": [
          41.0,
          40.0,
-         null,
-         null,
-         null,
-         null,
+         26.0,
+         30.0,
+         42.0,
+         0.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 81.0,
-        "delta": -268.0,
+        "total": 179.0,
+        "delta": -170.0,
         "downtime": 0.0,
-        "proficiency": 0.21038961038961038
+        "proficiency": 0.4649350649350649
        },
        {
         "name": "Drawdown",
@@ -105401,18 +105401,18 @@
         "hours": [
          390.0,
          390.0,
-         null,
-         null,
-         null,
-         null,
+         390.0,
+         310.0,
+         390.0,
+         270.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 780.0,
-        "delta": -1942.2000000000003,
+        "total": 2140.0,
+        "delta": -582.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.25974025974025977
+        "proficiency": 0.7126207126207126
        },
        {
         "name": "Sidehole Soft Vu",
@@ -105422,10 +105422,10 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -105443,10 +105443,10 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -105459,23 +105459,23 @@
        {
         "name": "Baking Rot",
         "maquinas": 3,
-        "meta_hora": 450.0,
-        "meta_dia": 3141.0,
+        "meta_hora": 300.0,
+        "meta_dia": 2094.0,
         "hours": [
          0.0,
          256.0,
-         null,
-         null,
-         null,
-         null,
+         171.0,
+         342.0,
+         336.0,
+         330.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 256.0,
-        "delta": -2885.0,
+        "total": 1435.0,
+        "delta": -659.0,
         "downtime": 0.0,
-        "proficiency": 0.07388167388167388
+        "proficiency": 0.6212121212121211
        },
        {
         "name": "Baking Conv",
@@ -105485,10 +105485,10 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -105506,10 +105506,10 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
@@ -105527,18 +105527,18 @@
         "hours": [
          150.0,
          150.0,
-         null,
-         null,
-         null,
-         null,
+         200.0,
+         200.0,
+         200.0,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -747.0,
+        "total": 1100.0,
+        "delta": 53.0,
         "downtime": 0.0,
-        "proficiency": 0.2597402597402597
+        "proficiency": 0.9523809523809524
        },
        {
         "name": "Rofing",
@@ -105548,18 +105548,18 @@
         "hours": [
          300.0,
          300.0,
-         null,
-         null,
-         null,
-         null,
+         400.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -1494.0,
+        "total": 1000.0,
+        "delta": -1094.0,
         "downtime": 0.0,
-        "proficiency": 0.2597402597402597
+        "proficiency": 0.43290043290043284
        },
        {
         "name": "Moldeadora Milacron",
@@ -105569,18 +105569,18 @@
         "hours": [
          125.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         200.0,
+         200.0,
+         150.0,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 125.0,
-        "delta": -1969.0,
+        "total": 875.0,
+        "delta": -1219.0,
         "downtime": 0.0,
-        "proficiency": 0.054112554112554105
+        "proficiency": 0.3787878787878788
        },
        {
         "name": "Moldeadora Atlas",
@@ -105590,18 +105590,18 @@
         "hours": [
          200.0,
          200.0,
-         null,
-         null,
-         null,
-         null,
+         150.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -1694.0,
+        "total": 550.0,
+        "delta": -1544.0,
         "downtime": 0.0,
-        "proficiency": 0.17316017316017315
+        "proficiency": 0.2380952380952381
        },
        {
         "name": "Pouch",
@@ -105611,10 +105611,10 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null
         ],

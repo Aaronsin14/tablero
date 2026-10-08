@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-08T00:00:55",
+ "generated_at": "2026-10-08T00:07:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -105354,8 +105354,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 120.0,
-        "meta_dia": 837.6,
+        "meta_hora": 100.0,
+        "meta_dia": 697.9999999999999,
         "hours": [
          null,
          null,
@@ -105368,7 +105368,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -837.6,
+        "delta": -698.0,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -105564,8 +105564,8 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 480.0,
-        "meta_dia": 3350.4,
+        "meta_hora": 300.0,
+        "meta_dia": 2094.0,
         "hours": [
          null,
          null,
@@ -105578,7 +105578,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -3350.4,
+        "delta": -2094.0,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -105630,9 +105630,9 @@
         "meta_hora": 350.0,
         "meta_dia": 2443.0,
         "hours": [
-         null,
-         null,
-         null,
+         400.0,
+         400.0,
+         400.0,
          null,
          null,
          null,
@@ -105640,10 +105640,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2443.0,
+        "total": 1200.0,
+        "delta": -1243.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.4452690166975881
        }
       ]
      }

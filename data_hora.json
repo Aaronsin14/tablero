@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-07T20:25:21",
+ "generated_at": "2026-10-07T20:31:39",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -104943,15 +104943,15 @@
          30.0,
          30.0,
          19.0,
-         null,
+         28.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 92.0,
-        "delta": -455.0,
+        "total": 120.0,
+        "delta": -427.0,
         "downtime": 0.0,
-        "proficiency": 0.16727272727272727
+        "proficiency": 0.21818181818181817
        },
        {
         "name": "Swager",
@@ -104963,15 +104963,15 @@
          30.0,
          30.0,
          19.0,
-         null,
+         28.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 92.0,
-        "delta": -455.0,
+        "total": 120.0,
+        "delta": -427.0,
         "downtime": 0.0,
-        "proficiency": 0.16727272727272727
+        "proficiency": 0.21818181818181817
        },
        {
         "name": "Embedder",
@@ -104983,15 +104983,15 @@
          40.0,
          40.0,
          20.0,
-         null,
+         43.0,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 110.0,
-        "delta": -546.4,
+        "rework": 4.0,
+        "total": 153.0,
+        "delta": -503.4,
         "downtime": 0.0,
-        "proficiency": 0.16666666666666666
+        "proficiency": 0.2318181818181818
        },
        {
         "name": "Inspeccion",
@@ -105003,15 +105003,15 @@
          40.0,
          40.0,
          20.0,
-         0.0,
+         43.0,
          0.0,
          0.0
         ],
-        "rework": 0.0,
-        "total": 110.0,
-        "delta": -163.5,
+        "rework": 4.0,
+        "total": 153.0,
+        "delta": -120.5,
         "downtime": 0.0,
-        "proficiency": 0.4
+        "proficiency": 0.5563636363636363
        },
        {
         "name": "Drawdown",
@@ -105242,16 +105242,16 @@
          200.0,
          400.0,
          400.0,
-         null,
-         null,
+         400.0,
+         310.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1000.0,
-        "delta": -914.5,
+        "total": 1710.0,
+        "delta": -204.5,
         "downtime": 0.0,
-        "proficiency": 0.5194805194805194
+        "proficiency": 0.8883116883116884
        }
       ]
      },

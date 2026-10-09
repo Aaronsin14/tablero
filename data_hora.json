@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-08T21:23:15",
+ "generated_at": "2026-10-08T21:29:35",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -106185,7 +106185,7 @@
          39.0,
          34.0,
          18.0,
-         null
+         0.0
         ],
         "rework": 14.0,
         "total": 161.0,
@@ -106205,7 +106205,7 @@
          39.0,
          34.0,
          18.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 161.0,
@@ -106304,14 +106304,14 @@
          50.0,
          0.0,
          50.0,
-         null,
+         48.0,
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -447.0,
+        "total": 148.0,
+        "delta": -399.0,
         "downtime": 0.0,
-        "proficiency": 0.18181818181818182
+        "proficiency": 0.2690909090909091
        },
        {
         "name": "Baking Rot",
@@ -106324,14 +106324,14 @@
          160.0,
          150.0,
          225.0,
-         null,
+         225.0,
          null
         ],
         "rework": 0.0,
-        "total": 883.0,
-        "delta": -1578.5,
+        "total": 1108.0,
+        "delta": -1353.5,
         "downtime": 0.0,
-        "proficiency": 0.35676767676767673
+        "proficiency": 0.44767676767676773
        },
        {
         "name": "Baking Conv",
@@ -106344,8 +106344,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -106364,8 +106364,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -106384,14 +106384,14 @@
          300.0,
          300.0,
          420.0,
-         null,
-         null
+         597.0,
+         598.0
         ],
         "rework": 0.0,
-        "total": 1620.0,
-        "delta": 799.5,
+        "total": 2815.0,
+        "delta": 1994.5,
         "downtime": 0.0,
-        "proficiency": 1.9636363636363638
+        "proficiency": 3.412121212121212
        },
        {
         "name": "Rofing",
@@ -106404,8 +106404,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,
@@ -106424,14 +106424,14 @@
          174.0,
          140.0,
          150.0,
-         null,
+         105.0,
          null
         ],
         "rework": 0.0,
-        "total": 724.0,
-        "delta": -1901.6,
+        "total": 829.0,
+        "delta": -1796.6,
         "downtime": 0.0,
-        "proficiency": 0.27424242424242423
+        "proficiency": 0.3140151515151515
        },
        {
         "name": "Moldeadora Atlas",
@@ -106444,14 +106444,14 @@
          200.0,
          200.0,
          200.0,
-         null,
+         75.0,
          null
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": -741.0,
+        "total": 975.0,
+        "delta": -666.0,
         "downtime": 0.0,
-        "proficiency": 0.5454545454545454
+        "proficiency": 0.5909090909090909
        },
        {
         "name": "Pouch",
@@ -106464,14 +106464,14 @@
          300.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null
         ],
         "rework": 0.0,
-        "total": 1200.0,
-        "delta": -441.0,
+        "total": 1500.0,
+        "delta": -141.0,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 0.9090909090909092
        },
        {
         "name": "Boxing",

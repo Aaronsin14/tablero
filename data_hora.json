@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-09T08:11:00",
+ "generated_at": "2026-10-09T08:17:20",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -107182,32 +107182,10 @@
        {
         "name": "Inpeccion Pouch",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0
-       },
-       {
-        "name": "Prepping",
-        "maquinas": 1,
-        "meta_hora": 150.0,
-        "meta_dia": 1021.25,
-        "hours": [
+         183.0,
          200.0,
          null,
          null,
@@ -107216,14 +107194,36 @@
          null,
          null,
          null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 383.0,
+        "delta": -2068.0,
+        "downtime": 0.0,
+        "proficiency": 0.15626274989800082
+       },
+       {
+        "name": "Prepping",
+        "maquinas": 1,
+        "meta_hora": 150.0,
+        "meta_dia": 1021.25,
+        "hours": [
+         150.0,
+         310.0,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -1025.5,
+        "total": 460.0,
+        "delta": -765.5,
         "downtime": 0.0,
-        "proficiency": 0.1631986944104447
+        "proficiency": 0.3753569971440228
        },
        {
         "name": "Rofing",
@@ -107232,7 +107232,7 @@
         "meta_dia": 2451.0,
         "hours": [
          550.0,
-         null,
+         550.0,
          null,
          null,
          null,
@@ -107243,10 +107243,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 550.0,
-        "delta": -1901.0,
+        "total": 1100.0,
+        "delta": -1351.0,
         "downtime": 0.0,
-        "proficiency": 0.22439820481436148
+        "proficiency": 0.44879640962872297
        },
        {
         "name": "Moldeadora Milacron",
@@ -107254,6 +107254,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
+         270.0,
          0.0,
          null,
          null,
@@ -107262,14 +107263,13 @@
          null,
          null,
          null,
-         null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 270.0,
+        "delta": -2181.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.11015911872705018
        },
        {
         "name": "Moldeadora Atlas",
@@ -107278,7 +107278,30 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
+         150.0,
          null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+        ],
+        "rework": 0.0,
+        "total": 150.0,
+        "delta": -2301.0,
+        "downtime": 0.0,
+        "proficiency": 0.061199510403916774
+       },
+       {
+        "name": "Pouch",
+        "maquinas": 1,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
+        "hours": [
+         null,
+         0.0,
          null,
          null,
          null,
@@ -107293,29 +107316,6 @@
         "delta": -2451.0,
         "downtime": 0.0,
         "proficiency": 0.0
-       },
-       {
-        "name": "Pouch",
-        "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
-        "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
-        "downtime": 0.0,
-        "proficiency": 0
        },
        {
         "name": "Boxing",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-09T11:20:58",
+ "generated_at": "2026-10-09T11:27:14",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -107254,11 +107254,11 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         270.0,
+         276.0,
          0.0,
-         null,
-         null,
-         null,
+         170.0,
+         170.0,
+         210.0,
          null,
          null,
          null,
@@ -107266,10 +107266,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 270.0,
-        "delta": -2181.0,
+        "total": 826.0,
+        "delta": -1625.0,
         "downtime": 0.0,
-        "proficiency": 0.11015911872705018
+        "proficiency": 0.33700530395756834
        },
        {
         "name": "Moldeadora Atlas",
@@ -107278,10 +107278,10 @@
         "meta_dia": 2451.0,
         "hours": [
          0.0,
-         150.0,
-         null,
-         null,
-         null,
+         180.0,
+         200.0,
+         90.0,
+         200.0,
          null,
          null,
          null,
@@ -107289,10 +107289,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -2301.0,
+        "total": 670.0,
+        "delta": -1781.0,
         "downtime": 0.0,
-        "proficiency": 0.061199510403916774
+        "proficiency": 0.2733578131374949
        },
        {
         "name": "Pouch",

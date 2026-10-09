@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-08T19:42:17",
+ "generated_at": "2026-10-08T19:48:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -106162,16 +106162,16 @@
          0.0,
          0.0,
          75.0,
-         null,
+         80.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 75.0,
-        "delta": -335.25,
+        "total": 155.0,
+        "delta": -255.25,
         "downtime": 0.0,
-        "proficiency": 0.18181818181818182
+        "proficiency": 0.3757575757575758
        },
        {
         "name": "Staker",
@@ -106182,16 +106182,16 @@
          10.0,
          30.0,
          30.0,
-         null,
+         39.0,
          null,
          null,
          null
         ],
-        "rework": 10.0,
-        "total": 70.0,
-        "delta": -477.0,
+        "rework": 11.0,
+        "total": 109.0,
+        "delta": -438.0,
         "downtime": 0.0,
-        "proficiency": 0.12727272727272726
+        "proficiency": 0.19818181818181815
        },
        {
         "name": "Swager",
@@ -106202,16 +106202,16 @@
          10.0,
          30.0,
          30.0,
-         null,
+         39.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 70.0,
-        "delta": -477.0,
+        "total": 109.0,
+        "delta": -438.0,
         "downtime": 0.0,
-        "proficiency": 0.12727272727272726
+        "proficiency": 0.19818181818181815
        },
        {
         "name": "Embedder",
@@ -106222,16 +106222,16 @@
          18.0,
          30.0,
          17.0,
-         null,
+         38.0,
          null,
          null,
          null
         ],
-        "rework": 6.0,
-        "total": 65.0,
-        "delta": -591.4,
+        "rework": 8.0,
+        "total": 103.0,
+        "delta": -553.4,
         "downtime": 0.0,
-        "proficiency": 0.09848484848484848
+        "proficiency": 0.15606060606060607
        },
        {
         "name": "Inspeccion",
@@ -106242,16 +106242,16 @@
          18.0,
          30.0,
          17.0,
-         0.0,
+         38.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 6.0,
-        "total": 65.0,
-        "delta": -208.5,
+        "rework": 8.0,
+        "total": 103.0,
+        "delta": -170.5,
         "downtime": 0.0,
-        "proficiency": 0.23636363636363636
+        "proficiency": 0.3745454545454545
        },
        {
         "name": "Drawdown",
@@ -106262,16 +106262,16 @@
          140.0,
          270.0,
          401.0,
-         null,
+         90.0,
          null,
          null,
          null
         ],
         "rework": 15.0,
-        "total": 811.0,
-        "delta": -1322.2999999999997,
+        "total": 901.0,
+        "delta": -1232.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.3780885780885781
+        "proficiency": 0.42004662004662
        },
        {
         "name": "Sidehole Soft Vu",
@@ -106282,7 +106282,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -106302,7 +106302,7 @@
          0.0,
          0.0,
          50.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -106322,16 +106322,16 @@
          97.0,
          251.0,
          160.0,
-         null,
+         75.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 508.0,
-        "delta": -1953.5,
+        "total": 583.0,
+        "delta": -1878.5,
         "downtime": 0.0,
-        "proficiency": 0.20525252525252524
+        "proficiency": 0.23555555555555555
        },
        {
         "name": "Baking Conv",
@@ -106342,7 +106342,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -106362,7 +106362,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -106382,16 +106382,16 @@
          300.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 900.0,
-        "delta": 79.5,
+        "total": 1200.0,
+        "delta": 379.5,
         "downtime": 0.0,
-        "proficiency": 1.0909090909090908
+        "proficiency": 1.4545454545454546
        },
        {
         "name": "Rofing",
@@ -106402,7 +106402,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -106422,16 +106422,16 @@
          60.0,
          200.0,
          174.0,
-         null,
+         140.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 434.0,
-        "delta": -2191.6,
+        "total": 574.0,
+        "delta": -2051.6,
         "downtime": 0.0,
-        "proficiency": 0.1643939393939394
+        "proficiency": 0.2174242424242424
        },
        {
         "name": "Moldeadora Atlas",
@@ -106442,16 +106442,16 @@
          100.0,
          200.0,
          200.0,
-         null,
+         200.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 500.0,
-        "delta": -1141.0,
+        "total": 700.0,
+        "delta": -941.0,
         "downtime": 0.0,
-        "proficiency": 0.30303030303030304
+        "proficiency": 0.4242424242424242
        },
        {
         "name": "Pouch",
@@ -106462,16 +106462,16 @@
          0.0,
          300.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -1041.0,
+        "total": 900.0,
+        "delta": -741.0,
         "downtime": 0.0,
-        "proficiency": 0.36363636363636365
+        "proficiency": 0.5454545454545454
        },
        {
         "name": "Boxing",
@@ -106482,8 +106482,8 @@
          200.0,
          400.0,
          330.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null
         ],

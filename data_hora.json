@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-09T18:04:43",
+ "generated_at": "2026-10-09T18:11:03",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -107401,7 +107401,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107421,17 +107421,17 @@
         "hours": [
          55.0,
          22.0,
-         null,
+         50.0,
          null,
          null,
          null,
          null
         ],
         "rework": 3.0,
-        "total": 77.0,
-        "delta": -470.0,
+        "total": 127.0,
+        "delta": -420.0,
         "downtime": 0.0,
-        "proficiency": 0.14
+        "proficiency": 0.2309090909090909
        },
        {
         "name": "Swager",
@@ -107441,17 +107441,17 @@
         "hours": [
          55.0,
          22.0,
-         null,
+         50.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 77.0,
-        "delta": -470.0,
+        "total": 127.0,
+        "delta": -420.0,
         "downtime": 0.0,
-        "proficiency": 0.14
+        "proficiency": 0.2309090909090909
        },
        {
         "name": "Embedder",
@@ -107461,17 +107461,17 @@
         "hours": [
          15.0,
          73.0,
-         null,
+         34.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 88.0,
-        "delta": -568.4,
+        "rework": 2.0,
+        "total": 122.0,
+        "delta": -534.4,
         "downtime": 0.0,
-        "proficiency": 0.13333333333333333
+        "proficiency": 0.18484848484848487
        },
        {
         "name": "Inspeccion",
@@ -107481,17 +107481,17 @@
         "hours": [
          15.0,
          73.0,
-         0.0,
+         34.0,
          0.0,
          0.0,
          0.0,
          0.0
         ],
-        "rework": 0.0,
-        "total": 88.0,
-        "delta": -185.5,
+        "rework": 2.0,
+        "total": 122.0,
+        "delta": -151.5,
         "downtime": 0.0,
-        "proficiency": 0.32
+        "proficiency": 0.44363636363636366
        },
        {
         "name": "Drawdown",
@@ -107499,19 +107499,19 @@
         "meta_hora": 390.0,
         "meta_dia": 2133.3,
         "hours": [
-         235.0,
+         135.0,
          230.0,
-         null,
+         70.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 465.0,
-        "delta": -1668.2999999999997,
+        "total": 435.0,
+        "delta": -1698.2999999999997,
         "downtime": 0.0,
-        "proficiency": 0.2167832167832168
+        "proficiency": 0.2027972027972028
        },
        {
         "name": "Sidehole Soft Vu",
@@ -107521,17 +107521,17 @@
         "hours": [
          100.0,
          100.0,
-         null,
+         100.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -347.0,
+        "total": 300.0,
+        "delta": -247.0,
         "downtime": 0.0,
-        "proficiency": 0.36363636363636365
+        "proficiency": 0.5454545454545454
        },
        {
         "name": "Sidehole Accu Vu",
@@ -107541,17 +107541,17 @@
         "hours": [
          50.0,
          100.0,
-         null,
+         100.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -397.0,
+        "total": 250.0,
+        "delta": -297.0,
         "downtime": 0.0,
-        "proficiency": 0.2727272727272727
+        "proficiency": 0.45454545454545453
        },
        {
         "name": "Baking Rot",
@@ -107561,17 +107561,17 @@
         "hours": [
          140.0,
          300.0,
-         null,
+         200.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 440.0,
-        "delta": -2021.5,
+        "total": 640.0,
+        "delta": -1821.5,
         "downtime": 0.0,
-        "proficiency": 0.17777777777777778
+        "proficiency": 0.2585858585858586
        },
        {
         "name": "Baking Conv",
@@ -107601,17 +107601,17 @@
         "hours": [
          0.0,
          60.0,
-         null,
+         60.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 60.0,
-        "delta": -104.1,
+        "rework": 1.0,
+        "total": 120.0,
+        "delta": -44.099999999999994,
         "downtime": 0.0,
-        "proficiency": 0.3636363636363636
+        "proficiency": 0.7272727272727272
        },
        {
         "name": "Prepping",
@@ -107621,17 +107621,17 @@
         "hours": [
          300.0,
          300.0,
-         null,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -220.5,
+        "total": 900.0,
+        "delta": 79.5,
         "downtime": 0.0,
-        "proficiency": 0.7272727272727273
+        "proficiency": 1.0909090909090908
        },
        {
         "name": "Rofing",
@@ -107641,7 +107641,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107661,17 +107661,17 @@
         "hours": [
          50.0,
          100.0,
-         null,
+         132.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 150.0,
-        "delta": -2475.6,
+        "total": 282.0,
+        "delta": -2343.6,
         "downtime": 0.0,
-        "proficiency": 0.056818181818181816
+        "proficiency": 0.10681818181818183
        },
        {
         "name": "Moldeadora Atlas",
@@ -107681,7 +107681,7 @@
         "hours": [
          100.0,
          270.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107701,7 +107701,7 @@
         "hours": [
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

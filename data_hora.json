@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-10T07:54:18",
+ "generated_at": "2026-10-10T08:00:33",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -108146,8 +108146,8 @@
        {
         "name": "Cut (Tip/Teflon)",
         "maquinas": 2,
-        "meta_hora": 500.0,
-        "meta_dia": 4085.0,
+        "meta_hora": 250.0,
+        "meta_dia": 2042.5,
         "hours": [
          null,
          null,
@@ -108162,15 +108162,15 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -4085.0,
+        "delta": -2042.5,
         "downtime": 0.0,
         "proficiency": 0
        },
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 325.0,
+        "meta_dia": 2655.25,
         "hours": [
          null,
          null,
@@ -108185,7 +108185,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -3022.9,
+        "delta": -2655.25,
         "downtime": 0.0,
         "proficiency": 0
        },

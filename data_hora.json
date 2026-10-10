@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-09T23:19:42",
+ "generated_at": "2026-10-09T23:26:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -107793,7 +107793,7 @@
         "name": "Staker",
         "maquinas": 2,
         "meta_hora": 100.0,
-        "meta_dia": 698.0,
+        "meta_dia": 349.0,
         "hours": [
          null,
          null,
@@ -107834,8 +107834,8 @@
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 488.6000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 349.0,
         "hours": [
          null,
          null,
@@ -107848,7 +107848,7 @@
         ],
         "rework": 0.0,
         "total": 0.0,
-        "delta": -488.6,
+        "delta": -349.0,
         "downtime": 0.0,
         "proficiency": 0.0
        },
@@ -107879,7 +107879,7 @@
         "meta_hora": 390.0,
         "meta_dia": 2722.2000000000003,
         "hours": [
-         null,
+         260.0,
          null,
          null,
          null,
@@ -107889,10 +107889,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2722.2000000000003,
+        "total": 260.0,
+        "delta": -2462.2000000000003,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08658008658008659
        },
        {
         "name": "Sidehole Soft Vu",
@@ -107900,7 +107900,7 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107921,7 +107921,7 @@
         "meta_hora": 100.0,
         "meta_dia": 698.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107942,7 +107942,7 @@
         "meta_hora": 450.0,
         "meta_dia": 3141.0,
         "hours": [
-         null,
+         162.0,
          null,
          null,
          null,
@@ -107952,10 +107952,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3141.0,
+        "total": 162.0,
+        "delta": -2979.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.04675324675324675
        },
        {
         "name": "Baking Conv",
@@ -107963,7 +107963,7 @@
         "meta_hora": 60.0,
         "meta_dia": 418.8,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -107984,7 +107984,7 @@
         "meta_hora": 30.0,
         "meta_dia": 209.4,
         "hours": [
-         null,
+         20.0,
          null,
          null,
          null,
@@ -107994,10 +107994,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -209.4,
+        "total": 20.0,
+        "delta": -189.4,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.08658008658008658
        },
        {
         "name": "Prepping",
@@ -108005,7 +108005,7 @@
         "meta_hora": 150.0,
         "meta_dia": 872.5,
         "hours": [
-         null,
+         150.0,
          null,
          null,
          null,
@@ -108015,10 +108015,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -1047.0,
+        "total": 150.0,
+        "delta": -897.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12987012987012986
        },
        {
         "name": "Rofing",
@@ -108026,7 +108026,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -108044,10 +108044,10 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 480.0,
-        "meta_dia": 3350.4,
+        "meta_hora": 300.0,
+        "meta_dia": 2094.0,
         "hours": [
-         null,
+         150.0,
          null,
          null,
          null,
@@ -108057,10 +108057,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -3350.4,
+        "total": 150.0,
+        "delta": -1944.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.06493506493506493
        },
        {
         "name": "Moldeadora Atlas",
@@ -108068,7 +108068,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -108089,7 +108089,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2094.0,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,

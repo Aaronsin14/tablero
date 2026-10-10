@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-10T03:34:12",
+ "generated_at": "2026-10-10T03:40:31",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -107776,18 +107776,18 @@
         "hours": [
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         75.0,
+         75.0,
+         75.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -523.5,
+        "total": 225.0,
+        "delta": -298.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.38961038961038963
        },
        {
         "name": "Staker",
@@ -107797,18 +107797,18 @@
         "hours": [
          30.0,
          40.0,
-         null,
-         null,
-         null,
+         30.0,
+         50.0,
+         40.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 70.0,
-        "delta": -628.0,
+        "total": 190.0,
+        "delta": -508.0,
         "downtime": 0.0,
-        "proficiency": 0.0909090909090909
+        "proficiency": 0.24675324675324675
        },
        {
         "name": "Swager",
@@ -107818,18 +107818,18 @@
         "hours": [
          30.0,
          40.0,
-         null,
-         null,
-         null,
+         30.0,
+         50.0,
+         40.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 70.0,
-        "delta": -523.3000000000001,
+        "total": 190.0,
+        "delta": -403.30000000000007,
         "downtime": 0.0,
-        "proficiency": 0.106951871657754
+        "proficiency": 0.29029793735676085
        },
        {
         "name": "Embedder",
@@ -107839,18 +107839,18 @@
         "hours": [
          30.0,
          39.0,
-         null,
-         null,
-         null,
+         31.0,
+         50.0,
+         40.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 69.0,
-        "delta": -280.0,
+        "total": 190.0,
+        "delta": -159.0,
         "downtime": 0.0,
-        "proficiency": 0.17922077922077922
+        "proficiency": 0.4935064935064935
        },
        {
         "name": "Inspeccion",
@@ -107860,18 +107860,18 @@
         "hours": [
          32.0,
          37.0,
-         null,
-         null,
-         null,
+         34.0,
+         45.0,
+         44.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 69.0,
-        "delta": -280.0,
+        "total": 192.0,
+        "delta": -157.0,
         "downtime": 0.0,
-        "proficiency": 0.17922077922077922
+        "proficiency": 0.4987012987012987
        },
        {
         "name": "Drawdown",
@@ -108049,18 +108049,18 @@
         "hours": [
          150.0,
          150.0,
-         null,
-         null,
-         null,
+         200.0,
+         0.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -1794.0,
+        "total": 500.0,
+        "delta": -1594.0,
         "downtime": 0.0,
-        "proficiency": 0.12987012987012986
+        "proficiency": 0.21645021645021642
        },
        {
         "name": "Moldeadora Atlas",
@@ -108070,18 +108070,18 @@
         "hours": [
          0.0,
          200.0,
-         null,
-         null,
-         null,
+         150.0,
+         200.0,
+         150.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -1894.0,
+        "total": 700.0,
+        "delta": -1394.0,
         "downtime": 0.0,
-        "proficiency": 0.08658008658008658
+        "proficiency": 0.30303030303030304
        },
        {
         "name": "Pouch",
@@ -108115,7 +108115,7 @@
          0.0,
          400.0,
          290.0,
-         null,
+         0.0,
          null,
          null
         ],

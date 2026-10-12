@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-12T17:22:47",
+ "generated_at": "2026-10-12T17:29:06",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -110941,8 +110941,8 @@
          170.0,
          180.0,
          80.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 670.0,
@@ -110963,15 +110963,15 @@
          525.0,
          0.0,
          0.0,
-         0.0,
-         null,
-         null
+         550.0,
+         550.0,
+         250.0
         ],
         "rework": 0.0,
-        "total": 2645.0,
-        "delta": 194.0,
+        "total": 3995.0,
+        "delta": 1544.0,
         "downtime": 0.0,
-        "proficiency": 1.0791513667890658
+        "proficiency": 1.6299469604243166
        },
        {
         "name": "Moldeadora Milacron",
@@ -110987,14 +110987,14 @@
          60.0,
          230.0,
          60.0,
-         null,
-         null
+         200.0,
+         120.0
         ],
         "rework": 0.0,
-        "total": 1150.0,
-        "delta": -1301.0,
+        "total": 1470.0,
+        "delta": -981.0,
         "downtime": 0.0,
-        "proficiency": 0.46919624643002855
+        "proficiency": 0.5997552019583843
        },
        {
         "name": "Moldeadora Atlas",
@@ -111010,14 +111010,14 @@
          155.0,
          200.0,
          200.0,
-         null,
-         null
+         160.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 1085.0,
-        "delta": -1366.0,
+        "total": 1345.0,
+        "delta": -1106.0,
         "downtime": 0.0,
-        "proficiency": 0.4426764585883313
+        "proficiency": 0.5487556099551204
        },
        {
         "name": "Pouch",
@@ -111032,15 +111032,15 @@
          0.0,
          0.0,
          0.0,
-         0.0,
-         null,
-         null
+         350.0,
+         330.0,
+         360.0
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 1040.0,
+        "delta": -1411.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.42431660546715627
        },
        {
         "name": "Boxing",

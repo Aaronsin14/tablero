@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-12T14:41:30",
+ "generated_at": "2026-10-12T14:49:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -110915,17 +110915,17 @@
          30.0,
          60.0,
          60.0,
-         60.0,
-         null,
+         95.0,
+         0.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 240.0,
-        "delta": -250.2,
+        "total": 275.0,
+        "delta": -215.2,
         "downtime": 0.0,
-        "proficiency": 0.4895960832313342
+        "proficiency": 0.5609955120359037
        },
        {
         "name": "Prepping",
@@ -110939,16 +110939,16 @@
          0.0,
          0.0,
          170.0,
-         null,
-         null,
+         180.0,
+         80.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 410.0,
-        "delta": -815.5,
+        "total": 670.0,
+        "delta": -555.5,
         "downtime": 0.0,
-        "proficiency": 0.33455732354141166
+        "proficiency": 0.5467156262749898
        },
        {
         "name": "Rofing",
@@ -110984,17 +110984,17 @@
          250.0,
          250.0,
          150.0,
-         50.0,
-         null,
-         null,
+         60.0,
+         230.0,
+         60.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 850.0,
-        "delta": -1601.0,
+        "total": 1150.0,
+        "delta": -1301.0,
         "downtime": 0.0,
-        "proficiency": 0.346797225622195
+        "proficiency": 0.46919624643002855
        },
        {
         "name": "Moldeadora Atlas",
@@ -111008,16 +111008,16 @@
          200.0,
          0.0,
          155.0,
-         null,
-         null,
+         200.0,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 685.0,
-        "delta": -1766.0,
+        "total": 1085.0,
+        "delta": -1366.0,
         "downtime": 0.0,
-        "proficiency": 0.2794777641778866
+        "proficiency": 0.4426764585883313
        },
        {
         "name": "Pouch",

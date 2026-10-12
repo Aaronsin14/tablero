@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-12T10:31:16",
+ "generated_at": "2026-10-12T10:38:14",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -110936,7 +110936,7 @@
          0.0,
          180.0,
          60.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -110959,7 +110959,7 @@
          660.0,
          660.0,
          250.0,
-         null,
+         550.0,
          null,
          null,
          null,
@@ -110968,10 +110968,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 1570.0,
-        "delta": -881.0,
+        "total": 2120.0,
+        "delta": -331.0,
         "downtime": 0.0,
-        "proficiency": 0.6405548755609956
+        "proficiency": 0.864953080375357
        },
        {
         "name": "Moldeadora Milacron",
@@ -110982,7 +110982,7 @@
          0.0,
          150.0,
          250.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -110991,10 +110991,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -2051.0,
+        "total": 650.0,
+        "delta": -1801.0,
         "downtime": 0.0,
-        "proficiency": 0.1631986944104447
+        "proficiency": 0.2651978784169727
        },
        {
         "name": "Moldeadora Atlas",

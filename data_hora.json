@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-12T06:38:49",
+ "generated_at": "2026-10-12T06:45:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -110905,10 +110905,10 @@
         "proficiency": 0
        },
        {
-        "name": "Hand Drilling",
+        "name": "Hidrofilico",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 60.0,
+        "meta_dia": 490.2,
         "hours": [
          null,
          null,
@@ -110923,7 +110923,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": 0.0,
+        "delta": -490.2,
         "downtime": 0.0,
         "proficiency": 0
        },
@@ -110976,8 +110976,8 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
          null,
          null,
@@ -110992,7 +110992,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": 0.0,
+        "delta": -2451.0,
         "downtime": 0.0,
         "proficiency": 0
        },

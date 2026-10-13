@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-13T07:35:18",
+ "generated_at": "2026-10-13T07:44:52",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -111920,7 +111920,7 @@
         "meta_hora": 75.0,
         "meta_dia": 612.75,
         "hours": [
-         0.0,
+         40.0,
          null,
          null,
          null,
@@ -111932,10 +111932,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -612.75,
+        "total": 40.0,
+        "delta": -572.75,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.06527947776417789
        },
        {
         "name": "Staker",
@@ -111943,7 +111943,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0.0,
+         40.0,
          null,
          null,
          null,
@@ -111955,10 +111955,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 40.0,
+        "delta": -777.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Swager",
@@ -111966,7 +111966,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0.0,
+         40.0,
          null,
          null,
          null,
@@ -111978,10 +111978,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 40.0,
+        "delta": -777.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Embedder",
@@ -112013,15 +112013,15 @@
         "meta_dia": 571.9,
         "hours": [
          10.0,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 10.0,

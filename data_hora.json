@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-13T11:27:24",
+ "generated_at": "2026-10-13T11:32:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -111878,18 +111878,18 @@
          450.0,
          370.0,
          500.0,
+         500.0,
          null,
          null,
          null,
          null,
-         null,
-         300.0
+         null
         ],
-        "rework": 17.0,
-        "total": 1745.0,
-        "delta": -2340.0,
+        "rework": 18.0,
+        "total": 1945.0,
+        "delta": -2140.0,
         "downtime": 0.0,
-        "proficiency": 0.42717258261933905
+        "proficiency": 0.47613219094247244
        },
        {
         "name": "Welder",
@@ -111901,18 +111901,18 @@
          206.0,
          156.0,
          213.0,
+         271.0,
          null,
          null,
          null,
          null,
-         null,
-         50.0
+         null
         ],
-        "rework": 122.0,
-        "total": 705.0,
-        "delta": -1950.25,
+        "rework": 165.0,
+        "total": 926.0,
+        "delta": -1729.25,
         "downtime": 160.0,
-        "proficiency": 0.2768052874390603
+        "proficiency": 0.3635768739979714
        },
        {
         "name": "Carga de bandas",
@@ -111975,13 +111975,13 @@
          null,
          null,
          null,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 220.0,
-        "delta": -597.0,
+        "total": 270.0,
+        "delta": -547.0,
         "downtime": 0.0,
-        "proficiency": 0.2692778457772338
+        "proficiency": 0.33047735618115054
        },
        {
         "name": "Embedder",
@@ -112228,13 +112228,13 @@
          null,
          null,
          null,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 690.0,
-        "delta": -1761.0,
+        "total": 740.0,
+        "delta": -1711.0,
         "downtime": 0.0,
-        "proficiency": 0.28151774785801714
+        "proficiency": 0.3019175846593227
        },
        {
         "name": "Moldeadora Atlas",

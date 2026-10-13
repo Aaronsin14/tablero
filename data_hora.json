@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-13T09:41:32",
+ "generated_at": "2026-10-13T09:48:04",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -112058,7 +112058,7 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         0.0,
+         100.0,
          100.0,
          100.0,
          null,
@@ -112070,10 +112070,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -617.0,
+        "total": 300.0,
+        "delta": -517.0,
         "downtime": 0.0,
-        "proficiency": 0.2447980416156671
+        "proficiency": 0.36719706242350064
        },
        {
         "name": "Sidehole Accu Vu",
@@ -112290,8 +112290,8 @@
         "hours": [
          400.0,
          200.0,
-         null,
-         null,
+         400.0,
+         0.0,
          null,
          null,
          null,
@@ -112300,10 +112300,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 600.0,
-        "delta": -2259.5,
+        "total": 1000.0,
+        "delta": -1859.5,
         "downtime": 0.0,
-        "proficiency": 0.20982689281342895
+        "proficiency": 0.34971148802238156
        }
       ]
      },

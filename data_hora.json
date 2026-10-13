@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-13T01:30:50",
+ "generated_at": "2026-10-13T01:37:12",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -111475,23 +111475,23 @@
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 345.0,
-        "meta_dia": 2408.1000000000004,
+        "meta_hora": 310.0,
+        "meta_dia": 2163.8,
         "hours": [
          215.0,
          288.0,
-         85.0,
+         225.0,
          null,
          null,
          null,
          null,
          null
         ],
-        "rework": 87.0,
-        "total": 588.0,
-        "delta": -1820.1000000000004,
+        "rework": 102.0,
+        "total": 728.0,
+        "delta": -1435.8000000000002,
         "downtime": 0.0,
-        "proficiency": 0.22134387351778656
+        "proficiency": 0.30498533724340177
        },
        {
         "name": "Carga de bandas",
@@ -111538,8 +111538,8 @@
        {
         "name": "Swager",
         "maquinas": 2,
-        "meta_hora": 90.0,
-        "meta_dia": 628.2,
+        "meta_hora": 85.0,
+        "meta_dia": 593.3,
         "hours": [
          28.0,
          50.0,
@@ -111552,9 +111552,9 @@
         ],
         "rework": 0.0,
         "total": 128.0,
-        "delta": -500.20000000000005,
+        "delta": -465.30000000000007,
         "downtime": 60.0,
-        "proficiency": 0.19753086419753088
+        "proficiency": 0.20915032679738563
        },
        {
         "name": "Embedder",
@@ -111837,18 +111837,18 @@
         "hours": [
          400.0,
          500.0,
-         420.0,
-         null,
+         400.0,
+         350.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1320.0,
-        "delta": -1123.0,
+        "total": 1650.0,
+        "delta": -793.0,
         "downtime": 0.0,
-        "proficiency": 0.4897959183673469
+        "proficiency": 0.6122448979591837
        }
       ]
      }

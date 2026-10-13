@@ -238,7 +238,7 @@ function sincronizarConReloj(){
   setInterval(async()=>{
     const f=await loadData();
     if(f.generated_at!==DATA.generated_at){ DATA=f; render(); }
-  }, 5*60*1000);
+  }, 2*60*1000);
 
   // cada minuto: revisar si cambio el dia, la semana o el turno.
   // Sin esto, una pantalla que lleva dias abierta se queda pegada en el

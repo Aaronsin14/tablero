@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-10-14T11:03:36",
+ "generated_at": "2026-10-14T11:08:22",
  "current_sheet": "20-Oct-2026",
  "current_date": "2026-10-20",
  "stages": [
@@ -61,14 +61,19 @@
    "uph": 150
   },
   {
-   "key": "pouch",
-   "label": "Pouch",
-   "uph": 350
+   "key": "inspeccion",
+   "label": "Inspeccion",
+   "uph": null
   },
   {
    "key": "calidad",
    "label": "Calidad",
    "uph": null
+  },
+  {
+   "key": "pouch",
+   "label": "Pouch",
+   "uph": 350
   },
   {
    "key": "boxing",
@@ -99,7 +104,7 @@
    "producido": 265.0,
    "pct": 106.0,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "verde"
   },
   {
@@ -119,15 +124,15 @@
    "producido": 3209.0,
    "pct": 107.0,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "verde"
   },
   {
    "part_number": "40722105",
    "sub_ensamble": "14400109",
    "demanda": 1500.0,
-   "producido": 1619.0,
-   "pct": 107.9,
+   "producido": 1600.0,
+   "pct": 106.7,
    "stage_key": "prepping",
    "stage_col": 15,
    "status": "verde"
@@ -179,7 +184,7 @@
    "producido": 369.0,
    "pct": 92.2,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "ambar"
   },
   {
@@ -189,7 +194,7 @@
    "producido": 236.0,
    "pct": 39.3,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "rojo"
   },
   {
@@ -259,7 +264,7 @@
    "producido": 362.0,
    "pct": 103.4,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "verde"
   },
   {
@@ -389,7 +394,7 @@
    "producido": 960.0,
    "pct": 96.0,
    "stage_key": "pouch",
-   "stage_col": 19,
+   "stage_col": 21,
    "status": "ambar"
   },
   {
@@ -426,10 +431,10 @@
  "kpis": {
   "partes_activos": 34,
   "total_demanda": 30935.0,
-  "total_producido": 27878.0,
+  "total_producido": 27859.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": -3057.0,
+  "exceso_total": -3076.0,
   "atrasados": 9
  },
  "weeks_available": [

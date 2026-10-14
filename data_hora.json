@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-14T13:12:58",
+ "generated_at": "2026-10-14T13:18:23",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -113166,7 +113166,7 @@
          32.0,
          75.0,
          75.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -113189,16 +113189,16 @@
          50.0,
          50.0,
          50.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
         "rework": 5.0,
-        "total": 230.0,
-        "delta": -178.5,
+        "total": 260.0,
+        "delta": -148.5,
         "downtime": 420.0,
-        "proficiency": 0.9850107066381156
+        "proficiency": 1.113490364025696
        },
        {
         "name": "Swager",
@@ -113212,16 +113212,16 @@
          50.0,
          50.0,
          50.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 230.0,
-        "delta": -587.0,
+        "total": 260.0,
+        "delta": -557.0,
         "downtime": 120.0,
-        "proficiency": 0.3207810320781032
+        "proficiency": 0.36262203626220363
        },
        {
         "name": "Embedder",
@@ -113235,16 +113235,16 @@
          50.0,
          50.0,
          50.0,
-         null,
+         30.0,
          null,
          null,
          null
         ],
         "rework": 4.0,
-        "total": 226.0,
-        "delta": -182.5,
+        "total": 256.0,
+        "delta": -152.5,
         "downtime": 600.0,
-        "proficiency": 0.6304044630404463
+        "proficiency": 0.7140864714086471
        },
        {
         "name": "Inspeccion",
@@ -113258,16 +113258,16 @@
          50.0,
          50.0,
          50.0,
-         0.0,
+         30.0,
          0.0,
          0.0,
          0.0
         ],
         "rework": 4.0,
-        "total": 226.0,
-        "delta": -182.5,
+        "total": 256.0,
+        "delta": -152.5,
         "downtime": 60.0,
-        "proficiency": 0.6304044630404463
+        "proficiency": 0.7140864714086471
        },
        {
         "name": "Drawdown",

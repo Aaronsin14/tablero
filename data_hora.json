@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-14T15:34:17",
+ "generated_at": "2026-10-14T15:40:11",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -113167,15 +113167,15 @@
          75.0,
          75.0,
          0.0,
-         null,
-         null,
-         null
+         108.0,
+         35.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 332.0,
-        "delta": -280.75,
+        "total": 475.0,
+        "delta": -137.75,
         "downtime": 0.0,
-        "proficiency": 0.5418196654426765
+        "proficiency": 0.7751937984496124
        },
        {
         "name": "Staker",
@@ -113190,15 +113190,15 @@
          50.0,
          50.0,
          30.0,
-         null,
-         null,
-         null
+         0.0,
+         50.0,
+         20.0
         ],
-        "rework": 5.0,
-        "total": 260.0,
-        "delta": -148.5,
+        "rework": 7.0,
+        "total": 330.0,
+        "delta": -78.5,
         "downtime": 420.0,
-        "proficiency": 1.113490364025696
+        "proficiency": 1.4132762312633833
        },
        {
         "name": "Swager",
@@ -113213,15 +113213,15 @@
          50.0,
          50.0,
          30.0,
-         null,
-         null,
-         null
+         0.0,
+         50.0,
+         20.0
         ],
         "rework": 0.0,
-        "total": 260.0,
-        "delta": -557.0,
+        "total": 330.0,
+        "delta": -487.0,
         "downtime": 120.0,
-        "proficiency": 0.36262203626220363
+        "proficiency": 0.4602510460251046
        },
        {
         "name": "Embedder",
@@ -113236,15 +113236,15 @@
          50.0,
          50.0,
          30.0,
-         null,
-         null,
-         null
+         50.0,
+         50.0,
+         40.0
         ],
         "rework": 4.0,
-        "total": 256.0,
-        "delta": -152.5,
+        "total": 396.0,
+        "delta": -12.5,
         "downtime": 600.0,
-        "proficiency": 0.7140864714086471
+        "proficiency": 1.104602510460251
        },
        {
         "name": "Inspeccion",
@@ -113259,15 +113259,15 @@
          50.0,
          50.0,
          30.0,
-         0.0,
-         0.0,
-         0.0
+         50.0,
+         50.0,
+         40.0
         ],
         "rework": 4.0,
-        "total": 256.0,
-        "delta": -152.5,
+        "total": 396.0,
+        "delta": -12.5,
         "downtime": 60.0,
-        "proficiency": 0.7140864714086471
+        "proficiency": 1.104602510460251
        },
        {
         "name": "Drawdown",
@@ -113421,14 +113421,14 @@
          800.0,
          250.0,
          400.0,
-         null,
-         null
+         1000.0,
+         600.0
         ],
         "rework": 0.0,
-        "total": 3730.0,
-        "delta": 2504.5,
+        "total": 5330.0,
+        "delta": 4104.5,
         "downtime": 0.0,
-        "proficiency": 3.043655650754794
+        "proficiency": 4.3492452060383515
        },
        {
         "name": "Rofing",
@@ -113444,14 +113444,14 @@
          487.0,
          513.0,
          1100.0,
-         null,
-         null
+         550.0,
+         550.0
         ],
         "rework": 0.0,
-        "total": 5111.0,
-        "delta": 617.5,
+        "total": 6211.0,
+        "delta": 1717.5,
         "downtime": 0.0,
-        "proficiency": 1.1374207188160677
+        "proficiency": 1.3822187604317346
        },
        {
         "name": "Moldeadora Milacron",
@@ -113490,8 +113490,8 @@
          230.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 1420.0,
@@ -113513,14 +113513,14 @@
          0.0,
          228.0,
          0.0,
-         null,
-         null
+         300.0,
+         0.0
         ],
         "rework": 0.0,
-        "total": 830.0,
-        "delta": -1621.0,
+        "total": 1130.0,
+        "delta": -1321.0,
         "downtime": 0.0,
-        "proficiency": 0.33863729090167277
+        "proficiency": 0.4610363117095063
        },
        {
         "name": "Boxing",

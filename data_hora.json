@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-14T12:21:43",
+ "generated_at": "2026-10-14T12:26:10",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -113303,17 +113303,17 @@
          111.0,
          100.0,
          100.0,
-         null,
+         100.0,
          null,
          null,
          null,
          null
         ],
-        "rework": 1.0,
-        "total": 511.0,
-        "delta": -306.0,
+        "rework": 3.0,
+        "total": 611.0,
+        "delta": -206.0,
         "downtime": 0.0,
-        "proficiency": 0.6254589963280294
+        "proficiency": 0.747858017135863
        },
        {
         "name": "Sidehole Accu Vu",
@@ -113326,17 +113326,17 @@
          0.0,
          0.0,
          0.0,
-         null,
+         50.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
-        "downtime": 120.0,
-        "proficiency": 0.0
+        "total": 50.0,
+        "delta": -767.0,
+        "downtime": 330.0,
+        "proficiency": 0.18726591760299627
        },
        {
         "name": "Baking Rot",
@@ -113372,7 +113372,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -113381,31 +113381,31 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -490.2,
-        "downtime": 120.0,
+        "downtime": 360.0,
         "proficiency": 0.0
        },
        {
         "name": "Hand Drilling",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 20.0,
+        "meta_dia": 163.4,
         "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
-        "downtime": 0.0,
-        "proficiency": 0
+        "total": 0.0,
+        "delta": -163.4,
+        "downtime": 360.0,
+        "proficiency": 0.0
        },
        {
         "name": "Prepping",

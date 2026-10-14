@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-14T08:26:04",
+ "generated_at": "2026-10-14T08:29:34",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -113276,7 +113276,7 @@
         "meta_dia": 3186.2999999999997,
         "hours": [
          0.0,
-         215.0,
+         235.0,
          null,
          null,
          null,
@@ -113286,11 +113286,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 215.0,
-        "delta": -2971.3,
+        "rework": 3.0,
+        "total": 235.0,
+        "delta": -2951.3,
         "downtime": 180.0,
-        "proficiency": 0.07688731538103923
+        "proficiency": 0.08403962378857777
        },
        {
         "name": "Sidehole Soft Vu",
@@ -113299,7 +113299,7 @@
         "meta_dia": 817.0,
         "hours": [
          100.0,
-         null,
+         100.0,
          null,
          null,
          null,
@@ -113310,10 +113310,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -717.0,
-        "downtime": 60.0,
-        "proficiency": 0.1394700139470014
+        "total": 200.0,
+        "delta": -617.0,
+        "downtime": 0.0,
+        "proficiency": 0.2447980416156671
        },
        {
         "name": "Sidehole Accu Vu",
@@ -113322,7 +113322,7 @@
         "meta_dia": 817.0,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -113335,7 +113335,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -817.0,
-        "downtime": 60.0,
+        "downtime": 120.0,
         "proficiency": 0.0
        },
        {
@@ -113345,7 +113345,7 @@
         "meta_dia": 3676.5,
         "hours": [
          150.0,
-         null,
+         389.0,
          null,
          null,
          null,
@@ -113355,11 +113355,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 150.0,
-        "delta": -3526.5,
+        "rework": 5.0,
+        "total": 539.0,
+        "delta": -3137.5,
         "downtime": 180.0,
-        "proficiency": 0.046490004649000466
+        "proficiency": 0.167054083372075
        },
        {
         "name": "Baking Conv",
@@ -113368,7 +113368,7 @@
         "meta_dia": 490.2,
         "hours": [
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -113381,7 +113381,7 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": -490.2,
-        "downtime": 60.0,
+        "downtime": 120.0,
         "proficiency": 0.0
        },
        {

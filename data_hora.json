@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-15T10:15:52",
+ "generated_at": "2026-10-15T10:23:59",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -114380,7 +114380,7 @@
          185.0,
          365.0,
          180.0,
-         181.0,
+         296.0,
          null,
          null,
          null,
@@ -114388,11 +114388,11 @@
          null,
          null
         ],
-        "rework": 91.0,
-        "total": 911.0,
-        "delta": -2071.05,
+        "rework": 119.0,
+        "total": 1026.0,
+        "delta": -1956.0500000000002,
         "downtime": 0.0,
-        "proficiency": 0.3054945423450311
+        "proficiency": 0.34405861739407456
        },
        {
         "name": "Carga de bandas",
@@ -114655,8 +114655,8 @@
         "hours": [
          0.0,
          300.0,
-         null,
-         null,
+         180.0,
+         500.0,
          null,
          null,
          null,
@@ -114665,10 +114665,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -2151.0,
+        "total": 980.0,
+        "delta": -1471.0,
         "downtime": 0.0,
-        "proficiency": 0.12239902080783355
+        "proficiency": 0.3998368013055896
        },
        {
         "name": "Rofing",
@@ -114724,8 +114724,8 @@
         "hours": [
          110.0,
          230.0,
-         null,
-         null,
+         250.0,
+         240.0,
          null,
          null,
          null,
@@ -114734,10 +114734,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 340.0,
-        "delta": -2111.0,
+        "total": 830.0,
+        "delta": -1621.0,
         "downtime": 0.0,
-        "proficiency": 0.138718890248878
+        "proficiency": 0.33863729090167277
        },
        {
         "name": "Pouch",
@@ -114746,9 +114746,9 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         258.0,
-         null,
-         null,
+         0.0,
+         251.0,
+         300.0,
          null,
          null,
          null,
@@ -114757,10 +114757,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 258.0,
-        "delta": -2193.0,
+        "total": 551.0,
+        "delta": -1900.0,
         "downtime": 0.0,
-        "proficiency": 0.10526315789473684
+        "proficiency": 0.22480620155038758
        },
        {
         "name": "Boxing",
@@ -114771,7 +114771,7 @@
          400.0,
          315.0,
          300.0,
-         null,
+         260.0,
          null,
          null,
          null,
@@ -114780,10 +114780,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 1015.0,
-        "delta": -1844.5,
+        "total": 1275.0,
+        "delta": -1584.5,
         "downtime": 0.0,
-        "proficiency": 0.35495716034271724
+        "proficiency": 0.4458821472285365
        }
       ]
      },

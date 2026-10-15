@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-15T10:07:56",
+ "generated_at": "2026-10-15T10:15:52",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -114357,7 +114357,7 @@
          350.0,
          500.0,
          300.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -114366,10 +114366,10 @@
          null
         ],
         "rework": 10.0,
-        "total": 1150.0,
-        "delta": -2935.0,
+        "total": 1400.0,
+        "delta": -2685.0,
         "downtime": 0.0,
-        "proficiency": 0.28151774785801714
+        "proficiency": 0.34271725826193394
        },
        {
         "name": "Welder",
@@ -114380,7 +114380,7 @@
          185.0,
          365.0,
          180.0,
-         null,
+         181.0,
          null,
          null,
          null,
@@ -114388,11 +114388,11 @@
          null,
          null
         ],
-        "rework": 79.0,
-        "total": 730.0,
-        "delta": -2252.05,
+        "rework": 91.0,
+        "total": 911.0,
+        "delta": -2071.05,
         "downtime": 0.0,
-        "proficiency": 0.24479804161566707
+        "proficiency": 0.3054945423450311
        },
        {
         "name": "Carga de bandas",
@@ -114678,8 +114678,8 @@
         "hours": [
          550.0,
          550.0,
-         null,
-         null,
+         350.0,
+         550.0,
          null,
          null,
          null,
@@ -114688,10 +114688,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 1100.0,
-        "delta": -1351.0,
+        "total": 2000.0,
+        "delta": -451.0,
         "downtime": 0.0,
-        "proficiency": 0.44879640962872297
+        "proficiency": 0.8159934720522236
        },
        {
         "name": "Moldeadora Milacron",
@@ -114701,8 +114701,8 @@
         "hours": [
          230.0,
          230.0,
-         null,
-         null,
+         230.0,
+         230.0,
          null,
          null,
          null,
@@ -114711,10 +114711,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 460.0,
-        "delta": -1991.0,
+        "total": 920.0,
+        "delta": -1531.0,
         "downtime": 0.0,
-        "proficiency": 0.1876784985720114
+        "proficiency": 0.3753569971440228
        },
        {
         "name": "Moldeadora Atlas",
@@ -114746,7 +114746,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         0.0,
+         258.0,
          null,
          null,
          null,
@@ -114757,10 +114757,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 258.0,
+        "delta": -2193.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10526315789473684
        },
        {
         "name": "Boxing",

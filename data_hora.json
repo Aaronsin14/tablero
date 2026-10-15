@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-15T07:53:17",
+ "generated_at": "2026-10-15T07:57:53",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -114377,7 +114377,7 @@
         "meta_hora": 400.0,
         "meta_dia": 3268.0,
         "hours": [
-         205.0,
+         185.0,
          null,
          null,
          null,
@@ -114388,11 +114388,11 @@
          null,
          null
         ],
-        "rework": 29.0,
-        "total": 205.0,
-        "delta": -3063.0,
+        "rework": 27.0,
+        "total": 185.0,
+        "delta": -3083.0,
         "downtime": 0.0,
-        "proficiency": 0.06272949816401469
+        "proficiency": 0.05660954712362301
        },
        {
         "name": "Carga de bandas",
@@ -114653,7 +114653,7 @@
         "meta_hora": 300.0,
         "meta_dia": 1021.25,
         "hours": [
-         null,
+         0.0,
          null,
          null,
          null,
@@ -114665,10 +114665,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Rofing",
@@ -114676,7 +114676,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         550.0,
          null,
          null,
          null,
@@ -114688,18 +114688,18 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 550.0,
+        "delta": -1901.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.22439820481436148
        },
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
-         null,
+         230.0,
          null,
          null,
          null,
@@ -114711,10 +114711,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
+        "total": 230.0,
+        "delta": -2221.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0938392492860057
        },
        {
         "name": "Moldeadora Atlas",
@@ -114722,7 +114722,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         110.0,
          null,
          null,
          null,
@@ -114734,10 +114734,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 110.0,
+        "delta": -2341.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0448796409628723
        },
        {
         "name": "Pouch",

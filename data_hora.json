@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-15T14:59:01",
+ "generated_at": "2026-10-15T15:07:19",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -114473,18 +114473,18 @@
          38.0,
          33.0,
          50.0,
-         24.0,
-         null,
-         null,
-         null,
+         42.0,
+         49.0,
+         40.0,
+         50.0,
          null,
          null
         ],
-        "rework": 1.0,
-        "total": 180.0,
-        "delta": -391.9,
+        "rework": 9.0,
+        "total": 337.0,
+        "delta": -234.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.3147403392201434
+        "proficiency": 0.5892638573177128
        },
        {
         "name": "Inspeccion",
@@ -114496,18 +114496,18 @@
          38.0,
          33.0,
          50.0,
-         null,
-         null,
-         null,
-         null,
+         42.0,
+         49.0,
+         40.0,
+         50.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 156.0,
-        "delta": -415.9,
+        "total": 337.0,
+        "delta": -234.89999999999998,
         "downtime": 0.0,
-        "proficiency": 0.2727749606574576
+        "proficiency": 0.5892638573177128
        },
        {
         "name": "Drawdown",
@@ -114519,18 +114519,18 @@
          373.0,
          110.0,
          360.0,
-         null,
-         null,
-         null,
-         null,
+         378.0,
+         190.0,
+         180.0,
+         100.0,
          null,
          null
         ],
-        "rework": 19.0,
-        "total": 993.0,
-        "delta": -2193.3,
+        "rework": 30.0,
+        "total": 1841.0,
+        "delta": -1345.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.31164673759533
+        "proficiency": 0.5777861469415937
        },
        {
         "name": "Sidehole Soft Vu",
@@ -114542,18 +114542,18 @@
          100.0,
          100.0,
          100.0,
-         null,
-         null,
-         null,
-         null,
+         200.0,
+         138.0,
+         100.0,
+         200.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -417.0,
+        "total": 1038.0,
+        "delta": 221.0,
         "downtime": 0.0,
-        "proficiency": 0.4895960832313342
+        "proficiency": 1.2705018359853122
        },
        {
         "name": "Sidehole Accu Vu",
@@ -114565,18 +114565,18 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
-         null,
+         0.0,
+         0.0,
+         50.0,
+         100.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -817.0,
+        "total": 150.0,
+        "delta": -667.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.18359853121175032
        },
        {
         "name": "Baking Rot",
@@ -114588,18 +114588,18 @@
          502.0,
          140.0,
          430.0,
-         null,
-         null,
-         null,
-         null,
+         309.0,
+         262.0,
+         238.0,
+         417.0,
          null,
          null
         ],
-        "rework": 4.0,
-        "total": 1172.0,
-        "delta": -2504.5,
+        "rework": 9.0,
+        "total": 2398.0,
+        "delta": -1278.5,
         "downtime": 120.0,
-        "proficiency": 0.3471049903746483
+        "proficiency": 0.7102028727972752
        },
        {
         "name": "Baking Conv",
@@ -114611,18 +114611,18 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
-         null,
+         0.0,
+         40.0,
+         20.0,
          null,
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -490.2,
+        "rework": 8.0,
+        "total": 60.0,
+        "delta": -430.2,
         "downtime": 60.0,
-        "proficiency": 0.0
+        "proficiency": 0.1394700139470014
        },
        {
         "name": "Hand Drilling",

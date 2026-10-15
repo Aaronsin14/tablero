@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-15T13:23:30",
+ "generated_at": "2026-10-15T13:27:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -114360,16 +114360,16 @@
          250.0,
          450.0,
          375.0,
-         null,
+         250.0,
          null,
          null,
          null
         ],
-        "rework": 18.0,
-        "total": 2225.0,
-        "delta": -1860.0,
+        "rework": 32.0,
+        "total": 2475.0,
+        "delta": -1610.0,
         "downtime": 0.0,
-        "proficiency": 0.5446756425948592
+        "proficiency": 0.605875152998776
        },
        {
         "name": "Welder",
@@ -114383,16 +114383,16 @@
          296.0,
          360.0,
          390.0,
-         null,
+         226.0,
          null,
          null,
          null
         ],
-        "rework": 182.0,
-        "total": 1776.0,
-        "delta": -1206.0500000000002,
+        "rework": 194.0,
+        "total": 2002.0,
+        "delta": -980.0500000000002,
         "downtime": 0.0,
-        "proficiency": 0.5955634546704448
+        "proficiency": 0.6713502456363911
        },
        {
         "name": "Carga de bandas",
@@ -114682,16 +114682,16 @@
          550.0,
          880.0,
          660.0,
-         null,
+         550.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 3540.0,
-        "delta": 1089.0,
+        "total": 4090.0,
+        "delta": 1639.0,
         "downtime": 0.0,
-        "proficiency": 1.4443084455324358
+        "proficiency": 1.6687066503467973
        },
        {
         "name": "Moldeadora Milacron",
@@ -114705,16 +114705,16 @@
          230.0,
          230.0,
          230.0,
-         23.0,
+         344.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1403.0,
-        "delta": -1048.0,
+        "total": 1724.0,
+        "delta": -727.0,
         "downtime": 0.0,
-        "proficiency": 0.5724194206446348
+        "proficiency": 0.7033863729090167
        },
        {
         "name": "Moldeadora Atlas",
@@ -114751,7 +114751,7 @@
          300.0,
          209.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null
@@ -114773,17 +114773,17 @@
          300.0,
          260.0,
          0.0,
-         0.0,
          300.0,
+         180.0,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1575.0,
-        "delta": -1284.5,
+        "total": 1755.0,
+        "delta": -1104.5,
         "downtime": 0.0,
-        "proficiency": 0.5507955936352509
+        "proficiency": 0.6137436614792796
        }
       ]
      },

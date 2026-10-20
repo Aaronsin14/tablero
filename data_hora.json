@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-20T15:26:18",
+ "generated_at": "2026-10-20T15:30:55",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -120567,14 +120567,14 @@
          400.0,
          450.0,
          500.0,
-         null,
-         null
+         439.0,
+         200.0
         ],
-        "rework": 56.0,
-        "total": 3440.0,
-        "delta": -645.0,
+        "rework": 64.0,
+        "total": 4079.0,
+        "delta": -6.0,
         "downtime": 0.0,
-        "proficiency": 0.8421052631578948
+        "proficiency": 0.998531211750306
        },
        {
         "name": "Welder",
@@ -120590,14 +120590,14 @@
          290.0,
          170.0,
          310.0,
-         null,
-         null
+         50.0,
+         25.0
         ],
         "rework": 250.0,
-        "total": 2040.0,
-        "delta": -574.4000000000001,
+        "total": 2115.0,
+        "delta": -499.4000000000001,
         "downtime": 80.0,
-        "proficiency": 0.7965431070387339
+        "proficiency": 0.8258277800916284
        },
        {
         "name": "Carga de bandas",
@@ -120728,14 +120728,14 @@
          390.0,
          270.0,
          344.0,
-         null,
+         295.0,
          null
         ],
         "rework": 0.0,
-        "total": 2104.0,
-        "delta": -1082.3000000000002,
+        "total": 2399.0,
+        "delta": -787.3000000000002,
         "downtime": 120.0,
-        "proficiency": 0.7189966852339131
+        "proficiency": 0.8198065816901889
        },
        {
         "name": "Sidehole Soft Vu",
@@ -120751,14 +120751,14 @@
          200.0,
          100.0,
          200.0,
-         null,
+         200.0,
          null
         ],
         "rework": 0.0,
-        "total": 1410.0,
-        "delta": 593.0,
+        "total": 1610.0,
+        "delta": 793.0,
         "downtime": 0.0,
-        "proficiency": 1.7258261933904528
+        "proficiency": 1.97062423500612
        },
        {
         "name": "Sidehole Accu Vu",
@@ -120774,14 +120774,14 @@
          50.0,
          50.0,
          100.0,
-         null,
+         29.0,
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": -517.0,
+        "total": 329.0,
+        "delta": -488.0,
         "downtime": 240.0,
-        "proficiency": 0.7194244604316548
+        "proficiency": 0.7889688249400479
        },
        {
         "name": "Baking Rot",
@@ -120797,14 +120797,14 @@
          455.0,
          250.0,
          370.0,
-         null,
+         224.0,
          null
         ],
         "rework": 2.0,
-        "total": 1949.0,
-        "delta": -1727.5,
+        "total": 2173.0,
+        "delta": -1503.5,
         "downtime": 300.0,
-        "proficiency": 0.6659832564496839
+        "proficiency": 0.7425252007517512
        },
        {
         "name": "Baking Conv",
@@ -120865,15 +120865,15 @@
          370.0,
          394.0,
          100.0,
-         0.0,
-         null,
+         410.0,
+         230.0,
          null
         ],
         "rework": 0.0,
-        "total": 1274.0,
-        "delta": 48.5,
+        "total": 1914.0,
+        "delta": 688.5,
         "downtime": 0.0,
-        "proficiency": 1.0395756833945329
+        "proficiency": 1.561811505507956
        },
        {
         "name": "Rofing",
@@ -120889,14 +120889,14 @@
          400.0,
          275.0,
          1000.0,
-         null,
+         550.0,
          null
         ],
         "rework": 0.0,
-        "total": 3230.0,
-        "delta": -1263.5,
+        "total": 3780.0,
+        "delta": -713.5,
         "downtime": 0.0,
-        "proficiency": 0.7188160676532769
+        "proficiency": 0.8412150884611105
        },
        {
         "name": "Moldeadora Milacron",
@@ -120911,15 +120911,15 @@
          108.0,
          138.0,
          91.0,
-         null,
-         null,
+         0.0,
+         162.0,
          null
         ],
         "rework": 0.0,
-        "total": 1403.0,
-        "delta": -1048.0,
+        "total": 1565.0,
+        "delta": -886.0,
         "downtime": 0.0,
-        "proficiency": 0.5724194206446348
+        "proficiency": 0.638514891880865
        },
        {
         "name": "Moldeadora Atlas",
@@ -120934,8 +120934,8 @@
          0.0,
          140.0,
          230.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null
         ],
         "rework": 0.0,
@@ -120979,16 +120979,16 @@
          400.0,
          400.0,
          215.0,
-         null,
-         null,
-         null,
-         null
+         325.0,
+         400.0,
+         400.0,
+         200.0
         ],
         "rework": 0.0,
-        "total": 1415.0,
-        "delta": -1444.5,
+        "total": 2740.0,
+        "delta": -119.5,
         "downtime": 0.0,
-        "proficiency": 0.49484175555166987
+        "proficiency": 0.9582094771813254
        }
       ]
      },

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-22T07:38:47",
+ "generated_at": "2026-10-22T07:43:32",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -123381,10 +123381,10 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
-         null,
+         250.0,
          null,
          null,
          null,
@@ -123396,10 +123396,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": 0.0,
+        "total": 250.0,
+        "delta": -2201.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.10199918400652795
        },
        {
         "name": "Moldeadora Atlas",
@@ -123407,7 +123407,7 @@
         "meta_hora": 300.0,
         "meta_dia": 2451.0,
         "hours": [
-         null,
+         70.0,
          null,
          null,
          null,
@@ -123419,10 +123419,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -2451.0,
+        "total": 70.0,
+        "delta": -2381.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.028559771521827825
        },
        {
         "name": "Pouch",

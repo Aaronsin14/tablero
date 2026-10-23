@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-10-22T16:16:49",
+ "generated_at": "2026-10-23T06:18:56",
  "current_sheet": "27-Oct-2026",
  "current_date": "2026-10-27",
  "stages": [
@@ -96,10 +96,10 @@
    "part_number": "40708501",
    "sub_ensamble": "14400109",
    "demanda": 1000.0,
-   "producido": 1091.0,
-   "pct": 109.1,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "producido": 1066.0,
+   "pct": 106.6,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "verde"
   },
   {
@@ -136,10 +136,10 @@
    "part_number": "40708506",
    "sub_ensamble": "14400114",
    "demanda": 500.0,
-   "producido": 545.0,
-   "pct": 109.0,
-   "stage_key": "sidehole",
-   "stage_col": 11,
+   "producido": 539.0,
+   "pct": 107.8,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "verde"
   },
   {
@@ -156,10 +156,10 @@
    "part_number": "40708603",
    "sub_ensamble": "14400109",
    "demanda": 500.0,
-   "producido": 535.0,
-   "pct": 107.0,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 531.0,
+   "pct": 106.2,
+   "stage_key": "inspeccion",
+   "stage_col": 20,
    "status": "verde"
   },
   {
@@ -176,31 +176,31 @@
    "part_number": "40732202",
    "sub_ensamble": "14400113",
    "demanda": 800.0,
-   "producido": 844.0,
-   "pct": 105.5,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 829.0,
+   "pct": 103.6,
+   "stage_key": "inspeccion",
+   "stage_col": 20,
    "status": "verde"
   },
   {
    "part_number": "40732203",
    "sub_ensamble": "14400111",
    "demanda": 2700.0,
-   "producido": 2715.0,
-   "pct": 100.6,
-   "stage_key": "moldeo",
-   "stage_col": 16,
-   "status": "verde"
+   "producido": 2669.0,
+   "pct": 98.9,
+   "stage_key": "inspeccion",
+   "stage_col": 20,
+   "status": "ambar"
   },
   {
    "part_number": "40732702",
    "sub_ensamble": "14400109",
    "demanda": 2500.0,
-   "producido": 2172.0,
-   "pct": 86.9,
-   "stage_key": "prepping",
-   "stage_col": 15,
-   "status": "ambar"
+   "producido": 2707.0,
+   "pct": 108.3,
+   "stage_key": "moldeo",
+   "stage_col": 16,
+   "status": "verde"
   },
   {
    "part_number": "40733401",
@@ -216,10 +216,10 @@
    "part_number": "40712006",
    "sub_ensamble": "14400105",
    "demanda": 1800.0,
-   "producido": 1907.0,
-   "pct": 105.9,
-   "stage_key": "inspeccion",
-   "stage_col": 20,
+   "producido": 1896.0,
+   "pct": 105.3,
+   "stage_key": "boxing",
+   "stage_col": 23,
    "status": "verde"
   },
   {
@@ -256,10 +256,10 @@
    "part_number": "411722109",
    "sub_ensamble": "14400145",
    "demanda": 300.0,
-   "producido": 325.0,
-   "pct": 108.3,
-   "stage_key": "inspeccion",
-   "stage_col": 20,
+   "producido": 326.0,
+   "pct": 108.7,
+   "stage_key": "hydrophilic_mariner",
+   "stage_col": 17,
    "status": "verde"
   },
   {
@@ -276,11 +276,11 @@
    "part_number": "411722705",
    "sub_ensamble": "14400106",
    "demanda": 450.0,
-   "producido": 364.0,
-   "pct": 80.9,
-   "stage_key": "calidad",
-   "stage_col": 21,
-   "status": "ambar"
+   "producido": 289.0,
+   "pct": 64.2,
+   "stage_key": "boxing",
+   "stage_col": 23,
+   "status": "rojo"
   },
   {
    "part_number": "411709015",
@@ -346,8 +346,8 @@
    "part_number": "40732301",
    "sub_ensamble": "14400122",
    "demanda": 1500.0,
-   "producido": 5500.0,
-   "pct": 366.7,
+   "producido": 5382.0,
+   "pct": 358.8,
    "stage_key": "packaged",
    "stage_col": 24,
    "status": "verde"
@@ -356,31 +356,31 @@
    "part_number": "40734301",
    "sub_ensamble": "14400122",
    "demanda": 5000.0,
-   "producido": 5500.0,
-   "pct": 110.0,
-   "stage_key": "drawdown",
-   "stage_col": 10,
+   "producido": 5407.0,
+   "pct": 108.1,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "verde"
   },
   {
    "part_number": "40714001",
    "sub_ensamble": "14400131",
    "demanda": 1500.0,
-   "producido": 1550.0,
-   "pct": 103.3,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "producido": 1528.0,
+   "pct": 101.9,
+   "stage_key": "inspeccion",
+   "stage_col": 20,
    "status": "verde"
   },
   {
    "part_number": "40714014",
    "sub_ensamble": "14400131",
    "demanda": 2945.0,
-   "producido": 2187.0,
-   "pct": 74.3,
-   "stage_key": "moldeo",
-   "stage_col": 16,
-   "status": "rojo"
+   "producido": 3176.0,
+   "pct": 107.8,
+   "stage_key": "inspeccion",
+   "stage_col": 20,
+   "status": "verde"
   },
   {
    "part_number": "40711402",
@@ -488,18 +488,18 @@
    "demanda": 1200.0,
    "producido": 816.0,
    "pct": 68.0,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "rojo"
   },
   {
    "part_number": "43709302",
    "sub_ensamble": "14400114",
    "demanda": 250.0,
-   "producido": 228.0,
-   "pct": 91.2,
-   "stage_key": "inspeccion",
-   "stage_col": 20,
+   "producido": 220.0,
+   "pct": 88.0,
+   "stage_key": "packaged",
+   "stage_col": 24,
    "status": "ambar"
   },
   {
@@ -516,21 +516,21 @@
    "part_number": "43709801",
    "sub_ensamble": "14400114",
    "demanda": 1000.0,
-   "producido": 1100.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
+   "producido": 1002.0,
+   "pct": 100.2,
+   "stage_key": "drawdown",
+   "stage_col": 10,
    "status": "verde"
   },
   {
    "part_number": "43709803",
    "sub_ensamble": "14400114",
    "demanda": 1200.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
+   "producido": 1000.0,
+   "pct": 83.3,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "ambar"
   },
   {
    "part_number": "43709901",
@@ -566,11 +566,11 @@
  "kpis": {
   "partes_activos": 47,
   "total_demanda": 38543.0,
-  "total_producido": 44123.0,
-  "empacado": 7175.0,
-  "pct_cumplimiento": 18.6,
-  "exceso_total": 5580.0,
-  "atrasados": 8
+  "total_producido": 46127.0,
+  "empacado": 7277.0,
+  "pct_cumplimiento": 18.9,
+  "exceso_total": 7584.0,
+  "atrasados": 7
  },
  "weeks_available": [
   {

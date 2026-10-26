@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-26T06:59:11",
+ "generated_at": "2026-10-26T07:10:27",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -127409,7 +127409,7 @@
         "meta_hora": 450.0,
         "meta_dia": 2461.5,
         "hours": [
-         null,
+         149.0,
          null,
          null,
          null,
@@ -127418,10 +127418,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2461.5,
+        "total": 149.0,
+        "delta": -2312.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.0602020202020202
        },
        {
         "name": "Baking Conv",
@@ -128024,8 +128024,8 @@
        {
         "name": "Welder",
         "maquinas": 8,
-        "meta_hora": 370.0,
-        "meta_dia": 3022.9,
+        "meta_hora": 330.0,
+        "meta_dia": 2696.1,
         "hours": [
          null,
          null,
@@ -128040,7 +128040,7 @@
         ],
         "rework": 0.0,
         "total": 0,
-        "delta": -3022.9,
+        "delta": -2696.1,
         "downtime": 0.0,
         "proficiency": 0
        },

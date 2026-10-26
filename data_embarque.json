@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-10-26T16:29:07",
+ "generated_at": "2026-10-26T16:33:56",
  "current_sheet": "27-Oct-2026",
  "current_date": "2026-10-27",
  "stages": [
@@ -258,8 +258,8 @@
    "demanda": 300.0,
    "producido": 326.0,
    "pct": 108.7,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 17,
+   "stage_key": "baking_mariner",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -496,11 +496,11 @@
    "part_number": "43709102 (2 bandas)",
    "sub_ensamble": "14400114",
    "demanda": 250.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "verde"
   },
   {
    "part_number": "43709801",
@@ -548,19 +548,19 @@
    "demanda": 200.0,
    "producido": 100.0,
    "pct": 50.0,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "rojo"
   }
  ],
  "kpis": {
   "partes_activos": 46,
   "total_demanda": 50739.0,
-  "total_producido": 46520.0,
+  "total_producido": 46795.0,
   "empacado": 21075.0,
   "pct_cumplimiento": 41.5,
-  "exceso_total": -4219.0,
-  "atrasados": 9
+  "exceso_total": -3944.0,
+  "atrasados": 8
  },
  "weeks_available": [
   {

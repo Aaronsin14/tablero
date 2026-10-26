@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-26T10:10:16",
+ "generated_at": "2026-10-26T10:13:16",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -128306,7 +128306,7 @@
          0.0,
          300.0,
          150.0,
-         null,
+         414.0,
          null,
          null,
          null,
@@ -128315,10 +128315,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 450.0,
-        "delta": -775.5,
+        "total": 864.0,
+        "delta": -361.5,
         "downtime": 0.0,
-        "proficiency": 0.36719706242350064
+        "proficiency": 0.7050183598531212
        },
        {
         "name": "Rofing",
@@ -128329,7 +128329,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         260.0,
          null,
          null,
          null,
@@ -128338,10 +128338,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 260.0,
+        "delta": -2191.0,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.10607915136678907
        },
        {
         "name": "Moldeadora Milacron",
@@ -128352,7 +128352,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -128363,19 +128363,19 @@
         "rework": 0.0,
         "total": 0.0,
         "delta": 0.0,
-        "downtime": 120.0,
+        "downtime": 260.0,
         "proficiency": 0
        },
        {
         "name": "Moldeadora Atlas",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 290.0,
+        "meta_dia": 2369.3,
         "hours": [
          0.0,
          0.0,
          76.0,
-         null,
+         250.0,
          null,
          null,
          null,
@@ -128384,10 +128384,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 76.0,
-        "delta": -2375.0,
+        "total": 326.0,
+        "delta": -2043.3000000000002,
         "downtime": 135.0,
-        "proficiency": 0.04279279279279279
+        "proficiency": 0.18988816402609504
        },
        {
         "name": "Pouch",
@@ -128397,8 +128397,8 @@
         "hours": [
          null,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null,
          null,
          null,

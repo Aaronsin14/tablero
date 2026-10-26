@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-10-26T15:23:14",
+ "generated_at": "2026-10-26T15:28:29",
  "current_sheet": "27-Oct-2026",
  "current_date": "2026-10-27",
  "stages": [
@@ -288,8 +288,8 @@
    "demanda": 300.0,
    "producido": 223.0,
    "pct": 74.3,
-   "stage_key": "calidad",
-   "stage_col": 21,
+   "stage_key": "pouch",
+   "stage_col": 22,
    "status": "rojo"
   },
   {
@@ -318,8 +318,8 @@
    "demanda": 160.0,
    "producido": 194.0,
    "pct": 121.2,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "verde"
   },
   {
@@ -468,8 +468,8 @@
    "demanda": 125.0,
    "producido": 135.0,
    "pct": 108.0,
-   "stage_key": "prepping",
-   "stage_col": 15,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "verde"
   },
   {
@@ -533,7 +533,7 @@
    "status": "rojo"
   },
   {
-   "part_number": "43709920",
+   "part_number": "43709920 (21 bandas)",
    "sub_ensamble": "14400114",
    "demanda": 250.0,
    "producido": 0.0,
@@ -543,7 +543,7 @@
    "status": "rojo"
   },
   {
-   "part_number": "43709705",
+   "part_number": "43709705 (21 bandas)",
    "sub_ensamble": "14400131",
    "demanda": 200.0,
    "producido": 100.0,

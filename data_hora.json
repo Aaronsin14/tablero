@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-28T15:32:40",
+ "generated_at": "2026-10-28T15:41:36",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -130493,13 +130493,13 @@
          450.0,
          550.0,
          550.0,
-         225.0
+         436.0
         ],
-        "rework": 82.0,
-        "total": 4295.0,
-        "delta": 210.0,
+        "rework": 84.0,
+        "total": 4506.0,
+        "delta": 421.0,
         "downtime": 0.0,
-        "proficiency": 1.05140758873929
+        "proficiency": 1.1030599755201957
        },
        {
         "name": "Welder",
@@ -130514,15 +130514,15 @@
          275.0,
          255.0,
          115.0,
-         290.0,
-         200.0,
-         45.0
+         326.0,
+         220.0,
+         156.0
         ],
-        "rework": 136.0,
-        "total": 2197.0,
-        "delta": -662.5,
+        "rework": 137.0,
+        "total": 2364.0,
+        "delta": -495.5,
         "downtime": 0.0,
-        "proficiency": 0.7683161391851723
+        "proficiency": 0.8267179576849101
        },
        {
         "name": "Carga de bandas",
@@ -130755,7 +130755,7 @@
         "proficiency": 0.0
        },
        {
-        "name": "Hand Drilling",
+        "name": "hIDROFILICO",
         "maquinas": 1,
         "meta_hora": 60.0,
         "meta_dia": 490.2,
@@ -130769,13 +130769,13 @@
          0.0,
          50.0,
          70.0,
-         null
+         23.0
         ],
         "rework": 0.0,
-        "total": 250.0,
-        "delta": -240.2,
+        "total": 273.0,
+        "delta": -217.2,
         "downtime": 0.0,
-        "proficiency": 0.5099959200326397
+        "proficiency": 0.5569155446756426
        },
        {
         "name": "Prepping",
@@ -130792,13 +130792,13 @@
          100.0,
          200.0,
          250.0,
-         null
+         150.0
         ],
         "rework": 0.0,
-        "total": 1420.0,
-        "delta": 194.5,
+        "total": 1570.0,
+        "delta": 344.5,
         "downtime": 0.0,
-        "proficiency": 1.1587107303141575
+        "proficiency": 1.281109751121991
        },
        {
         "name": "Rofing",
@@ -130815,7 +130815,7 @@
          0.0,
          0.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 2250.0,
@@ -130861,13 +130861,13 @@
          106.0,
          220.0,
          200.0,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 1758.0,
-        "delta": -693.0,
+        "total": 1808.0,
+        "delta": -643.0,
         "downtime": 0.0,
-        "proficiency": 0.7172582619339045
+        "proficiency": 0.7376580987352102
        },
        {
         "name": "Pouch",

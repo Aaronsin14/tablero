@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-28T08:15:42",
+ "generated_at": "2026-10-28T08:17:47",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -130784,7 +130784,7 @@
         "meta_dia": 1021.25,
         "hours": [
          100.0,
-         null,
+         160.0,
          null,
          null,
          null,
@@ -130795,19 +130795,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 100.0,
-        "delta": -1125.5,
+        "total": 260.0,
+        "delta": -965.5,
         "downtime": 0.0,
-        "proficiency": 0.08159934720522236
+        "proficiency": 0.21215830273357814
        },
        {
         "name": "Rofing",
         "maquinas": 1,
-        "meta_hora": 300.0,
-        "meta_dia": 2451.0,
+        "meta_hora": 550.0,
+        "meta_dia": 4493.5,
         "hours": [
          0.0,
-         null,
+         550.0,
          null,
          null,
          null,
@@ -130818,10 +130818,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0.0,
-        "delta": -2451.0,
+        "total": 550.0,
+        "delta": -3943.5,
         "downtime": 0.0,
-        "proficiency": 0.0
+        "proficiency": 0.12239902080783353
        },
        {
         "name": "Moldeadora Milacron",
@@ -130830,7 +130830,7 @@
         "meta_dia": 2451.0,
         "hours": [
          190.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -130853,7 +130853,7 @@
         "meta_dia": 2451.0,
         "hours": [
          210.0,
-         null,
+         92.0,
          null,
          null,
          null,
@@ -130864,10 +130864,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 210.0,
-        "delta": -2241.0,
+        "total": 302.0,
+        "delta": -2149.0,
         "downtime": 0.0,
-        "proficiency": 0.08567931456548347
+        "proficiency": 0.12321501427988577
        },
        {
         "name": "Pouch",
@@ -130876,7 +130876,7 @@
         "meta_dia": 2451.0,
         "hours": [
          null,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -130887,10 +130887,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
+        "total": 0.0,
         "delta": -2451.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.0
        },
        {
         "name": "Boxing",

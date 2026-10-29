@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-29T11:59:09",
+ "generated_at": "2026-10-29T14:18:18",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -131819,8 +131819,8 @@
          20.0,
          0.0,
          0.0,
-         null,
-         null,
+         12.0,
+         0.0,
          null,
          null,
          null,
@@ -131828,10 +131828,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 20.0,
-        "delta": -388.5,
+        "total": 32.0,
+        "delta": -376.5,
         "downtime": 240.0,
-        "proficiency": 0.06482982171799027
+        "proficiency": 0.10372771474878445
        },
        {
         "name": "Embedder",
@@ -131842,8 +131842,8 @@
          12.0,
          38.0,
          19.0,
-         null,
-         null,
+         0.0,
+         33.0,
          null,
          null,
          null,
@@ -131851,10 +131851,10 @@
          null
         ],
         "rework": 8.0,
-        "total": 69.0,
-        "delta": -339.5,
+        "total": 102.0,
+        "delta": -306.5,
         "downtime": 600.0,
-        "proficiency": 0.19246861924686193
+        "proficiency": 0.2845188284518828
        },
        {
         "name": "Inspeccion",
@@ -131866,7 +131866,7 @@
          38.0,
          19.0,
          0.0,
-         0.0,
+         33.0,
          0.0,
          0.0,
          0.0,
@@ -131874,10 +131874,10 @@
          0.0
         ],
         "rework": 8.0,
-        "total": 69.0,
-        "delta": -339.5,
+        "total": 102.0,
+        "delta": -306.5,
         "downtime": 60.0,
-        "proficiency": 0.19246861924686193
+        "proficiency": 0.2845188284518828
        },
        {
         "name": "Drawdown",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-10-30T12:44:09",
+ "generated_at": "2026-10-30T12:48:58",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -133090,7 +133090,7 @@
          null,
          null
         ],
-        "rework": 1.0,
+        "rework": 2.0,
         "total": 198.0,
         "delta": -210.5,
         "downtime": 240.0,
@@ -133113,7 +133113,7 @@
          0.0,
          0.0
         ],
-        "rework": 1.0,
+        "rework": 2.0,
         "total": 198.0,
         "delta": -210.5,
         "downtime": 0.0,
@@ -133130,17 +133130,17 @@
          131.0,
          130.0,
          255.0,
-         null,
+         210.0,
          null,
          null,
          null,
          null
         ],
         "rework": 7.0,
-        "total": 796.0,
-        "delta": -2390.3,
+        "total": 1006.0,
+        "delta": -2180.3,
         "downtime": 60.0,
-        "proficiency": 0.2604456368811962
+        "proficiency": 0.32915616922422536
        },
        {
         "name": "Sidehole Soft Vu",
@@ -133153,7 +133153,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -133176,17 +133176,17 @@
          100.0,
          100.0,
          100.0,
-         null,
+         91.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -417.0,
+        "total": 491.0,
+        "delta": -326.0,
         "downtime": 60.0,
-        "proficiency": 0.5578800557880056
+        "proficiency": 0.6847977684797769
        },
        {
         "name": "Baking Rot",
@@ -133199,17 +133199,17 @@
          200.0,
          342.0,
          220.0,
-         null,
+         300.0,
          null,
          null,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 1187.0,
-        "delta": -2489.5,
+        "total": 1487.0,
+        "delta": -2189.5,
         "downtime": 180.0,
-        "proficiency": 0.367890903455757
+        "proficiency": 0.46087091275375797
        },
        {
         "name": "Baking Conv",
@@ -133222,7 +133222,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

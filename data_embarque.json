@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-10-29T15:59:21",
+ "generated_at": "2026-10-30T06:22:10",
  "current_sheet": "10-Nov-2026",
  "current_date": "2026-11-10",
  "stages": [
@@ -76,15 +76,136 @@
    "uph": null
   }
  ],
- "parts": [],
+ "parts": [
+  {
+   "part_number": "40731501",
+   "sub_ensamble": "14400112",
+   "demanda": 250.0,
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "verde"
+  },
+  {
+   "part_number": "40731802",
+   "sub_ensamble": "14400109",
+   "demanda": 300.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "40719903",
+   "sub_ensamble": "14400109",
+   "demanda": 250.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "40720405",
+   "sub_ensamble": "14400113",
+   "demanda": 1500.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "40732201",
+   "sub_ensamble": "14400111",
+   "demanda": 2000.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "40714022",
+   "sub_ensamble": "14400131",
+   "demanda": 250.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "43709001 (2 bandas)",
+   "sub_ensamble": "14400116",
+   "demanda": 1400.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "43709703",
+   "sub_ensamble": "14400116",
+   "demanda": 500.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "43709104 (2 bandas)",
+   "sub_ensamble": "14400114",
+   "demanda": 300.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "43709920",
+   "sub_ensamble": "14400114",
+   "demanda": 500.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  },
+  {
+   "part_number": "43709005 (2 bandas)",
+   "sub_ensamble": "14400131",
+   "demanda": 300.0,
+   "producido": 330.0,
+   "pct": 110.0,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "verde"
+  },
+  {
+   "part_number": "43709804",
+   "sub_ensamble": "14400131",
+   "demanda": 750.0,
+   "producido": 0.0,
+   "pct": 0.0,
+   "stage_key": "wip_welder",
+   "stage_col": 8,
+   "status": "rojo"
+  }
+ ],
  "kpis": {
-  "partes_activos": 0,
-  "total_demanda": 0,
-  "total_producido": 0,
+  "partes_activos": 12,
+  "total_demanda": 8300.0,
+  "total_producido": 605.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": 0,
-  "atrasados": 0
+  "exceso_total": -7695.0,
+  "atrasados": 10
  },
  "weeks_available": [
   {

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-04T14:42:19",
+ "generated_at": "2026-11-04T15:06:01",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -139245,15 +139245,15 @@
          50.0,
          60.0,
          50.0,
-         35.0,
+         55.0,
          null,
          null
         ],
-        "rework": 2.0,
-        "total": 355.0,
-        "delta": -462.0,
+        "rework": 3.0,
+        "total": 375.0,
+        "delta": -442.0,
         "downtime": 0.0,
-        "proficiency": 0.4345165238678091
+        "proficiency": 0.45899632802937573
        },
        {
         "name": "Swager",
@@ -139268,15 +139268,15 @@
          50.0,
          60.0,
          50.0,
-         null,
+         55.0,
          null,
          null
         ],
         "rework": 0.0,
-        "total": 320.0,
-        "delta": -497.0,
+        "total": 375.0,
+        "delta": -442.0,
         "downtime": 0.0,
-        "proficiency": 0.39167686658506734
+        "proficiency": 0.45899632802937573
        },
        {
         "name": "Embedder",
@@ -139291,15 +139291,15 @@
          45.0,
          40.0,
          30.0,
-         null,
+         45.0,
          null,
          null
         ],
-        "rework": 3.0,
-        "total": 230.0,
-        "delta": -178.5,
+        "rework": 5.0,
+        "total": 275.0,
+        "delta": -133.5,
         "downtime": 0.0,
-        "proficiency": 0.5630354957160343
+        "proficiency": 0.6731946144430845
        },
        {
         "name": "Inspeccion",
@@ -139314,15 +139314,15 @@
          45.0,
          40.0,
          30.0,
-         0.0,
-         0.0,
+         45.0,
+         null,
          0.0
         ],
         "rework": 3.0,
-        "total": 230.0,
-        "delta": -178.5,
+        "total": 275.0,
+        "delta": -133.5,
         "downtime": 0.0,
-        "proficiency": 0.5630354957160343
+        "proficiency": 0.6731946144430845
        },
        {
         "name": "Drawdown",

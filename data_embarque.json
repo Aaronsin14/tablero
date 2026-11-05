@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-11-05T09:33:33",
+ "generated_at": "2026-11-05T10:45:16",
  "current_sheet": "10-Nov-2026",
  "current_date": "2026-11-10",
  "stages": [
@@ -141,10 +141,10 @@
    "part_number": "40722706",
    "sub_ensamble": "14400139",
    "demanda": 250.0,
-   "producido": 223.0,
-   "pct": 89.2,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "producido": 221.0,
+   "pct": 88.4,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "ambar"
   },
   {
@@ -221,8 +221,8 @@
    "part_number": "40732702",
    "sub_ensamble": "14400109",
    "demanda": 1750.0,
-   "producido": 1889.0,
-   "pct": 107.9,
+   "producido": 2956.0,
+   "pct": 168.9,
    "stage_key": "prepping",
    "stage_col": 15,
    "status": "verde"
@@ -231,8 +231,8 @@
    "part_number": "40722703",
    "sub_ensamble": "14400101",
    "demanda": 1850.0,
-   "producido": 1062.0,
-   "pct": 57.4,
+   "producido": 1059.0,
+   "pct": 57.2,
    "stage_key": "moldeo",
    "stage_col": 16,
    "status": "rojo"
@@ -418,13 +418,23 @@
    "status": "ambar"
   },
   {
+   "part_number": "43709104 (2 bandas)",
+   "sub_ensamble": "14400114",
+   "demanda": 300.0,
+   "producido": 327.0,
+   "pct": 109.0,
+   "stage_key": "prepping",
+   "stage_col": 15,
+   "status": "verde"
+  },
+  {
    "part_number": "43709803",
    "sub_ensamble": "14400114",
    "demanda": 1050.0,
-   "producido": 1155.0,
-   "pct": 110.0,
-   "stage_key": "embedder",
-   "stage_col": 9,
+   "producido": 1109.0,
+   "pct": 105.6,
+   "stage_key": "drawdown",
+   "stage_col": 10,
    "status": "verde"
   },
   {
@@ -459,12 +469,12 @@
   }
  ],
  "kpis": {
-  "partes_activos": 37,
-  "total_demanda": 33805.0,
-  "total_producido": 32246.0,
+  "partes_activos": 38,
+  "total_demanda": 34105.0,
+  "total_producido": 33589.0,
   "empacado": 8200.0,
-  "pct_cumplimiento": 24.3,
-  "exceso_total": -1559.0,
+  "pct_cumplimiento": 24.0,
+  "exceso_total": -516.0,
   "atrasados": 4
  },
  "weeks_available": [

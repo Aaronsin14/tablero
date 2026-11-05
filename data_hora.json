@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-05T15:51:17",
+ "generated_at": "2026-11-05T15:56:59",
  "weeks": {
   "WW28": {
    "label": "WW28",
@@ -140464,13 +140464,13 @@
          80.0,
          80.0,
          100.0,
-         null
+         70.0
         ],
         "rework": 0.0,
-        "total": 490.0,
-        "delta": -122.75,
+        "total": 560.0,
+        "delta": -52.75,
         "downtime": 180.0,
-        "proficiency": 1.2637008381689232
+        "proficiency": 1.4442295293359124
        },
        {
         "name": "Staker",
@@ -140487,13 +140487,13 @@
          100.0,
          60.0,
          55.0,
-         null
+         22.0
         ],
         "rework": 0.0,
-        "total": 325.0,
-        "delta": -492.0,
+        "total": 347.0,
+        "delta": -470.0,
         "downtime": 540.0,
-        "proficiency": 0.885558583106267
+        "proficiency": 0.9455040871934606
        },
        {
         "name": "Swager",
@@ -140510,13 +140510,13 @@
          50.0,
          60.0,
          55.0,
-         null
+         22.0
         ],
         "rework": 0.0,
-        "total": 275.0,
-        "delta": -542.0,
+        "total": 297.0,
+        "delta": -520.0,
         "downtime": 540.0,
-        "proficiency": 0.7493188010899183
+        "proficiency": 0.8092643051771117
        },
        {
         "name": "Embedder",
@@ -140533,13 +140533,13 @@
          20.0,
          24.0,
          28.0,
-         null
+         8.0
         ],
         "rework": 4.0,
-        "total": 262.0,
-        "delta": -146.5,
+        "total": 270.0,
+        "delta": -138.5,
         "downtime": 0.0,
-        "proficiency": 0.6413708690330477
+        "proficiency": 0.6609547123623011
        },
        {
         "name": "Inspeccion",
@@ -140556,13 +140556,13 @@
          20.0,
          24.0,
          28.0,
-         0.0
+         8.0
         ],
         "rework": 4.0,
-        "total": 262.0,
-        "delta": -146.5,
+        "total": 270.0,
+        "delta": -138.5,
         "downtime": 0.0,
-        "proficiency": 0.6413708690330477
+        "proficiency": 0.6609547123623011
        },
        {
         "name": "Drawdown",
@@ -140579,13 +140579,13 @@
          170.0,
          410.0,
          390.0,
-         null
+         169.0
         ],
         "rework": 6.0,
-        "total": 2470.0,
-        "delta": -716.3000000000002,
+        "total": 2639.0,
+        "delta": -547.3000000000002,
         "downtime": 120.0,
-        "proficiency": 0.844069302532208
+        "proficiency": 0.9018214127054642
        },
        {
         "name": "Sidehole Soft Vu",
@@ -140602,13 +140602,13 @@
          100.0,
          100.0,
          100.0,
-         null
+         100.0
         ],
         "rework": 0.0,
-        "total": 1000.0,
-        "delta": 183.0,
+        "total": 1100.0,
+        "delta": 283.0,
         "downtime": 0.0,
-        "proficiency": 1.2239902080783354
+        "proficiency": 1.346389228886169
        },
        {
         "name": "Sidehole Accu Vu",
@@ -140625,13 +140625,13 @@
          0.0,
          100.0,
          100.0,
-         null
+         100.0
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -617.0,
+        "total": 300.0,
+        "delta": -517.0,
         "downtime": 120.0,
-        "proficiency": 0.32414910858995133
+        "proficiency": 0.4862236628849271
        },
        {
         "name": "Baking Rot",
@@ -140648,13 +140648,13 @@
          150.0,
          180.0,
          20.0,
-         null
+         20.0
         ],
         "rework": 0.0,
-        "total": 1993.0,
-        "delta": -1683.5,
+        "total": 2013.0,
+        "delta": -1663.5,
         "downtime": 300.0,
-        "proficiency": 0.6810182812233043
+        "proficiency": 0.6878523833931317
        },
        {
         "name": "Baking Conv",
@@ -140671,7 +140671,7 @@
          40.0,
          60.0,
          0.0,
-         null
+         0.0
         ],
         "rework": 0.0,
         "total": 230.0,

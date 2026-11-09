@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-09T08:49:21",
+ "generated_at": "2026-11-09T08:54:18",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -145535,8 +145535,8 @@
         "meta_hora": 390.0,
         "meta_dia": 3186.2999999999997,
         "hours": [
-         null,
-         null,
+         0.0,
+         150.0,
          null,
          null,
          null,
@@ -145546,11 +145546,11 @@
          null,
          null
         ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -3186.3,
+        "rework": 15.0,
+        "total": 150.0,
+        "delta": -3036.3,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.047076546464551366
        },
        {
         "name": "Sidehole Soft Vu",

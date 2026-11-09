@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-09T08:44:19",
+ "generated_at": "2026-11-09T08:49:21",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -145420,8 +145420,8 @@
         "meta_hora": 75.0,
         "meta_dia": 612.75,
         "hours": [
-         null,
-         null,
+         0.0,
+         21.0,
          null,
          null,
          null,
@@ -145432,19 +145432,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -612.75,
+        "total": 21.0,
+        "delta": -591.75,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.03427172582619339
        },
        {
         "name": "Staker",
         "maquinas": 2,
-        "meta_hora": 100.0,
-        "meta_dia": 817.0,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
-         null,
-         null,
+         5.0,
+         0.0,
          null,
          null,
          null,
@@ -145455,10 +145455,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 5.0,
+        "delta": -403.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.012239902080783354
        },
        {
         "name": "Swager",
@@ -145466,8 +145466,8 @@
         "meta_hora": 100.0,
         "meta_dia": 817.0,
         "hours": [
-         null,
-         null,
+         5.0,
+         0.0,
          null,
          null,
          null,
@@ -145478,19 +145478,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -817.0,
+        "total": 5.0,
+        "delta": -812.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.006119951040391677
        },
        {
         "name": "Embedder",
         "maquinas": 10,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9000000000001,
+        "meta_hora": 50.0,
+        "meta_dia": 408.50000000000006,
         "hours": [
-         null,
-         null,
+         0.0,
+         20.0,
          null,
          null,
          null,
@@ -145501,19 +145501,19 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -571.9,
+        "total": 20.0,
+        "delta": -388.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Inspeccion",
         "maquinas": 1,
-        "meta_hora": 70.0,
-        "meta_dia": 571.9,
+        "meta_hora": 50.0,
+        "meta_dia": 408.5,
         "hours": [
-         null,
-         null,
+         0.0,
+         20.0,
          null,
          null,
          null,
@@ -145524,10 +145524,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 0,
-        "delta": -571.9,
+        "total": 20.0,
+        "delta": -388.5,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.04895960832313342
        },
        {
         "name": "Drawdown",

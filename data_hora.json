@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-10T15:07:32",
+ "generated_at": "2026-11-10T15:12:17",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -146667,15 +146667,15 @@
          75.0,
          75.0,
          75.0,
-         null,
-         null,
+         75.0,
+         100.0,
          null
         ],
         "rework": 0.0,
-        "total": 500.0,
-        "delta": -112.75,
+        "total": 675.0,
+        "delta": 62.25,
         "downtime": 0.0,
-        "proficiency": 0.8159934720522236
+        "proficiency": 1.1015911872705018
        },
        {
         "name": "Staker",
@@ -146690,15 +146690,15 @@
          30.0,
          45.0,
          30.0,
-         null,
-         null,
+         36.0,
+         60.0,
          null
         ],
         "rework": 5.0,
-        "total": 305.0,
-        "delta": -103.5,
+        "total": 401.0,
+        "delta": -7.5,
         "downtime": 120.0,
-        "proficiency": 0.8507670850767086
+        "proficiency": 1.1185495118549513
        },
        {
         "name": "Swager",
@@ -146713,15 +146713,15 @@
          30.0,
          55.0,
          30.0,
-         null,
-         null,
+         36.0,
+         60.0,
          null
         ],
         "rework": 0.0,
-        "total": 315.0,
-        "delta": -502.0,
+        "total": 411.0,
+        "delta": -406.0,
         "downtime": 120.0,
-        "proficiency": 0.4393305439330544
+        "proficiency": 0.5732217573221757
        },
        {
         "name": "Embedder",
@@ -146736,15 +146736,15 @@
          48.0,
          60.0,
          40.0,
-         null,
-         null,
+         25.0,
+         47.0,
          null
         ],
-        "rework": 10.0,
-        "total": 309.0,
-        "delta": -99.5,
+        "rework": 11.0,
+        "total": 381.0,
+        "delta": -27.5,
         "downtime": 0.0,
-        "proficiency": 0.7564259485924113
+        "proficiency": 0.9326805385556916
        },
        {
         "name": "Inspeccion",
@@ -146759,15 +146759,15 @@
          48.0,
          60.0,
          40.0,
-         0.0,
-         0.0,
+         25.0,
+         47.0,
          0.0
         ],
-        "rework": 10.0,
-        "total": 309.0,
-        "delta": -99.5,
+        "rework": 11.0,
+        "total": 381.0,
+        "delta": -27.5,
         "downtime": 0.0,
-        "proficiency": 0.7564259485924113
+        "proficiency": 0.9326805385556916
        },
        {
         "name": "Drawdown",
@@ -146782,15 +146782,15 @@
          390.0,
          390.0,
          193.0,
-         null,
-         null,
+         340.0,
+         350.0,
          null
         ],
         "rework": 2.0,
-        "total": 1853.0,
-        "delta": -1333.3000000000002,
+        "total": 2543.0,
+        "delta": -643.3000000000002,
         "downtime": 120.0,
-        "proficiency": 0.6332228411304378
+        "proficiency": 0.8690154802993543
        },
        {
         "name": "Sidehole Soft Vu",
@@ -146805,15 +146805,15 @@
          100.0,
          120.0,
          100.0,
-         null,
-         null,
+         100.0,
+         100.0,
          null
         ],
         "rework": 0.0,
-        "total": 520.0,
-        "delta": -297.0,
+        "total": 720.0,
+        "delta": -97.0,
         "downtime": 60.0,
-        "proficiency": 0.7252440725244073
+        "proficiency": 1.00418410041841
        },
        {
         "name": "Sidehole Accu Vu",
@@ -146828,15 +146828,15 @@
          100.0,
          100.0,
          100.0,
-         null,
-         null,
+         100.0,
+         100.0,
          null
         ],
         "rework": 1.0,
-        "total": 450.0,
-        "delta": -367.0,
+        "total": 650.0,
+        "delta": -167.0,
         "downtime": 60.0,
-        "proficiency": 0.6276150627615062
+        "proficiency": 0.906555090655509
        },
        {
         "name": "Baking Rot",
@@ -146851,15 +146851,15 @@
          500.0,
          350.0,
          204.0,
-         null,
-         null,
+         500.0,
+         425.0,
          null
         ],
         "rework": 0.0,
-        "total": 1994.0,
-        "delta": -1682.5,
+        "total": 2919.0,
+        "delta": -757.5,
         "downtime": 120.0,
-        "proficiency": 0.5905523471049905
+        "proficiency": 0.864504664593514
        },
        {
         "name": "Baking Conv",
@@ -146874,8 +146874,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null,
+         0.0,
+         0.0,
          null
         ],
         "rework": 0.0,

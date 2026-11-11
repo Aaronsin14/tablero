@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-11-11T14:00:40",
+ "generated_at": "2026-11-11T14:53:23",
  "current_sheet": "17-NOV-2026",
  "current_date": "2026-11-17",
  "stages": [
@@ -63,6 +63,11 @@
   {
    "key": "inspeccion",
    "label": "Inspeccion",
+   "uph": null
+  },
+  {
+   "key": "calidad",
+   "label": "Calidad",
    "uph": null
   },
   {
@@ -129,17 +134,17 @@
    "producido": 585.0,
    "pct": 97.5,
    "stage_key": "boxing",
-   "stage_col": 21,
+   "stage_col": 22,
    "status": "ambar"
   },
   {
    "part_number": "40734901",
    "sub_ensamble": "14400101",
    "demanda": 250.0,
-   "producido": 268.0,
-   "pct": 107.2,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "producido": 262.0,
+   "pct": 104.8,
+   "stage_key": "prepping",
+   "stage_col": 15,
    "status": "verde"
   },
   {
@@ -308,8 +313,8 @@
    "demanda": 300.0,
    "producido": 330.0,
    "pct": 110.0,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "stage_key": "hydrophilic_mariner",
+   "stage_col": 17,
    "status": "verde"
   },
   {
@@ -323,13 +328,33 @@
    "status": "verde"
   },
   {
+   "part_number": "411732702",
+   "sub_ensamble": "14400109",
+   "demanda": 500.0,
+   "producido": 506.0,
+   "pct": 101.2,
+   "stage_key": "calidad",
+   "stage_col": 20,
+   "status": "verde"
+  },
+  {
+   "part_number": "411722109",
+   "sub_ensamble": "14400145",
+   "demanda": 165.0,
+   "producido": 173.0,
+   "pct": 104.8,
+   "stage_key": "baking_mariner",
+   "stage_col": 18,
+   "status": "verde"
+  },
+  {
    "part_number": "411733201",
    "sub_ensamble": "14400117",
    "demanda": 175.0,
    "producido": 192.0,
    "pct": 109.7,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "stage_key": "hydrophilic_mariner",
+   "stage_col": 17,
    "status": "verde"
   },
   {
@@ -378,8 +403,8 @@
    "demanda": 300.0,
    "producido": 330.0,
    "pct": 110.0,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "stage_key": "hydrophilic_mariner",
+   "stage_col": 17,
    "status": "verde"
   },
   {
@@ -409,7 +434,7 @@
    "producido": 309.0,
    "pct": 103.0,
    "stage_key": "boxing",
-   "stage_col": 21,
+   "stage_col": 22,
    "status": "verde"
   },
   {
@@ -494,12 +519,12 @@
   }
  ],
  "kpis": {
-  "partes_activos": 41,
-  "total_demanda": 30045.0,
-  "total_producido": 28906.0,
+  "partes_activos": 43,
+  "total_demanda": 30710.0,
+  "total_producido": 29579.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": -1139.0,
+  "exceso_total": -1131.0,
   "atrasados": 3
  },
  "weeks_available": [

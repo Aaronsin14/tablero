@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-11-11T06:54:57",
+ "generated_at": "2026-11-11T07:00:58",
  "current_sheet": "17-NOV-2026",
  "current_date": "2026-11-17",
  "stages": [
@@ -176,11 +176,11 @@
    "part_number": "40732701",
    "sub_ensamble": "14400109",
    "demanda": 3000.0,
-   "producido": 2184.0,
-   "pct": 72.8,
+   "producido": 3284.0,
+   "pct": 109.5,
    "stage_key": "moldeo",
    "stage_col": 16,
-   "status": "rojo"
+   "status": "verde"
   },
   {
    "part_number": "40732702",
@@ -288,8 +288,8 @@
    "demanda": 175.0,
    "producido": 192.0,
    "pct": 109.7,
-   "stage_key": "hydrophilic_mariner",
-   "stage_col": 17,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "verde"
   },
   {
@@ -428,8 +428,8 @@
    "demanda": 500.0,
    "producido": 514.0,
    "pct": 102.8,
-   "stage_key": "baking",
-   "stage_col": 14,
+   "stage_key": "moldeo",
+   "stage_col": 16,
    "status": "verde"
   },
   {
@@ -446,11 +446,11 @@
  "kpis": {
   "partes_activos": 36,
   "total_demanda": 27275.0,
-  "total_producido": 24659.0,
+  "total_producido": 25759.0,
   "empacado": 0,
   "pct_cumplimiento": 0.0,
-  "exceso_total": -2616.0,
-  "atrasados": 4
+  "exceso_total": -1516.0,
+  "atrasados": 3
  },
  "weeks_available": [
   {

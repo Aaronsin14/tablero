@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-12T09:24:27",
+ "generated_at": "2026-11-12T09:36:01",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -154035,8 +154035,8 @@
     }
    }
   },
-  "WW48": {
-   "label": "WW48",
+  "WW47": {
+   "label": "WW47",
    "dias": {
     "LUNES": {
      "A": {
@@ -161906,29 +161906,6 @@
         "delta": -2451.0,
         "downtime": 0.0,
         "proficiency": 0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 2859.5,
-        "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0,
-        "delta": -2859.5,
-        "downtime": 0.0,
-        "proficiency": 0
        }
       ]
      },
@@ -162302,26 +162279,6 @@
         "delta": -1641.0,
         "downtime": 0.0,
         "proficiency": 0.0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 1914.5,
-        "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -1914.5,
-        "downtime": 0.0,
-        "proficiency": 0.0
        }
       ]
      },
@@ -162693,35 +162650,14 @@
         "delta": -2094.0,
         "downtime": 0.0,
         "proficiency": 0.0
-       },
-       {
-        "name": "Boxing",
-        "maquinas": 1,
-        "meta_hora": 350.0,
-        "meta_dia": 2443.0,
-        "hours": [
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null
-        ],
-        "rework": 0.0,
-        "total": 0.0,
-        "delta": -2443.0,
-        "downtime": 0.0,
-        "proficiency": 0.0
        }
       ]
      }
     }
    }
   },
-  "WW47": {
-   "label": "WW47",
+  "WW48": {
+   "label": "WW48",
    "dias": {
     "LUNES": {
      "A": {
@@ -188796,8 +188732,8 @@
   "WW43",
   "WW45",
   "WW46",
-  "WW48",
   "WW47",
+  "WW48",
   "WW49",
   "WW50"
  ],

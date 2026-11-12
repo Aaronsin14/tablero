@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-12T10:07:42",
+ "generated_at": "2026-11-12T10:13:04",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -149436,13 +149436,13 @@
        {
         "name": "Moldeadora Milacron",
         "maquinas": 1,
-        "meta_hora": 0,
-        "meta_dia": 0,
+        "meta_hora": 300.0,
+        "meta_dia": 2451.0,
         "hours": [
          300.0,
-         null,
-         null,
-         null,
+         150.0,
+         390.0,
+         300.0,
          null,
          null,
          null,
@@ -149451,10 +149451,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 300.0,
-        "delta": 300.0,
+        "total": 1140.0,
+        "delta": -1311.0,
         "downtime": 0.0,
-        "proficiency": 0
+        "proficiency": 0.46511627906976744
        },
        {
         "name": "Moldeadora Atlas",

@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-12T15:27:41",
+ "generated_at": "2026-11-12T15:32:43",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -149102,14 +149102,14 @@
          425.0,
          450.0,
          576.0,
-         null,
+         425.0,
          null
         ],
         "rework": 9.0,
-        "total": 3726.0,
-        "delta": -359.0,
+        "total": 4151.0,
+        "delta": 66.0,
         "downtime": 0.0,
-        "proficiency": 0.9121175030599755
+        "proficiency": 1.016156670746634
        },
        {
         "name": "Welder",
@@ -149125,14 +149125,14 @@
          270.0,
          180.0,
          365.0,
-         null,
+         345.0,
          null
         ],
-        "rework": 166.0,
-        "total": 2240.0,
-        "delta": -1028.0,
+        "rework": 188.0,
+        "total": 2585.0,
+        "delta": -683.0,
         "downtime": 0.0,
-        "proficiency": 0.6854345165238678
+        "proficiency": 0.7910036719706243
        },
        {
         "name": "Carga de bandas",
@@ -149149,13 +149149,13 @@
          100.0,
          100.0,
          75.0,
-         null
+         75.0
         ],
         "rework": 0.0,
-        "total": 720.0,
-        "delta": 107.25,
+        "total": 795.0,
+        "delta": 182.25,
         "downtime": 0.0,
-        "proficiency": 1.175030599755202
+        "proficiency": 1.2974296205630356
        },
        {
         "name": "Staker",
@@ -149172,13 +149172,13 @@
          37.0,
          50.0,
          50.0,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 663.0,
-        "delta": 254.5,
+        "total": 713.0,
+        "delta": 304.5,
         "downtime": 120.0,
-        "proficiency": 1.8493723849372383
+        "proficiency": 1.9888423988842399
        },
        {
         "name": "Swager",
@@ -149195,13 +149195,13 @@
          37.0,
          50.0,
          50.0,
-         null
+         50.0
         ],
         "rework": 0.0,
-        "total": 613.0,
-        "delta": -204.0,
+        "total": 663.0,
+        "delta": -154.0,
         "downtime": 0.0,
-        "proficiency": 0.7503059975520197
+        "proficiency": 0.8115055079559363
        },
        {
         "name": "Embedder",
@@ -149263,14 +149263,14 @@
          130.0,
          280.0,
          280.0,
-         null,
-         null
+         214.0,
+         170.0
         ],
         "rework": 19.0,
-        "total": 1837.0,
-        "delta": -1349.3000000000002,
+        "total": 2221.0,
+        "delta": -965.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.5765307723692057
+        "proficiency": 0.6970467313184572
        },
        {
         "name": "Sidehole Soft Vu",
@@ -149286,14 +149286,14 @@
          0.0,
          100.0,
          100.0,
-         null,
-         null
+         100.0,
+         100.0
         ],
         "rework": 0.0,
-        "total": 200.0,
-        "delta": -617.0,
+        "total": 400.0,
+        "delta": -417.0,
         "downtime": 120.0,
-        "proficiency": 0.32414910858995133
+        "proficiency": 0.6482982171799027
        },
        {
         "name": "Sidehole Accu Vu",
@@ -149309,8 +149309,8 @@
          100.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 554.0,
@@ -149332,14 +149332,14 @@
          400.0,
          141.0,
          141.0,
-         null,
-         null
+         410.0,
+         175.0
         ],
         "rework": 0.0,
-        "total": 1931.0,
-        "delta": -1745.5,
+        "total": 2516.0,
+        "delta": -1160.5,
         "downtime": 0.0,
-        "proficiency": 0.5252277981776146
+        "proficiency": 0.6843465252277982
        },
        {
         "name": "Baking Conv",
@@ -149355,8 +149355,8 @@
          0.0,
          0.0,
          0.0,
-         null,
-         null
+         0.0,
+         0.0
         ],
         "rework": 0.0,
         "total": 0.0,

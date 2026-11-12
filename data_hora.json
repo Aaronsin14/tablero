@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "2. Control_hr-hr_angio_2026_Actulizado.xlsx",
- "generated_at": "2026-11-12T11:19:04",
+ "generated_at": "2026-11-12T11:24:30",
  "weeks": {
   "WW30": {
    "label": "WW30",
@@ -149144,7 +149144,7 @@
          222.0,
          78.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -149167,7 +149167,7 @@
          100.0,
          40.0,
          160.0,
-         null,
+         80.0,
          null,
          null,
          null,
@@ -149175,10 +149175,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 400.0,
-        "delta": -8.5,
+        "total": 480.0,
+        "delta": 71.5,
         "downtime": 120.0,
-        "proficiency": 1.1157601115760112
+        "proficiency": 1.3389121338912133
        },
        {
         "name": "Swager",
@@ -149190,7 +149190,7 @@
          50.0,
          40.0,
          160.0,
-         null,
+         80.0,
          null,
          null,
          null,
@@ -149198,10 +149198,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 350.0,
-        "delta": -467.0,
+        "total": 430.0,
+        "delta": -387.0,
         "downtime": 0.0,
-        "proficiency": 0.4283965728274174
+        "proficiency": 0.5263157894736843
        },
        {
         "name": "Embedder",
@@ -149213,7 +149213,7 @@
          70.0,
          75.0,
          99.0,
-         null,
+         89.0,
          null,
          null,
          null,
@@ -149221,10 +149221,10 @@
          null
         ],
         "rework": 1.0,
-        "total": 285.0,
-        "delta": -123.5,
+        "total": 374.0,
+        "delta": -34.5,
         "downtime": 0.0,
-        "proficiency": 0.6976744186046511
+        "proficiency": 0.9155446756425948
        },
        {
         "name": "Inspeccion",
@@ -149236,7 +149236,7 @@
          86.0,
          91.0,
          117.0,
-         0.0,
+         107.0,
          0.0,
          0.0,
          0.0,
@@ -149244,10 +149244,10 @@
          0.0
         ],
         "rework": 1.0,
-        "total": 345.0,
-        "delta": -145.2,
+        "total": 452.0,
+        "delta": -38.19999999999999,
         "downtime": 0.0,
-        "proficiency": 0.7037943696450429
+        "proficiency": 0.9220726234190126
        },
        {
         "name": "Drawdown",
@@ -149259,7 +149259,7 @@
          310.0,
          210.0,
          330.0,
-         null,
+         297.0,
          null,
          null,
          null,
@@ -149267,10 +149267,10 @@
          null
         ],
         "rework": 9.0,
-        "total": 850.0,
-        "delta": -2336.3,
+        "total": 1147.0,
+        "delta": -2039.3000000000002,
         "downtime": 0.0,
-        "proficiency": 0.2667670966324577
+        "proficiency": 0.3599786586322694
        },
        {
         "name": "Sidehole Soft Vu",
@@ -149282,7 +149282,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,
@@ -149305,7 +149305,7 @@
          100.0,
          117.0,
          117.0,
-         null,
+         70.0,
          null,
          null,
          null,
@@ -149313,10 +149313,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 384.0,
-        "delta": -433.0,
+        "total": 454.0,
+        "delta": -363.0,
         "downtime": 0.0,
-        "proficiency": 0.4700122399020808
+        "proficiency": 0.5556915544675642
        },
        {
         "name": "Baking Rot",
@@ -149328,7 +149328,7 @@
          260.0,
          190.0,
          299.0,
-         null,
+         450.0,
          null,
          null,
          null,
@@ -149336,10 +149336,10 @@
          null
         ],
         "rework": 0.0,
-        "total": 799.0,
-        "delta": -2877.5,
+        "total": 1249.0,
+        "delta": -2427.5,
         "downtime": 0.0,
-        "proficiency": 0.21732626138990888
+        "proficiency": 0.3397252821977424
        },
        {
         "name": "Baking Conv",
@@ -149351,7 +149351,7 @@
          0.0,
          0.0,
          0.0,
-         null,
+         0.0,
          null,
          null,
          null,

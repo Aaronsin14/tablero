@@ -1,7 +1,7 @@
 {
  "plant": "AngioDynamics",
  "source_file": "1. %Avance de embarque Diario.xlsx",
- "generated_at": "2026-11-12T06:46:37",
+ "generated_at": "2026-11-12T07:09:12",
  "current_sheet": "17-NOV-2026",
  "current_date": "2026-11-17",
  "stages": [
@@ -101,8 +101,8 @@
    "part_number": "40708504",
    "sub_ensamble": "14400109",
    "demanda": 800.0,
-   "producido": 830.0,
-   "pct": 103.8,
+   "producido": 868.0,
+   "pct": 108.5,
    "stage_key": "inspeccion",
    "stage_col": 19,
    "status": "verde"
@@ -121,11 +121,11 @@
    "part_number": "40708507",
    "sub_ensamble": "14400145",
    "demanda": 500.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
+   "producido": 550.0,
+   "pct": 110.0,
+   "stage_key": "drawdown",
+   "stage_col": 10,
+   "status": "verde"
   },
   {
    "part_number": "40719707",
@@ -203,8 +203,8 @@
    "demanda": 3000.0,
    "producido": 3237.0,
    "pct": 107.9,
-   "stage_key": "inspeccion",
-   "stage_col": 19,
+   "stage_key": "pouch",
+   "stage_col": 21,
    "status": "verde"
   },
   {
@@ -233,8 +233,8 @@
    "demanda": 950.0,
    "producido": 970.0,
    "pct": 102.1,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "stage_key": "inspeccion",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -251,10 +251,10 @@
    "part_number": "40710041",
    "sub_ensamble": "14400105",
    "demanda": 1500.0,
-   "producido": 1580.0,
-   "pct": 105.3,
-   "stage_key": "moldeo",
-   "stage_col": 16,
+   "producido": 1570.0,
+   "pct": 104.7,
+   "stage_key": "inspeccion",
+   "stage_col": 19,
    "status": "verde"
   },
   {
@@ -331,11 +331,11 @@
    "part_number": "40734208",
    "sub_ensamble": "14400145",
    "demanda": 250.0,
-   "producido": 0.0,
-   "pct": 0.0,
-   "stage_key": "wip_welder",
-   "stage_col": 8,
-   "status": "rojo"
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "drawdown",
+   "stage_col": 10,
+   "status": "verde"
   },
   {
    "part_number": "411732203",
@@ -353,8 +353,8 @@
    "demanda": 300.0,
    "producido": 330.0,
    "pct": 110.0,
-   "stage_key": "calidad",
-   "stage_col": 20,
+   "stage_key": "hydrophilic_mariner",
+   "stage_col": 17,
    "status": "verde"
   },
   {
@@ -488,6 +488,16 @@
    "status": "verde"
   },
   {
+   "part_number": "42401836",
+   "sub_ensamble": "NA",
+   "demanda": 250.0,
+   "producido": 275.0,
+   "pct": 110.0,
+   "stage_key": "embedder",
+   "stage_col": 9,
+   "status": "verde"
+  },
+  {
    "part_number": "42401835",
    "sub_ensamble": "NA",
    "demanda": 250.0,
@@ -553,19 +563,19 @@
    "demanda": 500.0,
    "producido": 485.0,
    "pct": 97.0,
-   "stage_key": "inspeccion",
-   "stage_col": 19,
+   "stage_key": "calidad",
+   "stage_col": 20,
    "status": "ambar"
   }
  ],
  "kpis": {
-  "partes_activos": 47,
-  "total_demanda": 32010.0,
-  "total_producido": 32592.0,
+  "partes_activos": 48,
+  "total_demanda": 32260.0,
+  "total_producido": 33720.0,
   "empacado": 310.0,
   "pct_cumplimiento": 1.0,
-  "exceso_total": 582.0,
-  "atrasados": 3
+  "exceso_total": 1460.0,
+  "atrasados": 1
  },
  "weeks_available": [
   {
